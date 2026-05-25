@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T13:00:46.773Z",
+  "last_updated": "2026-05-25T13:01:11.857Z",
   "tasks": [
     {
       "title": "Co-draft email with Ali on ADB resourcing for change request",
@@ -42,6 +42,17 @@
       "owner": "Me",
       "due": null,
       "id": "tg1779714031575_0",
+      "dn": 0,
+      "source": "telegram"
+    },
+    {
+      "title": "Co-draft email with Ali on ADB resourcing for change request",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-29",
+      "id": "tg1779714057453_0",
       "dn": 0,
       "source": "telegram"
     }
