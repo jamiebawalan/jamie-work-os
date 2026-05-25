@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#faf9f7;--bg2:#f3f1ed;--bg3:#eceae4;--bg4:#e3e0d8;
+  --ink:#1a1814;--ink2:#6b6760;--ink3:#aaa89f;--ink4:#d0cec8;
+  --amber:#c97c2a;--amber-l:#fdf0e0;--amber-b:#e8a84c;
+  --red:#b83c2e;--red-l:#fdf0ee;
+  --green:#2e7d4a;--green-l:#edf6f0;
+  --blue:#2856a0;--blue-l:#edf2fc;
+  --teal:#217a6e;--teal-l:#edf6f4;
+  --rose:#a03060;--rose-l:#faeef3;
+  --border:#dddbd4;--border2:#c8c5bc;
+  --r:8px;--r-sm:5px;
+  --shadow:0 1px 3px rgba(0,0,0,.07),0 4px 12px rgba(0,0,0,.04);
+}
+body{font-family:'DM Sans',sans-serif;font-size:13px;background:var(--bg);color:var(--ink);min-height:100vh;}
+
+/* NAV */
+.nav{display:flex;align-items:center;gap:1px;padding:0 14px;border-bottom:1.5px solid var(--border);background:white;position:sticky;top:0;z-index:50;overflow-x:auto;box-shadow:0 1px 0 var(--border)}
+.nav-brand{font-family:'Libre Baskerville',serif;font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.01em;padding:12px 14px 12px 4px;border-right:1px solid var(--border);margin-right:6px;white-space:nowrap;flex-shrink:0}
+.nav-brand span{color:var(--amber)}
+.nb{padding:11px 12px;border:none;background:none;cursor:pointer;font-size:12px;color:var(--ink3);border-bottom:2px solid transparent;margin-bottom:-1.5px;font-family:'DM Sans',sans-serif;white-space:nowrap;font-weight:500;transition:color .15s}
+.nb:hover{color:var(--ink2)}
+.nb.on{color:var(--ink);border-bottom-color:var(--amber);font-weight:600}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:8px;padding-left:12px;flex-shrink:0}
+.frag-pill{font-family:'DM Mono',monospace;font-size:10px;background:var(--amber-l);color:var(--amber);border:1px solid #f0d4a8;border-radius:20px;padding:3px 10px;cursor:pointer;font-weight:500}
+
+/* PANELS */
+.panel{display:none;padding:14px;animation:fadeIn .15s ease}.panel.on{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+
+/* CARDS */
+.card{background:white;border:1px solid var(--border);border-radius:var(--r);padding:12px;margin-bottom:8px;box-shadow:var(--shadow)}
+.sh{font-size:10px;font-weight:600;color:var(--ink3);text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px}
+
+/* STATS GRID */
+.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:8px}
+.sc{background:white;border:1px solid var(--border);border-radius:var(--r);padding:10px 12px;box-shadow:var(--shadow)}
+.sn{font-family:'Libre Baskerville',serif;font-size:22px;font-weight:700;line-height:1}
+.sl{font-size:10px;color:var(--ink3);margin-top:3px}
+
+/* WEEK */
+.dr{padding:8px 0;border-bottom:1px solid var(--bg2)}.dr:last-child{border-bottom:none}
+.dlb{font-size:11px;font-weight:700;color:var(--ink2);margin-bottom:5px;display:flex;align-items:center;gap:5px}
+.dp{font-size:9px;background:var(--amber-l);color:var(--amber);padding:1px 6px;border-radius:8px;font-weight:600}
+.ch{display:inline-flex;font-size:11px;background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:2px 7px;margin:2px 2px 2px 0;color:var(--ink2)}
+.ch.red{background:var(--red-l);border-color:#f5c0b8;color:var(--red)}
+
+/* TASKS */
+.fb{display:flex;gap:5px;margin-bottom:10px;flex-wrap:wrap}
+.fbtn{padding:4px 10px;border:1px solid var(--border);border-radius:20px;background:none;cursor:pointer;font-size:11px;color:var(--ink3);font-family:'DM Sans',sans-serif;font-weight:500;transition:all .12s}
+.fbtn:hover{border-color:var(--border2);color:var(--ink2)}
+.fbtn.on{background:var(--ink);color:white;border-color:var(--ink)}
+
+/* URGENCY LANES */
+.lanes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:10px}
+.lane{background:white;border:1px solid var(--border);border-radius:var(--r);padding:10px;min-height:80px;transition:background .15s,border-color .15s}
+.lane.drag-over{background:var(--amber-l);border-color:var(--amber-b)}
+.lane-hdr{display:flex;align-items:center;gap:6px;margin-bottom:8px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.lane-dot{width:6px;height:6px;border-radius:50%}
+.lane[data-u=urgent] .lane-dot{background:var(--red)}
+.lane[data-u=urgent] .lane-hdr{color:var(--red)}
+.lane[data-u=important] .lane-dot{background:var(--amber)}
+.lane[data-u=important] .lane-hdr{color:var(--amber)}
+.lane[data-u=background] .lane-dot{background:var(--ink3)}
+.lane[data-u=background] .lane-hdr{color:var(--ink3)}
+
+/* TASK ITEMS */
+.ti{display:flex;align-items:flex-start;gap:8px;padding:7px 8px;border-radius:var(--r-sm);background:var(--bg);border:1px solid var(--border);margin-bottom:5px;cursor:grab;transition:box-shadow .15s,transform .15s;position:relative}
+.ti:hover{box-shadow:0 2px 8px rgba(0,0,0,.08);transform:translateY(-1px)}
+.ti.dragging{opacity:.4;cursor:grabbing}
+.ti.done{opacity:.45}
+.ti.completing{animation:completeFlash .55s ease forwards}
+@keyframes completeFlash{0%{background:var(--bg)}40%{background:var(--green-l);border-color:#9dd4b0}100%{background:var(--bg)}}
+.cb{width:15px;height:15px;border:1.5px solid var(--border2);border-radius:4px;cursor:pointer;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all .12s}
+.cb:hover{border-color:var(--amber)}
+.cb.dn{background:var(--green);border-color:var(--green)}.cb.dn::after{content:'✓';font-size:9px;color:white;font-weight:700}
+.tt{font-size:12.5px;line-height:1.4;flex:1}.tt.dn{text-decoration:line-through;color:var(--ink3)}
+.tm{display:flex;gap:4px;margin-top:4px;flex-wrap:wrap;align-items:center}
+.tg{font-size:10px;padding:1px 6px;border-radius:10px;font-weight:500}
+.tc{background:var(--blue-l);color:var(--blue)}.tb2{background:var(--amber-l);color:var(--amber)}
+.tci{background:var(--green-l);color:var(--green)}.tpr{background:var(--bg3);color:var(--ink2)}
+.tu{background:var(--red-l);color:var(--red)}
+.tdl{font-size:10px;color:var(--red);font-weight:600}
+.tdl-soon{font-size:10px;color:var(--amber);font-weight:500}
+.tdl-ok{font-size:10px;color:var(--ink3)}
+.xb{background:none;border:none;cursor:pointer;color:var(--ink4);font-size:13px;padding:0 2px;flex-shrink:0;transition:color .12s}
+.xb:hover{color:var(--red)}
+
+/* FLAT TASK LIST (Today/Inbox views) */
+.tif{display:flex;align-items:flex-start;gap:8px;padding:8px 0;border-bottom:1px solid var(--bg2)}.tif:last-child{border-bottom:none}
+
+/* ADD ROW */
+.ar{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.ar input,.ar select{height:30px;font-size:12px;border:1px solid var(--border);border-radius:var(--r-sm);font-family:'DM Sans',sans-serif;outline:none;background:white;color:var(--ink);transition:border-color .12s}
+.ar input{flex:1;min-width:140px;padding:0 9px}.ar input:focus{border-color:var(--amber)}
+.ar select{padding:0 5px}
+.abt{height:30px;padding:0 14px;background:var(--ink);color:white;border:none;border-radius:var(--r-sm);cursor:pointer;font-size:12px;font-family:'DM Sans',sans-serif;font-weight:600;transition:background .12s}
+.abt:hover{background:#333}
+
+/* MILESTONES */
+.mi{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--bg2)}.mi:last-child{border-bottom:none}
+.md{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.md.ov{background:var(--red)}.md.sn2{background:var(--amber)}.md.up{background:var(--green)}
+.mn{font-size:13px;font-weight:500}.ms{font-size:11px;color:var(--ink3);margin-top:1px}
+.mdt{font-size:11px;color:var(--ink3);flex-shrink:0;font-family:'DM Mono',monospace}
+.mdt.ov{color:var(--red);font-weight:700}.mdt.sn2{color:var(--amber);font-weight:600}
+
+/* PROJECTS */
+.pg{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.pc{background:white;border:1px solid var(--border);border-radius:var(--r);padding:12px;box-shadow:var(--shadow);transition:border-color .12s}
+.pc:hover{border-color:var(--border2)}
+.pc.nw{border-left:3px solid var(--amber)}
+.ph{display:flex;justify-content:space-between;align-items:flex-start;gap:5px;margin-bottom:5px}
+.pn{font-size:13px;font-weight:600}.pa{font-size:11px;color:var(--ink3);margin-top:1px}
+.pb{font-size:10px;padding:2px 7px;border-radius:10px;flex-shrink:0;font-weight:500}
+.pac{background:var(--green-l);color:var(--green)}.pbd{background:var(--amber-l);color:var(--amber)}
+.prl{background:var(--bg3);color:var(--ink2)}.pnw{background:var(--blue-l);color:var(--blue)}
+.pxt{font-size:11.5px;color:var(--ink2);border-top:1px solid var(--bg2);padding-top:6px;margin-top:6px;line-height:1.5}
+.pct{font-size:11px;color:var(--ink3);margin-top:4px}
+
+/* NEGLECT RADAR */
+.ri{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--bg2)}.ri:last-child{border-bottom:none}
+.rd{width:7px;height:7px;border-radius:50%;flex-shrink:0}.rd.wn{background:var(--amber)}.rd.ok{background:var(--green)}
+
+/* CAPTURE */
+.cap{width:100%;min-height:80px;border:1px solid var(--border);border-radius:var(--r-sm);padding:10px;font-size:13px;font-family:'DM Sans',sans-serif;resize:vertical;outline:none;transition:border-color .12s}
+.cap:focus{border-color:var(--amber)}
+.bsm{height:28px;padding:0 11px;border:1px solid var(--border);background:white;border-radius:var(--r-sm);cursor:pointer;font-size:12px;color:var(--ink2);font-family:'DM Sans',sans-serif;transition:all .12s;font-weight:500}
+.bsm:hover{border-color:var(--border2);color:var(--ink)}
+
+/* PEOPLE */
+.people-section{margin-bottom:16px}
+.people-label{font-family:'Libre Baskerville',serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}
+.people-sub{font-size:11px;color:var(--ink3);margin-bottom:10px}
+.pg2{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.pcard{background:white;border:1px solid var(--border);border-radius:var(--r);padding:12px;box-shadow:var(--shadow);transition:all .15s;cursor:default}
+.pcard:hover{border-color:var(--border2);transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.pavatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Libre Baskerville',serif;font-size:13px;font-weight:700;margin-bottom:8px;flex-shrink:0}
+.pname{font-size:12.5px;font-weight:600;color:var(--ink);margin-bottom:1px}
+.prole{font-size:10.5px;color:var(--ink3);margin-bottom:7px;line-height:1.4}
+.ptags{display:flex;flex-wrap:wrap;gap:3px}
+.ptag{font-size:9.5px;padding:1px 5px;border-radius:8px;font-weight:500}
+
+/* CHECK-IN */
+.ci-auto{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:12px;margin-bottom:12px}
+.ci-auto-title{font-size:10px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);margin-bottom:10px}
+.frag-metrics{display:flex;gap:16px;flex-wrap:wrap}
+.frag-metric{text-align:center}
+.frag-val{font-family:'Libre Baskerville',serif;font-size:24px;font-weight:700;line-height:1;color:var(--amber)}
+.frag-lbl{font-size:10px;color:var(--ink3);margin-top:3px}
+.sl-row{display:grid;grid-template-columns:160px 1fr 36px;align-items:center;gap:12px;margin-bottom:12px}
+.sl-label{font-size:12px;color:var(--ink2)}
+.sl-label small{display:block;font-size:10px;color:var(--ink3);margin-top:1px}
+.sl-track{position:relative;height:5px;background:var(--bg3);border-radius:3px;cursor:pointer}
+.sl-fill{height:100%;border-radius:3px;transition:width .2s}
+input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:pointer;height:20px}
+.sl-val{font-family:'DM Mono',monospace;font-size:13px;font-weight:500;color:var(--amber);text-align:right}
+.cog-bar-track{height:8px;background:var(--bg3);border-radius:4px;overflow:hidden;margin-top:6px}
+.cog-bar-fill{height:100%;border-radius:4px;transition:width .35s,background .35s}
+.ci-insight{background:var(--amber-l);border:1px solid #f0d4a8;border-radius:var(--r-sm);padding:11px 13px;font-size:12px;color:var(--ink2);line-height:1.6;margin-top:8px;display:none}
+.ci-insight.on{display:block}
+.ci-insight strong{color:var(--amber)}
+.log-btn{width:100%;padding:10px;background:var(--ink);color:white;border:none;border-radius:var(--r-sm);font-family:'Libre Baskerville',serif;font-size:14px;cursor:pointer;transition:background .15s;font-weight:700;margin-top:4px;letter-spacing:.01em}
+.log-btn:hover{background:#333}
+
+/* SPARKLINE */
+.spark-wrap{display:flex;gap:3px;align-items:flex-end;height:44px}
+.spark-bar{flex:1;border-radius:2px 2px 0 0;min-width:16px;cursor:pointer;position:relative;transition:opacity .15s}
+.spark-bar:hover{opacity:.8}
+.spark-tip{position:absolute;bottom:calc(100% + 5px);left:50%;transform:translateX(-50%);background:var(--ink);color:white;border-radius:4px;padding:4px 8px;font-size:10px;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .15s;z-index:10}
+.spark-bar:hover .spark-tip{opacity:1}
+.spark-labels{display:flex;gap:3px;margin-top:3px}
+.spark-lbl{flex:1;font-family:'DM Mono',monospace;font-size:8.5px;color:var(--ink3);text-align:center}
+
+/* UTILS */
+.empty{text-align:center;padding:24px;color:var(--ink3);font-size:12px}
+.divider{height:1px;background:var(--bg2);margin:10px 0}
+.row-between{display:flex;justify-content:space-between;align-items:center}
+.toast{position:fixed;bottom:20px;right:20px;background:var(--green);color:white;padding:9px 16px;border-radius:var(--r-sm);font-size:12px;font-weight:600;transform:translateY(50px);opacity:0;transition:all .28s cubic-bezier(.34,1.56,.64,1);z-index:200;pointer-events:none}
+.toast.on{transform:none;opacity:1}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+</style>
+</head>
+<body>
+
+<div class="nav" id="nav">
+  <div class="nav-brand">Work<span>OS</span></div>
+  <button class="nb on" data-p="today">Today</button>
+  <button class="nb" data-p="tasks">Tasks</button>
+  <button class="nb" data-p="milestones">Milestones</button>
+  <button class="nb" data-p="projects">Projects</button>
+  <button class="nb" data-p="people">People</button>
+  <button class="nb" data-p="capture">Capture</button>
+  <button class="nb" data-p="inbox">Inbox</button>
+  <button class="nb" data-p="checkin">Check-in</button>
+  <div class="nav-right">
+    <div class="frag-pill" id="fragPill" onclick="switchTo('checkin')">Frag —</div>
+  </div>
+</div>
+
+<!-- TODAY -->
+<div class="panel on" id="panel-today">
+  <div class="sg" id="sg"></div>
+  <div class="card"><div class="sh">Week ahead</div><div id="wk"></div></div>
+  <div class="card"><div class="sh">Urgent / due today</div><div id="urg"></div></div>
+  <div class="card">
+    <div class="row-between" style="margin-bottom:10px">
+      <span class="sh" style="margin:0">Neglect radar</span>
+      <button class="bsm" onclick="navigator.clipboard.writeText('Check my neglect radar — what workstreams or relationships have I not touched in a while?').then(function(){toast('Copied — paste into Claude');})">Ask Claude ↗</button>
+    </div>
+    <div id="rad"></div>
+  </div>
+</div>
+
+<!-- TASKS -->
+<div class="panel" id="panel-tasks">
+  <div class="fb" id="fb">
+    <button class="fbtn on" data-f="all">All</button>
+    <button class="fbtn" data-f="case">Case</button>
+    <button class="fbtn" data-f="bd">BD</button>
+    <button class="fbtn" data-f="cit">Citizenship</button>
+    <button class="fbtn" data-f="pers">Personal</button>
+    <button class="fbtn" data-f="urgent">Urgent</button>
+    <button class="fbtn" data-f="done">Show done</button>
+    <button class="fbtn" onclick="clearDone()" style="margin-left:auto;color:var(--red);border-color:var(--red)">Clear done</button>
+  </div>
+  <div class="lanes" id="lanesWrap">
+    <div class="lane" data-u="urgent" id="lane-urgent">
+      <div class="lane-hdr"><div class="lane-dot"></div>Urgent</div>
+      <div id="lt-urgent"></div>
+    </div>
+    <div class="lane" data-u="important" id="lane-important">
+      <div class="lane-hdr"><div class="lane-dot"></div>Important</div>
+      <div id="lt-important"></div>
+    </div>
+    <div class="lane" data-u="background" id="lane-background">
+      <div class="lane-hdr"><div class="lane-dot"></div>Background</div>
+      <div id="lt-background"></div>
+    </div>
+  </div>
+  <div class="ar">
+    <input id="ti" placeholder="Quick add task — press Enter"/>
+    <select id="ta"><option value="case">Case</option><option value="bd">BD</option><option value="cit">Citizenship</option><option value="pers">Personal</option></select>
+    <select id="tp">
+      <option value="">No project</option>
+      <option value="NAP">NAP</option><option value="ADB">ADB</option><option value="TFD">TFD</option>
+      <option value="DRR">DRR</option><option value="Meralco">Meralco</option><option value="PrimeEnergy">Prime Energy</option>
+      <option value="Aboitiz">Aboitiz</option><option value="ACEN">ACEN</option><option value="SOCCOM">SOCCOM</option>
+      <option value="Recruiting">Recruiting</option><option value="CDC">CDC</option><option value="CDP">CDP</option><option value="Visa">Visa</option>
+    </select>
+    <select id="tur"><option value="important">Important</option><option value="urgent">Urgent</option><option value="background">Background</option></select>
+    <button class="abt" id="ab">+ Add</button>
+  </div>
+</div>
+
+<!-- MILESTONES -->
+<div class="panel" id="panel-milestones">
+  <div class="card"><div id="ml"></div></div>
+</div>
+
+<!-- PROJECTS -->
+<div class="panel" id="panel-projects">
+  <div class="pg" id="pg"></div>
+</div>
+
+<!-- PEOPLE -->
+<div class="panel" id="panel-people">
+  <div class="people-section">
+    <div class="people-label">✦ Constellation</div>
+    <div class="people-sub">Partners & MDPs I work with and maintain relationships with</div>
+    <div class="pg2" id="constellation"></div>
+  </div>
+  <div class="divider"></div>
+  <div class="people-section" style="margin-top:14px">
+    <div class="people-label">△ Pyramid</div>
+    <div class="people-sub">Below-cohort I work with on cases, BD, or handle via citizenship</div>
+    <div class="pg2" id="pyramid"></div>
+  </div>
+</div>
+
+<!-- CAPTURE -->
+<div class="panel" id="panel-capture">
+  <div class="card">
+    <div class="sh">Brain dump / Granola / voice note</div>
+    <textarea class="cap" id="ci" placeholder="Paste meeting notes, voice transcript, brain dump..."></textarea>
+    <div style="display:flex;gap:7px;margin-top:8px;flex-wrap:wrap">
+      <button class="bsm" onclick="relay('extract')">Extract tasks ↗</button>
+      <button class="bsm" onclick="relay('email')">Draft email ↗</button>
+      <button class="bsm" onclick="relay('summarise')">Summarise ↗</button>
+      <button class="bsm" onclick="relay('mirror')">Leadership mirror ↗</button>
+    </div>
+  </div>
+</div>
+
+<!-- INBOX -->
+<div class="panel" id="panel-inbox">
+  <div style="display:flex;gap:7px;margin-bottom:10px;flex-wrap:wrap">
+    <button class="bsm" onclick="navigator.clipboard.writeText('Triage my Outlook inbox — show me what needs a reply, what I can ignore, and flag anything urgent.').then(function(){toast('Copied — paste into Claude');})">Triage inbox ↗</button>
+    <button class="bsm" onclick="navigator.clipboard.writeText('Draft a reply to the most urgent unreplied email in my inbox, in my voice.').then(function(){toast('Copied — paste into Claude');})">Draft reply ↗</button>
+    <button class="bsm" onclick="navigator.clipboard.writeText('What emails have I not replied to in the last 7 days?').then(function(){toast('Copied — paste into Claude');})">Unreplied ↗</button>
+  </div>
+  <div class="card"><div class="empty">Click "Triage inbox" to load your emails via Outlook.</div></div>
+</div>
+
+<!-- CHECK-IN -->
+<div class="panel" id="panel-checkin">
+  <div class="card">
+    <div class="sh">Fragmentation index — today</div>
+    <div class="ci-auto" id="ciAuto">
+      <div class="ci-auto-title">Auto-calculated from open tasks</div>
+      <div class="frag-metrics">
+        <div class="frag-metric"><div class="frag-val" id="mCtx">—</div><div class="frag-lbl">Project contexts</div></div>
+        <div class="frag-metric"><div class="frag-val" id="mUrg">—</div><div class="frag-lbl">Urgent tasks</div></div>
+        <div class="frag-metric"><div class="frag-val" id="mTot">—</div><div class="frag-lbl">Open tasks</div></div>
+        <div class="frag-metric"><div class="frag-val" id="mFrag" style="color:var(--amber)">—</div><div class="frag-lbl">Frag index</div></div>
+      </div>
+    </div>
+
+    <div class="sh" style="margin-bottom:14px">Manual inputs</div>
+
+    <div class="sl-row">
+      <div class="sl-label">Physical activity<small>Weights / walk / sprint intervals</small></div>
+      <div class="sl-track"><div class="sl-fill" id="f-activity" style="width:50%;background:var(--green)"></div><input type="range" min="1" max="10" value="5" id="s-activity" oninput="updSl('activity',this.value)"></div>
+      <div class="sl-val" id="v-activity">5</div>
+    </div>
+    <div class="sl-row">
+      <div class="sl-label">Sleep quality<small>Last night</small></div>
+      <div class="sl-track"><div class="sl-fill" id="f-sleep" style="width:50%;background:var(--teal)"></div><input type="range" min="1" max="10" value="5" id="s-sleep" oninput="updSl('sleep',this.value)"></div>
+      <div class="sl-val" id="v-sleep">5</div>
+    </div>
+    <div class="sl-row">
+      <div class="sl-label">Sweets / sugar<small>Higher = more consumed</small></div>
+      <div class="sl-track"><div class="sl-fill" id="f-sweets" style="width:30%;background:var(--rose)"></div><input type="range" min="1" max="10" value="3" id="s-sweets" oninput="updSl('sweets',this.value)"></div>
+      <div class="sl-val" id="v-sweets">3</div>
+    </div>
+    <div class="sl-row">
+      <div class="sl-label">Scrolling<small>Passive consumption</small></div>
+      <div class="sl-track"><div class="sl-fill" id="f-scroll" style="width:30%;background:var(--amber)"></div><input type="range" min="1" max="10" value="3" id="s-scroll" oninput="updSl('scroll',this.value)"></div>
+      <div class="sl-val" id="v-scroll">3</div>
+    </div>
+    <div class="sl-row">
+      <div class="sl-label">Felt disoriented<small>Subjective feeling</small></div>
+      <div class="sl-track"><div class="sl-fill" id="f-disoriented" style="width:30%;background:var(--red)"></div><input type="range" min="1" max="10" value="3" id="s-disoriented" oninput="updSl('disoriented',this.value)"></div>
+      <div class="sl-val" id="v-disoriented">3</div>
+    </div>
+
+    <div style="margin-top:4px">
+      <div class="row-between" style="font-size:11px;color:var(--ink2);margin-bottom:5px">
+        <span>Cognitive margin</span><span id="cogVal" style="font-family:'DM Mono',monospace;font-size:12px;font-weight:500">—</span>
+      </div>
+      <div class="cog-bar-track"><div class="cog-bar-fill" id="cogFill" style="width:50%;background:var(--amber)"></div></div>
+    </div>
+
+    <div class="ci-insight" id="ciInsight"></div>
+    <button class="log-btn" onclick="logCheckin()" style="margin-top:14px">Log today →</button>
+  </div>
+
+  <div class="card">
+    <div class="sh">14-day history</div>
+    <div class="spark-wrap" id="sparkWrap"><div class="empty" style="padding:12px">No history yet.</div></div>
+    <div class="spark-labels" id="sparkLabels"></div>
+    <div style="margin-top:10px;font-size:11px;color:var(--ink3)">
+      <span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px"><span style="width:8px;height:8px;border-radius:2px;background:var(--green);display:inline-block"></span>Low frag (&lt;35)</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px"><span style="width:8px;height:8px;border-radius:2px;background:var(--amber);display:inline-block"></span>Moderate (35–60)</span>
+      <span style="display:inline-flex;align-items:center;gap:4px"><span style="width:8px;height:8px;border-radius:2px;background:var(--red);display:inline-block"></span>High (&gt;60)</span>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ══ BASE DATA ══
+var D0 = new Date(); D0.setHours(0,0,0,0);
+var SKEY = 'jb_wos_v1';
+
+var BASE_TASKS = [
+  {id:'drr5',tx:'Put together one-pager for Lance Gokongwei',ar:'bd',pr:'JGS',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'nap_vmc',tx:'Message VMC about June 4 meeting',ar:'case',pr:'NAP',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'nap_gina',tx:'Message Gina (PHILSURIN) re May 27 trip',ar:'case',pr:'NAP',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'drr_lance',tx:'Follow up with Lance Gokongwei — can he make June 4 lunch?',ar:'bd',pr:'JGS',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'adb_martin',tx:'Follow up with Martin on new ADB deployments',ar:'case',pr:'ADB',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'drr6',tx:'Build slides for Yulo-Loyzaga Wed 4pm — DRR perspective',ar:'bd',pr:'DRR',du:'2026-05-20',ur:'urgent',dn:1},
+  {id:'drr3',tx:'Check if Edgar Chua has responded — follow up if not',ar:'bd',pr:'DRR',du:'2026-05-19',ur:'urgent',dn:1},
+  {id:'drr4',tx:'Schedule post-DRR debrief — Wed 8:30pm Anthony + Julian',ar:'bd',pr:'DRR',du:'2026-05-19',ur:'important',dn:0},
+  {id:'pe_mat',tx:'Reach out to Anthony for Prime Energy materials',ar:'bd',pr:'PrimeEnergy',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'pe_letter',tx:'Check Prime Energy letter v3/v4 — prep for Donna/Razon',ar:'bd',pr:'PrimeEnergy',du:null,ur:'important',dn:0},
+  {id:'mer_andrew',tx:'Reach out to Andrew for Meralco catch-up',ar:'bd',pr:'Meralco',du:null,ur:'important',dn:0},
+  {id:'s13',tx:'Meralco/MGEN — follow up on C&S investment request ($2.7M)',ar:'bd',pr:'Meralco',du:null,ur:'background',dn:0},
+  {id:'acen1',tx:'Follow up with ACEN team on trading and risk pricing',ar:'bd',pr:'ACEN',du:null,ur:'background',dn:0},
+  {id:'nap5',tx:'Follow up with DENR (Dir. Elen Basug / Raquel Ortega)',ar:'case',pr:'NAP',du:null,ur:'important',dn:0},
+  {id:'nap6',tx:'Read + respond to Cay Bautista / ASAPHIL — Sugarcane Seed Farm',ar:'case',pr:'NAP',du:null,ur:'important',dn:0},
+  {id:'nap8',tx:'Schedule follow-up with James Attwood on updated NAP TOR',ar:'case',pr:'NAP',du:null,ur:'background',dn:0},
+  {id:'cab1',tx:'Chase Moad — Solution Deployment Plan for CAB',ar:'case',pr:'ADB',du:'2026-05-18',ur:'urgent',dn:0},
+  {id:'cab2',tx:'Chase Mark (ADB) — Runbook for CAB',ar:'case',pr:'ADB',du:'2026-05-18',ur:'urgent',dn:0},
+  {id:'cab3',tx:'Ensure all UAT comments in — gate for CAB sign-off May 25/26',ar:'case',pr:'ADB',du:'2026-05-18',ur:'urgent',dn:0},
+  {id:'s12',tx:'Check in with Ali Ziat on CCDRMS workstream',ar:'case',pr:'ADB',du:null,ur:'important',dn:0},
+  {id:'tfd8',tx:'Source OFW interviewees — message BCG Manila / Jovy / Danilo',ar:'case',pr:'TFD',du:null,ur:'important',dn:0},
+  {id:'s11',tx:'TFD full narrative to design studio',ar:'case',pr:'TFD',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'s14',tx:'Confirm design studio booking with Vidhya Vilsalan',ar:'case',pr:'TFD',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'tfd2',tx:'Check back on June 11 launch feasibility',ar:'case',pr:'TFD',du:'2026-05-20',ur:'important',dn:0},
+  {id:'tfd5',tx:'Rolling review cycle with Julian on TFD narrative',ar:'case',pr:'TFD',du:null,ur:'background',dn:0},
+  {id:'abi1',tx:'Check with Anthony/Julian on Aboitiz keynote speaker — July 9',ar:'bd',pr:'Aboitiz',du:null,ur:'background',dn:0},
+  {id:'s2',tx:'Post-CDC outcome conversations — Hannah, Joey, Veronica, Naomi, Jan, Gwen',ar:'cit',pr:'CDC',du:null,ur:'important',dn:0},
+  {id:'cdc1',tx:'Delegate Maxine Yee CDC eval input — Thu call',ar:'cit',pr:'CDC',du:'2026-05-20',ur:'important',dn:0},
+  {id:'rec1',tx:'Submit Bella Isles recruiting feedback',ar:'cit',pr:'Recruiting',du:'2026-05-25',ur:'important',dn:0},
+  {id:'s15',tx:'Interviewer training / case reviews — Recruiting',ar:'cit',pr:'Recruiting',du:null,ur:'background',dn:0},
+  {id:'tfd_ant',tx:'Get Anthony feedback on TFD chapters before Julian departure',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_ch34',tx:'Review chapters 3-4 and send to design studio',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_photo',tx:'Photo iterations based on Julian feedback',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_profile',tx:'Secure profile completion — high priority',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_ch5',tx:'Julian to focus on chapter 5 review',ar:'case',pr:'TFD',du:'2026-05-20',ur:'important',dn:0},
+  {id:'tfd_1pm',tx:'1pm interview today — TFD',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_int2',tx:'Confirm additional TFD interview',ar:'case',pr:'TFD',du:'2026-05-20',ur:'important',dn:0},
+  {id:'tfd_prep',tx:'Prep calls with TFD stakeholders — next week',ar:'case',pr:'TFD',du:null,ur:'background',dn:0},
+  {id:'nap_mou',tx:'Follow up MOU signing — Northern Isabella stakeholders (via Kitty)',ar:'case',pr:'NAP',du:null,ur:'urgent',dn:0},
+  {id:'nap_logframe',tx:'Check logframe for outcome indicators — targets 520 pipeline',ar:'case',pr:'NAP',du:null,ur:'important',dn:0},
+  {id:'nap_eco',tx:'Continue ecosystem mapping — verify 9-10 outstanding contacts, cross-ref Slack list',ar:'case',pr:'NAP',du:null,ur:'important',dn:0},
+  {id:'nap_dsc',tx:'DSC venue coordination — collect car details + guest names/emails for concierge',ar:'case',pr:'NAP',du:null,ur:'important',dn:0},
+  {id:'nap_workshop',tx:'Workshop planning revision after Globe context meeting',ar:'case',pr:'NAP',du:null,ur:'background',dn:0},
+  {id:'nap_wplan',tx:'Work planning session Thu/Fri',ar:'case',pr:'NAP',du:null,ur:'background',dn:0},
+  {id:'drr_survey',tx:'Develop survey for PDRF, NRC and chamber organizations',ar:'bd',pr:'DRR',du:null,ur:'important',dn:0},
+  {id:'drr_benchmark',tx:'International benchmark research + Yolanda historical case study analysis',ar:'bd',pr:'DRR',du:null,ur:'important',dn:0},
+  {id:'drr_plugin',tx:'Refine BCG "plug-in" description with organizational coordination levels',ar:'bd',pr:'DRR',du:null,ur:'important',dn:0},
+  {id:'drr_ocd',tx:'Strategy document for OCD — due end July',ar:'bd',pr:'DRR',du:'2026-07-31',ur:'background',dn:0},
+  {id:'drr_unddr',tx:'Potential collaboration with UN-DRR — Kishore visiting July',ar:'bd',pr:'DRR',du:null,ur:'background',dn:0},
+  {id:'rec_anne',tx:'Assign Anne as interview buddy for Franco Velasco',ar:'cit',pr:'Recruiting',du:null,ur:'important',dn:0,ow:'Ritz'},
+  {id:'rec_ray',tx:'Schedule Ray Guerrero final round interviews with Anthony and Julie — early next week',ar:'cit',pr:'Recruiting',du:'2026-05-25',ur:'background',dn:0,ow:'Ritz'},
+  {id:'nap_des_jun4',tx:'Finalize June 4 lunch meeting with Des (Congressman Benitez confirmed)',ar:'case',pr:'NAP',du:'2026-05-26',ur:'important',dn:0},
+  {id:'nap_benitez',tx:'Follow up — can Congressman Javier Benitez make June 4 lunch?',ar:'case',pr:'NAP',du:null,ur:'urgent',dn:1},
+  {id:'rec_gcash',tx:'Check with Julie on GCash event participant outreach (previous issues)',ar:'cit',pr:'Recruiting',du:null,ur:'important',dn:0},
+  {id:'rec_james',tx:'James to create 5-page PowerPoint teaser from TFD research compendium',ar:'case',pr:'TFD',du:null,ur:'important',dn:0},
+  {id:'rec_aspire',tx:'Aspire Women\'s Event prep — Gen AI workshop with Sue, June 5',ar:'cit',pr:'Recruiting',du:'2026-06-05',ur:'background',dn:0},
+  {id:'tfd_profiles',tx:'Complete 2 remaining OFW interview profiles — traditional OFW + driver (1pm today)',ar:'case',pr:'TFD',du:'2026-05-20',ur:'urgent',dn:0},
+  {id:'tfd_sarah',tx:'Follow up with Sarah on interview lines for TFD — remaining profile for write-up',ar:'case',pr:'TFD',du:null,ur:'urgent',dn:0},
+  {id:'tfd_sweep',tx:'Detailed reading sweep of the Filipino Abroad',ar:'case',pr:'TFD',du:'2026-05-25',ur:'urgent',dn:0},
+  {id:'tfd_mktg',tx:'Finalize sending Filipino Abroad to marketing (Eugenia) — by Monday',ar:'case',pr:'TFD',du:'2026-05-25',ur:'urgent',dn:0},
+  {id:'tfd_dsreview',tx:'Review Design Studio version of the file and iterate — by Monday',ar:'case',pr:'TFD',du:'2026-05-25',ur:'urgent',dn:0},
+  {id:'pi_2pager',tx:'Develop 2-pager for Prime Infra — send to Uday, then on to Donna by EOW',ar:'bd',pr:'PrimeInfra',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'pers_resume',tx:'Send resume to recruiter',ar:'pers',pr:'Admin',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'drr_proposal',tx:'Get started on BCG proposal for PH DRR effort — Sec Toni Yulo-Loyzaga',ar:'bd',pr:'DRR',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'cdp_peval',tx:'Complete Mid-Year PL CDC evaluations — deadline today, do first thing',ar:'cit',pr:'CDP',du:'2026-05-22',ur:'urgent',dn:0},
+  {id:'cdp_john',tx:'Complete PL brief impression memo for John Soriano — CDP evaluation (Meralco nuclear)',ar:'cit',pr:'CDP',du:null,ur:'important',dn:0},
+  {id:'adb_enddate',tx:'Reply to SEA Staffing — confirm ADB team assignment end dates',ar:'case',pr:'ADB',du:'2026-05-25',ur:'urgent',dn:0},
+  {id:'nap_goodreturn',tx:'Review + approve Jan\'s GoodReturn draft response (workshop invite)',ar:'case',pr:'NAP',du:'2026-05-25',ur:'important',dn:0},
+  {id:'adb_psr1',tx:'Circulate PSR deck to Moad for his inputs',ar:'case',pr:'ADB',du:'2026-05-19',ur:'urgent',dn:0},
+  {id:'adb_psr2',tx:'Post PSR deck in ADB chat — after Moad inputs received',ar:'case',pr:'ADB',du:'2026-05-19',ur:'urgent',dn:0},
+  {id:'s4',tx:'France visa + docs — check status',ar:'pers',pr:'Visa',du:null,ur:'important',dn:0},
+  {id:'s7',tx:'Milan flight booking',ar:'pers',pr:'Visa',du:null,ur:'important',dn:0},
+  {id:'s8',tx:'Bank statement certification',ar:'pers',pr:'Visa',du:null,ur:'important',dn:0},
+  {id:'s9',tx:'Cigna insurance coverage letter',ar:'pers',pr:'Visa',du:null,ur:'background',dn:1},
+  {id:'pe1',tx:'Prime Energy debrief with Anthony + Uday',ar:'bd',pr:'PrimeEnergy',du:null,ur:'background',dn:1},
+  {id:'mon2',tx:'Send OFW report chs 1 & 2 to Vidhya Vilsalan',ar:'case',pr:'TFD',du:null,ur:'background',dn:1},
+];
+
+var ML = [
+  {nm:'TFD full narrative to studio',pr:'TFD',dt:'2026-05-22',nt:'Narrative due today'},
+  {nm:'Prime Infra 2-pager to Uday → Donna',pr:'PrimeInfra',dt:'2026-05-22',nt:'EOW hard deadline'},
+  {nm:'ADB CAB approval sign-off',pr:'ADB',dt:'2026-05-26',nt:'After UAT + docs'},
+  {nm:'Finalize June 4 lunch with Des — Congressman Benitez',pr:'NAP',dt:'2026-05-26',nt:'Priority meeting'},
+  {nm:'May 27 trip — Gina / PHILSURIN',pr:'NAP',dt:'2026-05-27',nt:'Negros Occidental'},
+  {nm:'Prime Energy Chairman meeting',pr:'Prime Energy',dt:'2026-05-31',nt:'Donna — Ricky Razon engagement'},
+  {nm:'June 4 — Congressman Benitez lunch + VMC meeting',pr:'NAP',dt:'2026-06-04',nt:'Benitez priority; VMC secondary'},
+  {nm:'Aspire Women\'s Event — Gen AI workshop',pr:'Recruiting',dt:'2026-06-05',nt:'Sue leading; not a recruitment event'},
+  {nm:'TFD final PDF ready',pr:'TFD',dt:'2026-06-08',nt:'3 days before launch'},
+  {nm:'TFD launch',pr:'TFD',dt:'2026-06-11',nt:'Target Jun 11'},
+  {nm:'Jeff Walters visit',pr:'BD',dt:'2026-06-18',nt:'ACEN priority; JGS + Aboitiz potential'},
+  {nm:'Aboitiz keynote workshop',pr:'Aboitiz',dt:'2026-07-09',nt:'Confirm speaker'},
+  {nm:'DRR strategy document for OCD',pr:'DRR',dt:'2026-07-31',nt:'~10 weeks'},
+];
+
+var PJ = [
+  {id:'NAP',nm:'FCDO NAP Philippines',ar:'Case',st:'ac',lb:'Active',nx:'VMC + Gina messages today; DENR + James TOR + Sugarcane'},
+  {id:'ADB',nm:'ADB Climate & Disaster Risk',ar:'Case',st:'ac',lb:'Active',nx:'Martin follow-up today; CAB docs in progress'},
+  {id:'TFD',nm:'Filipino Diaspora Report',ar:'Case',st:'ac',lb:'Active',nx:'Full narrative due Fri; rolling review with Julian'},
+  {id:'Meralco',nm:'Meralco / MGEN — SMR',ar:'BD',st:'bd',lb:'BD – Active',nx:'Reach out to Andrew for catch-up'},
+  {id:'DRR',nm:'Disaster Resilience — Yulo-Loyzaga',ar:'BD',st:'nw',lb:'BD – New',nx:'One-pager today; slides + Wed 4pm; Lance lunch Jun 4'},
+  {id:'PrimeEnergy',nm:'Prime Energy',ar:'BD',st:'nw',lb:'BD – New',nx:'Get materials from Anthony; letter v3/v4 for Donna/Razon'},
+  {id:'Aboitiz',nm:'Aboitiz Power',ar:'BD',st:'bd',lb:'BD – Active',nx:'Keynote July 9 — Jamie Webster or Phil Hirschhorn'},
+  {id:'ACEN',nm:'ACEN — Trading & Risk',ar:'BD',st:'bd',lb:'BD – Active',nx:'Follow up on trading + risk pricing; Jeff Walters Jun 18'},
+  {id:'PrimeInfra',nm:'PrimeInfra',ar:'BD',st:'rl',lb:'Relationship',nx:'GL = Guillaume Lucci; upstream M&A in play'},
+  {id:'SOCCOM',nm:'BCG Manila SOCCOM',ar:'Citizenship',st:'ac',lb:'Active',nx:''},
+  {id:'Recruiting',nm:'Recruiting',ar:'Citizenship',st:'ac',lb:'Active',nx:'Bella Isles next week; MAN call Wed'},
+  {id:'CDC',nm:'CDC — Advisees & Committee',ar:'Citizenship',st:'ac',lb:'Active',nx:'Maxine eval Thu; outcome convos pending'},
+  {id:'CDP',nm:'Staff Evaluations / CDP',ar:'Citizenship',st:'ac',lb:'Active',nx:'William PIP in progress'},
+  {id:'Visa',nm:'France Visa',ar:'Personal',st:'ac',lb:'Active',nx:'Check appointment + docs status'},
+];
+
+var NG = [
+  {nm:'ADB Risk Explorer tech tool',ok:0,nt:'No separate tasks logged'},
+  {nm:'PrimeInfra — Guillaume Lucci',ok:0,nt:'Upstream M&A flagged; no recent touchpoint'},
+  {nm:'NAP Sugarcane Seed Farm',ok:0,nt:'ASAPHIL reply unread'},
+  {nm:'SOCCOM',ok:1,nt:'No upcoming events flagged'},
+];
+
+var DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var _now = new Date();
+var WK = [
+  {lb:'Today — '+DAYS[_now.getDay()]+' '+_now.getDate(),td:1,ch:[{t:'TFD check-in 9am',r:0},{t:'ADB Ali email — send today',r:1},{t:'Prime Infra 2-pager → Uday → Donna',r:1}]},
+  {lb:'Tue 27',td:0,ch:[{t:'May 27 trip — Gina/PHILSURIN',r:0}]},
+  {lb:'Thu 4 Jun',td:0,ch:[{t:'Congressman Benitez lunch (priority)',r:1},{t:'VMC meeting',r:0}]},
+  {lb:'Thu 5 Jun',td:0,ch:[{t:'Aspire Women\'s Event — Gen AI workshop',r:0}]},
+  {lb:'Wed 18 Jun',td:0,ch:[{t:'Jeff Walters visit',r:0}]},
+];
+
+var CONSTELLATION = [
+  {initials:'AO',name:'Anthony Oundjian',role:'MD & Senior Partner',tags:['ADB','DRR','SMR','BD'],color:'var(--amber)'},
+  {initials:'JC',name:'Julian Cua',role:'Partner',tags:['TFD','ADB','BD'],color:'var(--teal)'},
+  {initials:'CC',name:'Charmian Caines',role:'Senior Partner',tags:['NAP'],color:'var(--rose)'},
+  {initials:'DS',name:'Dave Sivaprasad',role:'Partner',tags:['NAP'],color:'var(--blue)'},
+];
+
+var PYRAMID = [
+  {initials:'KA',name:'Kitty Abenojar',role:'Sr Associate · NAP',tags:['NAP','coordination'],color:'var(--rose)'},
+  {initials:'MY',name:'Maxine Yee',role:'Associate · NAP PM',tags:['NAP'],color:'var(--rose)'},
+  {initials:'JO',name:'Jan Ong',role:'Associate · NAP + ADB',tags:['NAP','ADB'],color:'var(--blue)'},
+  {initials:'JS',name:'Jaymes Shrimski',role:'Associate · TFD writing',tags:['TFD'],color:'var(--green)'},
+  {initials:'HS',name:'Hannah Say',role:'Sr Associate · advisee',tags:['CDC','on track'],color:'var(--teal)'},
+  {initials:'DM',name:'Djoey Medilla',role:'Associate · advisee',tags:['CDC','dev support'],color:'var(--amber)'},
+  {initials:'WB',name:'William Buhayo',role:'Associate · PIP',tags:['CDC','PIP'],color:'var(--red)'},
+  {initials:'ANG',name:'Anika Ng',role:'Associate · fast-track',tags:['CDC','Lance cover'],color:'var(--green)'},
+  {initials:'CZ',name:'Cristina Zambrano',role:'Recruiting co-lead',tags:['recruiting'],color:'var(--teal)'},
+];
+
+// ══ STATE ══
+var S = {tasks: BASE_TASKS.map(function(t){return Object.assign({},t);}), checkin: []};
+var AF = 'all';
+var dragId = null;
+
+// ══ STORAGE ══
+function sv(){try{window.storage.set(SKEY,JSON.stringify(S));}catch(e){}}
+
+function df(ds){if(!ds)return null;return Math.floor((new Date(ds)-D0)/86400000);}
+function dlHtml(ds){
+  var d=df(ds);if(d===null)return '';
+  if(d<0)return '<span class="tdl">⚠ Overdue</span>';
+  if(d===0)return '<span class="tdl">Today</span>';
+  if(d<=3)return '<span class="tdl-soon">'+new Date(ds).toLocaleDateString('en-PH',{month:'short',day:'numeric'})+'</span>';
+  return '<span class="tdl-ok">'+new Date(ds).toLocaleDateString('en-PH',{month:'short',day:'numeric'})+'</span>';
+}
+function mst(ds){var d=df(ds);if(d===null)return 'up';if(d<0)return 'ov';if(d<=4)return 'sn2';return 'up';}
+function ac(a){return {case:'tc',bd:'tb2',cit:'tci',pers:'tpr'}[a]||'tc';}
+function al(a){return {case:'Case',bd:'BD',cit:'Citizenship',pers:'Personal'}[a]||a;}
+
+// ══ RENDER ALL ══
+function ra(){rSt();rWk();rUrg();rRad();rTasks();rMil();rProj();rPeople();rCheckinMetrics();rHistory();}
+
+function rSt(){
+  var op=S.tasks.filter(function(t){return !t.dn;}).length;
+  var u=S.tasks.filter(function(t){return !t.dn&&t.ur==='urgent';}).length;
+  var td=S.tasks.filter(function(t){return !t.dn&&df(t.du)===0;}).length;
+  var dn=S.tasks.filter(function(t){return t.dn;}).length;
+  document.getElementById('sg').innerHTML=
+    '<div class="sc"><div class="sn">'+op+'</div><div class="sl">open</div></div>'+
+    '<div class="sc"><div class="sn" style="color:var(--red)">'+u+'</div><div class="sl">urgent</div></div>'+
+    '<div class="sc"><div class="sn" style="color:var(--amber)">'+td+'</div><div class="sl">due today</div></div>'+
+    '<div class="sc"><div class="sn" style="color:var(--green)">'+dn+'</div><div class="sl">done</div></div>';
+  // frag pill
+  var open=S.tasks.filter(function(t){return !t.dn;});
+  var ctxs=new Set(open.map(function(t){return t.pr;})).size;
+  var frag=Math.min(99,ctxs*14+u*8+Math.max(0,open.length-6)*2);
+  document.getElementById('fragPill').textContent='Frag '+frag;
+}
+
+function rWk(){
+  document.getElementById('wk').innerHTML=WK.map(function(d){
+    return '<div class="dr"><div class="dlb">'+d.lb+(d.td?' <span class="dp">today</span>':'')+'</div><div>'+
+      d.ch.map(function(c){return '<span class="ch '+(c.r?'red':'')+'">'+(c.r?'⚡ ':'')+c.t+'</span>';}).join('')+'</div></div>';
+  }).join('');
+}
+
+function rUrg(){
+  var u=S.tasks.filter(function(t){return !t.dn&&t.ur==='urgent';});
+  document.getElementById('urg').innerHTML=u.length?u.map(thFlat).join(''):'<div class="empty">Nothing urgent. 🎉</div>';
+}
+
+function rRad(){
+  document.getElementById('rad').innerHTML=NG.map(function(n){
+    return '<div class="ri"><div class="rd '+(n.ok?'ok':'wn')+'"></div><div><div style="font-size:12.5px;font-weight:500">'+n.nm+'</div><div style="font-size:11px;color:var(--ink3)">'+n.nt+'</div></div></div>';
+  }).join('');
+}
+
+// flat task row (Today view)
+function thFlat(t){
+  var isRitz = t.ow && t.ow==='Ritz';
+  return '<div class="tif"'+(isRitz?' style="opacity:.55"':'')+'>'+
+    '<div class="cb '+(t.dn?'dn':'')+'" onclick="tog(\''+t.id+'\')"></div>'+
+    '<div style="flex:1"><div class="tt '+(t.dn?'dn':'')+'">'+t.tx+(isRitz?' <span style="font-size:10px;color:var(--ink3)">[Ritz]</span>':'')+'</div>'+
+    '<div class="tm"><span class="tg '+ac(t.ar)+'">'+al(t.ar)+'</span>'+
+    (t.pr?'<span class="tg tpr">'+t.pr+'</span>':'')+dlHtml(t.du)+'</div></div></div>';
+}
+
+// task card (lane view, draggable)
+function thCard(t){
+  var isRitz = t.ow && t.ow==='Ritz';
+  return '<div class="ti'+(t.dn?' done':'')+'"'+(isRitz?' style="opacity:.6"':'')+' draggable="true" data-id="'+t.id+'" id="card-'+t.id+'">'+
+    '<div class="cb '+(t.dn?'dn':'')+'" onclick="tog(\''+t.id+'\')"></div>'+
+    '<div class="tt '+(t.dn?'dn':'')+'">'+t.tx+(isRitz?' <span style="font-size:10px;color:var(--ink3)">[Ritz]</span>':'')+'</div>'+
+    '<button class="xb" onclick="del2(\''+t.id+'\')">×</button>'+
+    '</div>'+
+    '<div class="tm" style="padding:0 4px 6px 23px">'+
+      '<span class="tg '+ac(t.ar)+'">'+al(t.ar)+'</span>'+
+      (t.pr?'<span class="tg tpr">'+t.pr+'</span>':'')+
+      dlHtml(t.du)+
+    '</div>';
+}
+
+function rTasks(){
+  var f=AF;
+  ['urgent','important','background'].forEach(function(u){
+    var ts=S.tasks.filter(function(t){
+      var matchF=f==='all'||(f==='urgent'?t.ur==='urgent':f==='done'?t.dn:t.ar===f);
+      var matchU=t.ur===u;
+      // Hide done tasks unless showing done filter
+      if(f!=='done'&&t.dn)return false;
+      return matchF&&matchU;
+    });
+    var el=document.getElementById('lt-'+u);
+    el.innerHTML=ts.map(thCard).join('')||'<div style="font-size:11px;color:var(--ink3);padding:8px 4px">—</div>';
+  });
+  // re-attach drag
+  document.querySelectorAll('.ti[draggable]').forEach(function(card){
+    card.addEventListener('dragstart',function(e){
+      dragId=card.dataset.id;
+      setTimeout(function(){card.classList.add('dragging');},0);
+    });
+    card.addEventListener('dragend',function(){card.classList.remove('dragging');});
+  });
+}
+
+function clearDone(){
+  var count=S.tasks.filter(function(t){return t.dn;}).length;
+  if(!count){toast('No completed tasks to clear');return;}
+  S.tasks=S.tasks.filter(function(t){return !t.dn;});
+  sv();ra();toast('Cleared '+count+' completed task'+(count!==1?'s':''));
+}
+
+function rMil(){
+  var sorted=[].concat(ML).sort(function(a,b){return new Date(a.dt)-new Date(b.dt);});
+  document.getElementById('ml').innerHTML=sorted.map(function(m){
+    var st=mst(m.dt);
+    var lb=new Date(m.dt).toLocaleDateString('en-PH',{month:'short',day:'numeric'});
+    return '<div class="mi"><div class="md '+st+'"></div>'+
+      '<div style="flex:1"><div class="mn">'+m.nm+'</div><div class="ms">'+m.pr+(m.nt?' · '+m.nt:'')+'</div></div>'+
+      '<div class="mdt '+st+'">'+lb+'</div></div>';
+  }).join('');
+}
+
+function rProj(){
+  document.getElementById('pg').innerHTML=PJ.map(function(p){
+    var c=S.tasks.filter(function(t){return t.pr===p.id&&!t.dn;}).length;
+    var bc={ac:'pac',bd:'pbd',rl:'prl',nw:'pnw'}[p.st]||'pac';
+    return '<div class="pc '+(p.st==='nw'?'nw':'')+'">'+
+      '<div class="ph"><div><div class="pn">'+p.nm+'</div><div class="pa">'+p.ar+'</div></div>'+
+      '<span class="pb '+bc+'">'+p.lb+'</span></div>'+
+      (p.nx?'<div class="pxt">'+p.nx+'</div>':'')+
+      '<div class="pct">'+c+' open task'+(c!==1?'s':'')+'</div></div>';
+  }).join('');
+}
+
+function rPeople(){
+  document.getElementById('constellation').innerHTML=CONSTELLATION.map(pCard).join('');
+  document.getElementById('pyramid').innerHTML=PYRAMID.map(pCard).join('');
+}
+
+function pCard(p){
+  var bg='color-mix(in srgb,'+p.color+' 12%,white)';
+  var border='color-mix(in srgb,'+p.color+' 30%,var(--border))';
+  return '<div class="pcard">'+
+    '<div class="pavatar" style="background:'+bg+';border:1.5px solid '+border+'"><span style="color:'+p.color+'">'+p.initials+'</span></div>'+
+    '<div class="pname">'+p.name+'</div><div class="prole">'+p.role+'</div>'+
+    '<div class="ptags">'+p.tags.map(function(tg){return '<span class="ptag" style="background:'+bg+';color:'+p.color+'">'+tg+'</span>';}).join('')+'</div>'+
+    '</div>';
+}
+
+// ══ CHECK-IN ══
+function updSl(n,v){
+  document.getElementById('v-'+n).textContent=v;
+  document.getElementById('f-'+n).style.width=(v*10)+'%';
+  updCog();
+}
+
+function rCheckinMetrics(){
+  var open=S.tasks.filter(function(t){return !t.dn;});
+  var ctxs=new Set(open.map(function(t){return t.pr;})).size;
+  var urg=open.filter(function(t){return t.ur==='urgent';}).length;
+  var frag=Math.min(99,ctxs*14+urg*8+Math.max(0,open.length-6)*2);
+  document.getElementById('mCtx').textContent=ctxs;
+  document.getElementById('mUrg').textContent=urg;
+  document.getElementById('mTot').textContent=open.length;
+  document.getElementById('mFrag').textContent=frag;
+  updCog();
+}
+
+function updCog(){
+  var sleep=parseInt(document.getElementById('s-sleep').value);
+  var sweets=parseInt(document.getElementById('s-sweets').value);
+  var scroll=parseInt(document.getElementById('s-scroll').value);
+  var activity=parseInt(document.getElementById('s-activity').value);
+  var open=S.tasks.filter(function(t){return !t.dn;});
+  var ctxs=new Set(open.map(function(t){return t.pr;})).size;
+  var urg=open.filter(function(t){return t.ur==='urgent';}).length;
+  var frag=Math.min(99,ctxs*14+urg*8+Math.max(0,open.length-6)*2);
+  var capacity=(sleep/10)*100+(activity*3)-(sweets*4)-(scroll*3);
+  var margin=Math.max(0,Math.min(100,capacity-frag*0.5));
+  document.getElementById('cogVal').textContent=Math.round(margin)+' / 100';
+  var fill=document.getElementById('cogFill');
+  fill.style.width=margin+'%';
+  fill.style.background=margin>60?'var(--green)':margin>30?'var(--amber)':'var(--red)';
+  // insight
+  var ins=document.getElementById('ciInsight');
+  var msg='';
+  if(frag>60&&sleep<5)msg='<strong>High fragmentation + low sleep.</strong> Hardest ADHD combination — executive function degrades fastest here. Block one 45-min uninterrupted window before 2pm and protect it.';
+  else if(frag>60&&activity<4)msg='<strong>High fragmentation + no movement today.</strong> Without exercise your dopamine baseline is lower — the restlessness you feel is real. Even a 20-min walk will help.';
+  else if(frag>60)msg='<strong>High fragmentation ('+frag+').</strong> '+ctxs+' active contexts is a lot. Consider parking the background lane and focusing only on urgent + one important task.';
+  else if(sleep<5)msg='<strong>Low sleep.</strong> Your context-switch tolerance is lower today. Protect mornings for the work that matters most.';
+  else if(activity<4)msg='No movement logged today — you mentioned feeling more restless without exercise. Even a short walk helps reset focus.';
+  else if(sweets>7)msg='High sugar intake today — expect an afternoon energy dip around 3–4pm. Block low-stakes tasks then, not decisions.';
+  else if(margin>70)msg='<strong>Good cognitive margin today.</strong> This is a good window to tackle something you\'ve been avoiding.';
+  else msg='Fragmentation at '+frag+' — manageable. Keep urgent lane clear and you\'ll finish the day well.';
+  ins.innerHTML=msg;
+  ins.classList.toggle('on',msg.length>0);
+}
+
+function logCheckin(){
+  var today=new Date().toISOString().split('T')[0];
+  var open=S.tasks.filter(function(t){return !t.dn;});
+  var ctxs=new Set(open.map(function(t){return t.pr;})).size;
+  var urg=open.filter(function(t){return t.ur==='urgent';}).length;
+  var frag=Math.min(99,ctxs*14+urg*8+Math.max(0,open.length-6)*2);
+  var entry={
+    date:today,frag:frag,
+    sleep:parseInt(document.getElementById('s-sleep').value),
+    sweets:parseInt(document.getElementById('s-sweets').value),
+    scroll:parseInt(document.getElementById('s-scroll').value),
+    disoriented:parseInt(document.getElementById('s-disoriented').value),
+    activity:parseInt(document.getElementById('s-activity').value),
+    ctxs:ctxs,urg:urg,total:open.length
+  };
+  S.checkin=S.checkin.filter(function(e){return e.date!==today;});
+  S.checkin.push(entry);
+  S.checkin.sort(function(a,b){return a.date.localeCompare(b.date);});
+  if(S.checkin.length>30)S.checkin=S.checkin.slice(-30);
+  sv();rHistory();toast('Check-in logged ✓');
+}
+
+function rHistory(){
+  var hist=S.checkin.slice(-14);
+  var wrap=document.getElementById('sparkWrap');
+  var lbls=document.getElementById('sparkLabels');
+  if(!hist.length){wrap.innerHTML='<div class="empty" style="padding:12px;font-size:11px">No history yet — log your first check-in above.</div>';lbls.innerHTML='';return;}
+  var mx=Math.max.apply(null,hist.map(function(e){return e.frag;}));mx=Math.max(mx,1);
+  wrap.innerHTML=hist.map(function(e){
+    var h=Math.max(8,(e.frag/mx)*40);
+    var col=e.frag>60?'var(--red)':e.frag>35?'var(--amber)':'var(--green)';
+    var d=new Date(e.date);
+    var tip=d.getDate()+'/'+(d.getMonth()+1)+' · Frag:'+e.frag+' Sleep:'+e.sleep+' Scroll:'+e.scroll;
+    return '<div class="spark-bar" style="height:'+h+'px;background:'+col+';opacity:.7"><div class="spark-tip">'+tip+'</div></div>';
+  }).join('');
+  lbls.innerHTML=hist.map(function(e){
+    var d=new Date(e.date);return '<div class="spark-lbl">'+d.getDate()+'/'+(d.getMonth()+1)+'</div>';
+  }).join('');
+}
+
+// ══ ACTIONS ══
+function tog(id){
+  var t=S.tasks.find(function(x){return x.id===id;});
+  if(!t)return;
+  t.dn=t.dn?0:1;
+  if(t.dn){
+    var card=document.getElementById('card-'+id);
+    if(card){card.classList.add('completing');toast('✓ Done — '+t.tx.slice(0,42));}
+  }
+  sv();
+  setTimeout(function(){ra();},t.dn?650:0);
+}
+
+function del2(id){S.tasks=S.tasks.filter(function(x){return x.id!==id;});sv();ra();}
+
+function addTask(){
+  var v=document.getElementById('ti').value.trim();if(!v)return;
+  S.tasks.unshift({id:'t'+Date.now(),tx:v,ar:document.getElementById('ta').value,pr:document.getElementById('tp').value,du:null,ur:document.getElementById('tur').value,dn:0});
+  document.getElementById('ti').value='';sv();ra();toast('Task added');
+}
+
+function relay(m){
+  var txt=document.getElementById('ci').value.trim();if(!txt)return;
+  var p={
+    extract:'Extract tasks from this and tag each one to a project (NAP, ADB, TFD, DRR, Meralco, etc) and category (Case, BD, Citizenship, Personal):\n\n'+txt,
+    email:'Draft an email in my voice. Warm opener, action-first, flowing prose, signs off "Thanks, Jamie":\n\n'+txt,
+    summarise:'Summarise this and flag anything time-sensitive or that needs a decision from me:\n\n'+txt,
+    mirror:'Analyse this meeting transcript for my leadership patterns: (1) verbal comms and presence, (2) emotional tone, (3) meeting orchestration, (4) directness calibration. Frank outside-in view:\n\n'+txt
+  };
+  navigator.clipboard.writeText(p[m]).then(function(){
+    toast('Copied to clipboard — paste into Claude');
+  }).catch(function(){
+    toast('Copy failed — paste manually');
+  });
+}
+
+// ══ DRAG & DROP ══
+['urgent','important','background'].forEach(function(u){
+  var lane=document.getElementById('lane-'+u);
+  lane.addEventListener('dragover',function(e){e.preventDefault();lane.classList.add('drag-over');});
+  lane.addEventListener('dragleave',function(){lane.classList.remove('drag-over');});
+  lane.addEventListener('drop',function(e){
+    e.preventDefault();lane.classList.remove('drag-over');
+    if(!dragId)return;
+    var t=S.tasks.find(function(x){return x.id===dragId;});
+    if(t&&t.ur!==u){t.ur=u;sv();ra();toast('Moved to '+u);}
+    dragId=null;
+  });
+});
+
+// ══ NAV ══
+function switchTo(p){
+  document.querySelectorAll('.nb').forEach(function(x){x.classList.remove('on');});
+  document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('on');});
+  document.querySelector('[data-p='+p+']').classList.add('on');
+  document.getElementById('panel-'+p).classList.add('on');
+  if(p==='checkin'){rCheckinMetrics();rHistory();}
+}
+document.getElementById('nav').addEventListener('click',function(e){
+  var b=e.target.closest('[data-p]');if(!b)return;
+  switchTo(b.dataset.p);
+});
+document.getElementById('fb').addEventListener('click',function(e){
+  var b=e.target.closest('[data-f]');if(!b)return;
+  document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('on');});
+  b.classList.add('on');AF=b.dataset.f;rTasks();
+});
+document.getElementById('ab').addEventListener('click',addTask);
+document.getElementById('ti').addEventListener('keydown',function(e){if(e.key==='Enter')addTask();});
+
+function toast(msg){
+  var t=document.getElementById('toast');t.textContent=msg;t.classList.add('on');
+  setTimeout(function(){t.classList.remove('on');},2400);
+}
+
+// ══ STORAGE — localStorage ══
+function sv(){
+  try{localStorage.setItem(SKEY,JSON.stringify(S));}catch(e){console.warn('Storage error',e);}
+}
+
+// ══ INIT ══
+function init(){
+  try{
+    var raw=localStorage.getItem(SKEY);
+    if(raw){
+      var saved=JSON.parse(raw);
+      if(saved&&saved.tasks){
+        var savedMap={};
+        saved.tasks.forEach(function(t){savedMap[t.id]=t;});
+        BASE_TASKS.forEach(function(t){
+          if(!savedMap[t.id])saved.tasks.push(Object.assign({},t));
+        });
+        S=saved;
+      } else {
+        S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
+        if(saved&&saved.checkin)S.checkin=saved.checkin;
+      }
+    } else {
+      S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
+    }
+  }catch(e){
+    S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
+  }
+
+  // Try to load tasks from tasks.json (N8N bridge)
+  fetch('tasks.json')
+    .then(function(r){return r.json();})
+    .then(function(remote){
+      if(remote&&remote.tasks&&remote.tasks.length){
+        var savedMap={};
+        S.tasks.forEach(function(t){savedMap[t.id]=t;});
+        remote.tasks.forEach(function(t){
+          if(!savedMap[t.id]){
+            S.tasks.unshift(t);
+            savedMap[t.id]=t;
+          }
+        });
+        sv();
+      }
+      ra();
+    })
+    .catch(function(){ra();});
+}
+
+init();
+</script>
+</body>
+</html>
