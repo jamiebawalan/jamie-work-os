@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T00:00:00.000Z",
+  "last_updated": "2026-05-25T21:20:00.000Z",
   "tasks": [
     {"id":"nap_des_jun4","tx":"Finalize June 4 lunch meeting with Des (Congressman Benitez confirmed)","ar":"case","pr":"NAP","du":"2026-05-26","ur":"important","dn":0},
     {"id":"nap5","tx":"Follow up with DENR (Dir. Elen Basug / Raquel Ortega)","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
@@ -18,17 +18,22 @@
     {"id":"tfd_dsreview","tx":"Review Design Studio version of the file and iterate — by Monday","ar":"case","pr":"TFD","du":"2026-05-25","ur":"urgent","dn":0},
     {"id":"tfd5","tx":"Rolling review cycle with Julian on TFD narrative","ar":"case","pr":"TFD","du":null,"ur":"background","dn":0},
     {"id":"rec_james","tx":"James to create 5-page PowerPoint teaser from TFD research compendium","ar":"case","pr":"TFD","du":null,"ur":"important","dn":0},
+    {"id":"tfd_mktg2","tx":"Send latest version of TFD narrative to Marketing","ar":"case","pr":"TFD","du":"2026-05-26","ur":"urgent","dn":0},
+    {"id":"tfd_align","tx":"Set alignment meeting with Julian and Anthony on timelines and priority stakeholders for OFW report","ar":"case","pr":"TFD","du":"2026-05-31","ur":"urgent","dn":0},
     {"id":"drr_survey","tx":"Develop survey for PDRF, NRC and chamber organizations","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
     {"id":"drr_benchmark","tx":"International benchmark research + Yolanda historical case study analysis","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
     {"id":"drr_plugin","tx":"Refine BCG plug-in description with organizational coordination levels","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
     {"id":"drr_ocd","tx":"Strategy document for OCD — due end July","ar":"bd","pr":"DRR","du":"2026-07-31","ur":"background","dn":0},
     {"id":"drr_proposal","tx":"Get started on BCG proposal for PH DRR effort — Sec Toni Yulo-Loyzaga","ar":"bd","pr":"DRR","du":"2026-05-22","ur":"urgent","dn":0},
+    {"id":"drr_naomi","tx":"Send Naomi the relevant files for the DRR proposal — Julian sample, current perspective, transcript, reach outs per Charmian","ar":"bd","pr":"DRR","du":null,"ur":"urgent","dn":0},
+    {"id":"drr_mtg","tx":"Set meeting this week on the DRR proposal","ar":"bd","pr":"DRR","du":"2026-05-31","ur":"urgent","dn":0},
     {"id":"mer_andrew","tx":"Reach out to Andrew for Meralco catch-up","ar":"bd","pr":"Meralco","du":null,"ur":"important","dn":0},
     {"id":"s13","tx":"Meralco/MGEN — follow up on C&S investment request ($2.7M)","ar":"bd","pr":"Meralco","du":null,"ur":"background","dn":0},
     {"id":"acen1","tx":"Follow up with ACEN team on trading and risk pricing","ar":"bd","pr":"ACEN","du":null,"ur":"background","dn":0},
     {"id":"abi1","tx":"Check with Anthony/Julian on Aboitiz keynote speaker — July 9","ar":"bd","pr":"Aboitiz","du":null,"ur":"background","dn":0},
     {"id":"pi_2pager","tx":"Develop 2-pager for Prime Infra — send to Uday, then on to Donna by EOW","ar":"bd","pr":"PrimeInfra","du":"2026-05-22","ur":"urgent","dn":0},
     {"id":"pe_letter","tx":"Check Prime Energy letter v3/v4 — prep for Donna/Razon","ar":"bd","pr":"PrimeEnergy","du":null,"ur":"important","dn":0},
+    {"id":"drr_unddr","tx":"Potential collaboration with UN-DRR — Kishore visiting July","ar":"bd","pr":"DRR","du":null,"ur":"background","dn":0},
     {"id":"s2","tx":"Post-CDC outcome conversations — Hannah, Joey, Veronica, Naomi, Jan, Gwen","ar":"cit","pr":"CDC","du":null,"ur":"important","dn":0},
     {"id":"cdp_peval","tx":"Complete Mid-Year PL CDC evaluations","ar":"cit","pr":"CDP","du":"2026-05-22","ur":"urgent","dn":0},
     {"id":"cdp_john","tx":"Complete PL brief impression memo for John Soriano — CDP evaluation","ar":"cit","pr":"CDP","du":null,"ur":"important","dn":0},
@@ -39,7 +44,6 @@
     {"id":"s4","tx":"France visa + docs — check status","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0},
     {"id":"s7","tx":"Milan flight booking","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0},
     {"id":"s8","tx":"Bank statement certification","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0},
-    {"id":"pers_resume","tx":"Send resume to recruiter","ar":"pers","pr":"Admin","du":"2026-05-22","ur":"urgent","dn":0},
-    {"id":"drr_unddr","tx":"Potential collaboration with UN-DRR — Kishore visiting July","ar":"bd","pr":"DRR","du":null,"ur":"background","dn":0}
+    {"id":"pers_resume","tx":"Send resume to recruiter","ar":"pers","pr":"Admin","du":"2026-05-22","ur":"urgent","dn":0}
   ]
 }
