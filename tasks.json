@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T13:10:05.615Z",
+  "last_updated": "2026-05-25T13:17:30.961Z",
   "tasks": [
     {
       "title": "Co-draft email with Ali on ADB resourcing for change request",
@@ -64,6 +64,17 @@
       "owner": "Me",
       "due": null,
       "id": "tg1779714598165_0",
+      "dn": 0,
+      "source": "telegram"
+    },
+    {
+      "title": "Set alignment meeting with Julian and Anthony on timelines and priority stakeholders for the OFW report",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1779715042440_0",
       "dn": 0,
       "source": "telegram"
     }
