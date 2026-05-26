@@ -357,35 +357,48 @@ function syncNow(){
     });
 }
 
-// ── INIT — load localStorage, then do initial seed from data.json if empty ──
+// ── INIT — load localStorage only, never overwrite ──
 function init(){
+  var loaded=false;
   try{
     var raw=localStorage.getItem(SKEY);
     if(raw){
       var saved=JSON.parse(raw);
-      if(saved){
-        if(saved.tasks)S.tasks=saved.tasks;
-        if(saved.milestones)S.milestones=saved.milestones;
-        if(saved.projects)S.projects=saved.projects;
-        if(saved.checkin)S.checkin=saved.checkin;
-        S.lastSync=saved.lastSync||0;
+      if(saved&&saved.tasks&&saved.tasks.length>0){
+        S.tasks=saved.tasks;
+        S.milestones=saved.milestones||[];
+        S.projects=saved.projects||[];
+        S.checkin=saved.checkin||[];
+        loaded=true;
       }
     }
   }catch(e){}
 
-  // If no tasks/milestones/projects yet — do initial seed from data.json
-  if(S.tasks.length===0||S.milestones.length===0||S.projects.length===0){
+  if(!loaded){
+    // First ever load — seed from data.json
     fetch('data.json?t='+Date.now())
       .then(function(r){return r.json();})
       .then(function(remote){
-        if(S.tasks.length===0&&remote.tasks)S.tasks=remote.tasks.map(function(t){return Object.assign({},t);});
-        if(S.milestones.length===0&&remote.milestones)S.milestones=remote.milestones.map(function(m){return Object.assign({},m);});
-        if(S.projects.length===0&&remote.projects)S.projects=remote.projects.map(function(p){return Object.assign({},p);});
+        S.tasks=remote.tasks||[];
+        S.milestones=remote.milestones||[];
+        S.projects=remote.projects||[];
         sv();ra();
       })
       .catch(function(){ra();});
   } else {
-    ra();
+    // Always re-seed milestones and projects from data.json if missing
+    if(S.milestones.length===0||S.projects.length===0){
+      fetch('data.json?t='+Date.now())
+        .then(function(r){return r.json();})
+        .then(function(remote){
+          if(S.milestones.length===0)S.milestones=remote.milestones||[];
+          if(S.projects.length===0)S.projects=remote.projects||[];
+          sv();ra();
+        })
+        .catch(function(){ra();});
+    } else {
+      ra();
+    }
   }
 }
 
