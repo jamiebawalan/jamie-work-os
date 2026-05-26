@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T04:34:45.362Z",
+  "last_updated": "2026-05-26T04:34:57.114Z",
   "tasks": [
     {
       "id": "nap_vandana",
@@ -480,6 +480,17 @@
       "owner": "Me",
       "due": "2026-05-29",
       "id": "tg1779770054095_0",
+      "dn": 0,
+      "source": "telegram"
+    },
+    {
+      "title": "Update the Prime Infra perspective per Uday's email",
+      "project": "PrimeInfra",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1779770090986_0",
       "dn": 0,
       "source": "telegram"
     }
