@@ -319,39 +319,31 @@ function syncNow(){
   fetch('data.json?t='+Date.now())
     .then(function(r){return r.json();})
     .then(function(remote){
-      var lastSync=S.lastSync||0;
       var taskIds=new Set(S.tasks.map(function(t){return t.id;}));
       var msIds=new Set(S.milestones.map(function(m){return m.id;}));
       var pjIds=new Set(S.projects.map(function(p){return p.id;}));
       var added=0;
 
-      // Tasks: only add if added_at > lastSync AND not already known
       if(remote.tasks){
         remote.tasks.forEach(function(t){
-          if(!taskIds.has(t.id)&&(t.added_at||0)>lastSync){
+          if(!taskIds.has(t.id)){
             S.tasks.unshift(t);taskIds.add(t.id);added++;
           }
         });
       }
-      // Milestones: add new ones
       if(remote.milestones){
         remote.milestones.forEach(function(m){
           if(!msIds.has(m.id)){S.milestones.push(m);msIds.add(m.id);}
         });
       }
-      // Projects: update next steps if project exists, add if new
       if(remote.projects){
         remote.projects.forEach(function(p){
           if(pjIds.has(p.id)){
-            var existing=S.projects.find(function(x){return x.id===p.id;});
-            if(existing)existing.nx=p.nx;
-          } else {
-            S.projects.push(p);pjIds.add(p.id);
-          }
+            var ex=S.projects.find(function(x){return x.id===p.id;});
+            if(ex)ex.nx=p.nx;
+          } else {S.projects.push(p);pjIds.add(p.id);}
         });
       }
-
-      S.lastSync=Date.now();
       sv();ra();
       btn.textContent=added>0?'↓ +'+added+' new':'↓ Up to date';
       btn.classList.remove('syncing');
@@ -389,7 +381,6 @@ function init(){
         if(S.tasks.length===0&&remote.tasks)S.tasks=remote.tasks.map(function(t){return Object.assign({},t);});
         if(S.milestones.length===0&&remote.milestones)S.milestones=remote.milestones.map(function(m){return Object.assign({},m);});
         if(S.projects.length===0&&remote.projects)S.projects=remote.projects.map(function(p){return Object.assign({},p);});
-        S.lastSync=Date.now();
         sv();ra();
       })
       .catch(function(){ra();});
