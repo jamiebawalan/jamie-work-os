@@ -422,6 +422,42 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779803593945
+    },
+    {
+      "title": "Update ADB CAB approval tracker for available links",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-29",
+      "id": "tg1779803673553_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779803679637
+    },
+    {
+      "title": "Start annexes for ADB CAB tracker where possible",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-29",
+      "id": "tg1779803673553_1",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779803679637
+    },
+    {
+      "title": "Prepare updated versions for ADB CAB tracker",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-29",
+      "id": "tg1779803673553_2",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779803679637
     }
   ],
   "milestones": [
@@ -628,5 +664,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-26T13:53:13.945Z"
+  "last_updated": "2026-05-26T13:54:39.637Z"
 }
