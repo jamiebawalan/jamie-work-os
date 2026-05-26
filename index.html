@@ -381,7 +381,7 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
 <script>
 // ══ BASE DATA ══
 var D0 = new Date(); D0.setHours(0,0,0,0);
-var SKEY = 'jb_wos_v2';
+var SKEY = 'jb_wos_v3';
 
 var BASE_TASKS = [];
 
@@ -787,7 +787,7 @@ function sv(){
 
 // ══ INIT ══
 function init(){
-  // Load from localStorage first
+  // Load localStorage
   try{
     var raw=localStorage.getItem(SKEY);
     if(raw){
@@ -795,43 +795,49 @@ function init(){
       if(saved&&saved.tasks){
         S=saved;
         if(!S.deletedIds)S.deletedIds=[];
-        if(!S.seenIds)S.seenIds=[];
+        if(!S.lastSync)S.lastSync=0;
       }
     }
   }catch(e){}
 
-  // Fetch tasks.json ONLY to add brand new tasks never seen before
-  // Uses seenIds — a permanent record of every task ID ever loaded
-  // Once an ID is in seenIds it is NEVER re-added regardless of done state
+  // Fetch tasks.json and add tasks that are NEWER than last sync
+  // N8N stamps each task with added_at (unix ms)
+  // On first load (lastSync=0) all tasks load once, lastSync set to now
+  // On subsequent loads only tasks with added_at > lastSync appear
   fetch('tasks.json?t='+Date.now())
     .then(function(r){return r.json();})
     .then(function(remote){
-      if(!S.seenIds)S.seenIds=[];
-      var seenSet=new Set(S.seenIds);
+      var now=Date.now();
+      var lastSync=S.lastSync||0;
       var taskIds=new Set(S.tasks.map(function(t){return t.id;}));
       var added=0;
+
       if(remote&&remote.tasks){
         remote.tasks.forEach(function(t){
-          // Add to seenIds regardless so we never re-add
-          if(!seenSet.has(t.id)){
-            seenSet.add(t.id);
-            S.seenIds.push(t.id);
-            // Only add to task list if not already there
-            if(!taskIds.has(t.id)){
-              S.tasks.unshift(t);
-              taskIds.add(t.id);
-              added++;
-            }
+          // First load: add all, mark as seen
+          // Subsequent loads: only add if added_at is after lastSync
+          var isNew = lastSync===0 || (t.added_at && t.added_at > lastSync);
+          if(isNew && !taskIds.has(t.id)){
+            S.tasks.unshift(t);
+            taskIds.add(t.id);
+            added++;
           }
         });
       }
-      if(added>0)sv();
+
+      // Update lastSync to now so next load only picks up newer tasks
+      S.lastSync = now;
+      sv();
       ra();
     })
     .catch(function(){ra();});
 }
 
 init();
+</script>
+</body>
+</html>
+
 </script>
 </body>
 </html>
