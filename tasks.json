@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T13:30:00.000Z",
+  "last_updated": "2026-05-26T07:17:57.429Z",
   "tasks": [
     {
       "id": "drr_materials",
@@ -13,7 +13,7 @@
     },
     {
       "id": "nap_vandana",
-      "tx": "Approve Vandana travel booking \u2014 Jan Ong + Maxine Yee, Manila-Bacolod-Iloilo Jun 4-5",
+      "tx": "Approve Vandana travel booking — Jan Ong + Maxine Yee, Manila-Bacolod-Iloilo Jun 4-5",
       "ar": "case",
       "pr": "NAP",
       "du": "2026-05-26",
@@ -53,7 +53,7 @@
     },
     {
       "id": "tfd_sarah",
-      "tx": "Follow up with Sarah on interview lines for TFD \u2014 remaining profile for write-up",
+      "tx": "Follow up with Sarah on interview lines for TFD — remaining profile for write-up",
       "ar": "case",
       "pr": "TFD",
       "du": null,
@@ -63,7 +63,7 @@
     },
     {
       "id": "tfd_dsreview",
-      "tx": "Review Design Studio version of the file and iterate \u2014 by Monday",
+      "tx": "Review Design Studio version of the file and iterate — by Monday",
       "ar": "case",
       "pr": "TFD",
       "du": "2026-05-25",
@@ -123,7 +123,7 @@
     },
     {
       "id": "nap6",
-      "tx": "Read + respond to Cay Bautista / ASAPHIL \u2014 Sugarcane Seed Farm",
+      "tx": "Read + respond to Cay Bautista / ASAPHIL — Sugarcane Seed Farm",
       "ar": "case",
       "pr": "NAP",
       "du": null,
@@ -143,7 +143,7 @@
     },
     {
       "id": "nap_mou",
-      "tx": "Follow up MOU signing \u2014 Northern Isabella stakeholders (via Kitty)",
+      "tx": "Follow up MOU signing — Northern Isabella stakeholders (via Kitty)",
       "ar": "case",
       "pr": "NAP",
       "du": null,
@@ -153,7 +153,7 @@
     },
     {
       "id": "nap_logframe",
-      "tx": "Check logframe for outcome indicators \u2014 targets 520 pipeline",
+      "tx": "Check logframe for outcome indicators — targets 520 pipeline",
       "ar": "case",
       "pr": "NAP",
       "du": null,
@@ -163,7 +163,7 @@
     },
     {
       "id": "nap_eco",
-      "tx": "Continue ecosystem mapping \u2014 verify 9-10 outstanding contacts, cross-ref Slack list",
+      "tx": "Continue ecosystem mapping — verify 9-10 outstanding contacts, cross-ref Slack list",
       "ar": "case",
       "pr": "NAP",
       "du": null,
@@ -173,7 +173,7 @@
     },
     {
       "id": "nap_dsc",
-      "tx": "DSC venue coordination \u2014 collect car details + guest names/emails for concierge",
+      "tx": "DSC venue coordination — collect car details + guest names/emails for concierge",
       "ar": "case",
       "pr": "NAP",
       "du": null,
@@ -203,7 +203,7 @@
     },
     {
       "id": "adb_enddate",
-      "tx": "Reply to SEA Staffing \u2014 confirm ADB team assignment end dates",
+      "tx": "Reply to SEA Staffing — confirm ADB team assignment end dates",
       "ar": "case",
       "pr": "ADB",
       "du": "2026-05-25",
@@ -243,7 +243,7 @@
     },
     {
       "id": "drr_ocd",
-      "tx": "Strategy document for OCD \u2014 due end July",
+      "tx": "Strategy document for OCD — due end July",
       "ar": "bd",
       "pr": "DRR",
       "du": "2026-07-31",
@@ -253,7 +253,7 @@
     },
     {
       "id": "drr_proposal",
-      "tx": "Get started on BCG proposal for PH DRR effort \u2014 Sec Toni Yulo-Loyzaga",
+      "tx": "Get started on BCG proposal for PH DRR effort — Sec Toni Yulo-Loyzaga",
       "ar": "bd",
       "pr": "DRR",
       "du": null,
@@ -263,7 +263,7 @@
     },
     {
       "id": "drr_naomi",
-      "tx": "Send Naomi the relevant files for the DRR proposal \u2014 Julian sample, current perspective, transcript, reach outs per Charmian",
+      "tx": "Send Naomi the relevant files for the DRR proposal — Julian sample, current perspective, transcript, reach outs per Charmian",
       "ar": "bd",
       "pr": "DRR",
       "du": null,
@@ -283,7 +283,7 @@
     },
     {
       "id": "drr_unddr",
-      "tx": "Potential collaboration with UN-DRR \u2014 Kishore visiting July",
+      "tx": "Potential collaboration with UN-DRR — Kishore visiting July",
       "ar": "bd",
       "pr": "DRR",
       "du": null,
@@ -303,7 +303,7 @@
     },
     {
       "id": "s13",
-      "tx": "Meralco/MGEN \u2014 follow up on C&S investment request ($2.7M)",
+      "tx": "Meralco/MGEN — follow up on C&S investment request ($2.7M)",
       "ar": "bd",
       "pr": "Meralco",
       "du": null,
@@ -323,7 +323,7 @@
     },
     {
       "id": "abi1",
-      "tx": "Check with Anthony/Julian on Aboitiz keynote speaker \u2014 July 9",
+      "tx": "Check with Anthony/Julian on Aboitiz keynote speaker — July 9",
       "ar": "bd",
       "pr": "Aboitiz",
       "du": null,
@@ -333,7 +333,7 @@
     },
     {
       "id": "pe_letter",
-      "tx": "Check Prime Energy letter v3/v4 \u2014 prep for Donna/Razon",
+      "tx": "Check Prime Energy letter v3/v4 — prep for Donna/Razon",
       "ar": "bd",
       "pr": "PrimeEnergy",
       "du": null,
@@ -343,7 +343,7 @@
     },
     {
       "id": "s2",
-      "tx": "Post-CDC outcome conversations \u2014 Hannah, Joey, Veronica, Naomi, Jan, Gwen",
+      "tx": "Post-CDC outcome conversations — Hannah, Joey, Veronica, Naomi, Jan, Gwen",
       "ar": "cit",
       "pr": "CDC",
       "du": null,
@@ -353,7 +353,7 @@
     },
     {
       "id": "cdp_john",
-      "tx": "Complete PL brief impression memo for John Soriano \u2014 CDP evaluation",
+      "tx": "Complete PL brief impression memo for John Soriano — CDP evaluation",
       "ar": "cit",
       "pr": "CDP",
       "du": null,
@@ -373,7 +373,7 @@
     },
     {
       "id": "rec_aspire",
-      "tx": "Aspire Women's Event prep \u2014 Gen AI workshop with Sue, June 5",
+      "tx": "Aspire Women's Event prep — Gen AI workshop with Sue, June 5",
       "ar": "cit",
       "pr": "Recruiting",
       "du": "2026-06-05",
@@ -394,7 +394,7 @@
     },
     {
       "id": "rec_ray",
-      "tx": "Schedule Ray Guerrero final round interviews \u2014 early next week",
+      "tx": "Schedule Ray Guerrero final round interviews — early next week",
       "ar": "cit",
       "pr": "Recruiting",
       "du": "2026-05-25",
@@ -405,7 +405,7 @@
     },
     {
       "id": "s4",
-      "tx": "France visa + docs \u2014 check status",
+      "tx": "France visa + docs — check status",
       "ar": "pers",
       "pr": "Visa",
       "du": null,
@@ -432,6 +432,18 @@
       "ur": "important",
       "dn": 0,
       "added_at": 0
+    },
+    {
+      "title": "Set meeting for SOCCOM by early next week to start Bohol planning",
+      "project": "SOCCOM",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-30",
+      "id": "tg1779779871175_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779779877429
     }
   ]
 }
