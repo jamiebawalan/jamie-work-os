@@ -381,7 +381,7 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
 <script>
 // ══ BASE DATA ══
 var D0 = new Date(); D0.setHours(0,0,0,0);
-var SKEY = 'jb_wos_v1';
+var SKEY = 'jb_wos_v2';
 
 var BASE_TASKS = [];
 
@@ -787,45 +787,45 @@ function sv(){
 
 // ══ INIT ══
 function init(){
+  // Load from localStorage first
   try{
     var raw=localStorage.getItem(SKEY);
     if(raw){
       var saved=JSON.parse(raw);
       if(saved&&saved.tasks){
-        var savedMap={};
-        saved.tasks.forEach(function(t){savedMap[t.id]=t;});
-        BASE_TASKS.forEach(function(t){
-          if(!savedMap[t.id])saved.tasks.push(Object.assign({},t));
-        });
         S=saved;
-      } else {
-        S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
-        if(saved&&saved.checkin)S.checkin=saved.checkin;
+        if(!S.deletedIds)S.deletedIds=[];
+        if(!S.seenIds)S.seenIds=[];
       }
-    } else {
-      S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
     }
-  }catch(e){
-    S.tasks=BASE_TASKS.map(function(t){return Object.assign({},t);});
-  }
+  }catch(e){}
 
-  // Try to load tasks from tasks.json (N8N bridge)
-  fetch('tasks.json?t=' + Date.now())
+  // Fetch tasks.json ONLY to add brand new tasks never seen before
+  // Uses seenIds — a permanent record of every task ID ever loaded
+  // Once an ID is in seenIds it is NEVER re-added regardless of done state
+  fetch('tasks.json?t='+Date.now())
     .then(function(r){return r.json();})
     .then(function(remote){
-      if(remote&&remote.tasks&&remote.tasks.length){
-        // Build set of known IDs (existing + deleted)
-        var knownIds=new Set(S.tasks.map(function(t){return t.id;}));
-        var deletedIds=new Set(S.deletedIds||[]);
+      if(!S.seenIds)S.seenIds=[];
+      var seenSet=new Set(S.seenIds);
+      var taskIds=new Set(S.tasks.map(function(t){return t.id;}));
+      var added=0;
+      if(remote&&remote.tasks){
         remote.tasks.forEach(function(t){
-          // Only add if never seen AND never deleted
-          if(!knownIds.has(t.id)&&!deletedIds.has(t.id)){
-            S.tasks.unshift(t);
-            knownIds.add(t.id);
+          // Add to seenIds regardless so we never re-add
+          if(!seenSet.has(t.id)){
+            seenSet.add(t.id);
+            S.seenIds.push(t.id);
+            // Only add to task list if not already there
+            if(!taskIds.has(t.id)){
+              S.tasks.unshift(t);
+              taskIds.add(t.id);
+              added++;
+            }
           }
         });
-        sv();
       }
+      if(added>0)sv();
       ra();
     })
     .catch(function(){ra();});
