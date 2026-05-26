@@ -1,48 +1,405 @@
 {
-  "last_updated": "2026-05-26T13:00:00.000Z",
+  "last_updated": "2026-05-26T05:02:44.501Z",
   "tasks": [
-    {"id":"drr_materials","tx":"Review DRR materials from Calvin Khaing (DOST GATES) and Fumiaki Nojima (Curitiba case studies)","ar":"bd","pr":"DRR","du":null,"ur":"urgent","dn":0},
-    {"id":"nap_vandana","tx":"Approve Vandana travel booking — Jan Ong + Maxine Yee, Manila-Bacolod-Iloilo Jun 4-5","ar":"case","pr":"NAP","du":"2026-05-26","ur":"urgent","dn":0},
-    {"id":"pi_uday_perspective","tx":"Update the Prime Infra perspective per Uday's email","ar":"bd","pr":"PrimeInfra","du":null,"ur":"urgent","dn":0},
-    {"id":"tfd_ppt_compendium","tx":"Update the TFD PPT compendium","ar":"case","pr":"TFD","du":"2026-05-28","ur":"urgent","dn":0},
-    {"id":"tfd_5page_teaser","tx":"Review the 5-page teaser for Thursday meeting with Anthony and Julian","ar":"case","pr":"TFD","du":"2026-05-28","ur":"urgent","dn":0},
-    {"id":"tfd_sarah","tx":"Follow up with Sarah on interview lines for TFD — remaining profile for write-up","ar":"case","pr":"TFD","du":null,"ur":"urgent","dn":0},
-    {"id":"tfd_dsreview","tx":"Review Design Studio version of the file and iterate — by Monday","ar":"case","pr":"TFD","du":"2026-05-25","ur":"urgent","dn":0},
-    {"id":"tfd_align","tx":"Set alignment meeting with Julian and Anthony on timelines and priority stakeholders for OFW report","ar":"case","pr":"TFD","du":"2026-05-31","ur":"urgent","dn":0},
-    {"id":"tfd_mktg2","tx":"Send latest version of TFD narrative to Marketing","ar":"case","pr":"TFD","du":"2026-05-26","ur":"urgent","dn":0},
-    {"id":"tfd5","tx":"Rolling review cycle with Julian on TFD narrative","ar":"case","pr":"TFD","du":null,"ur":"background","dn":0},
-    {"id":"nap_des_jun4","tx":"Finalize June 4 lunch meeting with Des (Congressman Benitez confirmed)","ar":"case","pr":"NAP","du":"2026-05-26","ur":"important","dn":0},
-    {"id":"nap5","tx":"Follow up with DENR (Dir. Elen Basug / Raquel Ortega)","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
-    {"id":"nap6","tx":"Read + respond to Cay Bautista / ASAPHIL — Sugarcane Seed Farm","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
-    {"id":"nap8","tx":"Schedule follow-up with James Attwood on updated NAP TOR","ar":"case","pr":"NAP","du":null,"ur":"background","dn":0},
-    {"id":"nap_mou","tx":"Follow up MOU signing — Northern Isabella stakeholders (via Kitty)","ar":"case","pr":"NAP","du":null,"ur":"urgent","dn":0},
-    {"id":"nap_logframe","tx":"Check logframe for outcome indicators — targets 520 pipeline","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
-    {"id":"nap_eco","tx":"Continue ecosystem mapping — verify 9-10 outstanding contacts, cross-ref Slack list","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
-    {"id":"nap_dsc","tx":"DSC venue coordination — collect car details + guest names/emails for concierge","ar":"case","pr":"NAP","du":null,"ur":"important","dn":0},
-    {"id":"nap_goodreturn","tx":"Review + approve Jan's GoodReturn draft response (workshop invite)","ar":"case","pr":"NAP","du":"2026-05-25","ur":"important","dn":0},
-    {"id":"s12","tx":"Check in with Ali Ziat on CCDRMS workstream","ar":"case","pr":"ADB","du":null,"ur":"important","dn":0},
-    {"id":"adb_enddate","tx":"Reply to SEA Staffing — confirm ADB team assignment end dates","ar":"case","pr":"ADB","du":"2026-05-25","ur":"urgent","dn":0},
-    {"id":"drr_survey","tx":"Develop survey for PDRF, NRC and chamber organizations","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
-    {"id":"drr_benchmark","tx":"International benchmark research + Yolanda historical case study analysis","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
-    {"id":"drr_plugin","tx":"Refine BCG plug-in description with organizational coordination levels","ar":"bd","pr":"DRR","du":null,"ur":"important","dn":0},
-    {"id":"drr_ocd","tx":"Strategy document for OCD — due end July","ar":"bd","pr":"DRR","du":"2026-07-31","ur":"background","dn":0},
-    {"id":"drr_proposal","tx":"Get started on BCG proposal for PH DRR effort — Sec Toni Yulo-Loyzaga","ar":"bd","pr":"DRR","du":null,"ur":"urgent","dn":0},
-    {"id":"drr_naomi","tx":"Send Naomi the relevant files for the DRR proposal — Julian sample, current perspective, transcript, reach outs per Charmian","ar":"bd","pr":"DRR","du":null,"ur":"urgent","dn":0},
-    {"id":"drr_mtg","tx":"Set meeting this week on the DRR proposal","ar":"bd","pr":"DRR","du":"2026-05-31","ur":"urgent","dn":0},
-    {"id":"drr_unddr","tx":"Potential collaboration with UN-DRR — Kishore visiting July","ar":"bd","pr":"DRR","du":null,"ur":"background","dn":0},
-    {"id":"mer_andrew","tx":"Reach out to Andrew for Meralco catch-up","ar":"bd","pr":"Meralco","du":null,"ur":"important","dn":0},
-    {"id":"s13","tx":"Meralco/MGEN — follow up on C&S investment request ($2.7M)","ar":"bd","pr":"Meralco","du":null,"ur":"background","dn":0},
-    {"id":"acen1","tx":"Follow up with ACEN team on trading and risk pricing","ar":"bd","pr":"ACEN","du":null,"ur":"background","dn":0},
-    {"id":"abi1","tx":"Check with Anthony/Julian on Aboitiz keynote speaker — July 9","ar":"bd","pr":"Aboitiz","du":null,"ur":"background","dn":0},
-    {"id":"pe_letter","tx":"Check Prime Energy letter v3/v4 — prep for Donna/Razon","ar":"bd","pr":"PrimeEnergy","du":null,"ur":"important","dn":0},
-    {"id":"s2","tx":"Post-CDC outcome conversations — Hannah, Joey, Veronica, Naomi, Jan, Gwen","ar":"cit","pr":"CDC","du":null,"ur":"important","dn":0},
-    {"id":"cdp_john","tx":"Complete PL brief impression memo for John Soriano — CDP evaluation","ar":"cit","pr":"CDP","du":null,"ur":"important","dn":0},
-    {"id":"rec_gcash","tx":"Check with Julie on GCash event participant outreach","ar":"cit","pr":"Recruiting","du":null,"ur":"important","dn":0},
-    {"id":"rec_aspire","tx":"Aspire Women's Event prep — Gen AI workshop with Sue, June 5","ar":"cit","pr":"Recruiting","du":"2026-06-05","ur":"background","dn":0},
-    {"id":"rec_anne","tx":"Assign Anne as interview buddy for Franco Velasco","ar":"cit","pr":"Recruiting","du":null,"ur":"important","dn":0,"ow":"Ritz"},
-    {"id":"rec_ray","tx":"Schedule Ray Guerrero final round interviews — early next week","ar":"cit","pr":"Recruiting","du":"2026-05-25","ur":"background","dn":0,"ow":"Ritz"},
-    {"id":"s4","tx":"France visa + docs — check status","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0},
-    {"id":"s7","tx":"Milan flight booking","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0},
-    {"id":"s8","tx":"Bank statement certification","ar":"pers","pr":"Visa","du":null,"ur":"important","dn":0}
+    {
+      "id": "drr_materials",
+      "tx": "Review DRR materials from Calvin Khaing (DOST GATES) and Fumiaki Nojima (Curitiba case studies)",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "nap_vandana",
+      "tx": "Approve Vandana travel booking — Jan Ong + Maxine Yee, Manila-Bacolod-Iloilo Jun 4-5",
+      "ar": "case",
+      "pr": "NAP",
+      "du": "2026-05-26",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "pi_uday_perspective",
+      "tx": "Update the Prime Infra perspective per Uday's email",
+      "ar": "bd",
+      "pr": "PrimeInfra",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_ppt_compendium",
+      "tx": "Update the TFD PPT compendium",
+      "ar": "case",
+      "pr": "TFD",
+      "du": "2026-05-28",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_5page_teaser",
+      "tx": "Review the 5-page teaser for Thursday meeting with Anthony and Julian",
+      "ar": "case",
+      "pr": "TFD",
+      "du": "2026-05-28",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_sarah",
+      "tx": "Follow up with Sarah on interview lines for TFD — remaining profile for write-up",
+      "ar": "case",
+      "pr": "TFD",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_dsreview",
+      "tx": "Review Design Studio version of the file and iterate — by Monday",
+      "ar": "case",
+      "pr": "TFD",
+      "du": "2026-05-25",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_align",
+      "tx": "Set alignment meeting with Julian and Anthony on timelines and priority stakeholders for OFW report",
+      "ar": "case",
+      "pr": "TFD",
+      "du": "2026-05-31",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd_mktg2",
+      "tx": "Send latest version of TFD narrative to Marketing",
+      "ar": "case",
+      "pr": "TFD",
+      "du": "2026-05-26",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "tfd5",
+      "tx": "Rolling review cycle with Julian on TFD narrative",
+      "ar": "case",
+      "pr": "TFD",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "nap_des_jun4",
+      "tx": "Finalize June 4 lunch meeting with Des (Congressman Benitez confirmed)",
+      "ar": "case",
+      "pr": "NAP",
+      "du": "2026-05-26",
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap5",
+      "tx": "Follow up with DENR (Dir. Elen Basug / Raquel Ortega)",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap6",
+      "tx": "Read + respond to Cay Bautista / ASAPHIL — Sugarcane Seed Farm",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap8",
+      "tx": "Schedule follow-up with James Attwood on updated NAP TOR",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "nap_mou",
+      "tx": "Follow up MOU signing — Northern Isabella stakeholders (via Kitty)",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "nap_logframe",
+      "tx": "Check logframe for outcome indicators — targets 520 pipeline",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap_eco",
+      "tx": "Continue ecosystem mapping — verify 9-10 outstanding contacts, cross-ref Slack list",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap_dsc",
+      "tx": "DSC venue coordination — collect car details + guest names/emails for concierge",
+      "ar": "case",
+      "pr": "NAP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "nap_goodreturn",
+      "tx": "Review + approve Jan's GoodReturn draft response (workshop invite)",
+      "ar": "case",
+      "pr": "NAP",
+      "du": "2026-05-25",
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "s12",
+      "tx": "Check in with Ali Ziat on CCDRMS workstream",
+      "ar": "case",
+      "pr": "ADB",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "adb_enddate",
+      "tx": "Reply to SEA Staffing — confirm ADB team assignment end dates",
+      "ar": "case",
+      "pr": "ADB",
+      "du": "2026-05-25",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "drr_survey",
+      "tx": "Develop survey for PDRF, NRC and chamber organizations",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "drr_benchmark",
+      "tx": "International benchmark research + Yolanda historical case study analysis",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "drr_plugin",
+      "tx": "Refine BCG plug-in description with organizational coordination levels",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "drr_ocd",
+      "tx": "Strategy document for OCD — due end July",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": "2026-07-31",
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "drr_proposal",
+      "tx": "Get started on BCG proposal for PH DRR effort — Sec Toni Yulo-Loyzaga",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "drr_naomi",
+      "tx": "Send Naomi the relevant files for the DRR proposal — Julian sample, current perspective, transcript, reach outs per Charmian",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "drr_mtg",
+      "tx": "Set meeting this week on the DRR proposal",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": "2026-05-31",
+      "ur": "urgent",
+      "dn": 0
+    },
+    {
+      "id": "drr_unddr",
+      "tx": "Potential collaboration with UN-DRR — Kishore visiting July",
+      "ar": "bd",
+      "pr": "DRR",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "mer_andrew",
+      "tx": "Reach out to Andrew for Meralco catch-up",
+      "ar": "bd",
+      "pr": "Meralco",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "s13",
+      "tx": "Meralco/MGEN — follow up on C&S investment request ($2.7M)",
+      "ar": "bd",
+      "pr": "Meralco",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "acen1",
+      "tx": "Follow up with ACEN team on trading and risk pricing",
+      "ar": "bd",
+      "pr": "ACEN",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "abi1",
+      "tx": "Check with Anthony/Julian on Aboitiz keynote speaker — July 9",
+      "ar": "bd",
+      "pr": "Aboitiz",
+      "du": null,
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "pe_letter",
+      "tx": "Check Prime Energy letter v3/v4 — prep for Donna/Razon",
+      "ar": "bd",
+      "pr": "PrimeEnergy",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "s2",
+      "tx": "Post-CDC outcome conversations — Hannah, Joey, Veronica, Naomi, Jan, Gwen",
+      "ar": "cit",
+      "pr": "CDC",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "cdp_john",
+      "tx": "Complete PL brief impression memo for John Soriano — CDP evaluation",
+      "ar": "cit",
+      "pr": "CDP",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "rec_gcash",
+      "tx": "Check with Julie on GCash event participant outreach",
+      "ar": "cit",
+      "pr": "Recruiting",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "rec_aspire",
+      "tx": "Aspire Women's Event prep — Gen AI workshop with Sue, June 5",
+      "ar": "cit",
+      "pr": "Recruiting",
+      "du": "2026-06-05",
+      "ur": "background",
+      "dn": 0
+    },
+    {
+      "id": "rec_anne",
+      "tx": "Assign Anne as interview buddy for Franco Velasco",
+      "ar": "cit",
+      "pr": "Recruiting",
+      "du": null,
+      "ur": "important",
+      "dn": 0,
+      "ow": "Ritz"
+    },
+    {
+      "id": "rec_ray",
+      "tx": "Schedule Ray Guerrero final round interviews — early next week",
+      "ar": "cit",
+      "pr": "Recruiting",
+      "du": "2026-05-25",
+      "ur": "background",
+      "dn": 0,
+      "ow": "Ritz"
+    },
+    {
+      "id": "s4",
+      "tx": "France visa + docs — check status",
+      "ar": "pers",
+      "pr": "Visa",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "s7",
+      "tx": "Milan flight booking",
+      "ar": "pers",
+      "pr": "Visa",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "id": "s8",
+      "tx": "Bank statement certification",
+      "ar": "pers",
+      "pr": "Visa",
+      "du": null,
+      "ur": "important",
+      "dn": 0
+    },
+    {
+      "title": "Submit interview evaluation for Matt Alejo",
+      "project": "Recruiting",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Ritz",
+      "due": null,
+      "id": "tg1779771754784_0",
+      "dn": 0,
+      "source": "telegram"
+    }
   ]
 }
