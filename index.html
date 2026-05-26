@@ -313,6 +313,20 @@ var PYRAMID=[
 function sv(){try{localStorage.setItem(SKEY,JSON.stringify(S));}catch(e){}}
 
 // ── SYNC — pulls only NEW tasks from data.json (added_at > lastSync) ──
+function normaliseTask(t){
+  return {
+    id: t.id,
+    tx: t.tx || t.title || '',
+    ar: t.ar || t.category || 'case',
+    pr: t.pr || t.project || '',
+    du: t.du || t.due || null,
+    ur: t.ur || t.urgency || 'important',
+    dn: t.dn || 0,
+    added_at: t.added_at || 0,
+    ow: t.ow || t.owner || ''
+  };
+}
+
 function syncNow(){
   var btn=document.getElementById('syncBtn');
   btn.textContent='↓ Syncing...';btn.classList.add('syncing');
@@ -323,11 +337,11 @@ function syncNow(){
       var msIds=new Set(S.milestones.map(function(m){return m.id;}));
       var pjIds=new Set(S.projects.map(function(p){return p.id;}));
       var added=0;
-
       if(remote.tasks){
         remote.tasks.forEach(function(t){
           if(!taskIds.has(t.id)){
-            S.tasks.unshift(t);taskIds.add(t.id);added++;
+            S.tasks.unshift(normaliseTask(t));
+            taskIds.add(t.id);added++;
           }
         });
       }
@@ -379,7 +393,7 @@ function init(){
     fetch('data.json?t='+Date.now())
       .then(function(r){return r.json();})
       .then(function(remote){
-        S.tasks=remote.tasks||[];
+        S.tasks=remote.tasks.map(normaliseTask);
         S.milestones=remote.milestones||[];
         S.projects=remote.projects||[];
         sv();ra();
