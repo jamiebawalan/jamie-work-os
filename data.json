@@ -374,6 +374,30 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779782297185
+    },
+    {
+      "title": "File reimbursement for cocktails night 150k",
+      "project": "SOCCOM",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1779782381361_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779782388885
+    },
+    {
+      "title": "Ask SOCCOM kids to help collect charge codes for cocktails night reimbursement",
+      "project": "SOCCOM",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1779782381361_1",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779782388885
     }
   ],
   "milestones": [
@@ -580,5 +604,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-26T07:58:17.185Z"
+  "last_updated": "2026-05-26T07:59:48.885Z"
 }
