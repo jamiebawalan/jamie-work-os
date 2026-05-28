@@ -591,6 +591,17 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779945389301
+    },
+    {
+      "type": "milestone",
+      "nm": "Send Sec Toni the draft DRR proposal",
+      "pr": "DRR",
+      "dt": "2026-06-01",
+      "nt": "By Monday morning",
+      "id": "ms_1779960913439",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779960913439
     }
   ],
   "projects": [
@@ -723,5 +734,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-28T09:25:52.765Z"
+  "last_updated": "2026-05-28T09:35:13.439Z"
 }
