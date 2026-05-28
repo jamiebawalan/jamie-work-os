@@ -458,6 +458,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779803679637
+    },
+    {
+      "title": "Co-draft email with Ali on ADB resourcing for change request",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-03",
+      "id": "tg1779945262782_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779945303376
     }
   ],
   "milestones": [
@@ -664,5 +676,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-26T13:54:39.637Z"
+  "last_updated": "2026-05-28T05:15:03.376Z"
 }
