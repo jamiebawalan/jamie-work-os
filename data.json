@@ -470,6 +470,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779945303376
+    },
+    {
+      "title": "Send version of the DRR proposal from Naomi to Julian",
+      "project": "DRR",
+      "category": "case",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-05-28",
+      "id": "tg1779945440389_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779945445920
     }
   ],
   "milestones": [
@@ -687,5 +699,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-28T05:16:29.301Z"
+  "last_updated": "2026-05-28T05:17:25.920Z"
 }
