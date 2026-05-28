@@ -482,6 +482,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779945445920
+    },
+    {
+      "title": "Clean up/deconflict schedule for tomorrow",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-05-28",
+      "id": "tg1779945459151_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779945465987
     }
   ],
   "milestones": [
@@ -699,5 +711,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-28T05:17:25.920Z"
+  "last_updated": "2026-05-28T05:17:45.987Z"
 }
