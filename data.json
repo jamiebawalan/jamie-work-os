@@ -494,6 +494,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1779945465987
+    },
+    {
+      "title": "Create deck for discussion with Mayor Menil tomorrow",
+      "project": "Admin",
+      "category": "bd",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-05-28",
+      "id": "tg1779960346183_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1779960352765
     }
   ],
   "milestones": [
@@ -711,5 +723,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-05-28T05:17:45.987Z"
+  "last_updated": "2026-05-28T09:25:52.765Z"
 }
