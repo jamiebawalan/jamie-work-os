@@ -636,6 +636,8 @@ function editNextStep(id){
   if(val===null)return;
   p.nx=val;sv();rProj();toast('Updated');
 }
+
+function addTask(){
   var v=document.getElementById('ti').value.trim();if(!v)return;
   S.tasks.unshift({id:'local_'+Date.now(),tx:v,ar:document.getElementById('ta').value,pr:document.getElementById('tp').value,du:null,ur:document.getElementById('tur').value,dn:0,added_at:Date.now()});
   document.getElementById('ti').value='';sv();ra();toast('Task added');
