@@ -196,10 +196,29 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
 </div>
 
 <!-- MILESTONES -->
-<div class="panel" id="panel-milestones"><div class="card"><div id="ml"></div></div></div>
+<div class="panel" id="panel-milestones">
+  <div class="card"><div id="ml"></div></div>
+  <div class="ar" style="margin-top:8px">
+    <input id="mi-name" placeholder="Milestone name" style="flex:2"/>
+    <select id="mi-pr"><option value="">No project</option><option value="NAP">NAP</option><option value="ADB">ADB</option><option value="TFD">TFD</option><option value="DRR">DRR</option><option value="Meralco">Meralco</option><option value="PrimeEnergy">PrimeEnergy</option><option value="PrimeInfra">PrimeInfra</option><option value="Aboitiz">Aboitiz</option><option value="ACEN">ACEN</option><option value="JGS">JGS</option><option value="Recruiting">Recruiting</option><option value="BD">BD</option></select>
+    <input id="mi-dt" type="date" style="width:130px"/>
+    <input id="mi-nt" placeholder="Note (optional)" style="flex:1"/>
+    <button class="abt" onclick="addMilestone()">+ Add</button>
+  </div>
+</div>
 
 <!-- PROJECTS -->
-<div class="panel" id="panel-projects"><div class="pg" id="pg"></div></div>
+<div class="panel" id="panel-projects">
+  <div class="pg" id="pg"></div>
+  <div class="ar" style="margin-top:8px">
+    <input id="pj-id" placeholder="ID (e.g. NAP)" style="width:90px"/>
+    <input id="pj-nm" placeholder="Project name" style="flex:2"/>
+    <select id="pj-ar"><option value="Case">Case</option><option value="BD">BD</option><option value="Citizenship">Citizenship</option><option value="Personal">Personal</option></select>
+    <select id="pj-st"><option value="ac">Active</option><option value="nw">BD – New</option><option value="bd">BD – Active</option><option value="rl">Relationship</option></select>
+    <input id="pj-nx" placeholder="Next step" style="flex:2"/>
+    <button class="abt" onclick="addProject()">+ Add</button>
+  </div>
+</div>
 
 <!-- PEOPLE -->
 <div class="panel" id="panel-people">
@@ -263,6 +282,11 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
     <div class="spark-wrap" id="sparkWrap"><div class="empty" style="padding:12px">No history yet.</div></div>
     <div class="spark-labels" id="sparkLabels"></div>
   </div>
+</div>
+
+<div style="text-align:center;padding:16px;font-size:11px;color:var(--ink3)">
+  <a href="https://github.com/jamiebawalan/jamie-work-os" target="_blank" style="color:var(--ink3);text-decoration:none;margin-right:12px">GitHub repo</a>
+  <a href="https://jamiebawalan.github.io/jamie-work-os/build_log" target="_blank" style="color:var(--ink3);text-decoration:none">Build log</a>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -334,12 +358,13 @@ function syncNow(){
     .then(function(r){return r.json();})
     .then(function(remote){
       var taskIds=new Set(S.tasks.map(function(t){return t.id;}));
+      var deletedIds=new Set(S.deletedIds||[]);
       var msIds=new Set(S.milestones.map(function(m){return m.id;}));
       var pjIds=new Set(S.projects.map(function(p){return p.id;}));
       var added=0;
       if(remote.tasks){
         remote.tasks.forEach(function(t){
-          if(!taskIds.has(t.id)){
+          if(!taskIds.has(t.id)&&!deletedIds.has(t.id)){
             S.tasks.unshift(normaliseTask(t));
             taskIds.add(t.id);added++;
           }
@@ -511,7 +536,8 @@ function rMil(){
     var lb=new Date(m.dt).toLocaleDateString('en-PH',{month:'short',day:'numeric'});
     return '<div class="mi"><div class="md '+st+'"></div>'+
       '<div style="flex:1"><div class="mn">'+m.nm+'</div><div class="ms">'+m.pr+(m.nt?' · '+m.nt:'')+'</div></div>'+
-      '<div class="mdt '+st+'">'+lb+'</div></div>';
+      '<div class="mdt '+st+'" style="margin-right:8px">'+lb+'</div>'+
+      '<button class="xb" onclick="delMilestone(\''+m.id+'\')" title="Delete">×</button></div>';
   }).join('')||'<div class="empty">No milestones</div>';
 }
 
@@ -522,7 +548,8 @@ function rProj(){
     return '<div class="pc '+(p.st==='nw'?'nw':'')+'">'+
       '<div class="ph"><div><div class="pn">'+p.nm+'</div><div class="pa">'+p.ar+'</div></div>'+
       '<span class="pb '+bc+'">'+p.lb+'</span></div>'+
-      (p.nx?'<div class="pxt">'+p.nx+'</div>':'')+
+      (p.nx?'<div class="pxt" onclick="editNextStep(\''+p.id+'\')" title="Click to edit" style="cursor:pointer">'+p.nx+' ✎</div>':
+       '<div class="pxt" onclick="editNextStep(\''+p.id+'\')" style="cursor:pointer;color:var(--ink3)">+ Add next step</div>')+
       '<div class="pct">'+c+' open task'+(c!==1?'s':'')+'</div></div>';
   }).join('');
 }
@@ -549,6 +576,8 @@ function tog(id){
 }
 
 function del2(id){
+  if(!S.deletedIds)S.deletedIds=[];
+  if(S.deletedIds.indexOf(id)===-1)S.deletedIds.push(id);
   S.tasks=S.tasks.filter(function(x){return x.id!==id;});
   sv();ra();
 }
@@ -560,7 +589,53 @@ function clearDone(){
   sv();ra();toast('Cleared '+count+' task'+(count!==1?'s':''));
 }
 
-function addTask(){
+function addMilestone(){
+  var nm=document.getElementById('mi-name').value.trim();
+  var dt=document.getElementById('mi-dt').value;
+  if(!nm||!dt){toast('Name and date required');return;}
+  var pr=document.getElementById('mi-pr').value;
+  var nt=document.getElementById('mi-nt').value.trim();
+  S.milestones.push({
+    id:'ms_'+Date.now(),
+    nm:nm,pr:pr,dt:dt,nt:nt,
+    color:'var(--amber)'
+  });
+  document.getElementById('mi-name').value='';
+  document.getElementById('mi-dt').value='';
+  document.getElementById('mi-nt').value='';
+  sv();rMil();toast('Milestone added');
+}
+
+function delMilestone(id){
+  S.milestones=S.milestones.filter(function(m){return m.id!==id;});
+  sv();rMil();
+}
+
+function addProject(){
+  var id=document.getElementById('pj-id').value.trim();
+  var nm=document.getElementById('pj-nm').value.trim();
+  if(!id||!nm){toast('ID and name required');return;}
+  var ar=document.getElementById('pj-ar').value;
+  var st=document.getElementById('pj-st').value;
+  var nx=document.getElementById('pj-nx').value.trim();
+  var lb={ac:'Active',nw:'BD – New',bd:'BD – Active',rl:'Relationship'}[st]||'Active';
+  // Update if exists, add if new
+  var existing=S.projects.find(function(p){return p.id===id;});
+  if(existing){existing.nm=nm;existing.nx=nx;existing.st=st;existing.lb=lb;}
+  else S.projects.push({id:id,nm:nm,ar:ar,st:st,lb:lb,nx:nx});
+  document.getElementById('pj-id').value='';
+  document.getElementById('pj-nm').value='';
+  document.getElementById('pj-nx').value='';
+  sv();rProj();toast(existing?'Project updated':'Project added');
+}
+
+function editNextStep(id){
+  var p=S.projects.find(function(x){return x.id===id;});
+  if(!p)return;
+  var val=prompt('Next step for '+p.nm+':',p.nx||'');
+  if(val===null)return;
+  p.nx=val;sv();rProj();toast('Updated');
+}
   var v=document.getElementById('ti').value.trim();if(!v)return;
   S.tasks.unshift({id:'local_'+Date.now(),tx:v,ar:document.getElementById('ta').value,pr:document.getElementById('tp').value,du:null,ur:document.getElementById('tur').value,dn:0,added_at:Date.now()});
   document.getElementById('ti').value='';sv();ra();toast('Task added');
