@@ -554,6 +554,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780283981260
+    },
+    {
+      "title": "Conduct detailed sweep of Narrative report from Design Studios",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780283985672_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780283993071
     }
   ],
   "milestones": [
@@ -782,5 +794,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T03:19:41.260Z"
+  "last_updated": "2026-06-01T03:19:53.071Z"
 }
