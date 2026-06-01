@@ -590,6 +590,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780286013954
+    },
+    {
+      "title": "Refile French visa application",
+      "project": "Visa",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780286164470_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780286176668
     }
   ],
   "milestones": [
@@ -818,5 +830,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T03:53:33.954Z"
+  "last_updated": "2026-06-01T03:56:16.668Z"
 }
