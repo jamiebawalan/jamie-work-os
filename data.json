@@ -686,6 +686,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780304264322
+    },
+    {
+      "title": "Review Ali's Phase 3 proposal plan for ADB",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780308663045_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780308669069
     }
   ],
   "milestones": [
@@ -914,5 +926,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T08:57:44.323Z"
+  "last_updated": "2026-06-01T10:11:09.069Z"
 }
