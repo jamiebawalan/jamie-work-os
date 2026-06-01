@@ -602,6 +602,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780286176668
+    },
+    {
+      "title": "Check with staffing on intern/BA availability",
+      "project": "Recruiting",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Ritz",
+      "due": null,
+      "id": "tg1780292602315_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780292608638
     }
   ],
   "milestones": [
@@ -830,5 +842,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T03:56:16.668Z"
+  "last_updated": "2026-06-01T05:43:28.638Z"
 }
