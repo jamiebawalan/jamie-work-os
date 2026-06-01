@@ -530,6 +530,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780279410746
+    },
+    {
+      "title": "Reach out to Elton Park as per Annika",
+      "project": "CDC",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780279414763_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780279421854
     }
   ],
   "milestones": [
@@ -758,5 +770,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T02:03:30.746Z"
+  "last_updated": "2026-06-01T02:03:41.854Z"
 }
