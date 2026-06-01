@@ -614,6 +614,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780292608638
+    },
+    {
+      "title": "Set up the outreach tracker",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780303212540_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780303219791
     }
   ],
   "milestones": [
@@ -842,5 +854,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T05:43:28.638Z"
+  "last_updated": "2026-06-01T08:40:19.792Z"
 }
