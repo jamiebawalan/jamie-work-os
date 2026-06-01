@@ -674,6 +674,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780303284625
+    },
+    {
+      "title": "Build 1 thing for the Work OS",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780304258217_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780304264322
     }
   ],
   "milestones": [
@@ -902,5 +914,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T08:41:24.625Z"
+  "last_updated": "2026-06-01T08:57:44.323Z"
 }
