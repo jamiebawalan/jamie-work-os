@@ -638,6 +638,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780303236570
+    },
+    {
+      "title": "Set up email template files for AO and JC on the OFW report",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780303248244_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780303254036
     }
   ],
   "milestones": [
@@ -866,5 +878,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T08:40:36.570Z"
+  "last_updated": "2026-06-01T08:40:54.036Z"
 }
