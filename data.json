@@ -662,6 +662,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780303269522
+    },
+    {
+      "title": "Do detailed review of the updated PDF from Design Studios for the OFW report",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780303277373_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780303284625
     }
   ],
   "milestones": [
@@ -890,5 +902,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T08:41:09.522Z"
+  "last_updated": "2026-06-01T08:41:24.625Z"
 }
