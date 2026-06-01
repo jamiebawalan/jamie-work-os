@@ -578,6 +578,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780284252654
+    },
+    {
+      "title": "Ask Michelle G about Gwen's potential secondment",
+      "project": "CDC",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780286006165_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780286013954
     }
   ],
   "milestones": [
@@ -806,5 +818,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T03:24:12.654Z"
+  "last_updated": "2026-06-01T03:53:33.954Z"
 }
