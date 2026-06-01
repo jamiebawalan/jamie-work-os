@@ -518,6 +518,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780279402560
+    },
+    {
+      "title": "Schedule call with Saradha",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780279404519_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780279410746
     }
   ],
   "milestones": [
@@ -746,5 +758,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T02:03:22.561Z"
+  "last_updated": "2026-06-01T02:03:30.746Z"
 }
