@@ -650,6 +650,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780303254036
+    },
+    {
+      "title": "Ask Lance about the printing of the OFW report",
+      "project": "JGS",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780303262705_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780303269522
     }
   ],
   "milestones": [
@@ -878,5 +890,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T08:40:54.036Z"
+  "last_updated": "2026-06-01T08:41:09.522Z"
 }
