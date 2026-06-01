@@ -542,6 +542,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780279421854
+    },
+    {
+      "title": "Do detailed sweep of OFW report PDF from Design Studios",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780283973591_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780283981260
     }
   ],
   "milestones": [
@@ -770,5 +782,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T02:03:41.854Z"
+  "last_updated": "2026-06-01T03:19:41.260Z"
 }
