@@ -566,6 +566,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780283993071
+    },
+    {
+      "title": "Send ADB ACM team the list of user stories from Phase 2",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780284243450_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780284252654
     }
   ],
   "milestones": [
@@ -794,5 +806,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T03:19:53.071Z"
+  "last_updated": "2026-06-01T03:24:12.654Z"
 }
