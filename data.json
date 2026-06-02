@@ -758,6 +758,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780384779109
+    },
+    {
+      "title": "Update link for Julian and AO comments by EOD for the OFW report",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-06-02",
+      "id": "tg1780384796055_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780384802060
     }
   ],
   "milestones": [
@@ -986,5 +998,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-02T07:19:39.109Z"
+  "last_updated": "2026-06-02T07:20:02.060Z"
 }
