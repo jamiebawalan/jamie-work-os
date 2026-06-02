@@ -698,6 +698,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780308669069
+    },
+    {
+      "title": "Inform SOCCOM team of new leadership",
+      "project": "SOCCOM",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-06",
+      "id": "tg1780367331167_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780367337491
     }
   ],
   "milestones": [
@@ -926,5 +938,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-01T10:11:09.069Z"
+  "last_updated": "2026-06-02T02:28:57.491Z"
 }
