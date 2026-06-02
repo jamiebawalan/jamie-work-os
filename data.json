@@ -782,6 +782,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780386266505
+    },
+    {
+      "title": "Send final PDF of OFW report to Lance for printing",
+      "project": "JGS",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-09",
+      "id": "tg1780386273913_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780386281403
     }
   ],
   "milestones": [
@@ -1010,5 +1022,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-02T07:44:26.505Z"
+  "last_updated": "2026-06-02T07:44:41.403Z"
 }
