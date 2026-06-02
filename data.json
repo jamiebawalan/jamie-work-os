@@ -722,6 +722,30 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780369990653
+    },
+    {
+      "title": "Reply to SEA Marketing regarding report finalization",
+      "project": "CDC",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780370621910_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780370627212
+    },
+    {
+      "title": "Loop in Naomi to schedule call to finalize the report within Thursday",
+      "project": "CDC",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-05",
+      "id": "tg1780370621910_1",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780370627212
     }
   ],
   "milestones": [
@@ -950,5 +974,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-02T03:13:10.653Z"
+  "last_updated": "2026-06-02T03:23:47.212Z"
 }
