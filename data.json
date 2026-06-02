@@ -830,6 +830,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780388409904
+    },
+    {
+      "title": "Give Naomi steer on client-ready presentations for OFW report",
+      "project": "CDC",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-08",
+      "id": "tg1780391935634_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780391942436
     }
   ],
   "milestones": [
@@ -1058,5 +1070,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-02T08:20:09.904Z"
+  "last_updated": "2026-06-02T09:19:02.436Z"
 }
