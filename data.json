@@ -962,6 +962,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780459389695
+    },
+    {
+      "title": "Research MGen updates and supply chain for entry points discussion",
+      "project": "Admin",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-18",
+      "id": "tg1780462403114_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780462412338
     }
   ],
   "milestones": [
@@ -1190,5 +1202,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-03T04:03:09.695Z"
+  "last_updated": "2026-06-03T04:53:32.338Z"
 }
