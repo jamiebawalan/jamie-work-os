@@ -854,6 +854,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780451918013
+    },
+    {
+      "title": "Get the Audit Log generated for the ADB CAB approval",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780451926357_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780451934473
     }
   ],
   "milestones": [
@@ -1082,5 +1094,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-03T01:58:38.013Z"
+  "last_updated": "2026-06-03T01:58:54.473Z"
 }
