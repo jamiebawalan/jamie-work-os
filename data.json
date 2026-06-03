@@ -938,6 +938,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780453147034
+    },
+    {
+      "title": "Draft release form for OFW personas photo usage",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780459323135_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780459329347
     }
   ],
   "milestones": [
@@ -1166,5 +1178,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-03T02:19:07.034Z"
+  "last_updated": "2026-06-03T04:02:09.347Z"
 }
