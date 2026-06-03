@@ -914,6 +914,30 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780452916608
+    },
+    {
+      "title": "Respond to Elton Parker for disaster resilience questions",
+      "project": "DRR",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780453133701_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780453147034
+    },
+    {
+      "title": "Get proposals in for disaster resilience project",
+      "project": "DRR",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780453133701_1",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780453147034
     }
   ],
   "milestones": [
@@ -1142,5 +1166,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-03T02:15:16.608Z"
+  "last_updated": "2026-06-03T02:19:07.034Z"
 }
