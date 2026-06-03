@@ -950,6 +950,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780459329347
+    },
+    {
+      "title": "Ask Alex if we can use his photo as the cover",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780459383289_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780459389695
     }
   ],
   "milestones": [
@@ -1178,5 +1190,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-03T04:02:09.347Z"
+  "last_updated": "2026-06-03T04:03:09.695Z"
 }
