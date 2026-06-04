@@ -1022,6 +1022,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780582577666
+    },
+    {
+      "title": "Ask Sek if he's OK to execute the case for the PH government",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780582594588_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780582601515
     }
   ],
   "milestones": [
@@ -1250,5 +1262,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-04T14:16:17.666Z"
+  "last_updated": "2026-06-04T14:16:41.515Z"
 }
