@@ -1034,6 +1034,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780582601515
+    },
+    {
+      "title": "Submit evaluation for Vandana",
+      "project": "Recruiting",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Ritz",
+      "due": "2026-06-08",
+      "id": "tg1780582883398_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780582891163
     }
   ],
   "milestones": [
@@ -1262,5 +1274,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-04T14:16:41.515Z"
+  "last_updated": "2026-06-04T14:21:31.163Z"
 }
