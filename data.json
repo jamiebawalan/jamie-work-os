@@ -998,6 +998,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780582535860
+    },
+    {
+      "title": "Message Gina about results of the meeting with Gov for NAP",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780582551355_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780582557981
     }
   ],
   "milestones": [
@@ -1226,5 +1238,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-04T14:15:35.860Z"
+  "last_updated": "2026-06-04T14:15:57.981Z"
 }
