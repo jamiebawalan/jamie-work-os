@@ -986,6 +986,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780543582547
+    },
+    {
+      "title": "Confirm CCC availability for the MEL interview for NAP",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780582529113_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780582535860
     }
   ],
   "milestones": [
@@ -1214,5 +1226,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-04T03:26:22.547Z"
+  "last_updated": "2026-06-04T14:15:35.860Z"
 }
