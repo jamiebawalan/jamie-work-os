@@ -1082,6 +1082,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780926763232
+    },
+    {
+      "title": "Talk to Gwen about the secondment opportunity + going on flex",
+      "project": "CDC",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780926758746_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780926768329
     }
   ],
   "milestones": [
@@ -1310,5 +1322,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-08T13:52:43.232Z"
+  "last_updated": "2026-06-08T13:52:48.329Z"
 }
