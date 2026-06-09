@@ -1130,6 +1130,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780970516440
+    },
+    {
+      "title": "Summarize interview thoughts for the Filipino report",
+      "project": "Recruiting",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Ritz",
+      "due": null,
+      "id": "tg1780970521487_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780970530378
     }
   ],
   "milestones": [
@@ -1358,5 +1370,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-09T02:01:56.441Z"
+  "last_updated": "2026-06-09T02:02:10.378Z"
 }
