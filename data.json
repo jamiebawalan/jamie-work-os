@@ -1142,6 +1142,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780970530378
+    },
+    {
+      "title": "Talk to London media person in preparation for Filipino abroad report",
+      "project": "SOCCOM",
+      "category": "bd",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780970531202_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780970537998
     }
   ],
   "milestones": [
@@ -1370,5 +1382,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-09T02:02:10.378Z"
+  "last_updated": "2026-06-09T02:02:17.998Z"
 }
