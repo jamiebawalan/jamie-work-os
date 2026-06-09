@@ -1118,6 +1118,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780967228255
+    },
+    {
+      "title": "Do final sweep of the Filipino abroad report",
+      "project": "SOCCOM",
+      "category": "citizenship",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780970508343_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780970516440
     }
   ],
   "milestones": [
@@ -1346,5 +1358,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-09T01:07:08.255Z"
+  "last_updated": "2026-06-09T02:01:56.441Z"
 }
