@@ -1094,6 +1094,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780926768329
+    },
+    {
+      "title": "Send new passport scan to EY for APEC card",
+      "project": "Admin",
+      "category": "citizenship",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780967144833_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780967152940
     }
   ],
   "milestones": [
@@ -1322,5 +1334,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-08T13:52:48.329Z"
+  "last_updated": "2026-06-09T01:05:52.940Z"
 }
