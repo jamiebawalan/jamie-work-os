@@ -1106,6 +1106,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780967152940
+    },
+    {
+      "title": "Cancel the agoda reservations for the France visa",
+      "project": "Visa",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780967220583_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780967228255
     }
   ],
   "milestones": [
@@ -1334,5 +1346,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-09T01:05:52.940Z"
+  "last_updated": "2026-06-09T01:07:08.255Z"
 }
