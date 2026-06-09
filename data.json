@@ -1154,6 +1154,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1780970537998
+    },
+    {
+      "title": "Check Martin comments for the ADB UAT close",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1780972204809_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1780972213122
     }
   ],
   "milestones": [
@@ -1382,5 +1394,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-09T02:02:17.998Z"
+  "last_updated": "2026-06-09T02:30:13.122Z"
 }
