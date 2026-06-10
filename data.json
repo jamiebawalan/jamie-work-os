@@ -1190,6 +1190,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781063745653
+    },
+    {
+      "title": "Deconflict calendars for the France trip with Vandana - dial into call tomorrow",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-06-11",
+      "id": "tg1781063819428_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781063825944
     }
   ],
   "milestones": [
@@ -1418,5 +1430,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-10T03:55:45.653Z"
+  "last_updated": "2026-06-10T03:57:05.944Z"
 }
