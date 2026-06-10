@@ -1214,6 +1214,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781063932537
+    },
+    {
+      "title": "Print proposal copies for Cherrie",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781091036183_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781091043397
     }
   ],
   "milestones": [
@@ -1442,5 +1454,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-10T03:58:52.537Z"
+  "last_updated": "2026-06-10T11:30:43.397Z"
 }
