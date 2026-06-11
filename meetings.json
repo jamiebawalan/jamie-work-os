@@ -1,4 +1,13 @@
 {
-  "last_updated": "2026-05-28T00:00:00.000Z",
-  "meetings": []
+  "last_updated": "2026-06-11T06:47:16.074Z",
+  "meetings": [
+    {
+      "id": "gr1781160435231",
+      "title": "Discussion with Bas",
+      "date": "2026-06-10T09:31:20.756Z",
+      "summary": "Discussed Hormuz implications for MGen (Philippine power utility) with Bas ahead of client meeting. MGen operates 1.3GW coal fleet with 97% Indonesian sourcing (~$170M annual exposure), planning additional 1.2GW coal plant. Key insights: coal competitiveness improved by Hormuz but Indonesian export restrictions driving price floor up; 40% of coal contracts expire end-2026, new contracts likely at higher prices; renewables getting \"new shine\" but grid resilience challenges remain. Bas to share Wood Mackenzie Philippines report, LNG supply-demand data, and Vietnam LNG-to-power frameworks. Jamie to send latest Hormuz materials to Bas for comparison.",
+      "processed": false,
+      "added_at": 1781160436074
+    }
+  ]
 }
