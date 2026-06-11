@@ -161,13 +161,6 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
   <div class="sg" id="sg"></div>
   <div class="card"><div class="sh">Week ahead</div><div id="wk"></div></div>
   <div class="card"><div class="sh">Urgent / due today</div><div id="urg"></div></div>
-  <div class="card">
-    <div class="row-between" style="margin-bottom:10px">
-      <span class="sh" style="margin:0">Neglect radar</span>
-      <button class="bsm" onclick="copyPrompt('Check my neglect radar — what workstreams or relationships have I not touched in a while?')">Ask Claude ↗</button>
-    </div>
-    <div id="rad"></div>
-  </div>
 </div>
 
 <!-- TASKS -->
@@ -317,20 +310,6 @@ var dragId=null;
 var S={tasks:[],milestones:[],projects:[],checkin:[]};
 
 // ── STATIC DATA ──
-var WK=[
-  {lb:'Today — Tue 26',td:1,ch:[{t:'Approve Vandana travel booking',r:1},{t:'ADB end dates reply',r:1},{t:'TFD marketing send',r:1}]},
-  {lb:'Thu 28',td:0,ch:[{t:'TFD 5-page teaser + PPT compendium',r:1}]},
-  {lb:'Sat 31',td:0,ch:[{t:'DRR meeting set',r:1},{t:'OFW alignment meeting',r:1}]},
-  {lb:'Thu 4 Jun',td:0,ch:[{t:'Congressman Benitez lunch (priority)',r:1},{t:'VMC meeting',r:0}]},
-  {lb:'Thu 5 Jun',td:0,ch:[{t:'Aspire Women\'s Event',r:0}]},
-  {lb:'Wed 18 Jun',td:0,ch:[{t:'Jeff Walters visit',r:0}]},
-];
-var NG=[
-  {nm:'PrimeInfra — Guillaume Lucci',ok:0,nt:'Upstream M&A flagged; no recent touchpoint'},
-  {nm:'ACEN — trading & risk pricing',ok:0,nt:'No recent engagement'},
-  {nm:'NAP — James Attwood TOR',ok:0,nt:'Follow-up overdue'},
-  {nm:'SOCCOM',ok:0,nt:'No upcoming events planned'},
-];
 var CONSTELLATION=[
   {initials:'AO',name:'Anthony Oundjian',role:'MD & Senior Partner',tags:['ADB','DRR','PrimeEnergy','SMR'],color:'var(--amber)'},
   {initials:'JC',name:'Julian Cua',role:'Partner',tags:['TFD','ADB','BD'],color:'var(--teal)'},
@@ -452,18 +431,32 @@ function rPending(){
   });
   var html='';
   Object.keys(bySource).forEach(function(src){
-    html+='<div style="font-size:11px;font-weight:700;color:var(--ink2);margin:10px 0 6px">📝 '+src+'</div>';
+    var icon=src.toLowerCase().indexOf('email')>-1||src.toLowerCase().indexOf('sweep')>-1?'📧':'📝';
+    html+='<div style="font-size:11px;font-weight:700;color:var(--ink2);margin:10px 0 6px">'+icon+' '+src+'</div>';
     bySource[src].forEach(function(p){
       var e={urgent:'🔴',important:'🟡',background:'⚪'}[p.ur||p.urgency]||'🟡';
       html+='<div class="tif" style="align-items:center">'+
         '<div style="flex:1"><div style="font-size:12.5px">'+e+' '+(p.tx||p.title)+'</div>'+
-        '<div class="tm"><span class="tg tpr">'+(p.pr||p.project||'?')+'</span>'+(p.du||p.due?'<span class="tdl-ok">'+(p.du||p.due)+'</span>':'')+'</div></div>'+
+        '<div class="tm"><span class="tg tpr">'+(p.pr||p.project||'?')+'</span>'+(p.du||p.due?'<span class="tdl-ok">'+(p.du||p.due)+'</span>':'')+
+        (p.draft?'<span class="tg" style="background:var(--blue-l);color:var(--blue);cursor:pointer" onclick="toggleDraft(\''+p.id+'\')">✉ draft</span>':'')+'</div>'+
+        (p.draft?'<div id="draft-'+p.id+'" style="display:none;margin-top:6px;padding:8px;background:var(--bg2);border:1px solid var(--border);border-radius:6px;font-size:11.5px;line-height:1.5;white-space:pre-wrap">'+p.draft+'<br><button class="bsm" style="margin-top:6px" onclick="copyDraft(\''+p.id+'\')">📋 Copy draft</button></div>':'')+
+        '</div>'+
         '<button class="abt" style="background:var(--green);height:26px;padding:0 10px" onclick="approvePending(\''+p.id+'\')">✓</button>'+
         '<button class="abt" style="background:var(--red);height:26px;padding:0 10px;margin-left:4px" onclick="rejectPending(\''+p.id+'\')">✕</button>'+
         '</div>';
     });
   });
   el.innerHTML=html;
+}
+
+function toggleDraft(id){
+  var d=document.getElementById('draft-'+id);
+  if(d)d.style.display=d.style.display==='none'?'block':'none';
+}
+
+function copyDraft(id){
+  var p=PENDING.find(function(x){return x.id===id;});
+  if(p&&p.draft){navigator.clipboard.writeText(p.draft).then(function(){toast('Draft copied');});}
 }
 
 function markProcessed(id){
@@ -559,7 +552,7 @@ function toast(msg){var t=document.getElementById('toast');t.textContent=msg;t.c
 function copyPrompt(p){navigator.clipboard.writeText(p).then(function(){toast('Copied — paste into Claude');});}
 
 // ── RENDER ──
-function ra(){rSt();rWk();rUrg();rRad();rTasks();rMil();rProj();rPeople();rCheckinMetrics();rHistory();}
+function ra(){rSt();rWk();rUrg();rTasks();rMil();rProj();rPeople();rCheckinMetrics();rHistory();}
 
 function rSt(){
   var op=S.tasks.filter(function(t){return !t.dn;}).length;
@@ -577,23 +570,54 @@ function rSt(){
 }
 
 function rWk(){
-  var days=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-  var now=new Date();
-  document.getElementById('wk').innerHTML=WK.map(function(d){
-    return '<div class="dr"><div class="dlb">'+d.lb+(d.td?' <span class="dp">today</span>':'')+'</div><div>'+
-      d.ch.map(function(c){return '<span class="ch '+(c.r?'red':'')+'">'+(c.r?'⚡ ':'')+c.t+'</span>';}).join('')+'</div></div>';
+  var today=new Date();today.setHours(0,0,0,0);
+  var horizon=new Date(today);horizon.setDate(horizon.getDate()+14);
+  // upcoming, not-done milestones within 14 days
+  var up=S.milestones.filter(function(m){
+    if(m.dn)return false;
+    var d=new Date(m.dt);d.setHours(0,0,0,0);
+    return d>=today&&d<=horizon;
+  }).sort(function(a,b){return new Date(a.dt)-new Date(b.dt);});
+
+  if(!up.length){
+    document.getElementById('wk').innerHTML='<div class="empty">No milestones in the next 14 days. Add one in the Milestones tab.</div>';
+    return;
+  }
+  // group by date
+  var byDate={};
+  up.forEach(function(m){
+    if(!byDate[m.dt])byDate[m.dt]=[];
+    byDate[m.dt].push(m);
+  });
+  var html=Object.keys(byDate).sort().map(function(dt){
+    var d=new Date(dt);d.setHours(0,0,0,0);
+    var diff=Math.round((d-today)/86400000);
+    var isToday=diff===0;
+    var wd=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()];
+    var lb=wd+' '+d.toLocaleDateString('en-PH',{month:'short',day:'numeric'});
+    var proximity=diff<=2?'red':diff<=6?'amber':'green';
+    return '<div class="dr"><div class="dlb">'+lb+(isToday?' <span class="dp">today</span>':'')+'</div><div>'+
+      byDate[dt].map(function(m){
+        var col=proximity==='red'?'red':'';
+        return '<span class="ch '+col+'" style="cursor:pointer" onclick="togMilestone(\''+m.id+'\')" title="Tap to mark complete">'+
+          '<span style="opacity:.5;margin-right:4px">○</span>'+m.nm+(m.pr?' · '+m.pr:'')+'</span>';
+      }).join('')+'</div></div>';
   }).join('');
+  document.getElementById('wk').innerHTML=html;
+}
+
+function togMilestone(id){
+  var m=S.milestones.find(function(x){return x.id===id;});
+  if(!m)return;
+  m.dn=m.dn?0:1;
+  sv();
+  if(m.dn)toast('✓ '+m.nm.slice(0,40));
+  rWk();rMil();
 }
 
 function rUrg(){
   var u=S.tasks.filter(function(t){return !t.dn&&t.ur==='urgent';});
   document.getElementById('urg').innerHTML=u.length?u.map(thFlat).join(''):'<div class="empty">Nothing urgent 🎉</div>';
-}
-
-function rRad(){
-  document.getElementById('rad').innerHTML=NG.map(function(n){
-    return '<div class="ri"><div class="rd '+(n.ok?'ok':'wn')+'"></div><div><div style="font-size:12.5px;font-weight:500">'+n.nm+'</div><div style="font-size:11px;color:var(--ink3)">'+n.nt+'</div></div></div>';
-  }).join('');
 }
 
 function thFlat(t){
@@ -631,15 +655,50 @@ function rTasks(){
 }
 
 function rMil(){
-  var sorted=[].concat(S.milestones).sort(function(a,b){return new Date(a.dt)-new Date(b.dt);});
-  document.getElementById('ml').innerHTML=sorted.map(function(m){
+  var showDone=S.showCompletedMs||false;
+  var list=[].concat(S.milestones);
+  // active first (by date), then completed (by date) at the bottom
+  list.sort(function(a,b){
+    if((a.dn?1:0)!==(b.dn?1:0))return (a.dn?1:0)-(b.dn?1:0);
+    return new Date(a.dt)-new Date(b.dt);
+  });
+  if(!showDone)list=list.filter(function(m){return !m.dn;});
+  var doneCount=S.milestones.filter(function(m){return m.dn;}).length;
+
+  var rows=list.map(function(m){
     var st=mst(m.dt);
     var lb=new Date(m.dt).toLocaleDateString('en-PH',{month:'short',day:'numeric'});
-    return '<div class="mi"><div class="md '+st+'"></div>'+
+    if(m.dn){
+      return '<div class="mi" style="opacity:.5">'+
+        '<div class="cb dn" onclick="togMilestone(\''+m.id+'\')" style="margin-right:8px"></div>'+
+        '<div style="flex:1"><div class="mn" style="text-decoration:line-through">'+m.nm+'</div><div class="ms">'+m.pr+(m.nt?' · '+m.nt:'')+'</div></div>'+
+        '<div class="mdt" style="margin-right:8px">'+lb+'</div>'+
+        '<button class="xb" onclick="delMilestone(\''+m.id+'\')" title="Delete">×</button></div>';
+    }
+    return '<div class="mi">'+
+      '<div class="cb" onclick="togMilestone(\''+m.id+'\')" style="margin-right:8px"></div>'+
       '<div style="flex:1"><div class="mn">'+m.nm+'</div><div class="ms">'+m.pr+(m.nt?' · '+m.nt:'')+'</div></div>'+
-      '<div class="mdt '+st+'" style="margin-right:8px">'+lb+'</div>'+
+      '<div class="mdt '+st+'" style="margin-right:8px;cursor:pointer" onclick="editMilestoneDate(\''+m.id+'\')" title="Tap to change date">'+lb+' ✎</div>'+
       '<button class="xb" onclick="delMilestone(\''+m.id+'\')" title="Delete">×</button></div>';
   }).join('')||'<div class="empty">No milestones</div>';
+
+  var toggle=doneCount>0?'<div style="text-align:right;margin-top:10px"><span style="font-size:11px;color:var(--ink3);cursor:pointer" onclick="toggleCompletedMs()">'+(showDone?'Hide':'Show')+' completed ('+doneCount+')</span></div>':'';
+  document.getElementById('ml').innerHTML=rows+toggle;
+}
+
+function toggleCompletedMs(){
+  S.showCompletedMs=!S.showCompletedMs;
+  sv();rMil();
+}
+
+function editMilestoneDate(id){
+  var m=S.milestones.find(function(x){return x.id===id;});
+  if(!m)return;
+  var nd=prompt('New date (YYYY-MM-DD):',m.dt);
+  if(!nd)return;
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(nd)){toast('Use YYYY-MM-DD format');return;}
+  m.dt=nd;
+  sv();rMil();rWk();toast('Date updated');
 }
 
 function rProj(){
@@ -698,18 +757,18 @@ function addMilestone(){
   var nt=document.getElementById('mi-nt').value.trim();
   S.milestones.push({
     id:'ms_'+Date.now(),
-    nm:nm,pr:pr,dt:dt,nt:nt,
+    nm:nm,pr:pr,dt:dt,nt:nt,dn:0,
     color:'var(--amber)'
   });
   document.getElementById('mi-name').value='';
   document.getElementById('mi-dt').value='';
   document.getElementById('mi-nt').value='';
-  sv();rMil();toast('Milestone added');
+  sv();rMil();rWk();toast('Milestone added');
 }
 
 function delMilestone(id){
   S.milestones=S.milestones.filter(function(m){return m.id!==id;});
-  sv();rMil();
+  sv();rMil();rWk();
 }
 
 function addProject(){
