@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T06:47:15.231Z",
+  "last_updated": "2026-06-11T06:50:51.768Z",
   "pending": [
     {
       "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
@@ -11,6 +11,17 @@
       "source": "Discussion with Bas",
       "dn": 0,
       "added_at": 1781160435231
+    },
+    {
+      "tx": "Follow up with Gwen after she assesses family situation post-trip to discuss flex arrangement decision and firm requirements",
+      "pr": "CDC",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-12",
+      "id": "gr1781160651768_0",
+      "source": "Catch-up with Gwen",
+      "dn": 0,
+      "added_at": 1781160651768
     }
   ]
 }
