@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T06:50:51.768Z",
+  "last_updated": "2026-06-11T09:00:58.542Z",
   "pending": [
     {
       "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
@@ -22,6 +22,39 @@
       "source": "Catch-up with Gwen",
       "dn": 0,
       "added_at": 1781160651768
+    },
+    {
+      "tx": "Provide 1-2 pages on FCDO agri value chain work for JICA pre-RFP meeting",
+      "pr": "Admin",
+      "ar": "bd",
+      "ur": "urgent",
+      "du": "2026-06-16",
+      "id": "gr1781168458542_0",
+      "source": "Discussion with Mari of JICA",
+      "dn": 0,
+      "added_at": 1781168458542
+    },
+    {
+      "tx": "Include 1-2 key hypotheses/pointed questions for Mari to test with JICA division head",
+      "pr": "Admin",
+      "ar": "bd",
+      "ur": "urgent",
+      "du": "2026-06-16",
+      "id": "gr1781168458542_1",
+      "source": "Discussion with Mari of JICA",
+      "dn": 0,
+      "added_at": 1781168458542
+    },
+    {
+      "tx": "Set overall hypothesis and direction for JICA proposal after RFP release on June 17",
+      "pr": "Admin",
+      "ar": "bd",
+      "ur": "important",
+      "du": "2026-06-25",
+      "id": "gr1781168458542_2",
+      "source": "Discussion with Mari of JICA",
+      "dn": 0,
+      "added_at": 1781168458542
     }
   ]
 }
