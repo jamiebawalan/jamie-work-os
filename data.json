@@ -1286,6 +1286,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781156160148
+    },
+    {
+      "title": "Write evaluation for Moad in case Ali needs help",
+      "project": "ADB",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781161733377_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781161739777
     }
   ],
   "milestones": [
@@ -1514,5 +1526,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T05:36:00.148Z"
+  "last_updated": "2026-06-11T07:08:59.777Z"
 }
