@@ -1250,6 +1250,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781143373725
+    },
+    {
+      "title": "Finalize linkedin captions for the OFW report",
+      "project": "SOCCOM",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781156099953_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781156108764
     }
   ],
   "milestones": [
@@ -1478,5 +1490,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T02:02:53.725Z"
+  "last_updated": "2026-06-11T05:35:08.764Z"
 }
