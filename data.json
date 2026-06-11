@@ -1310,6 +1310,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781165218474
+    },
+    {
+      "title": "Find the coal price increase page for the MGEN proposal",
+      "project": "Meralco",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781169788626_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781169794579
     }
   ],
   "milestones": [
@@ -1538,5 +1550,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T08:06:58.474Z"
+  "last_updated": "2026-06-11T09:23:14.579Z"
 }
