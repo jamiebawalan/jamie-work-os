@@ -1262,6 +1262,30 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781156108764
+    },
+    {
+      "title": "Ask Naomi to share meeting tracker with Tina for OFW reach-outs",
+      "project": "CDC",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781156151586_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781156160148
+    },
+    {
+      "title": "Have 3-week ahead view of content ready",
+      "project": "CDC",
+      "category": "case",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-16",
+      "id": "tg1781156151586_1",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781156160148
     }
   ],
   "milestones": [
@@ -1490,5 +1514,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T05:35:08.764Z"
+  "last_updated": "2026-06-11T05:36:00.148Z"
 }
