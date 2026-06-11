@@ -1298,6 +1298,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781161739777
+    },
+    {
+      "title": "Process new meetings from meetings.json into account MD files",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781165212057_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781165218474
     }
   ],
   "milestones": [
@@ -1526,5 +1538,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T07:08:59.777Z"
+  "last_updated": "2026-06-11T08:06:58.474Z"
 }
