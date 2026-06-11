@@ -147,6 +147,7 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
   <button class="nb" data-p="projects">Projects</button>
   <button class="nb" data-p="people">People</button>
   <button class="nb" data-p="capture">Capture</button>
+  <button class="nb" data-p="pending">Pending <span id="pendBadge" style="display:none;background:var(--red);color:white;border-radius:10px;padding:0 5px;font-size:9px;margin-left:2px"></span></button>
   <button class="nb" data-p="inbox">Inbox</button>
   <button class="nb" data-p="checkin">Check-in</button>
   <div class="nav-right">
@@ -237,6 +238,22 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
       <button class="bsm" onclick="relay('email')">Draft email ↗</button>
       <button class="bsm" onclick="relay('summarise')">Summarise ↗</button>
       <button class="bsm" onclick="relay('mirror')">Leadership mirror ↗</button>
+    </div>
+  </div>
+</div>
+
+<!-- PENDING -->
+<div class="panel" id="panel-pending">
+  <div class="card">
+    <div class="row-between" style="margin-bottom:10px">
+      <span class="sh" style="margin:0">Pending review — from Granola</span>
+      <button class="sync-btn" onclick="loadPending()">↻ Refresh</button>
+    </div>
+    <div style="font-size:11px;color:var(--ink3);margin-bottom:12px">Tasks extracted from meeting notes. Approve to add to your task list, or reject to discard.</div>
+    <div id="pendList"><div class="empty">No pending tasks. Refresh to check for new ones.</div></div>
+    <div id="pendActions" style="display:none;margin-top:12px;gap:8px;display:none">
+      <button class="abt" onclick="approveAllPending()" style="background:var(--green)">✓ Approve all</button>
+      <button class="abt" onclick="rejectAllPending()" style="background:var(--red)">✕ Reject all</button>
     </div>
   </div>
 </div>
@@ -394,6 +411,90 @@ function syncNow(){
       btn.textContent='↓ Sync';btn.classList.remove('syncing');
       toast('Sync failed — check connection');
     });
+}
+
+// ── PENDING REVIEW (Granola via Zapier) ──
+var PENDING=[];
+
+function loadPending(){
+  fetch('https://raw.githubusercontent.com/jamiebawalan/jamie-work-os/main/pending.json?t='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(data){
+      PENDING=(data.pending||[]).filter(function(p){
+        // hide already-processed ones tracked in localStorage
+        var processed=S.processedPending||[];
+        return processed.indexOf(p.id)===-1;
+      });
+      rPending();
+    })
+    .catch(function(){toast('Could not load pending');});
+}
+
+function rPending(){
+  var badge=document.getElementById('pendBadge');
+  if(PENDING.length>0){badge.style.display='inline-block';badge.textContent=PENDING.length;}
+  else badge.style.display='none';
+
+  var el=document.getElementById('pendList');
+  var actions=document.getElementById('pendActions');
+  if(!PENDING.length){
+    el.innerHTML='<div class="empty">No pending tasks. Refresh to check for new ones.</div>';
+    actions.style.display='none';
+    return;
+  }
+  actions.style.display='flex';
+  // group by meeting source
+  var bySource={};
+  PENDING.forEach(function(p){
+    var src=p.source||'Meeting';
+    if(!bySource[src])bySource[src]=[];
+    bySource[src].push(p);
+  });
+  var html='';
+  Object.keys(bySource).forEach(function(src){
+    html+='<div style="font-size:11px;font-weight:700;color:var(--ink2);margin:10px 0 6px">📝 '+src+'</div>';
+    bySource[src].forEach(function(p){
+      var e={urgent:'🔴',important:'🟡',background:'⚪'}[p.ur||p.urgency]||'🟡';
+      html+='<div class="tif" style="align-items:center">'+
+        '<div style="flex:1"><div style="font-size:12.5px">'+e+' '+(p.tx||p.title)+'</div>'+
+        '<div class="tm"><span class="tg tpr">'+(p.pr||p.project||'?')+'</span>'+(p.du||p.due?'<span class="tdl-ok">'+(p.du||p.due)+'</span>':'')+'</div></div>'+
+        '<button class="abt" style="background:var(--green);height:26px;padding:0 10px" onclick="approvePending(\''+p.id+'\')">✓</button>'+
+        '<button class="abt" style="background:var(--red);height:26px;padding:0 10px;margin-left:4px" onclick="rejectPending(\''+p.id+'\')">✕</button>'+
+        '</div>';
+    });
+  });
+  el.innerHTML=html;
+}
+
+function markProcessed(id){
+  if(!S.processedPending)S.processedPending=[];
+  if(S.processedPending.indexOf(id)===-1)S.processedPending.push(id);
+}
+
+function approvePending(id){
+  var p=PENDING.find(function(x){return x.id===id;});
+  if(!p)return;
+  S.tasks.unshift(normaliseTask(p));
+  markProcessed(id);
+  PENDING=PENDING.filter(function(x){return x.id!==id;});
+  sv();rPending();ra();toast('Approved');
+}
+
+function rejectPending(id){
+  markProcessed(id);
+  PENDING=PENDING.filter(function(x){return x.id!==id;});
+  sv();rPending();toast('Rejected');
+}
+
+function approveAllPending(){
+  PENDING.forEach(function(p){S.tasks.unshift(normaliseTask(p));markProcessed(p.id);});
+  var n=PENDING.length;PENDING=[];
+  sv();rPending();ra();toast('Approved '+n+' tasks');
+}
+
+function rejectAllPending(){
+  PENDING.forEach(function(p){markProcessed(p.id);});
+  PENDING=[];sv();rPending();toast('All rejected');
 }
 
 // ── INIT — load localStorage only, never overwrite ──
@@ -748,6 +849,7 @@ function switchTo(p){
   document.querySelector('[data-p='+p+']').classList.add('on');
   document.getElementById('panel-'+p).classList.add('on');
   if(p==='checkin'){rCheckinMetrics();rHistory();}
+  if(p==='pending'){loadPending();}
 }
 document.getElementById('nav').addEventListener('click',function(e){
   var b=e.target.closest('[data-p]');if(!b)return;switchTo(b.dataset.p);
@@ -760,6 +862,7 @@ document.getElementById('fb').addEventListener('click',function(e){
 document.getElementById('ti').addEventListener('keydown',function(e){if(e.key==='Enter')addTask();});
 
 init();
+loadPending();
 </script>
 </body>
 </html>
