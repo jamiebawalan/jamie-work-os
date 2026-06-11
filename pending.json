@@ -1,4 +1,16 @@
 {
-  "last_updated": "2026-05-28T00:00:00.000Z",
-  "pending": []
+  "last_updated": "2026-06-11T06:47:15.231Z",
+  "pending": [
+    {
+      "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
+      "pr": "Meralco",
+      "ar": "case",
+      "ur": "important",
+      "du": "2026-06-12",
+      "id": "gr1781160435231_0",
+      "source": "Discussion with Bas",
+      "dn": 0,
+      "added_at": 1781160435231
+    }
+  ]
 }
