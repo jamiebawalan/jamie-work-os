@@ -1346,6 +1346,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452865452
+    },
+    {
+      "title": "Ask Anthony about charge code for Bas",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "background",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781452861005_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452871025
     }
   ],
   "milestones": [
@@ -1574,5 +1586,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:01:05.452Z"
+  "last_updated": "2026-06-14T16:01:11.025Z"
 }
