@@ -1334,6 +1334,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452861170
+    },
+    {
+      "title": "Respond to Bas Percial",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781452858636_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452865452
     }
   ],
   "milestones": [
@@ -1562,5 +1574,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:01:01.170Z"
+  "last_updated": "2026-06-14T16:01:05.452Z"
 }
