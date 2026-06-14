@@ -1358,6 +1358,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452871025
+    },
+    {
+      "title": "Discuss FCDO budget with Julian Toogood - close out audit questions",
+      "project": "TFD",
+      "category": "case",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-06-15",
+      "id": "tg1781452877725_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452884943
     }
   ],
   "milestones": [
@@ -1586,5 +1598,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:01:11.025Z"
+  "last_updated": "2026-06-14T16:01:24.943Z"
 }
