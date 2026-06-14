@@ -1370,6 +1370,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452884943
+    },
+    {
+      "title": "Book flight for Bacolod urgently",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-06-14",
+      "id": "tg1781452892971_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452901137
     }
   ],
   "milestones": [
@@ -1598,5 +1610,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:01:24.943Z"
+  "last_updated": "2026-06-14T16:01:41.137Z"
 }
