@@ -1394,6 +1394,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452923049
+    },
+    {
+      "title": "Close out printing for OFW report",
+      "project": "SOCCOM",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781452927365_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452934207
     }
   ],
   "milestones": [
@@ -1622,5 +1634,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:02:03.049Z"
+  "last_updated": "2026-06-14T16:02:14.207Z"
 }
