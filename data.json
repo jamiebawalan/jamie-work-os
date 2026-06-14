@@ -1322,6 +1322,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781169794579
+    },
+    {
+      "title": "Send out pack for the Mgen call on thursday",
+      "project": "NAP",
+      "category": "case",
+      "urgency": "urgent",
+      "owner": "Me",
+      "due": "2026-06-17",
+      "id": "tg1781452851493_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781452861170
     }
   ],
   "milestones": [
@@ -1550,5 +1562,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-11T09:23:14.579Z"
+  "last_updated": "2026-06-14T16:01:01.170Z"
 }
