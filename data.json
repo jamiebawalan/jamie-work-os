@@ -1466,6 +1466,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781517681348
+    },
+    {
+      "title": "Tell Archie we can invoice to BCG",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781517686118_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781517693666
     }
   ],
   "milestones": [
@@ -1694,5 +1706,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-15T10:01:21.348Z"
+  "last_updated": "2026-06-15T10:01:33.666Z"
 }
