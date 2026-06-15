@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T06:34:52.474Z",
+  "last_updated": "2026-06-15T10:02:14.806Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -40,6 +40,14 @@
       "summary": "Jamie discussed TFD report media strategy with Eugenia, planning broadcast interviews and op-ed placement. **Key decisions**: BusinessWorld remains default for op-ed placement; Jamie will front at least one broadcast interview after completing media training. **Timeline constraints**: Jamie leaves June 23rd, but Lance returns end of June to take over reviews. **Energy BD focus**: Post-call with Naomi prioritized Meralco over Aboitiz, targeting their distributed energy resources (DER) growth strategy including rooftop solar retail business. **Next steps**: Jamie to align with Anthony today on interview timeline, draft op-ed framework before leave, with Naomi researching BCG materials on downstream solar and B2C retail electricity.",
       "processed": false,
       "added_at": 1781505292474
+    },
+    {
+      "id": "gr1781517733818",
+      "title": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "date": "2026-06-15T09:44:24.226Z",
+      "summary": "Team preparing for Thursday briefing with comprehensive media strategy including op-ed, live interviews, and social amplification. Media coaching completed for $800 (reimbursable), found valuable for executive presence training. Briefing deck ready with potential acknowledgment of new US-Iran deal. Knowledge management pain point identified - scattered files across OneDrives with no shared workspace. Perry to train team on shared directory structure for better collaboration.",
+      "processed": false,
+      "added_at": 1781517734806
     }
   ]
 }
