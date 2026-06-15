@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T09:00:58.542Z",
+  "last_updated": "2026-06-15T04:40:16.609Z",
   "pending": [
     {
       "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
@@ -55,6 +55,61 @@
       "source": "Discussion with Mari of JICA",
       "dn": 0,
       "added_at": 1781168458542
+    },
+    {
+      "tx": "Review and keep both video recordings as benchmark references before each interview",
+      "pr": "Admin",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-16",
+      "id": "gr1781498416608_0",
+      "source": "Media interview prep — OFW report, key messages, and tough questions",
+      "dn": 0,
+      "added_at": 1781498416609
+    },
+    {
+      "tx": "Study left-field questions prepared by Archie for self-assurance",
+      "pr": "Admin",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-17",
+      "id": "gr1781498416608_1",
+      "source": "Media interview prep — OFW report, key messages, and tough questions",
+      "dn": 0,
+      "added_at": 1781498416609
+    },
+    {
+      "tx": "Find out BCG's next research focus after OFW report to answer 'what's next' questions",
+      "pr": "Admin",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-18",
+      "id": "gr1781498416608_2",
+      "source": "Media interview prep — OFW report, key messages, and tough questions",
+      "dn": 0,
+      "added_at": 1781498416609
+    },
+    {
+      "tx": "Start using communication techniques (STP eye contact, tricolon, PEP, ICA/PPP, pause instead of 'I think') in day-to-day appearances",
+      "pr": "Admin",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-16",
+      "id": "gr1781498416608_3",
+      "source": "Media interview prep — OFW report, key messages, and tough questions",
+      "dn": 0,
+      "added_at": 1781498416609
+    },
+    {
+      "tx": "Review post-coaching notes from Archie (Bawalan framework plus additional notes)",
+      "pr": "Admin",
+      "ar": "pers",
+      "ur": "important",
+      "du": "2026-06-17",
+      "id": "gr1781498416608_4",
+      "source": "Media interview prep — OFW report, key messages, and tough questions",
+      "dn": 0,
+      "added_at": 1781498416609
     }
   ]
 }
