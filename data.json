@@ -1430,6 +1430,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781496751919
+    },
+    {
+      "title": "Complete AI Proficiency L2",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-22",
+      "id": "tg1781508401767_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781508407548
     }
   ],
   "milestones": [
@@ -1658,5 +1670,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-15T04:12:31.919Z"
+  "last_updated": "2026-06-15T07:26:47.548Z"
 }
