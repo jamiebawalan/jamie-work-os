@@ -1442,6 +1442,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781508407548
+    },
+    {
+      "title": "Check unbilled days personally from October to April",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": null,
+      "id": "tg1781514837034_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781514845165
     }
   ],
   "milestones": [
@@ -1670,5 +1682,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-15T07:26:47.548Z"
+  "last_updated": "2026-06-15T09:14:05.165Z"
 }
