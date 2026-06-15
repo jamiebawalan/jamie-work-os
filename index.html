@@ -136,8 +136,21 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
 .people-sub{font-size:11px;color:var(--ink3);margin-bottom:10px;padding:0 4px}
 ::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
 </style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
+
+<!-- LOGIN OVERLAY -->
+<div id="loginOverlay" style="display:none;position:fixed;inset:0;background:var(--bg);z-index:9999;align-items:center;justify-content:center;flex-direction:column;font-family:'DM Sans',sans-serif">
+  <div style="background:white;border:1px solid var(--border);border-radius:14px;padding:32px;width:320px;max-width:90vw;box-shadow:0 8px 40px rgba(0,0,0,.08)">
+    <div style="font-family:'Libre Baskerville',serif;font-size:22px;margin-bottom:4px">Work<span style="color:var(--amber)">OS</span></div>
+    <div style="font-size:12px;color:var(--ink2);margin-bottom:20px">Sign in to access your workspace</div>
+    <input id="loginEmail" type="email" placeholder="Email" style="width:100%;padding:10px;border:1px solid var(--border2);border-radius:8px;margin-bottom:8px;font-size:13px;font-family:inherit">
+    <input id="loginPass" type="password" placeholder="Password" style="width:100%;padding:10px;border:1px solid var(--border2);border-radius:8px;margin-bottom:14px;font-size:13px;font-family:inherit">
+    <button onclick="doLogin()" style="width:100%;padding:11px;background:var(--amber);color:white;border:none;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit">Sign in</button>
+    <div id="loginErr" style="font-size:11.5px;color:var(--red);margin-top:10px;display:none"></div>
+  </div>
+</div>
 
 <div class="nav" id="nav">
   <div class="nav-brand">Work<span>OS</span></div>
@@ -151,7 +164,7 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
   <button class="nb" data-p="inbox">Inbox</button>
   <button class="nb" data-p="checkin">Check-in</button>
   <div class="nav-right">
-    <button class="sync-btn" id="syncBtn" onclick="syncNow()">↓ Sync</button>
+    <button class="sync-btn" id="syncBtn" onclick="refreshFromCloud()">↻ Refresh</button>
     <div class="frag-pill" id="fragPill" onclick="switchTo('checkin')">Frag —</div>
   </div>
 </div>
@@ -233,6 +246,14 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
       <button class="bsm" onclick="relay('mirror')">Leadership mirror ↗</button>
     </div>
   </div>
+  <div class="card">
+    <div class="sh">Cloud &amp; account</div>
+    <div style="font-size:11px;color:var(--ink3);margin-bottom:10px">Your data syncs across devices via Supabase. Run the migration once, from the device that holds your real task list.</div>
+    <div style="display:flex;gap:7px;flex-wrap:wrap">
+      <button class="bsm" onclick="migrateToCloud()">⬆ Migrate local data to cloud (one-time)</button>
+      <button class="bsm" onclick="signOut()">Sign out</button>
+    </div>
+  </div>
 </div>
 
 <!-- PENDING -->
@@ -306,6 +327,11 @@ var SKEY='jb_wos_v4';
 var AF='all';
 var dragId=null;
 
+// ── SUPABASE CONFIG ──
+var SB_URL='https://fcpvzxfcocxegunttahg.supabase.co';
+var SB_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjcHZ6eGZjb2N4ZWd1bnR0YWhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE1MDU2MDksImV4cCI6MjA5NzA4MTYwOX0.yZcQBghKAivSRJgP9wf9o17Y_IoF02xXS2S5HHz527U';
+var sb=supabase.createClient(SB_URL,SB_KEY);
+
 // ── STATE ──
 var S={tasks:[],milestones:[],projects:[],checkin:[]};
 
@@ -330,9 +356,9 @@ var PYRAMID=[
 ];
 
 // ── STORAGE ──
+// localStorage is now only an offline cache. Supabase is the source of truth.
 function sv(){try{localStorage.setItem(SKEY,JSON.stringify(S));}catch(e){}}
 
-// ── SYNC — pulls only NEW tasks from data.json (added_at > lastSync) ──
 function normaliseTask(t){
   return {
     id: t.id,
@@ -347,66 +373,72 @@ function normaliseTask(t){
   };
 }
 
-function syncNow(){
-  var btn=document.getElementById('syncBtn');
-  btn.textContent='↓ Syncing...';btn.classList.add('syncing');
-  fetch('data.json?t='+Date.now())
-    .then(function(r){return r.json();})
-    .then(function(remote){
-      var taskIds=new Set(S.tasks.map(function(t){return t.id;}));
-      var deletedIds=new Set(S.deletedIds||[]);
-      var msIds=new Set(S.milestones.map(function(m){return m.id;}));
-      var pjIds=new Set(S.projects.map(function(p){return p.id;}));
-      var added=0;
-      if(remote.tasks){
-        remote.tasks.forEach(function(t){
-          if(!taskIds.has(t.id)&&!deletedIds.has(t.id)){
-            S.tasks.unshift(normaliseTask(t));
-            taskIds.add(t.id);added++;
-          }
-        });
-      }
-      if(remote.milestones){
-        remote.milestones.forEach(function(m){
-          if(!msIds.has(m.id)){S.milestones.push(m);msIds.add(m.id);}
-        });
-      }
-      if(remote.projects){
-        remote.projects.forEach(function(p){
-          if(pjIds.has(p.id)){
-            var ex=S.projects.find(function(x){return x.id===p.id;});
-            if(ex)ex.nx=p.nx;
-          } else {S.projects.push(p);pjIds.add(p.id);}
-        });
-      }
-      sv();ra();
-      btn.textContent=added>0?'↓ +'+added+' new':'↓ Up to date';
-      btn.classList.remove('syncing');
-      setTimeout(function(){btn.textContent='↓ Sync';},3000);
-      if(added>0)toast('Synced '+added+' new task'+(added!==1?'s':''));
-      else toast('Already up to date');
-    })
-    .catch(function(){
-      btn.textContent='↓ Sync';btn.classList.remove('syncing');
-      toast('Sync failed — check connection');
-    });
+// ── AUTH ──
+function showLogin(){document.getElementById('loginOverlay').style.display='flex';}
+function hideLogin(){document.getElementById('loginOverlay').style.display='none';}
+
+function doLogin(){
+  var email=document.getElementById('loginEmail').value.trim();
+  var pass=document.getElementById('loginPass').value;
+  var err=document.getElementById('loginErr');
+  err.style.display='none';
+  sb.auth.signInWithPassword({email:email,password:pass}).then(function(res){
+    if(res.error){err.textContent=res.error.message;err.style.display='block';return;}
+    hideLogin();
+    loadFromCloud();
+  });
 }
 
-// ── PENDING REVIEW (Granola via Zapier) ──
+function signOut(){sb.auth.signOut().then(function(){location.reload();});}
+
+// ── CLOUD LOAD ──
+function loadFromCloud(){
+  var btn=document.getElementById('syncBtn');
+  if(btn){btn.textContent='↻ Loading...';btn.classList.add('syncing');}
+  Promise.all([
+    sb.from('tasks').select('*'),
+    sb.from('milestones').select('*'),
+    sb.from('projects').select('*')
+  ]).then(function(results){
+    var tErr=results[0].error,mErr=results[1].error,pErr=results[2].error;
+    if(tErr||mErr||pErr){
+      if(btn){btn.textContent='↻ Refresh';btn.classList.remove('syncing');}
+      toast('Cloud load failed — using cached copy');
+      return;
+    }
+    S.tasks=(results[0].data||[]).map(normaliseTask);
+    S.milestones=results[1].data||[];
+    S.projects=results[2].data||[];
+    // checkin stays local
+    try{var raw=localStorage.getItem(SKEY);if(raw){var saved=JSON.parse(raw);S.checkin=saved.checkin||[];}}catch(e){}
+    sv();ra();loadPending();
+    if(btn){btn.textContent='↻ Refresh';btn.classList.remove('syncing');}
+  });
+}
+
+function refreshFromCloud(){loadFromCloud();toast('Refreshed');}
+
+// ── CLOUD WRITE HELPERS (fire-and-forget, with toast on error) ──
+function cloudUpsert(table,row){
+  sb.from(table).upsert(row).then(function(res){
+    if(res.error)toast('Save failed: '+res.error.message);
+  });
+}
+function cloudDelete(table,id){
+  sb.from(table).delete().eq('id',id).then(function(res){
+    if(res.error)toast('Delete failed: '+res.error.message);
+  });
+}
+
+// ── PENDING REVIEW (Granola) — now from Supabase ──
 var PENDING=[];
 
 function loadPending(){
-  fetch('https://raw.githubusercontent.com/jamiebawalan/jamie-work-os/main/pending.json?t='+Date.now())
-    .then(function(r){return r.json();})
-    .then(function(data){
-      PENDING=(data.pending||[]).filter(function(p){
-        // hide already-processed ones tracked in localStorage
-        var processed=S.processedPending||[];
-        return processed.indexOf(p.id)===-1;
-      });
-      rPending();
-    })
-    .catch(function(){toast('Could not load pending');});
+  sb.from('pending').select('*').then(function(res){
+    if(res.error){toast('Could not load pending');return;}
+    PENDING=res.data||[];
+    rPending();
+  });
 }
 
 function rPending(){
@@ -422,7 +454,6 @@ function rPending(){
     return;
   }
   actions.style.display='flex';
-  // group by meeting source
   var bySource={};
   PENDING.forEach(function(p){
     var src=p.source||'Meeting';
@@ -459,80 +490,82 @@ function copyDraft(id){
   if(p&&p.draft){navigator.clipboard.writeText(p.draft).then(function(){toast('Draft copied');});}
 }
 
-function markProcessed(id){
-  if(!S.processedPending)S.processedPending=[];
-  if(S.processedPending.indexOf(id)===-1)S.processedPending.push(id);
-}
-
 function approvePending(id){
   var p=PENDING.find(function(x){return x.id===id;});
   if(!p)return;
-  S.tasks.unshift(normaliseTask(p));
-  markProcessed(id);
+  var task=normaliseTask(p);
+  S.tasks.unshift(task);
+  cloudUpsert('tasks',{id:task.id,tx:task.tx,ar:task.ar,pr:task.pr,du:task.du||null,ur:task.ur,dn:0,ow:task.ow||null,added_at:task.added_at||Date.now()});
+  cloudDelete('pending',id);
   PENDING=PENDING.filter(function(x){return x.id!==id;});
   sv();rPending();ra();toast('Approved');
 }
 
 function rejectPending(id){
-  markProcessed(id);
+  cloudDelete('pending',id);
   PENDING=PENDING.filter(function(x){return x.id!==id;});
-  sv();rPending();toast('Rejected');
+  rPending();toast('Rejected');
 }
 
 function approveAllPending(){
-  PENDING.forEach(function(p){S.tasks.unshift(normaliseTask(p));markProcessed(p.id);});
+  PENDING.forEach(function(p){
+    var task=normaliseTask(p);
+    S.tasks.unshift(task);
+    cloudUpsert('tasks',{id:task.id,tx:task.tx,ar:task.ar,pr:task.pr,du:task.du||null,ur:task.ur,dn:0,ow:task.ow||null,added_at:task.added_at||Date.now()});
+    cloudDelete('pending',p.id);
+  });
   var n=PENDING.length;PENDING=[];
   sv();rPending();ra();toast('Approved '+n+' tasks');
 }
 
 function rejectAllPending(){
-  PENDING.forEach(function(p){markProcessed(p.id);});
-  PENDING=[];sv();rPending();toast('All rejected');
+  PENDING.forEach(function(p){cloudDelete('pending',p.id);});
+  PENDING=[];rPending();toast('All rejected');
 }
 
-// ── INIT — load localStorage only, never overwrite ──
+// ── ONE-TIME MIGRATION — push current localStorage state up to Supabase ──
+function migrateToCloud(){
+  if(!confirm('Push your current local tasks/milestones/projects up to Supabase? Run this ONCE from the device that has your real task list.'))return;
+  var raw=localStorage.getItem(SKEY);
+  if(!raw){toast('No local data found');return;}
+  var local=JSON.parse(raw);
+  var tasks=(local.tasks||[]).map(function(t){var n=normaliseTask(t);return {id:n.id,tx:n.tx,ar:n.ar,pr:n.pr,du:n.du||null,ur:n.ur,dn:n.dn,ow:n.ow||null,added_at:n.added_at||Date.now()};});
+  var ms=(local.milestones||[]).map(function(m){return {id:m.id,nm:m.nm,pr:m.pr||null,dt:m.dt||null,nt:m.nt||null,dn:m.dn||0,added_at:m.added_at||Date.now()};});
+  var pj=(local.projects||[]).map(function(p){return {id:p.id,nm:p.nm||null,ar:p.ar||null,st:p.st||null,lb:p.lb||null,nx:p.nx||null,added_at:p.added_at||Date.now()};});
+  Promise.all([
+    tasks.length?sb.from('tasks').upsert(tasks):Promise.resolve({}),
+    ms.length?sb.from('milestones').upsert(ms):Promise.resolve({}),
+    pj.length?sb.from('projects').upsert(pj):Promise.resolve({})
+  ]).then(function(r){
+    var err=r[0].error||r[1].error||r[2].error;
+    if(err){toast('Migration error: '+err.message);return;}
+    toast('Migrated '+tasks.length+' tasks, '+ms.length+' milestones, '+pj.length+' projects');
+    loadFromCloud();
+  });
+}
+
+// ── INIT — check auth, then load from cloud (cache-first paint) ──
 function init(){
-  var loaded=false;
+  // paint from cache immediately for speed
   try{
     var raw=localStorage.getItem(SKEY);
     if(raw){
       var saved=JSON.parse(raw);
-      if(saved&&saved.tasks&&saved.tasks.length>0){
-        S.tasks=saved.tasks;
-        S.milestones=saved.milestones||[];
-        S.projects=saved.projects||[];
-        S.checkin=saved.checkin||[];
-        loaded=true;
-      }
+      S.tasks=(saved.tasks||[]).map(normaliseTask);
+      S.milestones=saved.milestones||[];
+      S.projects=saved.projects||[];
+      S.checkin=saved.checkin||[];
     }
   }catch(e){}
-
-  if(!loaded){
-    // First ever load — seed from data.json
-    fetch('data.json?t='+Date.now())
-      .then(function(r){return r.json();})
-      .then(function(remote){
-        S.tasks=remote.tasks.map(normaliseTask);
-        S.milestones=remote.milestones||[];
-        S.projects=remote.projects||[];
-        sv();ra();
-      })
-      .catch(function(){ra();});
-  } else {
-    // Always re-seed milestones and projects from data.json if missing
-    if(S.milestones.length===0||S.projects.length===0){
-      fetch('data.json?t='+Date.now())
-        .then(function(r){return r.json();})
-        .then(function(remote){
-          if(S.milestones.length===0)S.milestones=remote.milestones||[];
-          if(S.projects.length===0)S.projects=remote.projects||[];
-          sv();ra();
-        })
-        .catch(function(){ra();});
+  ra();
+  // then check auth + load fresh from cloud
+  sb.auth.getSession().then(function(res){
+    if(res.data.session){
+      loadFromCloud();
     } else {
-      ra();
+      showLogin();
     }
-  }
+  });
 }
 
 // ── UTILS ──
@@ -610,7 +643,7 @@ function togMilestone(id){
   var m=S.milestones.find(function(x){return x.id===id;});
   if(!m)return;
   m.dn=m.dn?0:1;
-  sv();
+  sv();cloudUpsert('milestones',{id:m.id,nm:m.nm,pr:m.pr||null,dt:m.dt||null,nt:m.nt||null,dn:m.dn,added_at:m.added_at||Date.now()});
   if(m.dn)toast('✓ '+m.nm.slice(0,40));
   rWk();rMil();
 }
@@ -698,7 +731,8 @@ function editMilestoneDate(id){
   if(!nd)return;
   if(!/^\d{4}-\d{2}-\d{2}$/.test(nd)){toast('Use YYYY-MM-DD format');return;}
   m.dt=nd;
-  sv();rMil();rWk();toast('Date updated');
+  sv();cloudUpsert('milestones',{id:m.id,nm:m.nm,pr:m.pr||null,dt:m.dt||null,nt:m.nt||null,dn:m.dn||0,added_at:m.added_at||Date.now()});
+  rMil();rWk();toast('Date updated');
 }
 
 function rProj(){
@@ -732,19 +766,20 @@ function tog(id){
   var t=S.tasks.find(function(x){return x.id===id;});
   if(!t)return;t.dn=t.dn?0:1;
   if(t.dn){var card=document.getElementById('card-'+id);if(card)card.classList.add('completing');toast('✓ '+t.tx.slice(0,40));}
-  sv();setTimeout(function(){ra();},t.dn?650:0);
+  sv();cloudUpsert('tasks',{id:t.id,tx:t.tx,ar:t.ar,pr:t.pr,du:t.du||null,ur:t.ur,dn:t.dn,ow:t.ow||null,added_at:t.added_at||Date.now()});
+  setTimeout(function(){ra();},t.dn?650:0);
 }
 
 function del2(id){
-  if(!S.deletedIds)S.deletedIds=[];
-  if(S.deletedIds.indexOf(id)===-1)S.deletedIds.push(id);
   S.tasks=S.tasks.filter(function(x){return x.id!==id;});
+  cloudDelete('tasks',id);
   sv();ra();
 }
 
 function clearDone(){
   var count=S.tasks.filter(function(t){return t.dn;}).length;
   if(!count){toast('No completed tasks');return;}
+  S.tasks.filter(function(t){return t.dn;}).forEach(function(t){cloudDelete('tasks',t.id);});
   S.tasks=S.tasks.filter(function(t){return !t.dn;});
   sv();ra();toast('Cleared '+count+' task'+(count!==1?'s':''));
 }
@@ -755,11 +790,9 @@ function addMilestone(){
   if(!nm||!dt){toast('Name and date required');return;}
   var pr=document.getElementById('mi-pr').value;
   var nt=document.getElementById('mi-nt').value.trim();
-  S.milestones.push({
-    id:'ms_'+Date.now(),
-    nm:nm,pr:pr,dt:dt,nt:nt,dn:0,
-    color:'var(--amber)'
-  });
+  var m={id:'ms_'+Date.now(),nm:nm,pr:pr,dt:dt,nt:nt,dn:0,added_at:Date.now()};
+  S.milestones.push(m);
+  cloudUpsert('milestones',{id:m.id,nm:m.nm,pr:m.pr||null,dt:m.dt||null,nt:m.nt||null,dn:0,added_at:m.added_at});
   document.getElementById('mi-name').value='';
   document.getElementById('mi-dt').value='';
   document.getElementById('mi-nt').value='';
@@ -768,6 +801,7 @@ function addMilestone(){
 
 function delMilestone(id){
   S.milestones=S.milestones.filter(function(m){return m.id!==id;});
+  cloudDelete('milestones',id);
   sv();rMil();rWk();
 }
 
@@ -783,6 +817,8 @@ function addProject(){
   var existing=S.projects.find(function(p){return p.id===id;});
   if(existing){existing.nm=nm;existing.nx=nx;existing.st=st;existing.lb=lb;}
   else S.projects.push({id:id,nm:nm,ar:ar,st:st,lb:lb,nx:nx});
+  var saved=S.projects.find(function(p){return p.id===id;});
+  cloudUpsert('projects',{id:saved.id,nm:saved.nm||null,ar:saved.ar||null,st:saved.st||null,lb:saved.lb||null,nx:saved.nx||null,added_at:saved.added_at||Date.now()});
   document.getElementById('pj-id').value='';
   document.getElementById('pj-nm').value='';
   document.getElementById('pj-nx').value='';
@@ -794,12 +830,16 @@ function editNextStep(id){
   if(!p)return;
   var val=prompt('Next step for '+p.nm+':',p.nx||'');
   if(val===null)return;
-  p.nx=val;sv();rProj();toast('Updated');
+  p.nx=val;
+  cloudUpsert('projects',{id:p.id,nm:p.nm||null,ar:p.ar||null,st:p.st||null,lb:p.lb||null,nx:p.nx||null,added_at:p.added_at||Date.now()});
+  sv();rProj();toast('Updated');
 }
 
 function addTask(){
   var v=document.getElementById('ti').value.trim();if(!v)return;
-  S.tasks.unshift({id:'local_'+Date.now(),tx:v,ar:document.getElementById('ta').value,pr:document.getElementById('tp').value,du:null,ur:document.getElementById('tur').value,dn:0,added_at:Date.now()});
+  var t={id:'local_'+Date.now(),tx:v,ar:document.getElementById('ta').value,pr:document.getElementById('tp').value,du:null,ur:document.getElementById('tur').value,dn:0,added_at:Date.now()};
+  S.tasks.unshift(t);
+  cloudUpsert('tasks',{id:t.id,tx:t.tx,ar:t.ar,pr:t.pr,du:null,ur:t.ur,dn:0,ow:null,added_at:t.added_at});
   document.getElementById('ti').value='';sv();ra();toast('Task added');
 }
 
@@ -812,7 +852,7 @@ function addTask(){
     e.preventDefault();lane.classList.remove('drag-over');
     if(!dragId)return;
     var t=S.tasks.find(function(x){return x.id===dragId;});
-    if(t&&t.ur!==u){t.ur=u;sv();ra();toast('Moved to '+u);}
+    if(t&&t.ur!==u){t.ur=u;cloudUpsert('tasks',{id:t.id,tx:t.tx,ar:t.ar,pr:t.pr,du:t.du||null,ur:t.ur,dn:t.dn,ow:t.ow||null,added_at:t.added_at||Date.now()});sv();ra();toast('Moved to '+u);}
     dragId=null;
   });
 });
@@ -920,8 +960,10 @@ document.getElementById('fb').addEventListener('click',function(e){
 });
 document.getElementById('ti').addEventListener('keydown',function(e){if(e.key==='Enter')addTask();});
 
+// allow Enter key on login
+document.getElementById('loginPass').addEventListener('keydown',function(e){if(e.key==='Enter')doLogin();});
+
 init();
-loadPending();
 </script>
 </body>
 </html>
