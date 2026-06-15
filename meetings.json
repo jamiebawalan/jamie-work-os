@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T10:02:14.806Z",
+  "last_updated": "2026-06-15T10:21:55.996Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -48,6 +48,14 @@
       "summary": "Team preparing for Thursday briefing with comprehensive media strategy including op-ed, live interviews, and social amplification. Media coaching completed for $800 (reimbursable), found valuable for executive presence training. Briefing deck ready with potential acknowledgment of new US-Iran deal. Knowledge management pain point identified - scattered files across OneDrives with no shared workspace. Perry to train team on shared directory structure for better collaboration.",
       "processed": false,
       "added_at": 1781517734806
+    },
+    {
+      "id": "gr1781518915055",
+      "title": "New note",
+      "date": "2026-06-15T08:29:23.232Z",
+      "summary": "Met with foundation team about straw innovation pilot funding - they require 50% co-funding and detailed concept note covering commercial model (straw harvest, mushroom growing, compost), philanthropic capital justification, and scaling pathway. Key commercial discussions underway with Manila tech company for mushroom supply and large carbon credit buyer for compost facility at 24 tons/day. Separately addressed FCDO budget scrutiny of £2.3M charges - need to capture unbilled investment days and justify blended rate structure across four workstreams (Negros/Ilo deepening, Bukidnon/Isabela expansion, DOF adaptation platform, capacity building). Foundation approval process allows up to SGD 1M monthly, above that quarterly board approval required.",
+      "processed": false,
+      "added_at": 1781518915055
     }
   ]
 }
