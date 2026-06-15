@@ -1406,6 +1406,18 @@
       "dn": 0,
       "source": "telegram",
       "added_at": 1781452934207
+    },
+    {
+      "title": "Schedule catch up with Marko after his flight lands",
+      "project": "Admin",
+      "category": "personal",
+      "urgency": "important",
+      "owner": "Me",
+      "due": "2026-06-18",
+      "id": "tg1781482998855_0",
+      "dn": 0,
+      "source": "telegram",
+      "added_at": 1781483005109
     }
   ],
   "milestones": [
@@ -1634,5 +1646,5 @@
       "nx": "Docs + flight + bank statement pending"
     }
   ],
-  "last_updated": "2026-06-14T16:02:14.207Z"
+  "last_updated": "2026-06-15T00:23:25.109Z"
 }
