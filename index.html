@@ -251,6 +251,7 @@ input[type=range]{position:absolute;top:-8px;left:0;width:100%;opacity:0;cursor:
     <div style="font-size:11px;color:var(--ink3);margin-bottom:10px">Your data syncs across devices via Supabase. Run the migration once, from the device that holds your real task list.</div>
     <div style="display:flex;gap:7px;flex-wrap:wrap">
       <button class="bsm" onclick="migrateToCloud()">⬆ Migrate local data to cloud (one-time)</button>
+      <button class="bsm" onclick="recoverFromDataJson()">⟳ Recover from data.json backup</button>
       <button class="bsm" onclick="signOut()">Sign out</button>
     </div>
   </div>
@@ -406,9 +407,21 @@ function loadFromCloud(){
       toast('Cloud load failed — using cached copy');
       return;
     }
-    S.tasks=(results[0].data||[]).map(normaliseTask);
-    S.milestones=results[1].data||[];
-    S.projects=results[2].data||[];
+    var cloudTasks=(results[0].data||[]).map(normaliseTask);
+    var cloudMs=results[1].data||[];
+    var cloudPj=results[2].data||[];
+    // GUARD: never destroy a non-empty local cache with an empty cloud (prevents data loss before migration)
+    if(cloudTasks.length===0&&cloudMs.length===0&&cloudPj.length===0){
+      if(S.tasks.length>0||S.milestones.length>0||S.projects.length>0){
+        if(btn){btn.textContent='↻ Refresh';btn.classList.remove('syncing');}
+        toast('Cloud empty — local data kept. Use Migrate to push it up.');
+        loadPending();
+        return;
+      }
+    }
+    S.tasks=cloudTasks;
+    S.milestones=cloudMs;
+    S.projects=cloudPj;
     // checkin stays local
     try{var raw=localStorage.getItem(SKEY);if(raw){var saved=JSON.parse(raw);S.checkin=saved.checkin||[];}}catch(e){}
     sv();ra();loadPending();
@@ -542,6 +555,29 @@ function migrateToCloud(){
     toast('Migrated '+tasks.length+' tasks, '+ms.length+' milestones, '+pj.length+' projects');
     loadFromCloud();
   });
+}
+
+// ── RECOVERY — rebuild cloud from the data.json backup on GitHub ──
+function recoverFromDataJson(){
+  if(!confirm('Rebuild your task list from the data.json backup and push it to the cloud? Use this only if your local data was lost. Note: completed/done states may reset to not-done.'))return;
+  fetch('data.json?t='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(remote){
+      var tasks=(remote.tasks||[]).map(function(t){var n=normaliseTask(t);return {id:n.id,tx:n.tx,ar:n.ar,pr:n.pr,du:n.du||null,ur:n.ur,dn:n.dn,ow:n.ow||null,added_at:n.added_at||Date.now()};});
+      var ms=(remote.milestones||[]).map(function(m){return {id:m.id,nm:m.nm,pr:m.pr||null,dt:m.dt||null,nt:m.nt||null,dn:m.dn||0,added_at:m.added_at||Date.now()};});
+      var pj=(remote.projects||[]).map(function(p){return {id:p.id,nm:p.nm||null,ar:p.ar||null,st:p.st||null,lb:p.lb||null,nx:p.nx||null,added_at:p.added_at||Date.now()};});
+      Promise.all([
+        tasks.length?sb.from('tasks').upsert(tasks):Promise.resolve({}),
+        ms.length?sb.from('milestones').upsert(ms):Promise.resolve({}),
+        pj.length?sb.from('projects').upsert(pj):Promise.resolve({})
+      ]).then(function(r){
+        var err=r[0].error||r[1].error||r[2].error;
+        if(err){toast('Recovery error: '+err.message);return;}
+        toast('Recovered '+tasks.length+' tasks from backup');
+        loadFromCloud();
+      });
+    })
+    .catch(function(){toast('Could not load data.json backup');});
 }
 
 // ── INIT — check auth, then load from cloud (cache-first paint) ──
