@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T04:40:17.440Z",
+  "last_updated": "2026-06-15T06:34:52.474Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -32,6 +32,14 @@
       "summary": "Jamie completed media interview coaching with Archie focused on the upcoming OFW report launch. Key decisions included establishing three Must-Win Attributes (expert, impactful, looks after country's development) and three key messages about the OFW experience being emotionally complex, having levers to make sacrifice worthwhile, and concrete interventions for return. Jamie practiced handling tough questions including methodology challenges, political comparisons, and accusations of painting too rosy a picture. Two video recordings were completed showing significant improvement in warmth, pacing, and executive presence. Jamie will receive post-coaching notes and must prepare for anticipated challenging questions while practicing new communication techniques daily.",
       "processed": false,
       "added_at": 1781498417440
+    },
+    {
+      "id": "gr1781505291543",
+      "title": "Discussion with Eugenia",
+      "date": "2026-06-15T06:00:01.808Z",
+      "summary": "Jamie discussed TFD report media strategy with Eugenia, planning broadcast interviews and op-ed placement. **Key decisions**: BusinessWorld remains default for op-ed placement; Jamie will front at least one broadcast interview after completing media training. **Timeline constraints**: Jamie leaves June 23rd, but Lance returns end of June to take over reviews. **Energy BD focus**: Post-call with Naomi prioritized Meralco over Aboitiz, targeting their distributed energy resources (DER) growth strategy including rooftop solar retail business. **Next steps**: Jamie to align with Anthony today on interview timeline, draft op-ed framework before leave, with Naomi researching BCG materials on downstream solar and B2C retail electricity.",
+      "processed": false,
+      "added_at": 1781505292474
     }
   ]
 }
