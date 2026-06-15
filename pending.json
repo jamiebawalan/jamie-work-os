@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T04:40:16.609Z",
+  "last_updated": "2026-06-15T06:34:51.543Z",
   "pending": [
     {
       "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
@@ -110,6 +110,39 @@
       "source": "Media interview prep — OFW report, key messages, and tough questions",
       "dn": 0,
       "added_at": 1781498416609
+    },
+    {
+      "tx": "Align with Anthony on broadcast interview timeline and media outreach approach",
+      "pr": "TFD",
+      "ar": "bd",
+      "ur": "urgent",
+      "du": "2026-06-15",
+      "id": "gr1781505291543_0",
+      "source": "Discussion with Eugenia",
+      "dn": 0,
+      "added_at": 1781505291543
+    },
+    {
+      "tx": "Update Eugenia on Slack after connecting with Anthony",
+      "pr": "TFD",
+      "ar": "bd",
+      "ur": "urgent",
+      "du": "2026-06-15",
+      "id": "gr1781505291543_1",
+      "source": "Discussion with Eugenia",
+      "dn": 0,
+      "added_at": 1781505291543
+    },
+    {
+      "tx": "Draft op-ed framework/brief for Josh before going on leave",
+      "pr": "TFD",
+      "ar": "bd",
+      "ur": "important",
+      "du": "2026-06-23",
+      "id": "gr1781505291543_2",
+      "source": "Discussion with Eugenia",
+      "dn": 0,
+      "added_at": 1781505291543
     }
   ]
 }
