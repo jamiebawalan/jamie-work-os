@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T06:34:51.543Z",
+  "last_updated": "2026-06-15T10:02:13.818Z",
   "pending": [
     {
       "tx": "Send Hormuz pack version from two weeks ago to Bas for comparison",
@@ -143,6 +143,61 @@
       "source": "Discussion with Eugenia",
       "dn": 0,
       "added_at": 1781505291543
+    },
+    {
+      "tx": "Follow up on Katia interview thread - send link to see if live interview works",
+      "pr": "TFD",
+      "ar": "case",
+      "ur": "important",
+      "du": "2026-06-16",
+      "id": "gr1781517733818_0",
+      "source": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "dn": 0,
+      "added_at": 1781517733818
+    },
+    {
+      "tx": "Ask Eugenia to scrape all media outlets and email other networks directly for media coverage",
+      "pr": "TFD",
+      "ar": "case",
+      "ur": "important",
+      "du": "2026-06-16",
+      "id": "gr1781517733818_1",
+      "source": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "dn": 0,
+      "added_at": 1781517733818
+    },
+    {
+      "tx": "Offer live interview slots to Filipino media contacts (Monday onward after holiday)",
+      "pr": "TFD",
+      "ar": "case",
+      "ur": "important",
+      "du": "2026-06-23",
+      "id": "gr1781517733818_2",
+      "source": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "dn": 0,
+      "added_at": 1781517733818
+    },
+    {
+      "tx": "Send deck link and agenda note to all briefing attendees",
+      "pr": "TFD",
+      "ar": "case",
+      "ur": "urgent",
+      "du": "2026-06-15",
+      "id": "gr1781517733818_3",
+      "source": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "dn": 0,
+      "added_at": 1781517733818
+    },
+    {
+      "tx": "Reimburse ~$800 media coaching via Eugenia's code or Filipino entity charge",
+      "pr": "TFD",
+      "ar": "case",
+      "ur": "background",
+      "du": "2026-06-16",
+      "id": "gr1781517733818_4",
+      "source": "Media outreach, coaching, and deck prep for upcoming briefing",
+      "dn": 0,
+      "added_at": 1781517733818
     }
   ]
 }
