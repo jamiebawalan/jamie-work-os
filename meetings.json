@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T10:21:55.996Z",
+  "last_updated": "2026-06-24T05:58:56.631Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -56,6 +56,14 @@
       "summary": "Met with foundation team about straw innovation pilot funding - they require 50% co-funding and detailed concept note covering commercial model (straw harvest, mushroom growing, compost), philanthropic capital justification, and scaling pathway. Key commercial discussions underway with Manila tech company for mushroom supply and large carbon credit buyer for compost facility at 24 tons/day. Separately addressed FCDO budget scrutiny of £2.3M charges - need to capture unbilled investment days and justify blended rate structure across four workstreams (Negros/Ilo deepening, Bukidnon/Isabela expansion, DOF adaptation platform, capacity building). Foundation approval process allows up to SGD 1M monthly, above that quarterly board approval required.",
       "processed": false,
       "added_at": 1781518915055
+    },
+    {
+      "id": "gr1782280735177",
+      "title": "Naomi discussion",
+      "date": "2026-06-24T05:46:51.556Z",
+      "summary": "Jamie held a 1:1 debrief with Naomi (CDC) covering her performance over the past four weeks across DRR, Meralco/MGen, and related workstreams. Overall assessment is positive — no performance concerns — with notable strengths in intellectual curiosity and improved slide structuring, backed by praise from Julian and Anthony. Jamie strongly encouraged Naomi to give honest feedback on the Maxes case evaluation form, emphasizing real career implications for the PL and no blowback risk for Naomi. Development areas identified include investing time in keyboard shortcuts and switching note-taking from iPhone to laptop to reduce workflow friction.",
+      "processed": false,
+      "added_at": 1782280735177
     }
   ]
 }
