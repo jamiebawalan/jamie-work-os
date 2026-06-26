@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T05:58:56.631Z",
+  "last_updated": "2026-06-26T06:19:31.917Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -64,6 +64,14 @@
       "summary": "Jamie held a 1:1 debrief with Naomi (CDC) covering her performance over the past four weeks across DRR, Meralco/MGen, and related workstreams. Overall assessment is positive — no performance concerns — with notable strengths in intellectual curiosity and improved slide structuring, backed by praise from Julian and Anthony. Jamie strongly encouraged Naomi to give honest feedback on the Maxes case evaluation form, emphasizing real career implications for the PL and no blowback risk for Naomi. Development areas identified include investing time in keyboard shortcuts and switching note-taking from iPhone to laptop to reduce workflow friction.",
       "processed": false,
       "added_at": 1782280735177
+    },
+    {
+      "id": "gr1782454770419",
+      "title": "Too Big workshop debrief — farmer engagement and right-of-way strategy",
+      "date": "2026-06-26T05:30:55.387Z",
+      "summary": "The TuBig workshop went well with Mark keen on fast execution; BCG's role will be farmer engagement and price testing while TuBig handles landowner negotiations, with weekly working sessions planned from mid-July. The Heads of Terms document was scoped into five sections (context/objectives, target business model, project structure, phasing/scale-up, project financials) written as a non-binding private-to-public-sector commitment targeting the provincial government as signatory, with a milestone-based refinancing clause to be added if partners commit below full ambition. Milestone 3 draft is targeted for completion next week after the post check-in, with Jan doing heads-down work on the financial model rebuild and Negros farm visits. Key open questions include: how to size the TuBig irrigation component and test a community-only infrastructure model without bulk water, and whether Keynes & Stables can be secured as a second hub (otherwise sizing to one hub at ~100M/year). On return from leave, Jamie's priorities are DA meetings in Negros/Iloilo, Cherry partnership sessions, the Jerome working session, and convincing Gina to accept private sector co-financing for the NEF model.",
+      "processed": false,
+      "added_at": 1782454770419
     }
   ]
 }
