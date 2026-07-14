@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T06:19:31.917Z",
+  "last_updated": "2026-07-14T04:11:07.816Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -72,6 +72,14 @@
       "summary": "The TuBig workshop went well with Mark keen on fast execution; BCG's role will be farmer engagement and price testing while TuBig handles landowner negotiations, with weekly working sessions planned from mid-July. The Heads of Terms document was scoped into five sections (context/objectives, target business model, project structure, phasing/scale-up, project financials) written as a non-binding private-to-public-sector commitment targeting the provincial government as signatory, with a milestone-based refinancing clause to be added if partners commit below full ambition. Milestone 3 draft is targeted for completion next week after the post check-in, with Jan doing heads-down work on the financial model rebuild and Negros farm visits. Key open questions include: how to size the TuBig irrigation component and test a community-only infrastructure model without bulk water, and whether Keynes & Stables can be secured as a second hub (otherwise sizing to one hub at ~100M/year). On return from leave, Jamie's priorities are DA meetings in Negros/Iloilo, Cherry partnership sessions, the Jerome working session, and convincing Gina to accept private sector co-financing for the NEF model.",
       "processed": false,
       "added_at": 1782454770419
+    },
+    {
+      "id": "gr1784002266926",
+      "title": "Meralco BD",
+      "date": "2026-07-13T07:00:39.965Z",
+      "summary": "The call with Marco and Anthony focused on sharpening the Meralco BD strategy around two core problems: revenue contraction from retail open access and rooftop solar (~80% driven by 100kW+ consumer defection), and a $5B capex program over five years under ERC rate review. The team aligned on anchoring as **transformation partners** rather than strategy advisors, leading with cost optimization (Aleander/Sembcorp model) and DR/VPP business-build (Octopus model), with AI positioned as an enabler rather than the headline. Andrew remains the best access point and Jamie will restart discussions soon with concrete examples and expert connections rather than a full perspective. MGEN renewables/dispatch optimization is on hold pending Marco's follow-up with their renewable CEO.",
+      "processed": false,
+      "added_at": 1784002266926
     }
   ]
 }
