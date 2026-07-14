@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T04:11:18.340Z",
+  "last_updated": "2026-07-14T08:15:01.531Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -88,6 +88,14 @@
       "summary": "ADB and MAS are commissioning a flagship guide on risk management for ASEAN Power Grid interconnector projects, with a draft due end of December 2026 and final by February 2027. A pre-proposal pitch is expected the week of 27 July or 3 August; Jamie will serve in a PL or capacity-support role behind Joel, who will quarterback pitch prep and lead the storyline with 2–3 CTMs per week. The critical gap is deep power-sector risk allocation expertise, particularly EU cross-border cost allocation practitioners; internal candidates (Marco, Pietro, Marco Toneguti, Andrew Clairholt, Phil Hirchan) are being assessed and a GLG-type search may supplement. On the ACE front, BCG's MOU has been approved by ACE's board and Jamie must present at ACE's management meeting on Friday 17 July to define BCG's specific APG support areas, positioning BCG as the orchestrator across ADB, ACE, and other actors given the fragmented landscape of independent studies.",
       "processed": false,
       "added_at": 1784002277446
+    },
+    {
+      "id": "gr1784016900234",
+      "title": "TF Workshop:",
+      "date": "2026-07-14T06:05:22.227Z",
+      "summary": "The TF workshop aligned on **sustainable rice systems** (Column 3) as the primary narrative anchor for the Temasek Foundation concept note, with climate (CO2 avoided) and farmer income uplift as co-benefits and secondary indicators. Key metrics agreed: additional tons of rice added to the system (pre- and post-farm gate), farmer income uplift, and CO2 avoided; financial sustainability of operators is a minimum requirement rather than a standalone KPI. The Year 1 pilot target was expanded to **1,000 hectares** funded by 2M SGD (1M Temasek + 1M co-funding) structured as a one-year project, with a Year 3 ambition of 25,000 hectares aligned to the 2030 high-climate-risk cropland threshold; additional funding for Years 2–3 will need to be raised in parallel. The MOU with Iloilo Provincial Government is in community review and is expected to be signed before the British Ambassador visit on **August 6**; Jaron (now Acting Provincial Agriculturist) will be engaged Thursday to confirm timeline and baseline data. Open questions include: final clarification of Temasek's CapEx/OpEx and in-kind co-funding rules, how operator financial sustainability will be formally measured, and which national government agencies to invite to the IBC event.",
+      "processed": false,
+      "added_at": 1784016900234
     }
   ]
 }
