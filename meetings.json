@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T08:15:01.531Z",
+  "last_updated": "2026-07-14T08:42:06.864Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -96,6 +96,14 @@
       "summary": "The TF workshop aligned on **sustainable rice systems** (Column 3) as the primary narrative anchor for the Temasek Foundation concept note, with climate (CO2 avoided) and farmer income uplift as co-benefits and secondary indicators. Key metrics agreed: additional tons of rice added to the system (pre- and post-farm gate), farmer income uplift, and CO2 avoided; financial sustainability of operators is a minimum requirement rather than a standalone KPI. The Year 1 pilot target was expanded to **1,000 hectares** funded by 2M SGD (1M Temasek + 1M co-funding) structured as a one-year project, with a Year 3 ambition of 25,000 hectares aligned to the 2030 high-climate-risk cropland threshold; additional funding for Years 2–3 will need to be raised in parallel. The MOU with Iloilo Provincial Government is in community review and is expected to be signed before the British Ambassador visit on **August 6**; Jaron (now Acting Provincial Agriculturist) will be engaged Thursday to confirm timeline and baseline data. Open questions include: final clarification of Temasek's CapEx/OpEx and in-kind co-funding rules, how operator financial sustainability will be formally measured, and which national government agencies to invite to the IBC event.",
       "processed": false,
       "added_at": 1784016900234
+    },
+    {
+      "id": "gr1784018525544",
+      "title": "Discussion on Hannah for interim CDC wit Heidi Xu",
+      "date": "2026-07-14T08:30:34.788Z",
+      "summary": "Jamie had a quick check-in with Heidi Xu on Hannah (SA since Aug 2025, up for promotion to C). Heidi assessed Hannah as ready for C, citing strong client-facing communication and clean quantitative outputs as key strengths. The two development areas flagged are: (1) speed to output — sometimes taking several hours per slide, and needing to flag blockers earlier, which is especially critical in fast-turnaround due diligence work; and (2) sharpening executive insight / the 'so what,' likely linked to the speed issue. Jamie will pass this feedback to Hannah and confirm Heidi's evaluation form clears in the system before the CDC discussion.",
+      "processed": false,
+      "added_at": 1784018525544
     }
   ]
 }
