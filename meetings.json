@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T04:11:07.816Z",
+  "last_updated": "2026-07-14T04:11:18.340Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -80,6 +80,14 @@
       "summary": "The call with Marco and Anthony focused on sharpening the Meralco BD strategy around two core problems: revenue contraction from retail open access and rooftop solar (~80% driven by 100kW+ consumer defection), and a $5B capex program over five years under ERC rate review. The team aligned on anchoring as **transformation partners** rather than strategy advisors, leading with cost optimization (Aleander/Sembcorp model) and DR/VPP business-build (Octopus model), with AI positioned as an enabler rather than the headline. Andrew remains the best access point and Jamie will restart discussions soon with concrete examples and expert connections rather than a full perspective. MGEN renewables/dispatch optimization is on hold pending Marco's follow-up with their renewable CEO.",
       "processed": false,
       "added_at": 1784002266926
+    },
+    {
+      "id": "gr1784002277446",
+      "title": "ASEAN power grid risk framework — ADB pitch prep and team sourcing",
+      "date": "2026-07-14T01:04:39.974Z",
+      "summary": "ADB and MAS are commissioning a flagship guide on risk management for ASEAN Power Grid interconnector projects, with a draft due end of December 2026 and final by February 2027. A pre-proposal pitch is expected the week of 27 July or 3 August; Jamie will serve in a PL or capacity-support role behind Joel, who will quarterback pitch prep and lead the storyline with 2–3 CTMs per week. The critical gap is deep power-sector risk allocation expertise, particularly EU cross-border cost allocation practitioners; internal candidates (Marco, Pietro, Marco Toneguti, Andrew Clairholt, Phil Hirchan) are being assessed and a GLG-type search may supplement. On the ACE front, BCG's MOU has been approved by ACE's board and Jamie must present at ACE's management meeting on Friday 17 July to define BCG's specific APG support areas, positioning BCG as the orchestrator across ADB, ACE, and other actors given the fragmented landscape of independent studies.",
+      "processed": false,
+      "added_at": 1784002277446
     }
   ]
 }
