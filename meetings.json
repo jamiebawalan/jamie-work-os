@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T07:21:32.671Z",
+  "last_updated": "2026-07-15T08:27:57.861Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -112,6 +112,14 @@
       "summary": "BCG Manila is pitching ADB on a 12-week earthquake resilience master plan engagement (Tuesday 22 July), covering preparedness, emergency response, evacuation, welfare, and recovery across multiple operational domains with a potential $50–100M investment case and 3–5 years of advisory follow-on. ADB's three core questions for the pitch are: (1) how the approach delivers all outputs in 12 weeks, (2) how BCG brings technical expertise across domains, and (3) what the advisory-only implementation support model looks like. Jamie owns point 4 (Philippines disaster ecosystem) on the 'seven things to get right' slide, the ecosystem approach snapshot, the implementation support model section, and is leading overall pitch material iteration with Luke. Key open questions include confirming the deadline driving the 12-week pace (to be asked at the pitch), finalising the Craig Fugate/Jakob Schrod expert addition via Elton, and ensuring Maxine is briefed on the approach slide before Tuesday. Elton flagged cost modeling as a rabbit hole to manage early by anchoring on a simple ambition-and-risk-appetite assumptions approach rather than benchmarking.",
       "processed": false,
       "added_at": 1784100091121
+    },
+    {
+      "id": "gr1784104076837",
+      "title": "Djoey discussion",
+      "date": "2026-07-15T05:00:50.761Z",
+      "summary": "Jamie decided to staff Djoey after a one-on-one conversation that revealed neutral framing of past experiences and genuine hunger — both positive signals. A precondition was set: an adult-to-adult conversation with Eric, which Djoey completed and even volunteered to help with Eric's all-hands. Key development targets are dramatically improving PSI, elevating critical thinking, and using KN rather than building credentials from scratch. The main risk flag is Djoey saying different things to different people, which Jamie plans to test directly this Friday. An interim CDC on Tuesday will discuss Djoey's staffing situation, and John confirmed he would not staff her again without conditions.",
+      "processed": false,
+      "added_at": 1784104076837
     }
   ]
 }
