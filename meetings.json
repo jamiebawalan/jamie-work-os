@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T08:27:57.861Z",
+  "last_updated": "2026-07-15T08:28:09.029Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -120,6 +120,14 @@
       "summary": "Jamie decided to staff Djoey after a one-on-one conversation that revealed neutral framing of past experiences and genuine hunger — both positive signals. A precondition was set: an adult-to-adult conversation with Eric, which Djoey completed and even volunteered to help with Eric's all-hands. Key development targets are dramatically improving PSI, elevating critical thinking, and using KN rather than building credentials from scratch. The main risk flag is Djoey saying different things to different people, which Jamie plans to test directly this Friday. An interim CDC on Tuesday will discuss Djoey's staffing situation, and John confirmed he would not staff her again without conditions.",
       "processed": false,
       "added_at": 1784104076837
+    },
+    {
+      "id": "gr1784104088189",
+      "title": "Discussion with CPFI",
+      "date": "2026-07-15T01:00:25.109Z",
+      "summary": "Jamie joined a BCG pitch call with Chris and Cartini/Jules of CPFI, presenting BCG's approach to addressing the Philippine coconut industry's aging-tree and replanting crisis, drawing on analogous work in Brazil (orange/pasture) and India (Tamil Nadu coconut value chain). The key insight aligned on was that the demand side is relatively healthy and the Coco Levy Fund (~₱100B) is sufficient to fund replanting at scale — the core problem is unlocking and efficiently disbursing that capital through improved farmer registries, last-mile seedling distribution, and potential law amendments. BCG proposed a phased diagnostic starting with a province-level heat map, farmer productivity/economics analysis, and stakeholder coalition design (including PPP and private sector-led models like the Universal Leaf tobacco model). Next steps are for Cartini/Jules to review the deck and provide refinement feedback, for BCG to send commercials/investment figures, and to have an offline discussion on funding structure before reconvening in a few weeks.",
+      "processed": false,
+      "added_at": 1784104088189
     }
   ]
 }
