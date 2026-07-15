@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T08:28:09.029Z",
+  "last_updated": "2026-07-15T08:28:11.337Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -128,6 +128,14 @@
       "summary": "Jamie joined a BCG pitch call with Chris and Cartini/Jules of CPFI, presenting BCG's approach to addressing the Philippine coconut industry's aging-tree and replanting crisis, drawing on analogous work in Brazil (orange/pasture) and India (Tamil Nadu coconut value chain). The key insight aligned on was that the demand side is relatively healthy and the Coco Levy Fund (~₱100B) is sufficient to fund replanting at scale — the core problem is unlocking and efficiently disbursing that capital through improved farmer registries, last-mile seedling distribution, and potential law amendments. BCG proposed a phased diagnostic starting with a province-level heat map, farmer productivity/economics analysis, and stakeholder coalition design (including PPP and private sector-led models like the Universal Leaf tobacco model). Next steps are for Cartini/Jules to review the deck and provide refinement feedback, for BCG to send commercials/investment figures, and to have an offline discussion on funding structure before reconvening in a few weeks.",
       "processed": false,
       "added_at": 1784104088189
+    },
+    {
+      "id": "gr1784104090452",
+      "title": "Sugar cane tissue culture partnership — licensing, scaling, and royalty model with Paul",
+      "date": "2026-07-14T09:59:33.127Z",
+      "summary": "A call with Paul (NEF) aligned on the partnership model: AGREA will license NEF's synthetic seed technology and serve as the technical implementer, with VMC as funder and territorial cooperators (VMC north, Keynes Unstable south) handling distribution — Paul confirmed multiple partners are acceptable provided all are bound by confidentiality terms. The royalty model mirrors Brazil (per-hectare at mill level, converted to per-plant for propagators), but must be recalibrated for Philippine planting density (~40,000 plants/ha vs. Brazil's ~16,000); Jamie needs to send density figures to Paul so he can return with tiered royalty proposals. The scale-up financial model also requires adaptation for the Philippines' two-cycle-per-year system (vs. Brazil's one), which Paul can approximate by treating each model 'year' as six months, though full refinement requires a paid project engagement. Key open question is bridging the chicken-and-egg dynamic: a signed NEF–AGREA–VMC agreement is targeted by end-2026, concurrent with expanding government funding bids that will be strengthened by a more fleshed-out operating model.",
+      "processed": false,
+      "added_at": 1784104090452
     }
   ]
 }
