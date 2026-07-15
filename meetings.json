@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T08:28:15.404Z",
+  "last_updated": "2026-07-15T08:28:31.668Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -144,6 +144,14 @@
       "summary": "A resourcing and approach alignment session was held for the Coconut Industry Replanting Study (no project code yet, tracked under NAP). The scope is narrowed to replanting at farm level, with sulf fertilization, nursery access, seed supply, and intercropping as value chain components; the client (Joules) budget ceiling is ~1.4–1.5M. The proposed team structure is 0.5 Anchor C + 2 Associates + BCGX analytics (Judith at ~50%, Ally involved), with a going-in price of ~1.3M at 50% PVF over 16 weeks—margin is thin but workable. Key open questions are whether the 0.5+1 DS structure holds for single-crop scope (to be validated with Ally and Anne) and who will serve as Anchor C given the heavy stakeholder engagement load (farmers, provincial/municipal government, national agencies, private sector). Rohit is to be briefed on the commercials before any client call raises the topic.",
       "processed": false,
       "added_at": 1784104094472
+    },
+    {
+      "id": "gr1784104110728",
+      "title": "AIP operationalization, governance, and pipeline development",
+      "date": "2026-07-15T02:59:34.052Z",
+      "summary": "The AIP has secured formal co-lead confirmation from PPP Center (PPPC) and PC, with TOR signing and a joint working session with all three co-leads targeted for early August ahead of a September 4 first steering committee. Key governance decisions include elevating PPPC to co-lead tier alongside DOF/CCC, moving DEP to advisory status, adding BSP as a steering committee member, and giving the management team delegated decision authority up to a defined threshold to avoid delays. On pipeline development, the operator workshop (Mayani, Straw, Cool Mill) aligned on a sustainable rice system narrative with a 1,000 ha year-one target scaling to 10–25,000 ha by year three, with Mindanao flagged as the next replication candidate; next steps include finalizing the NEF/VMC partnership model and securing farmer buy-in in NP6. Open questions include the exact nature and agenda of the August 6 BAI Iloilo groundbreaking (Visa to confirm with Cherie), whether the September 4 steering committee can be advanced during the Ross Eels visit, and the pathway for involving DTI BOI and OSC DI ALG as AIP members in subsequent years. Jamie also needs to prepare a briefing deck for the July 28 meeting with new Lloyd (Mikey), a former subordinate of Ross Eels with a tech/climate/energy background.",
+      "processed": false,
+      "added_at": 1784104110728
     }
   ]
 }
