@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T08:28:11.337Z",
+  "last_updated": "2026-07-15T08:28:15.404Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -136,6 +136,14 @@
       "summary": "A call with Paul (NEF) aligned on the partnership model: AGREA will license NEF's synthetic seed technology and serve as the technical implementer, with VMC as funder and territorial cooperators (VMC north, Keynes Unstable south) handling distribution — Paul confirmed multiple partners are acceptable provided all are bound by confidentiality terms. The royalty model mirrors Brazil (per-hectare at mill level, converted to per-plant for propagators), but must be recalibrated for Philippine planting density (~40,000 plants/ha vs. Brazil's ~16,000); Jamie needs to send density figures to Paul so he can return with tiered royalty proposals. The scale-up financial model also requires adaptation for the Philippines' two-cycle-per-year system (vs. Brazil's one), which Paul can approximate by treating each model 'year' as six months, though full refinement requires a paid project engagement. Key open question is bridging the chicken-and-egg dynamic: a signed NEF–AGREA–VMC agreement is targeted by end-2026, concurrent with expanding government funding bids that will be strengthened by a more fleshed-out operating model.",
       "processed": false,
       "added_at": 1784104090452
+    },
+    {
+      "id": "gr1784104094472",
+      "title": "Coconut industry resourcing plan and approach with Rohit",
+      "date": "2026-07-14T05:31:59.018Z",
+      "summary": "A resourcing and approach alignment session was held for the Coconut Industry Replanting Study (no project code yet, tracked under NAP). The scope is narrowed to replanting at farm level, with sulf fertilization, nursery access, seed supply, and intercropping as value chain components; the client (Joules) budget ceiling is ~1.4–1.5M. The proposed team structure is 0.5 Anchor C + 2 Associates + BCGX analytics (Judith at ~50%, Ally involved), with a going-in price of ~1.3M at 50% PVF over 16 weeks—margin is thin but workable. Key open questions are whether the 0.5+1 DS structure holds for single-crop scope (to be validated with Ally and Anne) and who will serve as Anchor C given the heavy stakeholder engagement load (farmers, provincial/municipal government, national agencies, private sector). Rohit is to be briefed on the commercials before any client call raises the topic.",
+      "processed": false,
+      "added_at": 1784104094472
     }
   ]
 }
