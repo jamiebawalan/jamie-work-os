@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T05:37:32.059Z",
+  "last_updated": "2026-07-16T09:52:44.825Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -160,6 +160,14 @@
       "summary": "The meeting with Usec Anna covered DENR's role in the Adaptation Investment Platform (AIP), NAP M&E coordination, ALC next round planning, and a forward calendar of UK-Philippines engagements through December 2026. DENR is confirmed as a member (not chair) of the AIP Steering Committee, with specific engagement channeled through NWRB for water/irrigation projects and regional offices/FMB for forest land projects (items 6 and 7); institutional arrangements (SO or memorandum) are to be formalized. On NAP M&E, an internal convening with Mike Angelo is planned before a broader DP group is engaged, and the UMB/CCC concept notes need alignment before activities proceed. Key open questions include whether to pursue a tripartite LGA-CCC-DENR MOU for the ALC, and how to manage DENR's December availability given the overlapping Loss and Damage Fund dates (Dec 14–18). Jamie owns sending the September 9 seafood conference invitation, introducing the new UK counselor to DENR in July, and coordinating the December UK study visit delegation.",
       "processed": false,
       "added_at": 1784180250055
+    },
+    {
+      "id": "gr1784195563300",
+      "title": "Rice farming modernization plan",
+      "date": "2026-07-16T05:08:46.259Z",
+      "summary": "BCG Manila participated in a rice farming modernization meeting in Pototan, Iloilo with Straw Innovations, Cool Meal, and local farmer associations, backed by the Iloilo Provincial Government and with DA eyeing involvement. The parties discussed a draft non-binding Terms of Reference covering mechanized harvesting, drying, milling (targeting 65–70% milling rate), and rice straw valorization, with a pricing model of ~₱9,000/hectare split between the farmer association (₱6,000) and Straw Innovations (₱3,000), yielding ~₱2,000 in savings per farmer. Key open questions include finalizing the per-hour vs. per-hectare pricing model, insurance coverage for operators and machines (~₱100,000 personal accident per person), consumables responsibility, and possible rent-to-own arrangements. Straw Innovations is to confirm operator training schedule by Thursday, targeting November–December deployment of the combined harvester and straw collector for Phase 0. The formal MOA between farmer associations and Straw Innovations/Cool Meal will follow legal review and is expected to be finalized within weeks to months.",
+      "processed": false,
+      "added_at": 1784195563300
     }
   ]
 }
