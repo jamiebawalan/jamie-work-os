@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T09:52:44.825Z",
+  "last_updated": "2026-07-17T08:43:40.696Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -168,6 +168,14 @@
       "summary": "BCG Manila participated in a rice farming modernization meeting in Pototan, Iloilo with Straw Innovations, Cool Meal, and local farmer associations, backed by the Iloilo Provincial Government and with DA eyeing involvement. The parties discussed a draft non-binding Terms of Reference covering mechanized harvesting, drying, milling (targeting 65–70% milling rate), and rice straw valorization, with a pricing model of ~₱9,000/hectare split between the farmer association (₱6,000) and Straw Innovations (₱3,000), yielding ~₱2,000 in savings per farmer. Key open questions include finalizing the per-hour vs. per-hectare pricing model, insurance coverage for operators and machines (~₱100,000 personal accident per person), consumables responsibility, and possible rent-to-own arrangements. Straw Innovations is to confirm operator training schedule by Thursday, targeting November–December deployment of the combined harvester and straw collector for Phase 0. The formal MOA between farmer associations and Straw Innovations/Cool Meal will follow legal review and is expected to be finalized within weeks to months.",
       "processed": false,
       "added_at": 1784195563300
+    },
+    {
+      "id": "gr1784277819377",
+      "title": "ADB earthquake resilience pitch — approach, technical delivery, and implementation model",
+      "date": "2026-07-15T05:59:40.831Z",
+      "summary": "BCG is pitching to ADB on Tuesday 2026-07-22 for a 12-week earthquake resilience master plan engagement covering preparedness, response, and recovery across capability domains (crisis management, emergency medical, search and rescue, comms, safe havens), with a potential $50–100M investment case and 3–5 years of advisory-only follow-on support. The pitch must address three ADB questions: how the approach delivers all outputs in 12 weeks, how BCG brings technical expertise across domains, and what the advisory-only implementation model looks like. Speaker roles are assigned (Jamie owns point 4 on the Philippines disaster ecosystem and an approach snapshot on ecosystem engagement; Luke covers points 5–7; Anne covers 1–2; Elton covers point 3 and wargaming; Maxine leads the approach overview slide). Key open questions include what internal deadline is driving the 12-week pace (to be asked at the pitch) and whether Craig Fugate (Elton's outreach) or fallback Jakob Schrod can join the team; Chloe Flutter is also being pursued for the medical domain.",
+      "processed": false,
+      "added_at": 1784277819377
     }
   ]
 }
