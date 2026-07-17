@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T08:43:40.696Z",
+  "last_updated": "2026-07-17T08:43:55.094Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -176,6 +176,14 @@
       "summary": "BCG is pitching to ADB on Tuesday 2026-07-22 for a 12-week earthquake resilience master plan engagement covering preparedness, response, and recovery across capability domains (crisis management, emergency medical, search and rescue, comms, safe havens), with a potential $50–100M investment case and 3–5 years of advisory-only follow-on support. The pitch must address three ADB questions: how the approach delivers all outputs in 12 weeks, how BCG brings technical expertise across domains, and what the advisory-only implementation model looks like. Speaker roles are assigned (Jamie owns point 4 on the Philippines disaster ecosystem and an approach snapshot on ecosystem engagement; Luke covers points 5–7; Anne covers 1–2; Elton covers point 3 and wargaming; Maxine leads the approach overview slide). Key open questions include what internal deadline is driving the 12-week pace (to be asked at the pitch) and whether Craig Fugate (Elton's outreach) or fallback Jakob Schrod can join the team; Chloe Flutter is also being pursued for the medical domain.",
       "processed": false,
       "added_at": 1784277819377
+    },
+    {
+      "id": "gr1784277833899",
+      "title": "Discussion with PPP centre ",
+      "date": "2026-06-17T04:55:21.520Z",
+      "summary": "An informal update session was held with a PPP Center colleague (Egrisa was in Singapore) to walk through the NAP investment platform, the CIF bid being prepared for DoF/DBP, and the proposed co-leadership role for PPP Center in the AIP. Youseko Ben has already informally briefed a PPP Center colleague about the CIF ask, and the team plans a formal meeting with Egrisa upon her return to secure her buy-in before a joint working session to finalise the DOR. Key open questions include formalising PPP Center's co-chair role in the AIP steering structure, clarifying PPP Center's capacity to dedicate staff time (estimated 10–20 hours/week), and determining how PDMF/ADB catalytic funding can be channelled to the smaller-scale local projects in the pipeline. Jamie owns sending the deck and DOR to PPP Center this week and arranging the high-level meeting; James/BCG team own the follow-through on the presentation walkthrough with Maxine.",
+      "processed": false,
+      "added_at": 1784277833899
     }
   ]
 }
