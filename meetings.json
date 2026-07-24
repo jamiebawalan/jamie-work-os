@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T04:51:18.110Z",
+  "last_updated": "2026-07-24T01:09:30.327Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -192,6 +192,14 @@
       "summary": "A potential BD opportunity emerged for developing a **Green Public Procurement Operations Manual** for an organization (likely DA/NMIS) under a World Bank Southeast Asia program. The manual must cover common-use and non-common-use supplies (e.g., seeds, compost, fertilizer, hotels), align with GPP standards, and be approved as part of a completion agreement. A capacity development component using a train-the-trainers model is required across 16 regional offices. **Key deadline: Wednesday July 22** — Jamie must submit BCG's company profile/expression of interest and a quotation via the public procurement email channel. Open question: whether BCG's on-the-ground agri/adaptation insights and existing relationships with DENR, CCC, and regional offices can differentiate the bid.",
       "processed": false,
       "added_at": 1784523076205
+    },
+    {
+      "id": "gr1784855368181",
+      "title": "Farmer support funding plan",
+      "date": "2026-07-23T01:37:53.546Z",
+      "summary": "The meeting focused on the farmer support funding plan for Murcia, covering the sugar cane infestation crisis, funding routes, and LGU engagement strategy. Two funding routes were discussed: direct additional funding for the local team and a foundation-based model, though British Embassy rules constrain certain money transfer formats. A cost-sharing model between the LGU and provincial/congressional government was proposed for community sizing and electrical isolation costs, with 15 farmers already engaged and willing to participate contingent on water access. Key next steps are to meet with the mayor to explain the community-demand-driven program model, secure majority farmer endorsement, and develop a clean planting material protocol before the next season. An open question remains on the exact LGU vs. provincial/congressional cost-sharing split, and the model is being positioned as replicable across the wider province with potential for high-value crop diversification beyond sugar cane.",
+      "processed": false,
+      "added_at": 1784855368181
     }
   ]
 }
