@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T01:09:30.327Z",
+  "last_updated": "2026-07-28T04:58:43.656Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -200,6 +200,14 @@
       "summary": "The meeting focused on the farmer support funding plan for Murcia, covering the sugar cane infestation crisis, funding routes, and LGU engagement strategy. Two funding routes were discussed: direct additional funding for the local team and a foundation-based model, though British Embassy rules constrain certain money transfer formats. A cost-sharing model between the LGU and provincial/congressional government was proposed for community sizing and electrical isolation costs, with 15 farmers already engaged and willing to participate contingent on water access. Key next steps are to meet with the mayor to explain the community-demand-driven program model, secure majority farmer endorsement, and develop a clean planting material protocol before the next season. An open question remains on the exact LGU vs. provincial/congressional cost-sharing split, and the model is being positioned as replicable across the wider province with potential for high-value crop diversification beyond sugar cane.",
       "processed": false,
       "added_at": 1784855368181
+    },
+    {
+      "id": "gr1785214722012",
+      "title": "Discussion with Alliander case team",
+      "date": "2026-07-27T11:29:24.928Z",
+      "summary": "The call with Ben (BCG X MDP) and Marco covered Alliander's AI-driven workforce and scheduling optimization case, which was assessed as highly relevant for Meralco given their aging workforce, large distribution footprint, and upcoming ~$5B capex program. Alliander's approach — identifying bottleneck resource groups and optimizing across three scheduling horizons (daily, weekly, monthly) — was seen as a strong fit for Meralco's operational complexity and EV/rooftop solar transition pressures. **Ben will send Milan presentation slides** as a starting point, and Jamie will adapt them for the Meralco context ahead of the August 6 introductory meeting. No demo is planned for August 6, but the team will explore loading Meralco data into the Alliander tooling for a later session, which Ben confirmed is feasible within a couple of weeks. Open question: what is Meralco's primary case for change — cost optimization of the capex program, or operational efficiency of existing assets?",
+      "processed": false,
+      "added_at": 1785214722012
     }
   ]
 }
