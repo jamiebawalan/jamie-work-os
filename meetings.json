@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T04:58:48.114Z",
+  "last_updated": "2026-07-29T03:27:18.340Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -224,6 +224,14 @@
       "summary": "Jamie onboarded Daphne Yeo (BCG, ~1 year) to support the Meralco capabilities pitch ahead of a Thursday BD meeting. The pitch centers on three value drivers: (1) retail open access volume loss defense and RES offense, (2) AI-led capex/asset management optimization across a ~272B peso program, and (3) procurement savings benchmarking. Daphne's immediate priority is sizing all three levers today, with storylining deferred to Wednesday morning. Jamie owns sending all materials via Slack, adding Daphne to tonight's Aliander call, and sharing the Thursday CTM invite; daily stand-ups are set for Tuesday 10:30 AM and Wednesday 9:30 AM, with the Thursday Meralco CTM serving as that day's check-in.",
       "processed": false,
       "added_at": 1785214727188
+    },
+    {
+      "id": "gr1785295636591",
+      "title": "Moralco business strategy — retail, solar, and network operations with Andrew",
+      "date": "2026-07-29T02:31:09.149Z",
+      "summary": "A prep session was held for Jamie's in-person meeting with Andrew (Meralco) on Wednesday 2026-08-06 at their office. Three topics are on the agenda: retail/open access strategy and churn risk, rooftop solar dynamics, and AI-powered network operations. Key business pressures surfaced include the open access threshold drop to 200 kW (exposing mid-size commercial customers to poaching), a 2% residential volume drop from net metering, a potential ₱30B system-loss absorption exposure, and a delayed ₱272B rate reset. The team agreed the deck should be ~10 pages, conversational, with Alliander workforce optimization and Fae's nine lighthouse use cases framing the AI section, and a separate deeper AI session with Peter to be organized if he's available. An open question remains on identifying a credible retail electricity expert for churn/retention strategy, with no strong regional expert on hand and a European contact to be followed up.",
+      "processed": false,
+      "added_at": 1785295636591
     }
   ]
 }
