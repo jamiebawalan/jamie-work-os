@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T03:27:18.340Z",
+  "last_updated": "2026-08-02T14:03:01.241Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -232,6 +232,14 @@
       "summary": "A prep session was held for Jamie's in-person meeting with Andrew (Meralco) on Wednesday 2026-08-06 at their office. Three topics are on the agenda: retail/open access strategy and churn risk, rooftop solar dynamics, and AI-powered network operations. Key business pressures surfaced include the open access threshold drop to 200 kW (exposing mid-size commercial customers to poaching), a 2% residential volume drop from net metering, a potential ₱30B system-loss absorption exposure, and a delayed ₱272B rate reset. The team agreed the deck should be ~10 pages, conversational, with Alliander workforce optimization and Fae's nine lighthouse use cases framing the AI section, and a separate deeper AI session with Peter to be organized if he's available. An open question remains on identifying a credible retail electricity expert for churn/retention strategy, with no strong regional expert on hand and a European contact to be followed up.",
       "processed": false,
       "added_at": 1785295636591
+    },
+    {
+      "id": "gr1785679379450",
+      "title": "MAN power push call:",
+      "date": "2026-07-29T08:26:15.635Z",
+      "summary": "The team aligned on coverage for four client-facing meetings the week of August 3–6, all Aboitiz-related. Jamie is confirmed to attend all four: the virtual Agentic AI/Finance call (Aug 3, from office with Anthony), the Andrew Tan catch-up (Aug 5), the Danel AI Lighthouse meeting (Aug 6, with two new Aboitiz technology executives), and the Andrew Tan + Peter Cho power discussion (Aug 6, 1:30–4 PM). **Key action for Jamie**: add a buyers section to the Aboitiz AI Lighthouse deck from the Alander deck, and send a pre-read to Danel by Tuesday Aug 4 to de-risk cancellation. A side discussion touched on a potential transfer for a consultant, with Nairobi emerging as the preferred option over Lagos, pending a check on SI/FCDO market momentum; Central Asia offices were also flagged as a possibility.",
+      "processed": false,
+      "added_at": 1785679379450
     }
   ]
 }
