@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:24.921Z",
+  "last_updated": "2026-08-03T02:29:29.336Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -256,6 +256,14 @@
       "summary": "Jamie and Leah aligned on workstream priorities for the next six weeks, with Jamie taking on additional content ownership (EIP five-pager, standard pitch deck) given Leah's heavy load across PPPC working sessions, capacity building, and Ascend. Key decisions include: skipping the masculine draft (precedent already set), starting Milestone matching pathways work this week in parallel with AIP foundation outreach, and targeting next week to begin heads of terms for the Janaman provincial government partnership using Claude for drafting. Two risks flagged for surfacing next week are PPP Center's ability to take forward unsolicited proposals with guarantee requests (a call with Pala/Adobe is needed to clarify process) and PVSP's capacity to operate independently (informal catch-up with Alvin in ~two weeks). Anne's ramp-up homework will be drafting an EIP website mock-up for a DOF handover deliverable, and Zenab must be engaged and billing as MVP point person for the external pipeline.",
       "processed": false,
       "added_at": 1785724164078
+    },
+    {
+      "id": "gr1785724168856",
+      "title": "Advanced leadership journey kickoff — core capabilities, behavioral enablers, and platform building",
+      "date": "2026-07-30T07:01:26.302Z",
+      "summary": "This was the kickoff session of BCG's two-year Advanced Leadership Journey for newly promoted partners, facilitated by Thomas (Paris), Nicola (London), and Amita (Mumbai). The session covered three pillars for MDP advancement: **core capabilities** (intellectual leadership, empathy, impact, apprenticeship), **behavioral enablers** (integrity as role model, drive/tenacity, one-BCG teaming), and **platform & brand** (expertise + commercial potential + sponsor constellation). Key decisions and guidance: the partner-to-MDP timeline is typically 2–2.5 years with no hard 10-year clock, success rate is high by design given the rigor already applied at the principal-to-partner stage, and there are no hard NCC thresholds for platform readiness — sponsor commitment and account size/growth potential are the real criteria. **Open questions for Jamie to act on:** who will serve as MDP sponsor, which archetype/platform direction to pursue, and which foundational modules to prioritize. Jamie owns initiating sponsor conversations and platform discussions with the CDA and practice/office leads now rather than waiting.",
+      "processed": false,
+      "added_at": 1785724168856
     }
   ]
 }
