@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:32:15.920Z",
+  "last_updated": "2026-08-03T02:32:20.523Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -352,6 +352,14 @@
       "summary": "Jamie attended a briefing on a consulting opportunity for a Procurement Operations Manual focused on Green Public Procurement (GPP), covering common-use and non-common-use supplies with resource standards for seeds, compost, and fertilizer. The project is funded under World Bank Southeast Asia program policy, runs 4–6 months, and requires the manual to be approved with GPP as part of the completion agreement alongside a capacity development component using a train-the-trainers model across 16 regional offices. BCG was approached via its public email channel, likely due to its existing work with DENR and CCC on the national adaptation agenda. **Key deadlines:** company profile and expression of interest must be submitted by Wednesday (2026-07-23), along with a budget-conscious quotation. Open question: how to scope the quotation tightly given the limited budget while demonstrating BCG's on-the-ground agri and procurement insights.",
       "processed": false,
       "added_at": 1785724335077
+    },
+    {
+      "id": "gr1785724340048",
+      "title": "Discussion with the ADB team",
+      "date": "2026-07-21T04:58:09.236Z",
+      "summary": "BCG Manila presented to the ADB technical evaluation panel on an earthquake resilience master plan engagement, proposing a 12-week, fixed-fee delivery across four sprints anchored to a 7.2 magnitude Marikina fault scenario. The team introduced global experts (Anneke, Elton, Joanna) alongside Jamie and Maxine as local leads, emphasizing BCG's prior ADB organizational resilience work and Jamie's NAP relationships as key differentiators. Key open questions raised by ADB include: how BCG will validate field operational assumptions beyond desktop analysis (answered via war gaming and after-action reviews), how BCG will ring-fence itself from implementation procurement (BCG confirmed advisory-only role with formal conflict-of-interest declaration), and how medical response strategy will be framed given ADB's limited internal capacity (answered as a build-vs-tap trade-off framework, not a full operational plan). ADB's evaluation panel (Jen, Tan, Macy, Jorda, Dr. Asadang, Ivan) is still assessing BCG alongside other tenderers, with Jamie responsible for ensuring readiness for follow-up and mobilization.",
+      "processed": false,
+      "added_at": 1785724340048
     }
   ]
 }
