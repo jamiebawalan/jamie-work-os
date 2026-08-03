@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:32:06.020Z",
+  "last_updated": "2026-08-03T02:32:14.836Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -336,6 +336,14 @@
       "summary": "The team is simplifying the ADB proposal based on Shalini's guidance to sharpen approach and tighten resourcing. The revised structure compresses the engagement to 10 weeks (4-week diagnostic, 4-week design sprint, 2-week implementation planning), with core team stepping down from 1+3 to 1+2 after the diagnostic phase and the X analytics team running at 0.5+2 for ~6 weeks then 0.5+1. Key open question is whether the analytics track needs 0.5+2 for part of the duration — Jamie needs to align with Ali on this. John owns cleaning up the approach page and sending the revised Excel; Jamie and Moad will sync early the week of July 27 to confirm the approach before finalizing.",
       "processed": false,
       "added_at": 1785724325304
+    },
+    {
+      "id": "gr1785724333925",
+      "title": "JC-JC-AO catch-up",
+      "date": "2026-07-24T01:22:55.770Z",
+      "summary": "The meeting covered people, accounts, and upcoming August engagements. On people, Jan is a strong Mobility candidate (Casa office preferred, C1 timing ideal) and should signal interest organically through Casa contacts; Rich is the top returnee target for January, and Goran is actively re-applying with zero tenure credit. John Lee is not seen as core Manila and his Mobility push will not be supported. On accounts, the team agreed to explore a World Bank Philippines track alongside ADB, warranting a dedicated team call to assess scope and viability; Jamie's NAP mandate should be reframed as Philippines-wide rather than FCDO-exclusive. For the August 6 Danel meeting, the preferred attendee order is Marco → Fay → Jamie → Peter, and the final list will be aligned at the manpower meeting.",
+      "processed": false,
+      "added_at": 1785724333925
     }
   ]
 }
