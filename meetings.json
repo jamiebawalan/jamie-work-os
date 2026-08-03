@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:40.831Z",
+  "last_updated": "2026-08-03T02:29:44.137Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -288,6 +288,14 @@
       "summary": "The team reviewed and aligned on the Meralco volume loss and churn model, anchoring on a max system loss exposure of ~20B pesos/year as a ceiling. Churn modeling uses switching rate scenarios of 2% (current PH rate), 15% (Finland benchmark), and 25% (liberalized EU market), applied to both captive customer churn and outside-franchise capture, with solar/net metering representing ~10% of projected losses. A triangulation approach was agreed for sizing the eligible customer population: use Meralco's industrial/commercial breakdown, estimate average consumption, infer peak load vs. the 100 kW threshold (lowered June 2026), apply eligibility assumptions (~90% industrial, ~30-40% commercial), then apply switching rates. Jamie's working hypothesis is that preventing captive churn is higher ROI than outside-franchise expansion, with an illustrative revenue-at-risk of ~11B pesos ($187M/year) and a defensible BCG fee of ~$3.7M at 2%—all internal analysis for now, no slides until value case is confirmed.",
       "processed": false,
       "added_at": 1785724180373
+    },
+    {
+      "id": "gr1785724183536",
+      "title": "Moralco system loss impact and volume projection modeling",
+      "date": "2026-07-29T01:30:09.151Z",
+      "summary": "The team aligned on a ~30B headline cost exposure for Meralco from system loss absorption (57,388 units × 5.8% × ~8.7 blended generation rate), compared against ~50B net income (post-tax hit ~20B, ~7% of cost base). Volume growth will not be projected given flat/declining actual sales, with the distinction drawn between Meralco's sales volume and total franchise consumption (the latter masked by solar and open access). Volume loss modeling will use two levers—solar rooftop adoption (Thailand as high-case proxy) and RES switching (5–30% churn range)—with Stephanie continuing the sizing work. Jamie owes Stephanie the prior solar/net metering analysis deck and the Anita BCG churn deck, and a 4 PM check-in was set to align on CTM slide direction.",
+      "processed": false,
+      "added_at": 1785724183536
     }
   ]
 }
