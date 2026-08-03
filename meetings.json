@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:29.336Z",
+  "last_updated": "2026-08-03T02:29:31.291Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -264,6 +264,14 @@
       "summary": "This was the kickoff session of BCG's two-year Advanced Leadership Journey for newly promoted partners, facilitated by Thomas (Paris), Nicola (London), and Amita (Mumbai). The session covered three pillars for MDP advancement: **core capabilities** (intellectual leadership, empathy, impact, apprenticeship), **behavioral enablers** (integrity as role model, drive/tenacity, one-BCG teaming), and **platform & brand** (expertise + commercial potential + sponsor constellation). Key decisions and guidance: the partner-to-MDP timeline is typically 2–2.5 years with no hard 10-year clock, success rate is high by design given the rigor already applied at the principal-to-partner stage, and there are no hard NCC thresholds for platform readiness — sponsor commitment and account size/growth potential are the real criteria. **Open questions for Jamie to act on:** who will serve as MDP sponsor, which archetype/platform direction to pursue, and which foundational modules to prioritize. Jamie owns initiating sponsor conversations and platform discussions with the CDA and practice/office leads now rather than waiting.",
       "processed": false,
       "added_at": 1785724168856
+    },
+    {
+      "id": "gr1785724170342",
+      "title": "National adaptation plan — localization, GCF financing, and provincial projects",
+      "date": "2026-07-30T02:14:06.732Z",
+      "summary": "The meeting covered the full arc of the Philippines NAP localization journey, from national plan submission to a four-province project pipeline (Negros Occidental, Iloilo, Isabela, Bukidnon) addressing sugar, rice, corn, and export crop resilience respectively. The Iloilo end-to-end rice value chain project (Mayani, mechanization provider, Cool Mill) is the most advanced, with MOUs near signing and a provincial government guarantee buffer mechanism in place; a consolidated concept note will be shared with Marcel's (ADB/KOICA) team once ready. Key financing mechanisms surfaced include KOICA's $200M climate technopreneurship fund, EU green bond grants (up to $500K), Luxembourg thematic facility, and a DTI-BOI instrument for circular economy/agri-waste startups — all potentially applicable to portfolio companies. The AIP's first steering committee is set for September 2026, with AIP secretariat resourcing (potentially drawing on the 6.7M RPSP readiness project) as a critical agenda item to be discussed with UF separately. Open questions include whether MAP2 can cover any secretariat overhead (currently framed as implementation-only) and the timing of carbon finance infrastructure in the Philippines (expected largely in place by end of 2026).",
+      "processed": false,
+      "added_at": 1785724170342
     }
   ]
 }
