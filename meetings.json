@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:23.282Z",
+  "last_updated": "2026-08-03T02:29:24.921Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -248,6 +248,14 @@
       "summary": "Jamie's promotion feedback session ahead of her CDA/ISM review shows a strong upward trajectory—from straight E's with a couple of pre-A's at onboarding to near straight B's now, with spikes in PSI (particularly qualitative analysis) and Structural Network Planning (DNP). Key strengths called out include proactive ownership, reliability during manager absence, improved verbal confidence, and top-down communication style. The main development area is translating deep analysis into executive-ready, audience-appropriate framing—current slides are substantively correct but need flex for different stakeholders. With roughly one month left in her current staffing, the near-term priority is for Jamie to proactively own and maintain the virtual work plan and aggregate BL on it as preparation for stepping into the AE role next staffing.",
       "processed": false,
       "added_at": 1785724162184
+    },
+    {
+      "id": "gr1785724164078",
+      "title": "Workstream planning and staffing — next six weeks with Leah",
+      "date": "2026-07-31T03:38:58.265Z",
+      "summary": "Jamie and Leah aligned on workstream priorities for the next six weeks, with Jamie taking on additional content ownership (EIP five-pager, standard pitch deck) given Leah's heavy load across PPPC working sessions, capacity building, and Ascend. Key decisions include: skipping the masculine draft (precedent already set), starting Milestone matching pathways work this week in parallel with AIP foundation outreach, and targeting next week to begin heads of terms for the Janaman provincial government partnership using Claude for drafting. Two risks flagged for surfacing next week are PPP Center's ability to take forward unsolicited proposals with guarantee requests (a call with Pala/Adobe is needed to clarify process) and PVSP's capacity to operate independently (informal catch-up with Alvin in ~two weeks). Anne's ramp-up homework will be drafting an EIP website mock-up for a DOF handover deliverable, and Zenab must be engaged and billing as MVP point person for the external pipeline.",
+      "processed": false,
+      "added_at": 1785724164078
     }
   ]
 }
