@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:36.181Z",
+  "last_updated": "2026-08-03T02:29:40.831Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -280,6 +280,14 @@
       "summary": "Jamie met with Ali to align on the replanting program (Project X) timeline, team, and analytics scope. The engagement is scoped at 6 weeks with key deliverables being a heatmap of geographies needing replanting and benefit estimation on agronomic interventions (fertilization protocol, variety improvements), supported by agri analytics. Team composition is set at 0.5 Judith profile, one senior data scientist from Casablanca, and one hub data analyst — within target headcount for a national program proposal. On HDB, Ali will prepare the milestone for Ludet; Jamie needs to close lessons-learned documentation with Moad immediately post-call to support milestone approval. Pricing for high and medium priority items has been shared with Ludet; feedback is still awaited.",
       "processed": false,
       "added_at": 1785724175387
+    },
+    {
+      "id": "gr1785724180373",
+      "title": "Volume loss and churn modeling for Meralco — switching rates and eligible customer analysis",
+      "date": "2026-07-29T10:07:01.271Z",
+      "summary": "The team reviewed and aligned on the Meralco volume loss and churn model, anchoring on a max system loss exposure of ~20B pesos/year as a ceiling. Churn modeling uses switching rate scenarios of 2% (current PH rate), 15% (Finland benchmark), and 25% (liberalized EU market), applied to both captive customer churn and outside-franchise capture, with solar/net metering representing ~10% of projected losses. A triangulation approach was agreed for sizing the eligible customer population: use Meralco's industrial/commercial breakdown, estimate average consumption, infer peak load vs. the 100 kW threshold (lowered June 2026), apply eligibility assumptions (~90% industrial, ~30-40% commercial), then apply switching rates. Jamie's working hypothesis is that preventing captive churn is higher ROI than outside-franchise expansion, with an illustrative revenue-at-risk of ~11B pesos ($187M/year) and a defensible BCG fee of ~$3.7M at 2%—all internal analysis for now, no slides until value case is confirmed.",
+      "processed": false,
+      "added_at": 1785724180373
     }
   ]
 }
