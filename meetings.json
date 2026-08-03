@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:31.291Z",
+  "last_updated": "2026-08-03T02:29:36.181Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -272,6 +272,14 @@
       "summary": "The meeting covered the full arc of the Philippines NAP localization journey, from national plan submission to a four-province project pipeline (Negros Occidental, Iloilo, Isabela, Bukidnon) addressing sugar, rice, corn, and export crop resilience respectively. The Iloilo end-to-end rice value chain project (Mayani, mechanization provider, Cool Mill) is the most advanced, with MOUs near signing and a provincial government guarantee buffer mechanism in place; a consolidated concept note will be shared with Marcel's (ADB/KOICA) team once ready. Key financing mechanisms surfaced include KOICA's $200M climate technopreneurship fund, EU green bond grants (up to $500K), Luxembourg thematic facility, and a DTI-BOI instrument for circular economy/agri-waste startups — all potentially applicable to portfolio companies. The AIP's first steering committee is set for September 2026, with AIP secretariat resourcing (potentially drawing on the 6.7M RPSP readiness project) as a critical agenda item to be discussed with UF separately. Open questions include whether MAP2 can cover any secretariat overhead (currently framed as implementation-only) and the timing of carbon finance infrastructure in the Philippines (expected largely in place by end of 2026).",
       "processed": false,
       "added_at": 1785724170342
+    },
+    {
+      "id": "gr1785724175387",
+      "title": "Replanting program — timeline, team, and analytics scope with Ali",
+      "date": "2026-07-29T12:20:08.765Z",
+      "summary": "Jamie met with Ali to align on the replanting program (Project X) timeline, team, and analytics scope. The engagement is scoped at 6 weeks with key deliverables being a heatmap of geographies needing replanting and benefit estimation on agronomic interventions (fertilization protocol, variety improvements), supported by agri analytics. Team composition is set at 0.5 Judith profile, one senior data scientist from Casablanca, and one hub data analyst — within target headcount for a national program proposal. On HDB, Ali will prepare the milestone for Ludet; Jamie needs to close lessons-learned documentation with Moad immediately post-call to support milestone approval. Pricing for high and medium priority items has been shared with Ludet; feedback is still awaited.",
+      "processed": false,
+      "added_at": 1785724175387
     }
   ]
 }
