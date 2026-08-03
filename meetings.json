@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:54.420Z",
+  "last_updated": "2026-08-03T02:30:10.821Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -304,6 +304,14 @@
       "summary": "Jamie and Anthony are preparing a 30-minute presentation for the Asia-Pacific public sector leadership team in Manila, covering a Philippines country snapshot, BCG's public sector journey (starting from COVID task force through ADB, FCDO, and upcoming DEFAT work), and the growth outlook anchored on three funding vectors: multilaterals (ADB, possibly World Bank), bilaterals (DEFAT, FCDO), and longer-term direct Philippines government work. The near-term focus is firmly on multilats and bilats, with topic selection driven by what funders will pay for rather than intrinsic interest. On competition, McKinsey is reactive and only engages on large (5M+) opportunities, Bain is globally deprioritizing public sector, and the Big Four are present but not premium competitors — with ADB clearly distinguishing BCG from the Big Four, though direct government clients may need more education. Jamie owns drafting and sharing the 3-4 slide deck with Anthony by Thursday so he can review ahead of Tuesday's meeting.",
       "processed": false,
       "added_at": 1785724193610
+    },
+    {
+      "id": "gr1785724209838",
+      "title": "AIP funding strategy — PSF projects, private sector partnerships, and government endorsements",
+      "date": "2026-07-27T03:04:07.955Z",
+      "summary": "The meeting focused on finalizing the AIP funding structure and Steer Committee 1 (SC1) narrative ahead of a September 1–3 target date. Three core AIP funding components were aligned on: a management/admin fee, a ~₱12M repayable private sector incentive pool (to be held by PBSP), and a ~$50M guarantee/derisking mechanism worth exploring with DGG (Charmaine). The preferred SC1 storyline is projects-first (per Sina, Sharmin, and Dave), leading with on-the-ground portfolio strength before introducing AIP structure and targets. Key agency asks were scoped: DOF to endorse projects to international adaptation funds (GCF, Korea, Marova); PPP Center to structure private sector partnerships and design call-for-bids processes for Zamboanga, Isabela, and Bawalan; DNR to endorse creation of an alternative irrigation provision structure and lead NWRB water permit push. An open structural issue is that non-payment clauses are missing from farmer association MOAs, which must be fixed to satisfy Straw's guarantee documentation requirement.",
+      "processed": false,
+      "added_at": 1785724209838
     }
   ]
 }
