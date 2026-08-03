@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:32:14.836Z",
+  "last_updated": "2026-08-03T02:32:15.920Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -344,6 +344,14 @@
       "summary": "The meeting covered people, accounts, and upcoming August engagements. On people, Jan is a strong Mobility candidate (Casa office preferred, C1 timing ideal) and should signal interest organically through Casa contacts; Rich is the top returnee target for January, and Goran is actively re-applying with zero tenure credit. John Lee is not seen as core Manila and his Mobility push will not be supported. On accounts, the team agreed to explore a World Bank Philippines track alongside ADB, warranting a dedicated team call to assess scope and viability; Jamie's NAP mandate should be reframed as Philippines-wide rather than FCDO-exclusive. For the August 6 Danel meeting, the preferred attendee order is Marco → Fay → Jamie → Peter, and the final list will be aligned at the manpower meeting.",
       "processed": false,
       "added_at": 1785724333925
+    },
+    {
+      "id": "gr1785724335077",
+      "title": "Procurement operations manual update",
+      "date": "2026-07-20T02:34:21.963Z",
+      "summary": "Jamie attended a briefing on a consulting opportunity for a Procurement Operations Manual focused on Green Public Procurement (GPP), covering common-use and non-common-use supplies with resource standards for seeds, compost, and fertilizer. The project is funded under World Bank Southeast Asia program policy, runs 4–6 months, and requires the manual to be approved with GPP as part of the completion agreement alongside a capacity development component using a train-the-trainers model across 16 regional offices. BCG was approached via its public email channel, likely due to its existing work with DENR and CCC on the national adaptation agenda. **Key deadlines:** company profile and expression of interest must be submitted by Wednesday (2026-07-23), along with a budget-conscious quotation. Open question: how to scope the quotation tightly given the limited budget while demonstrating BCG's on-the-ground agri and procurement insights.",
+      "processed": false,
+      "added_at": 1785724335077
     }
   ]
 }
