@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:29:44.137Z",
+  "last_updated": "2026-08-03T02:29:54.420Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -296,6 +296,14 @@
       "summary": "The team aligned on a ~30B headline cost exposure for Meralco from system loss absorption (57,388 units × 5.8% × ~8.7 blended generation rate), compared against ~50B net income (post-tax hit ~20B, ~7% of cost base). Volume growth will not be projected given flat/declining actual sales, with the distinction drawn between Meralco's sales volume and total franchise consumption (the latter masked by solar and open access). Volume loss modeling will use two levers—solar rooftop adoption (Thailand as high-case proxy) and RES switching (5–30% churn range)—with Stephanie continuing the sizing work. Jamie owes Stephanie the prior solar/net metering analysis deck and the Anita BCG churn deck, and a 4 PM check-in was set to align on CTM slide direction.",
       "processed": false,
       "added_at": 1785724183536
+    },
+    {
+      "id": "gr1785724193610",
+      "title": "Public sector growth strategy — Philippines market, competition, and revenue sources with Anthony",
+      "date": "2026-07-27T01:03:43.544Z",
+      "summary": "Jamie and Anthony are preparing a 30-minute presentation for the Asia-Pacific public sector leadership team in Manila, covering a Philippines country snapshot, BCG's public sector journey (starting from COVID task force through ADB, FCDO, and upcoming DEFAT work), and the growth outlook anchored on three funding vectors: multilaterals (ADB, possibly World Bank), bilaterals (DEFAT, FCDO), and longer-term direct Philippines government work. The near-term focus is firmly on multilats and bilats, with topic selection driven by what funders will pay for rather than intrinsic interest. On competition, McKinsey is reactive and only engages on large (5M+) opportunities, Bain is globally deprioritizing public sector, and the Big Four are present but not premium competitors — with ADB clearly distinguishing BCG from the Big Four, though direct government clients may need more education. Jamie owns drafting and sharing the 3-4 slide deck with Anthony by Thursday so he can review ahead of Tuesday's meeting.",
+      "processed": false,
+      "added_at": 1785724193610
     }
   ]
 }
