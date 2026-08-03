@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T02:31:59.387Z",
+  "last_updated": "2026-08-03T02:32:01.574Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -320,6 +320,14 @@
       "summary": "Jamie checked in with Jui (associate) during a break at ACP training. Jui found the training valuable, especially informal peer conversations on navigating PLs, MDPs, and work styles. She flagged concern that her current case carve-out spreads her too thin across all levers with only analysis ownership, and plans to raise with Suj on Monday a preference for end-to-end ownership of fewer levers. Jamie coached her to go in with an open mind, consider impact on others' scopes, and negotiate from clear must-haves. Jui also expressed strong appreciation for Jamie's CDA support, noting the value of having a tenured woman in the Manila office as a visible role model.",
       "processed": false,
       "added_at": 1785724318459
+    },
+    {
+      "id": "gr1785724321059",
+      "title": "Interview with Chloe Sy",
+      "date": "2026-07-24T05:03:48.972Z",
+      "summary": "Jamie interviewed Chloe Sy, a candidate from the EV/charging sector, covering a fleet management fit story and a renewable energy case (Big Oil Co.). **Assessment:** Chloe showed solid framework instincts and good business judgment but was assessed as SA-level rather than a knockout hire — her fit story lacked depth on the corporate client angle and at times sounded like routine execution rather than leadership. **Case performance:** She correctly identified onshore wind as the lowest-cost option using a cost-per-MWh model, but needed coaching on the math and simplification. **Open question:** No final hire/no-hire decision is explicitly stated in the notes — Jamie should confirm and log the formal recommendation. **Next step:** Jamie to submit the evaluation to Ritz/Franco/Ray in Recruiting.",
+      "processed": false,
+      "added_at": 1785724321059
     }
   ]
 }
