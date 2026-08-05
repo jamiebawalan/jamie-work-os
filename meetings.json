@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T03:13:18.615Z",
+  "last_updated": "2026-08-05T09:08:32.600Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -368,6 +368,14 @@
       "summary": "BCG Manila hosted an AI in Finance perspectives session with a client leadership team (Racquel, Sandro, Lyle, and others), presenting a Deploy-Reshape-Reimagine framework and demos covering a CPM control tower, journal entry automation, R2R orchestration, and treasury management. The client is in early-stage individual experimentation (Gemini licenses, AI leadership training) with a recently formed data council, and the key question is how to move from individual productivity to scaled, core-function transformation. Sandro will generate an internal priority list of AI focus areas (including treasury) to trigger more targeted follow-on conversations. Key open questions include which 2–3 functions to prioritize for 'reshape,' what internal capability model (central AI team vs. embedded resources) fits the organization, and how to align the AI roadmap with the parallel data maturity assessment already underway. Immediate next steps for Jamie are to confirm AI maturity survey logistics via Lance before the Danel meeting and send the survey and supporting perspective materials to Sandro's team.",
       "processed": false,
       "added_at": 1785726797136
+    },
+    {
+      "id": "gr1785920910821",
+      "title": "Market trends and predictions",
+      "date": "2026-08-05T05:55:26.182Z",
+      "summary": "The discussion with Meralco (Andrew's team) covered several strategic themes: rooftop solar as a demand-creation Trojan horse for residential customers, Meralco's VPP/DER OS buildout (rooftop solar bilateral EPAs, EV hubs, smart meters, DREAMS platform), and the Pakistan distribution privatization opportunity as a learning exercise and cautionary case study. Key open question is VPP monetization — specifically how Meralco captures a larger share of a potentially smaller total kWh value pie. Three follow-up actions were identified: a dedicated VPP/DER strategy sharing session, a separate CapEx/portfolio planning session for Ronnie, and Jamie raising the RES churn/product design opportunity directly with Manny, who owns the RES P&L.",
+      "processed": false,
+      "added_at": 1785920910821
     }
   ]
 }
