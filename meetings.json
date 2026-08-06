@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:39:33.713Z",
+  "last_updated": "2026-08-06T05:39:45.267Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -400,6 +400,14 @@
       "summary": "The team reviewed Q3 progress across AIP setup, three priority projects (Negros High Yielding Varieties/Tissue Culture, Iloilo Integrated Rice Value Chain, Negros Irrigation as a Service/ToBig), ecosystem mobilization, and funding windows. Key decisions include proceeding with Straw-only for the August 18 Iloilo visit and November pilot if Mayani (Jeff) does not sign the MOU in time, and integrating a tissue culture/ube transition story into the Negros business plan (~31M GBP scale-up). Critical blockers are: DOR sign-offs still pending for DOF (BBSB) and TBSP; the Iloilo MOU remains unsigned for approximately the third attempt; and water rights resolution is the key unlock for ToBig scale-up requiring engagement with DNR/Forestier Co via Anne. September Steer Co is the milestone for presenting the governance model and org structure, with August 12 and 19 working sessions and pre-briefs the week of August 24 as the lead-up. Open questions include whether AIP is included in the GCF/RPSP concept note (to be raised with DOF), whether Mayani can receive Frontier Tech funding twice, and how to secure co-lead time commitment for capability building sessions — mitigation is for the Steering Committee to mandate attendance via Director John.",
       "processed": false,
       "added_at": 1785994772848
+    },
+    {
+      "id": "gr1785994784463",
+      "title": "Interview with Monique",
+      "date": "2026-08-03T05:30:33.708Z",
+      "summary": "Jamie conducted a consulting interview with Monique, a candidate from Ateneo's management economics program with experience at United Health Group and a NUS-funded startup focused on educational materials for stateless children in Malaysia. The case covered a renewable energy investment decision for a traditional power producer, where Monique presented a generic four-bucket framework and struggled with unit conversions despite nudges, but ultimately landed on a sound recommendation to pursue offshore wind based on superior long-term revenue ($320M/yr) and comparable ROI to onshore (~10 years). Key concerns noted: low energy, scripted delivery, and slow to identify the core problem. Strengths noted: reasonable business intuition on scale and capacity tradeoffs, and ability to self-correct. Jamie needs to submit a formal interview evaluation and hire/no-hire recommendation promptly.",
+      "processed": false,
+      "added_at": 1785994784463
     }
   ]
 }
