@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:40:10.327Z",
+  "last_updated": "2026-08-06T08:04:20.879Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -440,6 +440,14 @@
       "summary": "The August 2 farm walkthrough covered plot-by-plot pineapple assessments, fertilizer timing, planting material planning, and barang logistics. **Plots 2 and 10** are the best performers; **plot 11A** is ready for 0060 liquid application while 11B needs more time and a D-leaf measurement first; **plot 24** needs D-leaf measurement with Anthony estimating one more month before induction. A key decision was made to **standardize on 2100 fertilizer over 1620** (2100 side was visibly greener; 1620 side had drainage issues), with a target application before September. The barang situation is critical — ~100,000 pesos spent on repairs in the first half of the year versus 150,000 for a brand-new unit — and the group concluded the current articulating-design barang is not suited for in-farm use; **hiring external barangs with drivers at peak harvest** was identified as the preferred near-term solution. Open questions include finalizing plot 22 land access with Gloria and dad, confirming plot 11B fertilizer dose with Anthony, and determining the exact 0060 application window via GPT before it closes.",
       "processed": false,
       "added_at": 1785994809304
+    },
+    {
+      "id": "gr1786003459163",
+      "title": "NAP case teaming discussion",
+      "date": "2026-08-06T07:05:59.209Z",
+      "summary": "The NAP team held a check-in and content session focusing on ways of working and deck structure for the upcoming steerco. Key decisions include keeping 'value at risk' over livelihoods as the primary impact framing, and structuring the deck as a NAP recap → three project lessons (Negros: catalytic layer/guarantee/grant pools; Iloilo: optimizing access/underserved areas; Two Big: delivery model innovation) → pipeline. Several new conceptual visualization slides were agreed upon, including a public-vs-private sector budget leverage slide, underserved area heat maps, alternative payment models, and a catalytic layer rationale for Two Big. Open questions include how to set steerco targets (set target first, then work the math) and whether Dean can join virtually, which the team plans to pursue. Ways of working improvements agreed include restructuring Monday content sessions with dedicated brainstorm time, open-invite joint workstream yapping sessions, and leaning more into AI tools (Claude) for data organization and recalculation — Jamie owes the team an AI workflow overview.",
+      "processed": false,
+      "added_at": 1786003459163
     }
   ]
 }
