@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:40:04.010Z",
+  "last_updated": "2026-08-06T05:40:10.327Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -432,6 +432,14 @@
       "summary": "The Aboitiz AI kickoff planned for August 6 has a critical conflict: Darlan, Peter, and Faith are all required in Singapore for a Samcorp meeting that fully overlaps, making an all-virtual presentation unworkable given the client's profile. **Jamie to speak to Anthony first** to arrange a reschedule (Darlan's Saudi visa/passport hold can serve as the stated reason); if the kickoff cannot move, Jamie will request a rain check via Annel. The AI kickoff deck is largely reused from the PrimeInfra engagement and is in good shape, but **Alejandro distribution utility slides need to be added** by Jamie (Faith has the material) — this will also allow the same deck to be used for Meralco. Key client context: the Aboitiz contact is the owner's US-educated son, motivated to build his own legacy, no known prior AI conversations at either Aboitiz or Meralco, and BCG's only prior engagement was an unimplemented ops/transformation design ~2 years ago.",
       "processed": false,
       "added_at": 1785994803187
+    },
+    {
+      "id": "gr1785994809304",
+      "title": "Bawalan farm discussion notes on August 2",
+      "date": "2026-08-02T01:04:04.402Z",
+      "summary": "The August 2 farm walkthrough covered plot-by-plot pineapple assessments, fertilizer timing, planting material planning, and barang logistics. **Plots 2 and 10** are the best performers; **plot 11A** is ready for 0060 liquid application while 11B needs more time and a D-leaf measurement first; **plot 24** needs D-leaf measurement with Anthony estimating one more month before induction. A key decision was made to **standardize on 2100 fertilizer over 1620** (2100 side was visibly greener; 1620 side had drainage issues), with a target application before September. The barang situation is critical — ~100,000 pesos spent on repairs in the first half of the year versus 150,000 for a brand-new unit — and the group concluded the current articulating-design barang is not suited for in-farm use; **hiring external barangs with drivers at peak harvest** was identified as the preferred near-term solution. Open questions include finalizing plot 22 land access with Gloria and dad, confirming plot 11B fertilizer dose with Anthony, and determining the exact 0060 application window via GPT before it closes.",
+      "processed": false,
+      "added_at": 1785994809304
     }
   ]
 }
