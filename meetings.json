@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:38:53.200Z",
+  "last_updated": "2026-08-06T05:39:32.715Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -384,6 +384,14 @@
       "summary": "Jamie attended a BCG/BCGX generative AI briefing covering the landscape of enterprise AI adoption, the 'POC Hell' problem, and three archetypes of AI deployment (Deploy, Reshape, Invent). A live demo illustrated an AI-reimagined operations and maintenance workflow for a power and utilities client, emphasizing knowledge capture, agent-guided workflows, and continuous learning loops. Key discussion themes included the importance of anchoring on value streams over use cases, co-creation with frontline workers to drive adoption, and the 70% effort required on people/process/policy change. Jamie agreed to schedule a follow-up conversation with BCG/BCGX to go deeper on industry-specific cases and share more organizational context. An open question remains around how to frame and demonstrate ROI given the company's constraints and workforce maturity.",
       "processed": false,
       "added_at": 1785994731988
+    },
+    {
+      "id": "gr1785994771818",
+      "title": "Agroforest project planning",
+      "date": "2026-08-04T08:11:51.712Z",
+      "summary": "Jamie participated in a planning discussion for an agroforest venture ('Agria Farm School') in Negros centered on a forest reserve, agro-tourism, tissue culture lab, and a cacao/chocolate value chain. Key decisions included prioritizing a small tissue culture pilot before full build-out, preferring a technology/IP transfer model over importing full facilities, and exploring expansion across Oriental and Occidental Negros and potentially Cebu. Open questions remain around barangay site selection for the tissue culture lab and the overall scale ambition of 100,000 hectares versus a more contained start. Jamie needs to send the concept presentation to a contact named Yell and handle registration of the Andrea company and foundation branch.",
+      "processed": false,
+      "added_at": 1785994771818
     }
   ]
 }
