@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:39:45.267Z",
+  "last_updated": "2026-08-06T05:39:49.030Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -408,6 +408,14 @@
       "summary": "Jamie conducted a consulting interview with Monique, a candidate from Ateneo's management economics program with experience at United Health Group and a NUS-funded startup focused on educational materials for stateless children in Malaysia. The case covered a renewable energy investment decision for a traditional power producer, where Monique presented a generic four-bucket framework and struggled with unit conversions despite nudges, but ultimately landed on a sound recommendation to pursue offshore wind based on superior long-term revenue ($320M/yr) and comparable ROI to onshore (~10 years). Key concerns noted: low energy, scripted delivery, and slow to identify the core problem. Strengths noted: reasonable business intuition on scale and capacity tradeoffs, and ability to self-correct. Jamie needs to submit a formal interview evaluation and hire/no-hire recommendation promptly.",
       "processed": false,
       "added_at": 1785994784463
+    },
+    {
+      "id": "gr1785994788224",
+      "title": "Meralco resilience strategy — revenue retention, beyond-franchise growth, and cost optimization with Andrew",
+      "date": "2026-08-03T05:02:24.276Z",
+      "summary": "Jamie and a colleague held a prep session ahead of Wednesday's in-person meeting with Andrew (Meralco), with Marco also attending. The team reviewed a lean ~10-page deck covering market pressures Meralco faces (ARCOA threshold changes, solar rooftop growth, political pricing pressure, and capex risk), with revenue impact modeled on an annualized basis using 2025 as a reference year (~20–25% potential reduction over 10 years) and a net income hit of ~2–5B pesos tied to MGEN's genco margins on power sold to Meralco. Key value levers identified include high-CLV customer retention within the franchise area, beyond-franchise growth acceleration, and cost optimization via generation portfolio rebalancing, capex/workforce AI optimization, and procurement savings. Open questions include whether the Thursday AI session with Andrew is confirmed (which determines whether the Aliander case study pages are included) and whether Andrew is bringing additional attendees on Wednesday.",
+      "processed": false,
+      "added_at": 1785994788224
     }
   ]
 }
