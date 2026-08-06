@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:39:49.030Z",
+  "last_updated": "2026-08-06T05:39:54.431Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -416,6 +416,14 @@
       "summary": "Jamie and a colleague held a prep session ahead of Wednesday's in-person meeting with Andrew (Meralco), with Marco also attending. The team reviewed a lean ~10-page deck covering market pressures Meralco faces (ARCOA threshold changes, solar rooftop growth, political pricing pressure, and capex risk), with revenue impact modeled on an annualized basis using 2025 as a reference year (~20–25% potential reduction over 10 years) and a net income hit of ~2–5B pesos tied to MGEN's genco margins on power sold to Meralco. Key value levers identified include high-CLV customer retention within the franchise area, beyond-franchise growth acceleration, and cost optimization via generation portfolio rebalancing, capex/workforce AI optimization, and procurement savings. Open questions include whether the Thursday AI session with Andrew is confirmed (which determines whether the Aliander case study pages are included) and whether Andrew is bringing additional attendees on Wednesday.",
       "processed": false,
       "added_at": 1785994788224
+    },
+    {
+      "id": "gr1785994793935",
+      "title": "Six to eight week check-in — project confidence, water rights, and AIP strategy with Dave",
+      "date": "2026-08-03T08:28:37.734Z",
+      "summary": "The six-to-eight week check-in prep call reviewed confidence levels across the three priority NAP projects ahead of the Wednesday briefing with James. Project 1 (HYV) confidence is increasing due to RSSI-driven demand and the Ubén funding pathway; Project 2 (Ila-Ela/Wool Mill) has made material progress on model viability but confidence is held back by the stalled provincial government partnership, with MOU signing as the short-term gate; Project 3 (TuBig irrigation) surfaces a newly identified water rights blocker — TuBig needs 50–100 ML of additional extraction rights beyond its municipal contracts, and the agreed path is a scoped pilot using NIA's underutilized excess capacity under a temporary allocation, avoiding formal reallocation while building political backing over 1–2 years. DNR is positioned to front the NIA/NWRB water rights dialogue as a tangible, mandate-aligned action within the platform, also serving as a constructive role for DNR given current tensions with CCC. Dave confirmed availability for Steer Co 1 and DOR signing on September 3, and a COP 31 profiling opportunity has emerged through BCG's knowledge partner role with the President's Special Envoy for the Private Sector on the food and water security working group.",
+      "processed": false,
+      "added_at": 1785994793935
     }
   ]
 }
