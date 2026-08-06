@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:39:54.431Z",
+  "last_updated": "2026-08-06T05:40:04.010Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -424,6 +424,14 @@
       "summary": "The six-to-eight week check-in prep call reviewed confidence levels across the three priority NAP projects ahead of the Wednesday briefing with James. Project 1 (HYV) confidence is increasing due to RSSI-driven demand and the Ubén funding pathway; Project 2 (Ila-Ela/Wool Mill) has made material progress on model viability but confidence is held back by the stalled provincial government partnership, with MOU signing as the short-term gate; Project 3 (TuBig irrigation) surfaces a newly identified water rights blocker — TuBig needs 50–100 ML of additional extraction rights beyond its municipal contracts, and the agreed path is a scoped pilot using NIA's underutilized excess capacity under a temporary allocation, avoiding formal reallocation while building political backing over 1–2 years. DNR is positioned to front the NIA/NWRB water rights dialogue as a tangible, mandate-aligned action within the platform, also serving as a constructive role for DNR given current tensions with CCC. Dave confirmed availability for Steer Co 1 and DOR signing on September 3, and a COP 31 profiling opportunity has emerged through BCG's knowledge partner role with the President's Special Envoy for the Private Sector on the food and water security working group.",
       "processed": false,
       "added_at": 1785994793935
+    },
+    {
+      "id": "gr1785994803187",
+      "title": "Avoitus and Moralco — AI kickoff deck and scheduling conflict",
+      "date": "2026-07-31T08:01:34.282Z",
+      "summary": "The Aboitiz AI kickoff planned for August 6 has a critical conflict: Darlan, Peter, and Faith are all required in Singapore for a Samcorp meeting that fully overlaps, making an all-virtual presentation unworkable given the client's profile. **Jamie to speak to Anthony first** to arrange a reschedule (Darlan's Saudi visa/passport hold can serve as the stated reason); if the kickoff cannot move, Jamie will request a rain check via Annel. The AI kickoff deck is largely reused from the PrimeInfra engagement and is in good shape, but **Alejandro distribution utility slides need to be added** by Jamie (Faith has the material) — this will also allow the same deck to be used for Meralco. Key client context: the Aboitiz contact is the owner's US-educated son, motivated to build his own legacy, no known prior AI conversations at either Aboitiz or Meralco, and BCG's only prior engagement was an unimplemented ops/transformation design ~2 years ago.",
+      "processed": false,
+      "added_at": 1785994803187
     }
   ]
 }
