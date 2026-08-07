@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T04:23:04.781Z",
+  "last_updated": "2026-08-07T04:23:07.840Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -456,6 +456,14 @@
       "summary": "The team debriefed a strong demo meeting with Aboitiz (Neil, Carlos, Charlie, Alex attended), where the CCGT gas plant demo generated visible excitement. Carlos remains skeptical of AI value unlock due to a 'molecules business' mindset, and the prior BCGX EV charging engagement has created a positioning liability in his eyes. The agreed sales approach is to anchor on full transformation (not tool/service), potentially via a workshop, with a value pool sizing exercise as a possible short first step. Jamie will reach out to Carlos for a follow-up and meet separately with Charlie (CIO) to gauge appetite independently. On Meralco, retail churn has become a live opportunity with Manny now owning the retail business unit — the team agreed to schedule a dedicated one-hour session with an expert and re-engage Manny directly; VPP is a slower-burn opportunity with content prep needed before the bid drops next year.",
       "processed": false,
       "added_at": 1786076582389
+    },
+    {
+      "id": "gr1786076586852",
+      "title": "AIP working session — governance, funding models, and secretariat operations",
+      "date": "2026-08-05T09:35:44.793Z",
+      "summary": "The working session focused on ADB/AIP secretariat funding strategy ahead of TIERCO. The group agreed to prioritize secretariat funding in TIERCO 1 (deferring project-level funding to later in the year), framing the ask as a PH government cost-to-taxpayer commitment that unlocks match funding from GCF, ADB, and development partners. Jamie pushed to incorporate a climate justice angle — arguing AIP operating costs should be donor-funded in perpetuity (up to 10 years) from a climate adaptation lens, not purely from PH fiscal space, with a transition to a standalone fee-based model after the pipeline matures. Option A (GAA public funding, modeled on Infrastructure Asia/Enterprise Singapore) was flagged as the most realistic near-term path given complexities of management fees across multiple public entities. Budget sizing was agreed to be delegated to co-leads (PBSP ~$500K/2 years; DOF and PPP Center parallel envelopes), with the TIERCO deck structured around North Star ambition, operating model governance, and a standing progress page for recurring use.",
+      "processed": false,
+      "added_at": 1786076586852
     }
   ]
 }
