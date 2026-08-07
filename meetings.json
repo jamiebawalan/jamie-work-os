@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T08:04:20.879Z",
+  "last_updated": "2026-08-07T04:23:04.781Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -448,6 +448,14 @@
       "summary": "The NAP team held a check-in and content session focusing on ways of working and deck structure for the upcoming steerco. Key decisions include keeping 'value at risk' over livelihoods as the primary impact framing, and structuring the deck as a NAP recap → three project lessons (Negros: catalytic layer/guarantee/grant pools; Iloilo: optimizing access/underserved areas; Two Big: delivery model innovation) → pipeline. Several new conceptual visualization slides were agreed upon, including a public-vs-private sector budget leverage slide, underserved area heat maps, alternative payment models, and a catalytic layer rationale for Two Big. Open questions include how to set steerco targets (set target first, then work the math) and whether Dean can join virtually, which the team plans to pursue. Ways of working improvements agreed include restructuring Monday content sessions with dedicated brainstorm time, open-invite joint workstream yapping sessions, and leaning more into AI tools (Claude) for data organization and recalculation — Jamie owes the team an AI workflow overview.",
       "processed": false,
       "added_at": 1786003459163
+    },
+    {
+      "id": "gr1786076582389",
+      "title": "MAN power push",
+      "date": "2026-08-07T01:40:58.483Z",
+      "summary": "The team debriefed a strong demo meeting with Aboitiz (Neil, Carlos, Charlie, Alex attended), where the CCGT gas plant demo generated visible excitement. Carlos remains skeptical of AI value unlock due to a 'molecules business' mindset, and the prior BCGX EV charging engagement has created a positioning liability in his eyes. The agreed sales approach is to anchor on full transformation (not tool/service), potentially via a workshop, with a value pool sizing exercise as a possible short first step. Jamie will reach out to Carlos for a follow-up and meet separately with Charlie (CIO) to gauge appetite independently. On Meralco, retail churn has become a live opportunity with Manny now owning the retail business unit — the team agreed to schedule a dedicated one-hour session with an expert and re-engage Manny directly; VPP is a slower-burn opportunity with content prep needed before the bid drops next year.",
+      "processed": false,
+      "added_at": 1786076582389
     }
   ]
 }
