@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T04:19:43.726Z",
+  "last_updated": "2026-08-10T04:19:48.233Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -480,6 +480,14 @@
       "summary": "Jamie and Ali aligned on a short ADB engagement (~$97k) to deliver clickable wireframes, branding/UX design, and user testing via a 2-3 day physical workshop in Manila, targeting late September to give comfortable clearance before ADB's end-of-November book close. The budget must treat travel (~$30k for 3 people) as pass-through expenses, not netted from fees; Ali will run a cost estimate before anything goes on paper. Proposed team is Naomi (designer, available end of August), Mawad (backend), and potentially Rita for workshop facilitation. Jamie must deliver a short 1-2 page Word proposal by Wednesday 12 August, and Ali will clarify whether an expedited sub-$100k contracting route applies. Separately, the first payment on the existing engagement has been received; only the 5th/final payment (mid-September, end of warranty) remains, and Laudette needs a heads-up to close out the contract by end of September.",
       "processed": false,
       "added_at": 1786335581996
+    },
+    {
+      "id": "gr1786335587361",
+      "title": "JB-JC-AO catch-up",
+      "date": "2026-08-07T08:15:28.380Z",
+      "summary": "The conversation covered Jamie's time allocation model (40% FCDO, 40% power, 20% ADB — with ADB flexible down to 10%), BD pipeline priorities, and the working model with Sek. Key decision: Jamie plays an expert/intro role for Sek on ADB and DFAT, not a day-to-day BD partner — Marco remains Jamie's primary BD feedback provider on power. Tiff was proposed as a short-term BD/execution support for Sek on DFAT through end of year, filling her post-MC reps gap. People items flagged include Gwen's imminent onboarding, guidance needed for Djoey via Sue, a watch on Nina, and an up-or-out decision pending for Sam (BA). The DFAT platform decision remains open until February, with Jamie advised to keep options available without over-committing.",
+      "processed": false,
+      "added_at": 1786335587361
     }
   ]
 }
