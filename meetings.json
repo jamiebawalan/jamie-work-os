@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T08:13:33.154Z",
+  "last_updated": "2026-08-10T04:19:43.726Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -472,6 +472,14 @@
       "summary": "Jamie met with Djoey to discuss career development ahead of rolling off her current case in 3 weeks. The key issue is that her manager Sue has low visibility into Jamie's work despite strong daily performance, so the plan is to increase content sessions with Sue to weekly 30-minute check-ins, booked immediately, with agendas sent in advance. Jamie will prepare a structured self-assessment across 7 of the 9 CD dimensions, first aligning with Annika for a grounded view before presenting to Sue. Djoey clarified the grade progression (A→B→C across associate tenure) and confirmed that C's are generally sufficient for promotion at the right tenure stage, with promotion to Senior Associate not yet a focus — contingent on demonstrating B-level performance first over the next 5–6 months.",
       "processed": false,
       "added_at": 1786090411258
+    },
+    {
+      "id": "gr1786335581996",
+      "title": "ADB design workshop and wireframes — scope, timing, and team staffing with Ali",
+      "date": "2026-08-07T09:07:56.885Z",
+      "summary": "Jamie and Ali aligned on a short ADB engagement (~$97k) to deliver clickable wireframes, branding/UX design, and user testing via a 2-3 day physical workshop in Manila, targeting late September to give comfortable clearance before ADB's end-of-November book close. The budget must treat travel (~$30k for 3 people) as pass-through expenses, not netted from fees; Ali will run a cost estimate before anything goes on paper. Proposed team is Naomi (designer, available end of August), Mawad (backend), and potentially Rita for workshop facilitation. Jamie must deliver a short 1-2 page Word proposal by Wednesday 12 August, and Ali will clarify whether an expedited sub-$100k contracting route applies. Separately, the first payment on the existing engagement has been received; only the 5th/final payment (mid-September, end of warranty) remains, and Laudette needs a heads-up to close out the contract by end of September.",
+      "processed": false,
+      "added_at": 1786335581996
     }
   ]
 }
