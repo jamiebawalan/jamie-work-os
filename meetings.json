@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T05:40:18.081Z",
+  "last_updated": "2026-08-11T05:40:19.872Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -496,6 +496,14 @@
       "summary": "Jamie met with Loudette to align on the design workshop proposal and outstanding ADB project deliverables. The proposal will be sent tomorrow reflecting 97k only (travel costs removed) with a hybrid workshop format and proposed September 23–24 dates. Two overdue items need immediate attention: the lessons learned document must be populated and shared with Martin and the project team before a formal BP call, and an indicative KT session schedule must be shared this week for two sessions (data and Phase 2 source codes) with Martin involved. On enhancements, the 300k quote is not feasible; a refined figure drawing on Phase 1 and Phase 2 savings will be shared by next week.",
       "processed": false,
       "added_at": 1786426816465
+    },
+    {
+      "id": "gr1786426818911",
+      "title": "Meralco VPP",
+      "date": "2026-08-11T02:29:25.877Z",
+      "summary": "BCG reconnected with Meralco on the VPP opportunity, which has an RFP expected Q4 2026 or early 2027 funded by USTDA (~$2–2.7M, likely requiring use of US technologies). Meralco's hypothesis is that owning the VPP OS (via off-the-shelf optimizers and customized algorithms for the Philippine market) will be a long-term market advantage, given their existing solar rooftop, EV charging, and C&I retail assets. A key open question is sequencing: whether to first help Meralco define the business model and policy gaps, or to set up a sandbox pilot (similar to Singapore's approach) to test and prove policy changes before scaling — consensus leaned toward doing both in parallel, with the pilot executed with US companies to strengthen the USTDA case. Jamie owns retrieving prior VPP slides, setting up a biweekly cadence, and proactively shaping the RFP over the coming months; Meralco bandwidth is limited through August due to high power price pressures.",
+      "processed": false,
+      "added_at": 1786426818911
     }
   ]
 }
