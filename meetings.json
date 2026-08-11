@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T04:19:48.233Z",
+  "last_updated": "2026-08-11T05:40:18.081Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -488,6 +488,14 @@
       "summary": "The conversation covered Jamie's time allocation model (40% FCDO, 40% power, 20% ADB — with ADB flexible down to 10%), BD pipeline priorities, and the working model with Sek. Key decision: Jamie plays an expert/intro role for Sek on ADB and DFAT, not a day-to-day BD partner — Marco remains Jamie's primary BD feedback provider on power. Tiff was proposed as a short-term BD/execution support for Sek on DFAT through end of year, filling her post-MC reps gap. People items flagged include Gwen's imminent onboarding, guidance needed for Djoey via Sue, a watch on Nina, and an up-or-out decision pending for Sam (BA). The DFAT platform decision remains open until February, with Jamie advised to keep options available without over-committing.",
       "processed": false,
       "added_at": 1786335587361
+    },
+    {
+      "id": "gr1786426816465",
+      "title": "Discussion with Loudette",
+      "date": "2026-08-11T03:26:29.755Z",
+      "summary": "Jamie met with Loudette to align on the design workshop proposal and outstanding ADB project deliverables. The proposal will be sent tomorrow reflecting 97k only (travel costs removed) with a hybrid workshop format and proposed September 23–24 dates. Two overdue items need immediate attention: the lessons learned document must be populated and shared with Martin and the project team before a formal BP call, and an indicative KT session schedule must be shared this week for two sessions (data and Phase 2 source codes) with Martin involved. On enhancements, the 300k quote is not feasible; a refined figure drawing on Phase 1 and Phase 2 savings will be shared by next week.",
+      "processed": false,
+      "added_at": 1786426816465
     }
   ]
 }
