@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T01:36:24.676Z",
+  "last_updated": "2026-08-13T01:36:26.601Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -520,6 +520,14 @@
       "summary": "Jamie and Marco aligned on pursuing an Aboitiz AI transformation engagement modeled on the Semcorp Phase 0 approach, anchoring on a ~100M EBITDA value idea. Three generation-focused hypothesis areas were identified: O&M cost optimization, asset utilization (outages), and portfolio capex management. **Jamie's immediate priority** is to build the Aboitiz value pool waterfall using Semcorp materials Marco will share via SharePoint, with Fay and Karen able to provide CCGT value driver logic applicable to coal assets. The team is aligned on a workshop as the next client-facing step, to be shaped through ongoing catch-ups with Charlie, Sandro, and Carlos. On VPP, Jamie will hold off on deep work until he syncs with Manny Ruby, coordinating timing with Anthony first.",
       "processed": false,
       "added_at": 1786584982756
+    },
+    {
+      "id": "gr1786584985777",
+      "title": "Adaptation Investment Platform — governance, operating model, and partner onboarding",
+      "date": "2026-08-12T07:54:39.392Z",
+      "summary": "The group finalized the governance split between the Management Committee (day-to-day strategic direction, pipeline intake, KPI endorsement) and the Steering Committee (sectoral/geographic expansion, impact targets, budget, public statements). Five secretariat capability roles were defined — project discovery, project development, deal orchestration, capital access/facilitation, and ecosystem relations/admin — with a first-pass delineation across PBSP, PPP Center, and DOF, and an operational lead function flagged as a future consideration to raise at steering level. Partner onboarding will follow four principles (archetype-differentiated outreach, low-friction entry via email EOI, information-sheet-gated project matching, mindful cadence), to be tested with friendly foundations over the coming weeks. Open questions include CCC's preferred role (oversight vs. operational control) to be clarified tomorrow, NDA confirmation on GCF secretariat inclusion, and resolution of the grassroots/community access tension in external pipeline criteria. Jamie owns updating the AIP concept note and preparing steering committee slides, while Director John will chair the pipeline ambition and sector expansion workshop next week.",
+      "processed": false,
+      "added_at": 1786584985777
     }
   ]
 }
