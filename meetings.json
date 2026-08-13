@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T05:40:24.450Z",
+  "last_updated": "2026-08-13T01:36:24.676Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -512,6 +512,14 @@
       "summary": "The team walked through the draft AIP steering committee pack (3 September) covering project deep dives, ambition-setting, operating model, and a one-year roadmap. A key design principle agreed with Dave: the session must drive implementation commitments, not be a show-and-tell — unresolved items (AIP team lead appointment, resourcing, secretariat funding) must be surfaced explicitly with a resolution plan, and anything unresolved should carry forward transparently to a second steering committee. Dave flagged that embedding is a long-term marker: for this session BCG may still answer detail questions, but the goal by year-end is for AIP team members to own that fully. Facilitation will be led by Mic with Dave supporting without being visibly tagged; 1-2 prep calls between them are needed before 3 September. Jamie to do an offline pack review with Dave after 15 August covering story arc, speaker assignments, and operating model approach.",
       "processed": false,
       "added_at": 1786426823512
+    },
+    {
+      "id": "gr1786584982756",
+      "title": "Semcorp AI transformation — value pools and workshop planning with Marco",
+      "date": "2026-08-12T01:29:17.605Z",
+      "summary": "Jamie and Marco aligned on pursuing an Aboitiz AI transformation engagement modeled on the Semcorp Phase 0 approach, anchoring on a ~100M EBITDA value idea. Three generation-focused hypothesis areas were identified: O&M cost optimization, asset utilization (outages), and portfolio capex management. **Jamie's immediate priority** is to build the Aboitiz value pool waterfall using Semcorp materials Marco will share via SharePoint, with Fay and Karen able to provide CCGT value driver logic applicable to coal assets. The team is aligned on a workshop as the next client-facing step, to be shaped through ongoing catch-ups with Charlie, Sandro, and Carlos. On VPP, Jamie will hold off on deep work until he syncs with Manny Ruby, coordinating timing with Anthony first.",
+      "processed": false,
+      "added_at": 1786584982756
     }
   ]
 }
