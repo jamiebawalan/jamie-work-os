@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T07:37:21.230Z",
+  "last_updated": "2026-08-14T08:31:46.065Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -536,6 +536,14 @@
       "summary": "The meeting covered Agria Foundation's integrated model for transitioning Negros smallholder farmers from sugar cane to ube and vegetables, combining a farm school, cooperative structure, and blended finance (90% grant / 10% equity per Julie's proposal). Key decisions include keeping sugar cane as a base crop while intercropping vegetables for near-term cash income, targeting 1,000 farmers in the first phase with batch self-selection between ube and sugar cane+vegetables tracks, and using a partial-subsidy model for solar-powered irrigation (subsidize 20 units at 50% rather than 10 at 100%). Open questions include finalizing yield maximization estimates with and without water, sizing the ube processing facility, and confirming the equity vs. grant split. Jamie must review yield estimates this weekend and work with Sherry offline to finalize the investable proposal, with DA alignment as the gating step before pursuing DTI for market access and export.",
       "processed": false,
       "added_at": 1786693039353
+    },
+    {
+      "id": "gr1786696304129",
+      "title": "MAN Power push discussion",
+      "date": "2026-08-14T07:37:00.648Z",
+      "summary": "The discussion covered prioritization across Aboitiz, Meralco/MGen, and PrimeInfra BD threads ahead of a critical VPP meeting next week. For **Aboitiz**, Jamie will follow up with Charlie next week, send a belated note to Danne (adopting 48hr follow-up as standard practice), and work with Marco toward a transformation-led workshop within four weeks. **Meralco** follow-ups (cat money, retail/churn, procurement) are deprioritized until after VPP; Manny reconnect is deferred to early September pending alignment with Marco on a concrete reason to reach out. Two proactive perspective pieces for **Gyon (PrimeInfra)** were identified — the Cox acquisition/portfolio pruning angle or a support function synergies framework — to be prepared when bandwidth allows post-VPP. Open questions include who leads the Manny outreach (Jamie vs. Marco) and which Gyon topic to prioritize first.",
+      "processed": false,
+      "added_at": 1786696304129
     }
   ]
 }
