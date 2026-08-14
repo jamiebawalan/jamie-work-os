@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T01:36:26.601Z",
+  "last_updated": "2026-08-14T07:37:21.230Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -528,6 +528,14 @@
       "summary": "The group finalized the governance split between the Management Committee (day-to-day strategic direction, pipeline intake, KPI endorsement) and the Steering Committee (sectoral/geographic expansion, impact targets, budget, public statements). Five secretariat capability roles were defined — project discovery, project development, deal orchestration, capital access/facilitation, and ecosystem relations/admin — with a first-pass delineation across PBSP, PPP Center, and DOF, and an operational lead function flagged as a future consideration to raise at steering level. Partner onboarding will follow four principles (archetype-differentiated outreach, low-friction entry via email EOI, information-sheet-gated project matching, mindful cadence), to be tested with friendly foundations over the coming weeks. Open questions include CCC's preferred role (oversight vs. operational control) to be clarified tomorrow, NDA confirmation on GCF secretariat inclusion, and resolution of the grassroots/community access tension in external pipeline criteria. Jamie owns updating the AIP concept note and preparing steering committee slides, while Director John will chair the pipeline ambition and sector expansion workshop next week.",
       "processed": false,
       "added_at": 1786584985777
+    },
+    {
+      "id": "gr1786693039353",
+      "title": "Water service model for farmers",
+      "date": "2026-08-14T04:36:31.049Z",
+      "summary": "The meeting covered Agria Foundation's integrated model for transitioning Negros smallholder farmers from sugar cane to ube and vegetables, combining a farm school, cooperative structure, and blended finance (90% grant / 10% equity per Julie's proposal). Key decisions include keeping sugar cane as a base crop while intercropping vegetables for near-term cash income, targeting 1,000 farmers in the first phase with batch self-selection between ube and sugar cane+vegetables tracks, and using a partial-subsidy model for solar-powered irrigation (subsidize 20 units at 50% rather than 10 at 100%). Open questions include finalizing yield maximization estimates with and without water, sizing the ube processing facility, and confirming the equity vs. grant split. Jamie must review yield estimates this weekend and work with Sherry offline to finalize the investable proposal, with DA alignment as the gating step before pursuing DTI for market access and export.",
+      "processed": false,
+      "added_at": 1786693039353
     }
   ]
 }
