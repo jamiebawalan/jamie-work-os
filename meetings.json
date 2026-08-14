@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T08:31:46.065Z",
+  "last_updated": "2026-08-14T08:33:06.405Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -544,6 +544,14 @@
       "summary": "The discussion covered prioritization across Aboitiz, Meralco/MGen, and PrimeInfra BD threads ahead of a critical VPP meeting next week. For **Aboitiz**, Jamie will follow up with Charlie next week, send a belated note to Danne (adopting 48hr follow-up as standard practice), and work with Marco toward a transformation-led workshop within four weeks. **Meralco** follow-ups (cat money, retail/churn, procurement) are deprioritized until after VPP; Manny reconnect is deferred to early September pending alignment with Marco on a concrete reason to reach out. Two proactive perspective pieces for **Gyon (PrimeInfra)** were identified — the Cox acquisition/portfolio pruning angle or a support function synergies framework — to be prepared when bandwidth allows post-VPP. Open questions include who leads the Manny outreach (Jamie vs. Marco) and which Gyon topic to prioritize first.",
       "processed": false,
       "added_at": 1786696304129
+    },
+    {
+      "id": "gr1786696385484",
+      "title": "AIP operating model and strategic positioning with Elvin",
+      "date": "2026-08-14T02:29:20.607Z",
+      "summary": "BCG's technical assistance support for AIP ends March 2027, making this year critical for capability building across co-lead organizations including PBSP. PBSP has identified AIP as a priority self-funding venture in its five-year strategic plan, though full resourcing is contingent on funding given major financial uncertainty ahead (the TB/Global Fund program worth $40–60M/year is likely ending December 2026). The September 3 steering committee agenda was agreed: project updates, strategic positioning (DOF-led), operating model (PPP Center-led), and funding models (PBSP-led, easiest to hardest). Key open question is whether PBSP funds AIP from opex or pursues external resources; Elvin is also exploring deploying a portion of PBSP's ~560M peso endowment into catalytic initiatives like AIP. Jamie must urgently prepare a concise briefer for Lito and obtain his email address for the formal invitation from Undersecretary Hoven Bosa's office.",
+      "processed": false,
+      "added_at": 1786696385484
     }
   ]
 }
