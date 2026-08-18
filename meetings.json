@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:13.738Z",
+  "last_updated": "2026-08-18T05:10:18.533Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -584,6 +584,14 @@
       "summary": "The MOU between the Iloilo Provincial Government and Straw Innovations was successfully signed at the Capitol, witnessed by British Embassy Second Secretary Ellen Anthony and Mayor Lazaro of Pototan, formalizing mechanization and rice straw valorization under the NAP Servicio program. The pilot targets 5,000 hectares across 10 municipalities (starting with Pototan), with three private sector operators — Mayani, Straw Innovations, and Cool Mill — providing inputs/finance, machinery-as-a-service, and efficient milling respectively. Governor Defensor raised the possibility of local assembly or light manufacturing of Straw Innovations machinery in Iloilo, with Sir Jerome's team identified as a potential investor link — this is an open action for BCG to facilitate. Ellen Anthony flagged UK drone/mangrove work as a potential adjacent collaboration. Key open questions include confirming the deployment timeline for the initial 6 Straw Innovations units, formalizing Mayani's pilot onboarding, and defining the path to full 140,000-hectare scale-up.",
       "processed": false,
       "added_at": 1787029812855
+    },
+    {
+      "id": "gr1787029818039",
+      "title": "Water service model for farmers",
+      "date": "2026-08-14T04:36:31.049Z",
+      "summary": "The meeting covered Agria Foundation's integrated model for transitioning ~1,000 smallholder farmers in Negros from sugar cane to ube and vegetables, anchored by a farm school, cooperative structure, and blended finance (90% grant / 10% equity under Julie's proposal). Key economics were discussed — ube yielding ~₱480,000/hectare revenue vs. sugar cane in the ₱120–170/kg range, with vegetables potentially reaching ₱1M/hectare/year — though final numbers are to be verified and sent to Sherry for facility sizing. The model preserves a base level of sugar cane productivity (targeting 30–40% improvement via intercropping) to protect mill, trucking, and factory jobs that depend on sugar supply. Funding sources identified include ADB's $200M agriculture program, Thai bank (Dan Bank) agri-law budgets, DA devolution funds, and impact financiers attracted to the women-led cooperative structure. Immediate next steps are for Jamie to review yield estimates this weekend, finalize the investable proposal with Sherry, align with DA, and then engage DTI on market access and export.",
+      "processed": false,
+      "added_at": 1787029818039
     }
   ]
 }
