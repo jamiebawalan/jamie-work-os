@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:18.533Z",
+  "last_updated": "2026-08-18T05:10:20.696Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -592,6 +592,14 @@
       "summary": "The meeting covered Agria Foundation's integrated model for transitioning ~1,000 smallholder farmers in Negros from sugar cane to ube and vegetables, anchored by a farm school, cooperative structure, and blended finance (90% grant / 10% equity under Julie's proposal). Key economics were discussed — ube yielding ~₱480,000/hectare revenue vs. sugar cane in the ₱120–170/kg range, with vegetables potentially reaching ₱1M/hectare/year — though final numbers are to be verified and sent to Sherry for facility sizing. The model preserves a base level of sugar cane productivity (targeting 30–40% improvement via intercropping) to protect mill, trucking, and factory jobs that depend on sugar supply. Funding sources identified include ADB's $200M agriculture program, Thai bank (Dan Bank) agri-law budgets, DA devolution funds, and impact financiers attracted to the women-led cooperative structure. Immediate next steps are for Jamie to review yield estimates this weekend, finalize the investable proposal with Sherry, align with DA, and then engage DTI on market access and export.",
       "processed": false,
       "added_at": 1787029818039
+    },
+    {
+      "id": "gr1787029819587",
+      "title": "Discussion with Djoey",
+      "date": "2026-08-13T07:10:12.538Z",
+      "summary": "Jamie and Sue debriefed on Djoey's performance, which remains behind on qualitative PSI and slide writing, with limited observation data to support a confident B rating. A pattern of inconsistency was flagged — Djoey appears to describe situations differently to different people (e.g., framing Sue's request for an adult conversation with Eric as being 'forced to apologize,' and complaining about Home Credit's learning curve privately while affirming it positively to Sue). Sue stated that continued reports of this nature would make it impossible for her to support Djoey staying at BCG, citing character as a critical factor. The three-way conversation tomorrow at 3PM will focus on remaining dimensions, concrete action plans, and explicitly surfacing character/professionalism as a theming dimension — with less focus on feelings. Open question: whether and how to directly address the inconsistent narratives with Djoey without revealing the source.",
+      "processed": false,
+      "added_at": 1787029819587
     }
   ]
 }
