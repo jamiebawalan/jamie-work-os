@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:36.245Z",
+  "last_updated": "2026-08-18T05:10:39.780Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -624,6 +624,14 @@
       "summary": "The team reviewed the GG intervention's WEE contributions, output targets, and outcome indicators for the upcoming log frame submission. Philippines targets a WEE score of 1, with a mix of selection-stage and delivery-stage contributions across workstreams; a short WEE macro narrative on climate and gender should be added as contextual support. On outputs, substantive business engagements (1.3) will be kept at low (50) with the event as the primary route; outputs 2.2 and 2.3 will reflect a narrative of doubling down on mature projects for conversion rather than generating new outputs, with a broader discussion needed with Tetra Tech and FCDO on double-counting high-potential opportunities across phases. Output 3.2 (commercial partners database) has a low bar and the existing shared database likely already qualifies, while Output 3.3 (AIPs) needs Tetra Tech confirmation. Nick will update the log frame table and send Maxine specific questions for Tetra Tech review; the jobs-created indicator under Outcome 2.1 remains unresolved and will be escalated centrally with FCDO.",
       "processed": false,
       "added_at": 1787029835376
+    },
+    {
+      "id": "gr1787029838950",
+      "title": "Iloilo rice value chain — ratoon cropping, MOU signing, and concept note with Straw Innovations and IPG",
+      "date": "2026-08-11T07:54:31.087Z",
+      "summary": "The team aligned on plans for the **August 18 Iloilo visit**: BCG will lead a governor project update (skeleton deck due Thursday 13 Aug), followed by an MOU signing with Straw Innovations and IPG (pending Jeron confirmation), a farmer association roundtable led by Straw, and a closed-door session with Jeron covering RPC pricing, profit share, the IPG guarantee pool, and co-op mill sizing. On the **Temasek concept note**, the two-pager targets 1,000 ha (Phase 1) and 10,000 ha (Phase 2), with a total budget of ~480M pesos and a 1M SGD ask (~22% of total); operators must validate Phase 2 machine counts (56 harvesters/40 mills) and co-financing sources before Friday's submission via Jeff (MyAni). A key open question is how to handle the **capex valley-of-death** for unconventional equipment — options are a longer phased timeline or a bold short burst with an explicit risk register entry on asset funding, with Jamie to frame a recommendation. John flagged that **IPG must be pressed to formally commit as an off-taker**, as the entire end-to-end model depends on it. Additional funding windows (Common Fund for Commodities, UN CTCN, impact investors) were noted but have barriers; BCG will pursue warm contacts and share findings with the consortium.",
+      "processed": false,
+      "added_at": 1787029838950
     }
   ]
 }
