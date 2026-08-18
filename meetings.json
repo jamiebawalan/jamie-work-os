@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:20.696Z",
+  "last_updated": "2026-08-18T05:10:22.766Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -600,6 +600,14 @@
       "summary": "Jamie and Sue debriefed on Djoey's performance, which remains behind on qualitative PSI and slide writing, with limited observation data to support a confident B rating. A pattern of inconsistency was flagged — Djoey appears to describe situations differently to different people (e.g., framing Sue's request for an adult conversation with Eric as being 'forced to apologize,' and complaining about Home Credit's learning curve privately while affirming it positively to Sue). Sue stated that continued reports of this nature would make it impossible for her to support Djoey staying at BCG, citing character as a critical factor. The three-way conversation tomorrow at 3PM will focus on remaining dimensions, concrete action plans, and explicitly surfacing character/professionalism as a theming dimension — with less focus on feelings. Open question: whether and how to directly address the inconsistent narratives with Djoey without revealing the source.",
       "processed": false,
       "added_at": 1787029819587
+    },
+    {
+      "id": "gr1787029821737",
+      "title": "Discussion ",
+      "date": "2026-08-12T04:59:03.559Z",
+      "summary": "Jamie and Sven (Inverto) aligned on the approach for an upcoming first engagement session with Meralco, a ~$2B annual spend opportunity across generation and distribution. The planned session is broad-audience with only ~20 minutes for procurement; Inverto's standard approach will be used: capabilities overview, 1–2 AI procurement demos, utility case studies, and an offer of a free Inverto Diagnostic with 4–5x ROI framing. **Open question:** whether SEA utility case studies exist (Sven to check with European Inverto colleagues; Jamie to send Chicago-sourced links). Jamie will use a WhatsApp contact at Meralco to informally gather capex/opex split, procurement team size, and recent transformation programs before the session.",
+      "processed": false,
+      "added_at": 1787029821737
     }
   ]
 }
