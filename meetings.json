@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:34.355Z",
+  "last_updated": "2026-08-18T05:10:36.245Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -616,6 +616,14 @@
       "summary": "The weekly TMA check-in (now shifted to Tuesdays at 1:05 PM) surfaced ongoing team concerns around sustainability, predictability, and fragmented heads-down time. The team agreed to reinstate morning no-meeting blocks, consolidate client meetings into dedicated day blocks (Tuesdays lighter, government meetings Wed/Thu, Fridays protected), and explore a full heads-down day weekly or biweekly. Jan flagged that weekly outputs and long-term milestones (heads of terms) are not yet converging and that work across different partners is not repurposable — the team will look to Claude and other AI tools to help solve this. Max proposed shifting milestones from output-oriented to outcome-oriented (documentation into a master doc), which Jamie agreed to raise with the central team; a theming refresh with new ACs and Barry (on AI norms) is scheduled for next week.",
       "processed": false,
       "added_at": 1787029833334
+    },
+    {
+      "id": "gr1787029835376",
+      "title": "GG contract and intervention outputs — WE contributions, targets, and log frame alignment with Moxie and Nick",
+      "date": "2026-08-11T09:01:42.018Z",
+      "summary": "The team reviewed the GG intervention's WEE contributions, output targets, and outcome indicators for the upcoming log frame submission. Philippines targets a WEE score of 1, with a mix of selection-stage and delivery-stage contributions across workstreams; a short WEE macro narrative on climate and gender should be added as contextual support. On outputs, substantive business engagements (1.3) will be kept at low (50) with the event as the primary route; outputs 2.2 and 2.3 will reflect a narrative of doubling down on mature projects for conversion rather than generating new outputs, with a broader discussion needed with Tetra Tech and FCDO on double-counting high-potential opportunities across phases. Output 3.2 (commercial partners database) has a low bar and the existing shared database likely already qualifies, while Output 3.3 (AIPs) needs Tetra Tech confirmation. Nick will update the log frame table and send Maxine specific questions for Tetra Tech review; the jobs-created indicator under Outcome 2.1 remains unresolved and will be escalated centrally with FCDO.",
+      "processed": false,
+      "added_at": 1787029835376
     }
   ]
 }
