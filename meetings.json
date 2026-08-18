@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:09.533Z",
+  "last_updated": "2026-08-18T05:10:11.748Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -568,6 +568,14 @@
       "summary": "A tripartite discussion was held with Straw Innovations and Peace and Equity Foundation (PEF) in Iloilo, surfacing strong complementarities across their Pototan programs. Straw Innovations is deploying six half-feed harvesters in September–October 2026 under an hourly rental model through farmer associations, with rice straw valorization (biochar, mushroom production, vermicompost) as the core business from dry season 2027. PEF is supporting 44 farmer associations and 2 co-ops through VICTO National, focusing on organizational strengthening, demo farming (10 ha, 4 cropping cycles), and marketing linkages, with most rollout starting in 2027. A key decision was to explore a split model where PEF/VICTO handles capability building and Mayani focuses on off-take and input supply, avoiding funding duplication on staff costs. Open questions include finalizing the MOU/MOA with the Iloilo provincial government and aligning Mayani's capacity building program with PEF's before the next field visit.",
       "processed": false,
       "added_at": 1787029807924
+    },
+    {
+      "id": "gr1787029810713",
+      "title": "Avoid this energy valuation — levers, assumptions, and retail market opportunity",
+      "date": "2026-08-18T02:31:30.385Z",
+      "summary": "The team reviewed the Aboitiz value sizing model, now spanning 7 levers with a $76M–$149M USD range; the RE forecaster lever was dropped and B2C retail merged into corporate function, while a new distribution O&M lever was added. Two lower-confidence levers were flagged: corporate function (top-down 15–25% efficiency on PHP 9.8B personnel cost) and distribution O&M (benchmarked against Morocco's 5.9% system loss vs. Aboitiz's ~9.4–10%). Key open items include confirming the regulatory system loss cap (~6.5%) to properly split customer pass-through vs. Aboitiz-absorbed costs, adding a capacity factor sub-lever under thermal O&M to quantify revenue uplift from bridging coal asset utilization to ~92%, and reframing FTE avoided savings as a 2030 steady-state view. The RCOA threshold drop from 500kW to 100kW was identified as a material B2B retail opportunity (folded into Lever 3), potentially allowing Aboitiz to compete for CNI customers currently served by Meralco, which represents ~$1.3B in revenue exposure. Marco meeting prep will focus on the single waterfall with key assumptions, deferring interest treatment on CapEx savings to his direction.",
+      "processed": false,
+      "added_at": 1787029810713
     }
   ]
 }
