@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:22.766Z",
+  "last_updated": "2026-08-18T05:10:34.355Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -608,6 +608,14 @@
       "summary": "Jamie and Sven (Inverto) aligned on the approach for an upcoming first engagement session with Meralco, a ~$2B annual spend opportunity across generation and distribution. The planned session is broad-audience with only ~20 minutes for procurement; Inverto's standard approach will be used: capabilities overview, 1–2 AI procurement demos, utility case studies, and an offer of a free Inverto Diagnostic with 4–5x ROI framing. **Open question:** whether SEA utility case studies exist (Sven to check with European Inverto colleagues; Jamie to send Chicago-sourced links). Jamie will use a WhatsApp contact at Meralco to informally gather capex/opex split, procurement team size, and recent transformation programs before the session.",
       "processed": false,
       "added_at": 1787029821737
+    },
+    {
+      "id": "gr1787029833334",
+      "title": "Teaming discussion",
+      "date": "2026-08-11T05:07:09.392Z",
+      "summary": "The weekly TMA check-in (now shifted to Tuesdays at 1:05 PM) surfaced ongoing team concerns around sustainability, predictability, and fragmented heads-down time. The team agreed to reinstate morning no-meeting blocks, consolidate client meetings into dedicated day blocks (Tuesdays lighter, government meetings Wed/Thu, Fridays protected), and explore a full heads-down day weekly or biweekly. Jan flagged that weekly outputs and long-term milestones (heads of terms) are not yet converging and that work across different partners is not repurposable — the team will look to Claude and other AI tools to help solve this. Max proposed shifting milestones from output-oriented to outcome-oriented (documentation into a master doc), which Jamie agreed to raise with the central team; a theming refresh with new ACs and Barry (on AI norms) is scheduled for next week.",
+      "processed": false,
+      "added_at": 1787029833334
     }
   ]
 }
