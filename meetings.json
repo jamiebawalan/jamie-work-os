@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:39.780Z",
+  "last_updated": "2026-08-18T05:10:52.264Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -632,6 +632,14 @@
       "summary": "The team aligned on plans for the **August 18 Iloilo visit**: BCG will lead a governor project update (skeleton deck due Thursday 13 Aug), followed by an MOU signing with Straw Innovations and IPG (pending Jeron confirmation), a farmer association roundtable led by Straw, and a closed-door session with Jeron covering RPC pricing, profit share, the IPG guarantee pool, and co-op mill sizing. On the **Temasek concept note**, the two-pager targets 1,000 ha (Phase 1) and 10,000 ha (Phase 2), with a total budget of ~480M pesos and a 1M SGD ask (~22% of total); operators must validate Phase 2 machine counts (56 harvesters/40 mills) and co-financing sources before Friday's submission via Jeff (MyAni). A key open question is how to handle the **capex valley-of-death** for unconventional equipment — options are a longer phased timeline or a bold short burst with an explicit risk register entry on asset funding, with Jamie to frame a recommendation. John flagged that **IPG must be pressed to formally commit as an off-taker**, as the entire end-to-end model depends on it. Additional funding windows (Common Fund for Commodities, UN CTCN, impact investors) were noted but have barriers; BCG will pursue warm contacts and share findings with the consortium.",
       "processed": false,
       "added_at": 1787029838950
+    },
+    {
+      "id": "gr1787029851320",
+      "title": "Straw innovations — MOU signing, concept note refinement, and funding strategy with Greg",
+      "date": "2026-08-10T06:59:16.377Z",
+      "summary": "The meeting with Greg (Straw Innovations) covered three main areas: MOU signing, the Temasek concept note, and Straw's funding and operational situation. The ceremonial MOU signing is tentatively scheduled for **Tuesday August 18** pending authorization confirmation from Jeron tomorrow, with Brian, Anne, and British Embassy representatives expected to attend alongside a farmer round table. On the concept note, Temasek (Z) is emphasizing sustainability beyond the pilot, co-funding partners, and a credible aggregator (Mayani flagged as natural fit); Jamie needs to lock in target outcomes, budget allocation by activity/operator, and the scaling pathway in tomorrow's meeting. A key constraint is that **Temasek will not fund capex**, meaning Straw's six combine harvesters are the initial input and broader scaling requires separate financing — Greg suggested spreading this over 3–4 years as part of a wider funding package including potential sources such as Atmosphere (~$1M loan), A2D/UNIDO (~$5M, targeting next round), and the Food Planet Prize ($1.5M, currently top 50). Greg also flagged UK team reductions from end of August (Leo moving to part-time/PhD focus, Alexis pausing), with resources being redirected to Philippine operations.",
+      "processed": false,
+      "added_at": 1787029851320
     }
   ]
 }
