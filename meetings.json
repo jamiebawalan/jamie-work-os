@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T10:05:19.520Z",
+  "last_updated": "2026-08-18T05:10:09.533Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -560,6 +560,14 @@
       "summary": "Jamie interviewed Angelica Pitao (GCash, international business strategy) for a consulting role. The behavioral answer was acceptable but not strong — the stakeholder influence story was credible though consumer-centric. On the case (Big Oil Co. renewable energy), Angelica demonstrated solid strategic framing and a good instinct to anchor on long-term value and speed-to-market, but math was slow and cost concepts required significant nudging. Overall assessment is SA-level fit at best; C-level is a stretch. Jamie needs to submit formal feedback and decide whether to advance the candidate.",
       "processed": false,
       "added_at": 1786961117908
+    },
+    {
+      "id": "gr1787029807924",
+      "title": "Discussion with straw innovations and peace and equity foundation",
+      "date": "2026-08-17T07:14:45.839Z",
+      "summary": "A tripartite discussion was held with Straw Innovations and Peace and Equity Foundation (PEF) in Iloilo, surfacing strong complementarities across their Pototan programs. Straw Innovations is deploying six half-feed harvesters in September–October 2026 under an hourly rental model through farmer associations, with rice straw valorization (biochar, mushroom production, vermicompost) as the core business from dry season 2027. PEF is supporting 44 farmer associations and 2 co-ops through VICTO National, focusing on organizational strengthening, demo farming (10 ha, 4 cropping cycles), and marketing linkages, with most rollout starting in 2027. A key decision was to explore a split model where PEF/VICTO handles capability building and Mayani focuses on off-take and input supply, avoiding funding duplication on staff costs. Open questions include finalizing the MOU/MOA with the Iloilo provincial government and aligning Mayani's capacity building program with PEF's before the next field visit.",
+      "processed": false,
+      "added_at": 1787029807924
     }
   ]
 }
