@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T08:15:14.958Z",
+  "last_updated": "2026-08-19T08:15:17.334Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -656,6 +656,14 @@
       "summary": "The team held a teaming refresh to align new members (Alex and two new associates) on system norms, working styles, and case cadence for NAP. Key decisions include: daily 10 AM check-ins, CTM on Mon/Wed, teaming on Tue, weekly post-check-in on Wed, Thursday evening blackout biweekly, and a Tue/Wed vs Thu/Fri module meeting split for operator versus government engagements. Jamie's priority focus this phase is BD-heavy workload rather than execution, with Jan owning day-to-day process and fielding client asks before escalating. Open questions include fully onboarding new members to CaseOS and establishing the cadence for brown bag sessions. Team norms around weekend comms blackout, never immediately saying yes to client asks, and proactive capacity flagging were reinforced with new members.",
       "processed": false,
       "added_at": 1787127314080
+    },
+    {
+      "id": "gr1787127316413",
+      "title": "Adaptation investment planning",
+      "date": "2026-08-19T01:24:15.381Z",
+      "summary": "The meeting reviewed progress on the 40-billion-peso AIP portfolio across four provinces, covering climate-smart irrigation, on-farm adaptation, watershed solutions, and post-harvest logistics; approximately 30M pesos has been deployed with a target of 60M pesos in coming months, including a newly signed MOU between Raw Innovation, Cool Mill, and the Iloilo provincial government. The Secretary stressed that climate analytics and industry impact framing must be made far more explicit and direct — particularly the link between AIP activities, NAP outcomes, and quantified sector losses (e.g., ~8B pesos/year at risk in Negros sugar by 2050) — before any presentation to the President. The Secretary directed that 'deal orchestration' be replaced with 'partnership orchestration' throughout all materials, and flagged DBM as an additional institution to invite to the Steering Committee. A three-tier governance structure (Steering Committee, Management Team, Working Team) is being finalized, with the Steering Committee meeting set for 3 September at the DBM office, co-chaired by DOF and CCC as IDSF co-chairs alongside PPP Center. Key open questions include how to operationalize the impact assessment and feedback loop into subsequent NAP cycles, and how to finalize FTE commitments from DOF, PPP Center, and DDSB.",
+      "processed": false,
+      "added_at": 1787127316413
     }
   ]
 }
