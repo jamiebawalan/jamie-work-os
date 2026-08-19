@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T05:10:52.264Z",
+  "last_updated": "2026-08-19T08:15:12.662Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -640,6 +640,14 @@
       "summary": "The meeting with Greg (Straw Innovations) covered three main areas: MOU signing, the Temasek concept note, and Straw's funding and operational situation. The ceremonial MOU signing is tentatively scheduled for **Tuesday August 18** pending authorization confirmation from Jeron tomorrow, with Brian, Anne, and British Embassy representatives expected to attend alongside a farmer round table. On the concept note, Temasek (Z) is emphasizing sustainability beyond the pilot, co-funding partners, and a credible aggregator (Mayani flagged as natural fit); Jamie needs to lock in target outcomes, budget allocation by activity/operator, and the scaling pathway in tomorrow's meeting. A key constraint is that **Temasek will not fund capex**, meaning Straw's six combine harvesters are the initial input and broader scaling requires separate financing — Greg suggested spreading this over 3–4 years as part of a wider funding package including potential sources such as Atmosphere (~$1M loan), A2D/UNIDO (~$5M, targeting next round), and the Food Planet Prize ($1.5M, currently top 50). Greg also flagged UK team reductions from end of August (Leo moving to part-time/PhD focus, Alexis pausing), with resources being redirected to Philippine operations.",
       "processed": false,
       "added_at": 1787029851320
+    },
+    {
+      "id": "gr1787127311659",
+      "title": "Discussion with James on the NAP ",
+      "date": "2026-08-19T05:01:50.484Z",
+      "summary": "The meeting with James covered AIP progress across four workstreams: project development, ecosystem mobilisation, governance, and institutionalisation. The TOR signing has slipped from 3 September to a January steerco, but the September 3 meeting remains action-oriented—principals will commit to roles, provide staff, and agree specific asks (e.g. NWRB water rights). CCC's proposal to incorporate AIP into a department circular is seen as a stronger long-term anchor than chasing the September deadline. On investment reporting, two separate tracks must be maintained—UK Export Wins (BEIS/DBT lens) and overall capital mobilisation (Growth Gateway/Republic lens)—with the core counting principle being net-new, incremental investment only. Open questions include where partner matching parameters will be stored (a Salesforce-type system is needed), how to mitigate relationship managers going cold once BCG ramps down, and whether PBSP should be reframed away from co-chair status in favour of CCC/DOF ownership.",
+      "processed": false,
+      "added_at": 1787127311659
     }
   ]
 }
