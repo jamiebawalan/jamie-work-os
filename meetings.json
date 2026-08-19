@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T08:15:12.662Z",
+  "last_updated": "2026-08-19T08:15:14.958Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -648,6 +648,14 @@
       "summary": "The meeting with James covered AIP progress across four workstreams: project development, ecosystem mobilisation, governance, and institutionalisation. The TOR signing has slipped from 3 September to a January steerco, but the September 3 meeting remains action-oriented—principals will commit to roles, provide staff, and agree specific asks (e.g. NWRB water rights). CCC's proposal to incorporate AIP into a department circular is seen as a stronger long-term anchor than chasing the September deadline. On investment reporting, two separate tracks must be maintained—UK Export Wins (BEIS/DBT lens) and overall capital mobilisation (Growth Gateway/Republic lens)—with the core counting principle being net-new, incremental investment only. Open questions include where partner matching parameters will be stored (a Salesforce-type system is needed), how to mitigate relationship managers going cold once BCG ramps down, and whether PBSP should be reframed away from co-chair status in favour of CCC/DOF ownership.",
       "processed": false,
       "added_at": 1787127311659
+    },
+    {
+      "id": "gr1787127314080",
+      "title": "Teaming discussion on August 19",
+      "date": "2026-08-19T07:32:24.334Z",
+      "summary": "The team held a teaming refresh to align new members (Alex and two new associates) on system norms, working styles, and case cadence for NAP. Key decisions include: daily 10 AM check-ins, CTM on Mon/Wed, teaming on Tue, weekly post-check-in on Wed, Thursday evening blackout biweekly, and a Tue/Wed vs Thu/Fri module meeting split for operator versus government engagements. Jamie's priority focus this phase is BD-heavy workload rather than execution, with Jan owning day-to-day process and fielding client asks before escalating. Open questions include fully onboarding new members to CaseOS and establishing the cadence for brown bag sessions. Team norms around weekend comms blackout, never immediately saying yes to client asks, and proactive capacity flagging were reinforced with new members.",
+      "processed": false,
+      "added_at": 1787127314080
     }
   ]
 }
