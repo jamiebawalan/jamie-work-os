@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T08:15:17.334Z",
+  "last_updated": "2026-08-19T08:15:26.643Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -664,6 +664,14 @@
       "summary": "The meeting reviewed progress on the 40-billion-peso AIP portfolio across four provinces, covering climate-smart irrigation, on-farm adaptation, watershed solutions, and post-harvest logistics; approximately 30M pesos has been deployed with a target of 60M pesos in coming months, including a newly signed MOU between Raw Innovation, Cool Mill, and the Iloilo provincial government. The Secretary stressed that climate analytics and industry impact framing must be made far more explicit and direct — particularly the link between AIP activities, NAP outcomes, and quantified sector losses (e.g., ~8B pesos/year at risk in Negros sugar by 2050) — before any presentation to the President. The Secretary directed that 'deal orchestration' be replaced with 'partnership orchestration' throughout all materials, and flagged DBM as an additional institution to invite to the Steering Committee. A three-tier governance structure (Steering Committee, Management Team, Working Team) is being finalized, with the Steering Committee meeting set for 3 September at the DBM office, co-chaired by DOF and CCC as IDSF co-chairs alongside PPP Center. Key open questions include how to operationalize the impact assessment and feedback loop into subsequent NAP cycles, and how to finalize FTE commitments from DOF, PPP Center, and DDSB.",
       "processed": false,
       "added_at": 1787127316413
+    },
+    {
+      "id": "gr1787127325794",
+      "title": "Adaptation Investment Platform — steering structure, agency roles, and terms of reference",
+      "date": "2026-08-19T02:06:40.155Z",
+      "summary": "The meeting focused on finalizing the governance and terms of reference for the Adaptation Investment Platform (AIP), including steering committee composition, agency roles, and advisory linkages. A key decision was to move toward a **two-co-chair structure** (DOF and CCC Vice-Chair) rather than three, with PPP Center positioned at the working/secretariat level; the TOR currently sits with DOF for review on lead/co-chair language. Open questions remain around CCC's operational capacity to convene technical advisors given its small team, and whether the existing Interagency Task Force on Sustainable Finance instrument is sufficient or requires a separate resolution. A **September 3 organizational meeting** is targeted to align on structure and ideally advance TOR sign-off, with 1–2 preparatory working-level meetings needed beforehand. BCG (Jamie's team) owns coordinating these pre-meetings, updating slides, and ensuring all AIP materials are anchored to the NAP and clearly distinguished from the LGU Annual Investment Plan acronym.",
+      "processed": false,
+      "added_at": 1787127325794
     }
   ]
 }
