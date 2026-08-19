@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T08:15:30.276Z",
+  "last_updated": "2026-08-19T08:15:36.266Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -680,6 +680,14 @@
       "summary": "Jamie met with DOF to align on the AIP secretariat structure and TOR signing ahead of the September 3 Steering Committee. The agreed framing is that the AIP secretariat is coordinated by PPP Center and PBSP, convened by CCC, with DOF retaining policy oversight and capital access/GCF NDA functions — avoiding language that positions CCC as day-to-day lead. For legal mandate, the interim basis will be the existing ITSF mandate/meeting minutes, with a separate Department Order (DO) to be pursued in coming months and ideally announced alongside TOR signing on September 3. Key open questions include whether DOF principals will clear TOR modifications in time for September 3 signing, and whether Sec. Borh will agree to issue the DO; if TOR cannot be signed, September 3 will be reframed as an alignment meeting with a subsequent signing as the comms moment. Jamie must immediately update the TOR, send it to Jan and in parallel to PPP Center/PBSP, consult CCC tomorrow, and send the advance September 3 invite by end of day August 19.",
       "processed": false,
       "added_at": 1787127329419
+    },
+    {
+      "id": "gr1787127335621",
+      "title": "Avoid this energy valuation — levers, assumptions, and retail market opportunity",
+      "date": "2026-08-18T02:31:30.385Z",
+      "summary": "The team reviewed the Aboitiz value sizing model, which now covers 7 levers (down from 8, with RE generator forecaster deprioritized) yielding a $76M–$149M USD range. Six levers were adapted from SIM Corp with high confidence; two lower-confidence levers are corporate function (top-down 15–25% efficiency on PHP 9.8B personnel cost) and distribution O&M (benchmarked against Morocco's 5.9% system loss vs. Aboitiz's ~9.4–10%). Key refinements agreed: confirm the regulatory system loss cap (~6.5%) to split cost pass-through vs. Aboitiz absorption, add a capacity factor improvement sub-lever under thermal O&M bridging coal assets to ~92%, and add a per-1% system loss sensitivity callout. The RCOA threshold reduction from 500kW to 100kW significantly expands Aboitiz's B2B retail opportunity (folded into lever 3), with potential to compete for CNI customers currently served by Meralco (~$1.3B revenue exposure). Marco meeting prep should focus on a single waterfall with key assumptions; the interest component on CapEx savings is an open question to raise with him.",
+      "processed": false,
+      "added_at": 1787127335621
     }
   ]
 }
