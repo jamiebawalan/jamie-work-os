@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:41:58.992Z",
+  "last_updated": "2026-08-25T04:42:15.122Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -720,6 +720,14 @@
       "summary": "The AP Energy PA is up 18% YTD, with Northeast Asia (Japan/Korea) growing 40–50%; the PA is targeting 20% full-year growth with an AI-transformation-heavy pipeline (Sembcorp, QGC, Korean value chain). Project Helix's knowledge layer aims to shift case knowledge capture from 10% to 80% via automated AI synthesis on case close, with Integrated Energy already in the prototype phase (100 cases ingested) and full energy practice onboarding expected in October. Two Helix tools are mature and available now: Size of the Prize (compresses trading diagnostics from weeks to hours, tested with ExxonMobil) and Networks AI (field force and capex optimization for utilities); teams should proactively reach out to leverage these in relevant client discussions. Three live demos showed practical AI use: an interactive semiconductor value chain HTML map built in a weekend via Claude prompting, an N8n newsletter digest workflow built in 30 minutes, and a Flask-based auto-refreshing resourcing dashboard linked to SharePoint Excel—all built without coding knowledge. Key open questions include how to scale Helix tool access autonomously to CCOs and case teams without bottlenecking on Vantage capacity, which is described as the current fix in progress.",
       "processed": false,
       "added_at": 1787632918193
+    },
+    {
+      "id": "gr1787632934010",
+      "title": "AIP steering committee — governance updates, operating model, and capability building",
+      "date": "2026-08-20T02:00:46.158Z",
+      "summary": "The AIP steering committee preparatory session covered three areas: STEERCO deck walkthrough, governance updates, and capability building session 1. On governance, Secretary Borja (CCC) confirmed willingness to co-chair the steering committee, elevating CCC to chair institution; DBM and DepDev were requested as additions to the STEERCO composition, and the TOR must be updated to reflect CCC's new role — DOF will conduct a bilateral with CCC early next week before recirculating the TOR to PBSP and PPP Center. The placeholder STEERCO date remains September 3rd, though TOR signing on that date is uncertain pending DOF and CCC guidance; Secretary Borja requested two pre-STEERCO briefing sessions (one with him, one with CCC technical team), likely DOF-CCC only. Jamie led the capability building session on origination and screening, covering the Philippines' key climate impact drivers, cost-of-inaction estimates (~$1.2–1.4T by 2030), and the protect/grow/participate private sector investment framework targeting a 3–6x BCR for agri-adaptation. Key open questions include: final STEERCO logistics lead (CCC vs. DOF), timeline for the CCC department circular formalizing AIP, and DOF's definitive position on its capacity/resourcing in the operating model.",
+      "processed": false,
+      "added_at": 1787632934010
     }
   ]
 }
