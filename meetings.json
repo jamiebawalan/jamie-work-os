@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:41:50.544Z",
+  "last_updated": "2026-08-25T04:41:57.831Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -704,6 +704,14 @@
       "summary": "Jamie held a coaching check-in with Djoey (and Sue), reviewing Djoey's well-being (up to 7/10) and performance trajectory on the CDC case. Key positives noted: strong resilience, improved CTM presentation clarity, best qualitative data point to date from agent ethnography, and high coachability following last week's heavy 3-way feedback session. Areas to push in the final week include deepening agent interview synthesis into actionable pilot recommendations, sharpening CTM slides, and maintaining consistent (not spiked) improvement. Jamie committed to continuing detailed, week-by-week feedback and encouraged Djoey to hold future PLs to the same standard.",
       "processed": false,
       "added_at": 1787632909014
+    },
+    {
+      "id": "gr1787632916894",
+      "title": "Media planning with Joran",
+      "date": "2026-08-24T07:01:19.157Z",
+      "summary": "The meeting focused on finalizing the Iloilo smallholder rice farmer pitch deck and aligning on implementation details for the NAP proposal. Key decisions include structuring the pitch flow as Problem → Solution → Scaling Framework → Motivation → GEDSI → Delivery Plan, with the core message framing financial resilience through digital credit-linked production and guaranteed off-take. Capacity building lanes were mapped: EF/EFDD handles org strengthening and co-op formation, Land Bank covers financial literacy, and Mayani focuses on agronomic practices and tech adoption from Year 2 onwards. Land Bank is the primary credit partner with repayment tied to harvest proceeds mirroring the Tarlac model, and an MOU with RBC is needed to enable automatic deduction at point of sale; alternative financiers (RFC, ASA Philippines, ACC Foundation) were flagged if Land Bank is too slow. Open questions include confirming a pilot institutional off-taker in Iloilo (Raúl Báñez to be asked to identify one, e.g., a provincial hospital), securing an indicative floor price before the farm visit, and fleshing out the EFDD collaboration proposal to avoid duplication.",
+      "processed": false,
+      "added_at": 1787632916894
     }
   ]
 }
