@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T08:15:36.266Z",
+  "last_updated": "2026-08-25T04:41:47.175Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -688,6 +688,14 @@
       "summary": "The team reviewed the Aboitiz value sizing model, which now covers 7 levers (down from 8, with RE generator forecaster deprioritized) yielding a $76M–$149M USD range. Six levers were adapted from SIM Corp with high confidence; two lower-confidence levers are corporate function (top-down 15–25% efficiency on PHP 9.8B personnel cost) and distribution O&M (benchmarked against Morocco's 5.9% system loss vs. Aboitiz's ~9.4–10%). Key refinements agreed: confirm the regulatory system loss cap (~6.5%) to split cost pass-through vs. Aboitiz absorption, add a capacity factor improvement sub-lever under thermal O&M bridging coal assets to ~92%, and add a per-1% system loss sensitivity callout. The RCOA threshold reduction from 500kW to 100kW significantly expands Aboitiz's B2B retail opportunity (folded into lever 3), with potential to compete for CNI customers currently served by Meralco (~$1.3B revenue exposure). Marco meeting prep should focus on a single waterfall with key assumptions; the interest component on CapEx savings is an open question to raise with him.",
       "processed": false,
       "added_at": 1787127335621
+    },
+    {
+      "id": "gr1787632906859",
+      "title": "Earthquake resilience event",
+      "date": "2026-08-24T02:35:38.998Z",
+      "summary": "An earthquake resilience summit featured presentations on business continuity planning, public-private partnerships, and community preparedness. Key themes included the importance of pre-disaster public-private agreements (citing Japan's 1,000+ Tokyo Metropolitan Government partnerships), the all-hazards BCP approach focused on critical functions rather than specific scenarios, and the need for genuine collaboration rather than mere coordination or cooperation. Sir Rafi Alunan (MAP) identified leadership failure—not lack of plans or funding—as the primary gap, and noted MAP is monitoring ~1,400 member businesses on resilience readiness. A cooperative representative highlighted a grassroots disaster cadet model across ~230,000 weekly centers serving 9.2M clients as a potentially powerful community preparedness network. No direct action items for Jamie Bawalan were identified in this session.",
+      "processed": false,
+      "added_at": 1787632906859
     }
   ]
 }
