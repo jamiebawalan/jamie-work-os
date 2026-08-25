@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:41:47.175Z",
+  "last_updated": "2026-08-25T04:41:50.544Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -696,6 +696,14 @@
       "summary": "An earthquake resilience summit featured presentations on business continuity planning, public-private partnerships, and community preparedness. Key themes included the importance of pre-disaster public-private agreements (citing Japan's 1,000+ Tokyo Metropolitan Government partnerships), the all-hazards BCP approach focused on critical functions rather than specific scenarios, and the need for genuine collaboration rather than mere coordination or cooperation. Sir Rafi Alunan (MAP) identified leadership failure—not lack of plans or funding—as the primary gap, and noted MAP is monitoring ~1,400 member businesses on resilience readiness. A cooperative representative highlighted a grassroots disaster cadet model across ~230,000 weekly centers serving 9.2M clients as a potentially powerful community preparedness network. No direct action items for Jamie Bawalan were identified in this session.",
       "processed": false,
       "added_at": 1787632906859
+    },
+    {
+      "id": "gr1787632909014",
+      "title": "Discussion with Djoey and Sue",
+      "date": "2026-08-20T07:01:37.903Z",
+      "summary": "Jamie held a coaching check-in with Djoey (and Sue), reviewing Djoey's well-being (up to 7/10) and performance trajectory on the CDC case. Key positives noted: strong resilience, improved CTM presentation clarity, best qualitative data point to date from agent ethnography, and high coachability following last week's heavy 3-way feedback session. Areas to push in the final week include deepening agent interview synthesis into actionable pilot recommendations, sharpening CTM slides, and maintaining consistent (not spiked) improvement. Jamie committed to continuing detailed, week-by-week feedback and encouraged Djoey to hold future PLs to the same standard.",
+      "processed": false,
+      "added_at": 1787632909014
     }
   ]
 }
