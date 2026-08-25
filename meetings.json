@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:41:57.831Z",
+  "last_updated": "2026-08-25T04:41:58.992Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -712,6 +712,14 @@
       "summary": "The meeting focused on finalizing the Iloilo smallholder rice farmer pitch deck and aligning on implementation details for the NAP proposal. Key decisions include structuring the pitch flow as Problem → Solution → Scaling Framework → Motivation → GEDSI → Delivery Plan, with the core message framing financial resilience through digital credit-linked production and guaranteed off-take. Capacity building lanes were mapped: EF/EFDD handles org strengthening and co-op formation, Land Bank covers financial literacy, and Mayani focuses on agronomic practices and tech adoption from Year 2 onwards. Land Bank is the primary credit partner with repayment tied to harvest proceeds mirroring the Tarlac model, and an MOU with RBC is needed to enable automatic deduction at point of sale; alternative financiers (RFC, ASA Philippines, ACC Foundation) were flagged if Land Bank is too slow. Open questions include confirming a pilot institutional off-taker in Iloilo (Raúl Báñez to be asked to identify one, e.g., a provincial hospital), securing an indicative floor price before the farm visit, and fleshing out the EFDD collaboration proposal to avoid duplication.",
       "processed": false,
       "added_at": 1787632916894
+    },
+    {
+      "id": "gr1787632918193",
+      "title": "Bye-Bye Summit — AI transformation, Helix strategy, and case team demos",
+      "date": "2026-08-20T06:02:57.422Z",
+      "summary": "The AP Energy PA is up 18% YTD, with Northeast Asia (Japan/Korea) growing 40–50%; the PA is targeting 20% full-year growth with an AI-transformation-heavy pipeline (Sembcorp, QGC, Korean value chain). Project Helix's knowledge layer aims to shift case knowledge capture from 10% to 80% via automated AI synthesis on case close, with Integrated Energy already in the prototype phase (100 cases ingested) and full energy practice onboarding expected in October. Two Helix tools are mature and available now: Size of the Prize (compresses trading diagnostics from weeks to hours, tested with ExxonMobil) and Networks AI (field force and capex optimization for utilities); teams should proactively reach out to leverage these in relevant client discussions. Three live demos showed practical AI use: an interactive semiconductor value chain HTML map built in a weekend via Claude prompting, an N8n newsletter digest workflow built in 30 minutes, and a Flask-based auto-refreshing resourcing dashboard linked to SharePoint Excel—all built without coding knowledge. Key open questions include how to scale Helix tool access autonomously to CCOs and case teams without bottlenecking on Vantage capacity, which is described as the current fix in progress.",
+      "processed": false,
+      "added_at": 1787632918193
     }
   ]
 }
