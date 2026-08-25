@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:42:15.122Z",
+  "last_updated": "2026-08-25T04:42:21.726Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -728,6 +728,14 @@
       "summary": "The AIP steering committee preparatory session covered three areas: STEERCO deck walkthrough, governance updates, and capability building session 1. On governance, Secretary Borja (CCC) confirmed willingness to co-chair the steering committee, elevating CCC to chair institution; DBM and DepDev were requested as additions to the STEERCO composition, and the TOR must be updated to reflect CCC's new role — DOF will conduct a bilateral with CCC early next week before recirculating the TOR to PBSP and PPP Center. The placeholder STEERCO date remains September 3rd, though TOR signing on that date is uncertain pending DOF and CCC guidance; Secretary Borja requested two pre-STEERCO briefing sessions (one with him, one with CCC technical team), likely DOF-CCC only. Jamie led the capability building session on origination and screening, covering the Philippines' key climate impact drivers, cost-of-inaction estimates (~$1.2–1.4T by 2030), and the protect/grow/participate private sector investment framework targeting a 3–6x BCR for agri-adaptation. Key open questions include: final STEERCO logistics lead (CCC vs. DOF), timeline for the CCC department circular formalizing AIP, and DOF's definitive position on its capacity/resourcing in the operating model.",
       "processed": false,
       "added_at": 1787632934010
+    },
+    {
+      "id": "gr1787632940908",
+      "title": "Discussion with DOF",
+      "date": "2026-08-19T08:32:01.251Z",
+      "summary": "**DOF-CCC Coordination Meeting (2026-08-19):** Sec. Bora agreed to co-chair the steering committee, with CCC (Giselle Bares) as co-chair; secretariat heavy lifting will sit with PPP Center and PBSP, while DOF and CCC handle interagency coordination. The mandate will be folded into the existing STICAP resolution, with a zero draft due by the September 3rd meeting, at which the resolution timeline will be agreed. Two pre-CIRCO meetings are needed before September 3rd—one working-level (DOF, CCC, team) and one with Sec. Bora directly—and USEC Coben must be pre-briefed once he returns from travel. Key open items include confirming the DBM office with Sergio, getting Sir John's go-signal for save-the-date emails (DOSD, DILG, DevDev, DBM as courtesy invites), and revising the steerco financials slide to an annual view with simplified 'have vs. need' framing and color-coded funding categories before tomorrow's deck review with DOF.",
+      "processed": false,
+      "added_at": 1787632940908
     }
   ]
 }
