@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:42:21.726Z",
+  "last_updated": "2026-08-26T02:29:01.959Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -736,6 +736,14 @@
       "summary": "**DOF-CCC Coordination Meeting (2026-08-19):** Sec. Bora agreed to co-chair the steering committee, with CCC (Giselle Bares) as co-chair; secretariat heavy lifting will sit with PPP Center and PBSP, while DOF and CCC handle interagency coordination. The mandate will be folded into the existing STICAP resolution, with a zero draft due by the September 3rd meeting, at which the resolution timeline will be agreed. Two pre-CIRCO meetings are needed before September 3rd—one working-level (DOF, CCC, team) and one with Sec. Bora directly—and USEC Coben must be pre-briefed once he returns from travel. Key open items include confirming the DBM office with Sergio, getting Sir John's go-signal for save-the-date emails (DOSD, DILG, DevDev, DBM as courtesy invites), and revising the steerco financials slide to an annual view with simplified 'have vs. need' framing and color-coded funding categories before tomorrow's deck review with DOF.",
       "processed": false,
       "added_at": 1787632940908
+    },
+    {
+      "id": "gr1787711340105",
+      "title": "JB-JC-AO catch-up",
+      "date": "2026-08-26T01:19:30.553Z",
+      "summary": "The team discussed how to deploy Jamie's upcoming capacity (freed by FCDO pause) over the next four weeks across priority BD accounts. The key decision was to pursue deeper diagnostic engagements with accounts where decision-makers are ready to commit (Aboitiz/Guillaume, MGen/Mani), rather than spreading too thin — though if practice support is unavailable, a lighter perspective across three accounts (AP, Guillaume, MGen) is the fallback. Immediate actions include Jamie joining the Sandro call today with the Aboitiz workforce optimization waterfall, and preparing a two-pager for the Carlos meeting next Friday narrowing to AI or consolidation of functions. Open questions include whether Aboitiz and MGen decision-makers will actually open access for a diagnostic, and how to resolve the Sek/Marco operating model ambiguity. SAC associate recruiting was flagged as a critical gap requiring urgent attention given near-zero intake over the past two years.",
+      "processed": false,
+      "added_at": 1787711340105
     }
   ]
 }
