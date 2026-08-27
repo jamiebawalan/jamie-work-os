@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T02:05:44.596Z",
+  "last_updated": "2026-08-27T02:05:46.450Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -752,6 +752,14 @@
       "summary": "Alex and Jamie discussed Alex's struggles in week two on NAP, particularly around market sizing across 30 sectors and over-reliance on Claude. Jamie set a clear benchmark: 30 defensible market sizing calculations completed by next week, with full traceability — own the numbers, sense-check them, and be able to defend them independently of Claude. Key guidance included returning to pen-and-paper first, listing data inputs per sector against BSA/PCA, and developing proxies where data is unavailable (no such thing as an unsizable market). Jamie also reassured Alex that Max's evaluation is objective and continuous, covering the full staffing period — not a judgment on one or two days — and that Alex should openly show Max both Claude's and her own thinking rather than defaulting to Claude's output. Action needed: book December leaves immediately, and progress NAP market sizing with renewed ownership and rigor.",
       "processed": false,
       "added_at": 1787796342903
+    },
+    {
+      "id": "gr1787796345532",
+      "title": "NAP teaming discussion - 8/26",
+      "date": "2026-08-26T07:09:20.781Z",
+      "summary": "The NAP team held its weekly teaming pulse check with new members Kaye and Alex joining for the first time. The steer co was broadly seen as a success — genuine stakeholder pushback was welcomed as a sign of real engagement — though a key learning was that Boreh was not adequately looped in beforehand and should be more involved going forward. Dave is visiting on-site Monday 31 August only, so content sessions should be front-loaded to that day. Looking ahead, the team flagged the need to finalize which meetings occur during the case break, align on weekly KPIs at the start of future teaming discussions, and ensure a draft brief and all critical materials are ready before the break. AI tooling (Claude) is gaining traction and the team is encouraged to explore further use cases including progress update agents and end-of-year boarding support.",
+      "processed": false,
+      "added_at": 1787796345532
     }
   ]
 }
