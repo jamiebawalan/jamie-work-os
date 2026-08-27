@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T02:29:01.959Z",
+  "last_updated": "2026-08-27T02:05:44.596Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -744,6 +744,14 @@
       "summary": "The team discussed how to deploy Jamie's upcoming capacity (freed by FCDO pause) over the next four weeks across priority BD accounts. The key decision was to pursue deeper diagnostic engagements with accounts where decision-makers are ready to commit (Aboitiz/Guillaume, MGen/Mani), rather than spreading too thin — though if practice support is unavailable, a lighter perspective across three accounts (AP, Guillaume, MGen) is the fallback. Immediate actions include Jamie joining the Sandro call today with the Aboitiz workforce optimization waterfall, and preparing a two-pager for the Carlos meeting next Friday narrowing to AI or consolidation of functions. Open questions include whether Aboitiz and MGen decision-makers will actually open access for a diagnostic, and how to resolve the Sek/Marco operating model ambiguity. SAC associate recruiting was flagged as a critical gap requiring urgent attention given near-zero intake over the past two years.",
       "processed": false,
       "added_at": 1787711340105
+    },
+    {
+      "id": "gr1787796342903",
+      "title": "Discussion with Alex",
+      "date": "2026-08-26T08:31:02.440Z",
+      "summary": "Alex and Jamie discussed Alex's struggles in week two on NAP, particularly around market sizing across 30 sectors and over-reliance on Claude. Jamie set a clear benchmark: 30 defensible market sizing calculations completed by next week, with full traceability — own the numbers, sense-check them, and be able to defend them independently of Claude. Key guidance included returning to pen-and-paper first, listing data inputs per sector against BSA/PCA, and developing proxies where data is unavailable (no such thing as an unsizable market). Jamie also reassured Alex that Max's evaluation is objective and continuous, covering the full staffing period — not a judgment on one or two days — and that Alex should openly show Max both Claude's and her own thinking rather than defaulting to Claude's output. Action needed: book December leaves immediately, and progress NAP market sizing with renewed ownership and rigor.",
+      "processed": false,
+      "added_at": 1787796342903
     }
   ]
 }
