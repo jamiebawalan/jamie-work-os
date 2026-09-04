@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:21.366Z",
+  "last_updated": "2026-09-04T06:05:23.324Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -888,6 +888,14 @@
       "summary": "A working session was held between BCG/BEM, CCC, and DOF to align on institutional arrangements and prepare for the September 3 AIP Steering Committee chaired by Sec Borja. CCC is confirmed as secretariat lead (with DOF and PBSP as partners), PPP Center is elevated to steering committee co-chair level, and the basis for CCC's role rests on USEC Balbosa's recommendation, the NAP implementation framework, and a draft CCAP resolution where the AIP can be integrated. Sir Jerome confirmed CCC is ready to be named secretariat lead on page 39 of the deck, and indicated that a zero draft department order can be prepared and shared with DOF before September 3 for consensus. A key action is for BCG to revise the steering committee deck to address the DA endorsement at Secretary level (covering DA-CRAU and all relevant offices, not just PhilMech), as flagged by both Sir Jerome and Director John. Open questions include finalizing the CCAP resolution timeline, managing CCC's severe resource constraints (approximately 2 staff), and scheduling ~7 capacity-building sessions from October without conflicting with budget season.",
       "processed": false,
       "added_at": 1788501920514
+    },
+    {
+      "id": "gr1788501922285",
+      "title": "Discussion with Cherrie on AGREA",
+      "date": "2026-08-27T04:05:23.561Z",
+      "summary": "Jamie and Cherrie reviewed the AGREA blended finance model ahead of two near-term milestones: a UNESCO Sustainable Blended Finance session on September 4 and a first steer call with the national government (NEDA, DBM, Climate Change Commission, PPP Center) on the Adaptation Investment Platform the following week. The financial model covers a ₱800M+ three-year pilot (farm school, tissue culture facility, processing) targeting 1,000 farmers annually, scaling to 180,000 farmers province-wide and delivering an estimated 4x farm income uplift. Key open questions include NEF Seeds' non-response on technology licensing (a potential business model risk), the optimal cost-sharing structure between smallholders and corporate offtakers such as La Filipina, and finalising the equity/debt/grant split (~15%/20%/65% indicatively, with ~$2.5M equity raise). Immediate actions are to update the deck for James, model the blended finance layers, and secure in-principle offtake agreements with strategic buyers before approaching funders.",
+      "processed": false,
+      "added_at": 1788501922285
     }
   ]
 }
