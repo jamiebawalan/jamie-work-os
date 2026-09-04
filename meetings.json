@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:40.976Z",
+  "last_updated": "2026-09-04T06:04:42.891Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -816,6 +816,14 @@
       "summary": "The team finalized SteerCo logistics and bilateral briefing status for tomorrow's AIP Steering Committee: DOF (USEC-Coven brief still in progress), CCC (CRH brief pending — Jamie to cover if needed), and Sec Borja has no remaining questions. Key discussion points agreed: lead with Phase 2 hard numbers (Iloilo 1.2B / Negros 1B), anchor on 10-year scale story, hold the line on food-and-water focus for first 5 years before sector expansion, and defer legal reference document to post-SteerCo offline work. On non-ODA, the team is scanning ~75,000 UK firms against Philippine NAP demand across 8 sectors, currently narrowed to ~500 for intersection analysis, anchored on the UK Government Office of Science report citing a £254B export opportunity to 2035 — Philippines to be positioned as an exemplar country. James strongly endorsed the approach and suggested replicating the firm-scanning methodology across other interventions (e.g., OSW) and building a pitch for non-ODA support into next financial year's ask. Open questions include: confirming the Iloilo first-draw DSWD/co-funding breakdown (Jan), and clarifying the Funnel/Straw Innovations licensing and MOU structure with Yash (MITI Labs) ahead of the provincial agriculturist visit next Monday.",
       "processed": false,
       "added_at": 1788501880014
+    },
+    {
+      "id": "gr1788501882044",
+      "title": "Discussion with Maitreye",
+      "date": "2026-09-01T09:31:43.812Z",
+      "summary": "Jamie met with Maitreye from ISA (International Solar Alliance) to explore how BCG's Philippines National Adaptation Plan framework could inform ISA's global capability center tool for rapid gap assessment and investor-ready memos across member countries. The Philippines framework — covering heat maps of climate exposure vs. assets, future demand/supply scenarios, intervention menus, and cost-benefit analyses — was well-received as an adaptable reference, with ISA planning to tailor it toward renewable energy and mitigation. Jamie agreed to clean up and send a sanitized version of the NAP deck, stripping pages not relevant to ISA's use case. Jamie also needs to check whether investor memo and matchmaking templates were previously shared with Virat and pass relevant materials to Maitreye. Maitreye will customize the framework for ISA's context and share back for Jamie's review.",
+      "processed": false,
+      "added_at": 1788501882044
     }
   ]
 }
