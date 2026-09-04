@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:50.091Z",
+  "last_updated": "2026-09-04T06:04:52.137Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -832,6 +832,14 @@
       "summary": "The meeting aligned senior leadership on delivery model and team capacity through to March 2026, with key decisions around Dave's performance and a proposed glide-path exit (10% Sep, 10% Oct, 5% Nov, 5% Dec, then zero). Charmaine will have a candid conversation with Dave covering hygiene behaviours, content expectations, and the step-down plan, while September is framed as a 'let's see if it works' month coinciding with his Manila visit. Billability was flagged as a real concern — Max should be shown at 100% on active weeks and should not cede billing priority to ACs; Jamie is averaging 30% and not billing during breaks either. An OSW liaison role (via Colin and Nick) is a partial near-term solution for Jamie's billability, and Charmaine will investigate whether HLC billing can cover case break periods. Open questions include the exact scope and billing quantum for OSW, who covers Dave's tagged expert hours for audit purposes, and which GG World slot can be swapped to move the James weekly back to 3 PM.",
       "processed": false,
       "added_at": 1788501889315
+    },
+    {
+      "id": "gr1788501891296",
+      "title": "Candidate profiles and assessment scores review",
+      "date": "2026-09-04T03:32:06.242Z",
+      "summary": "The Emerald cohort had 176 applicants; 52 of 110 shortlisted candidates passed the online assessment (~47% pass rate), including three perfect scorers — two from Ateneo. The team will trim the list to ~26 (targeting 13M/13F balance) using AI-assisted CV shortlisting with a rubric covering achievements, school, GPA, and test scores, with borderline cases (scores 46–49) and strong profiles like JMA/JFA presidents eligible for reserve consideration or fit interviews. Jamie is to define the AI prompt categories, make personal calls to 5–6 high-potential admits to secure attendance at the September 18th kickoff at Monarch, and eyeball a boutique firm sourcing list (FTI, Arthur D. Little, Oliver Wyman — ATK excluded due to culture/attrition issues). Open questions include whether to replicate the Claude Enterprise case competition format for October (pending SEA feedback) and whether to pursue a Singapore coffee meetup in October to tap laid-off Filipino talent from tech and IB firms.",
+      "processed": false,
+      "added_at": 1788501891296
     }
   ]
 }
