@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:42.891Z",
+  "last_updated": "2026-09-04T06:04:50.091Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -824,6 +824,14 @@
       "summary": "Jamie met with Maitreye from ISA (International Solar Alliance) to explore how BCG's Philippines National Adaptation Plan framework could inform ISA's global capability center tool for rapid gap assessment and investor-ready memos across member countries. The Philippines framework — covering heat maps of climate exposure vs. assets, future demand/supply scenarios, intervention menus, and cost-benefit analyses — was well-received as an adaptable reference, with ISA planning to tailor it toward renewable energy and mitigation. Jamie agreed to clean up and send a sanitized version of the NAP deck, stripping pages not relevant to ISA's use case. Jamie also needs to check whether investor memo and matchmaking templates were previously shared with Virat and pass relevant materials to Maitreye. Maitreye will customize the framework for ISA's context and share back for Jamie's review.",
       "processed": false,
       "added_at": 1788501882044
+    },
+    {
+      "id": "gr1788501889315",
+      "title": "Leadership team alignment — team capacity, Dave's role, and billability with Charmaine",
+      "date": "2026-09-01T11:30:14.193Z",
+      "summary": "The meeting aligned senior leadership on delivery model and team capacity through to March 2026, with key decisions around Dave's performance and a proposed glide-path exit (10% Sep, 10% Oct, 5% Nov, 5% Dec, then zero). Charmaine will have a candid conversation with Dave covering hygiene behaviours, content expectations, and the step-down plan, while September is framed as a 'let's see if it works' month coinciding with his Manila visit. Billability was flagged as a real concern — Max should be shown at 100% on active weeks and should not cede billing priority to ACs; Jamie is averaging 30% and not billing during breaks either. An OSW liaison role (via Colin and Nick) is a partial near-term solution for Jamie's billability, and Charmaine will investigate whether HLC billing can cover case break periods. Open questions include the exact scope and billing quantum for OSW, who covers Dave's tagged expert hours for audit purposes, and which GG World slot can be swapped to move the James weekly back to 3 PM.",
+      "processed": false,
+      "added_at": 1788501889315
     }
   ]
 }
