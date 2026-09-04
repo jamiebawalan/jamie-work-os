@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T02:05:46.450Z",
+  "last_updated": "2026-09-04T06:04:14.952Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -760,6 +760,14 @@
       "summary": "The NAP team held its weekly teaming pulse check with new members Kaye and Alex joining for the first time. The steer co was broadly seen as a success — genuine stakeholder pushback was welcomed as a sign of real engagement — though a key learning was that Boreh was not adequately looped in beforehand and should be more involved going forward. Dave is visiting on-site Monday 31 August only, so content sessions should be front-loaded to that day. Looking ahead, the team flagged the need to finalize which meetings occur during the case break, align on weekly KPIs at the start of future teaming discussions, and ensure a draft brief and all critical materials are ready before the break. AI tooling (Claude) is gaining traction and the team is encouraged to explore further use cases including progress update agents and end-of-year boarding support.",
       "processed": false,
       "added_at": 1787796345532
+    },
+    {
+      "id": "gr1788501853448",
+      "title": "Interview with Business Mirror",
+      "date": "2026-09-03T06:27:04.133Z",
+      "summary": "Jamie gave a media interview to Andrea of Business Mirror on BCG Manila's 'Filipino Abroad' report, the 4th in the Filipino Dream series. Key talking points covered include the four OFW archetypes (family lifelines, long-haul guardians, anchored earners, self-builders), the complexity of the migration decision, and what would bring OFWs back (job confidence and safety-net infrastructure beyond salary). Jamie clarified the survey predates the Middle East conflict and that BCG does not forecast migration flows. No next report topic has been confirmed yet, though BCG Manila is open to a fifth installment or a cross-series trend review; this remains an open question for the team.",
+      "processed": false,
+      "added_at": 1788501853448
     }
   ]
 }
