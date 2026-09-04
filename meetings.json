@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:31.209Z",
+  "last_updated": "2026-09-04T06:05:44.606Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -912,6 +912,14 @@
       "summary": "The team aligned on the AIP presentation structure: open with climate science context, include one analytics anchor slide, then AIP overview, a deep dive on Negros Occidental, and light-touch coverage of remaining projects (full details in pre-read). The session arc runs from why AIP is needed → project examples → five-year ambition → operating model → next steps, with PBS/PSP presenting on structure and operationalization, and Q&A held until after the full presentation. For the Cape Forum, the marketplace slot (2.3) is confirmed and Jamie will write to Sugar (CC Des) to ask about the panel/presentation slot (2.2); the on-stage 2.2 pitch will frame AIP as an institutional mechanism with one project example, while the 2.3 poster will cover the full pipeline plus a project example with an AIP onboarding call to action. Manila in-person attendees will be Dean, Jamie, Max, and possibly Anthony; Mikey's availability for the 2.2 panel must be confirmed before any email commitment is sent. Open questions include whether Mikey can attend (Fridays only) and whether a project partner can present at the marketplace.",
       "processed": false,
       "added_at": 1788501930474
+    },
+    {
+      "id": "gr1788501943811",
+      "title": "Discussion on Specific Criteria component Issue ",
+      "date": "2026-08-25T08:00:25.900Z",
+      "summary": "The meeting focused on two critical issues with Use Case 5 (PAA tool): (1) Misha from the climate finance team has never received review notifications due to not being added to the CCDRMSQA system role — Mark is granting access now, and BCG will help troubleshoot if the fix is insufficient. (2) There is unresolved misalignment on whether Specific Criteria questions should be answered at the component level or project level; current user feedback strongly favors project-level, but this will likely be treated as an enhancement rather than a warranty deliverable given its complexity. Martin will prepare a UC5 feedback deck for BCG to review and classify items as warranty vs. enhancement before the September 18 warranty close date. KT sessions (benefit realization and Phase 2 data) are to be scheduled for next week when Anas and Moad return, with Arnab coordinating availability; the download data feature is expected to be ready by end of next week, with a demo to follow.",
+      "processed": false,
+      "added_at": 1788501943811
     }
   ]
 }
