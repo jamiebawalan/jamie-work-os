@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:26.552Z",
+  "last_updated": "2026-09-04T06:04:28.282Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -792,6 +792,14 @@
       "summary": "The team reviewed the UK CTM report and found it strongly validates the AIP narrative, particularly on physical risk solutions; insurance was noted as too large-scale for current micro-level projects but a potential future platform-level entry point. A matching pathways framework (project archetypes → ecosystem mapping → matching logic → data-driven tool) was presented as the answer to James's sustainability question, with the framing to be forward-looking rather than retrospective. Dave raised the need for a formal sustainability embedding framework covering capacity building, budget, tools, and processes to proactively address recurring questions about AIP sustainability post-BCG. The biggest open risk is AIP institutionalization — agencies need legal documentation (e.g. a department order) to mandate participation and release budget, and CCC internal politics (climate finance team and Sec Borja's office not yet fully looped in) is a live threat; tomorrow's steering committee with Dave attending is critical to secure a verbal presidential mandate from Sec Borja. Jamie's hypothesis is that the hardest long-term challenge will be the matching piece itself — getting projects to secure the right financing, operators, and suppliers — which is harder than recruiting new projects and goes beyond the UK layer.",
       "processed": false,
       "added_at": 1788501865435
+    },
+    {
+      "id": "gr1788501867594",
+      "title": "Discussion with Mitti labs",
+      "date": "2026-09-02T08:19:51.819Z",
+      "summary": "Jamie met with Mitti Labs (Pelle, Yash, Bella) to align on piloting AWD carbon sequestration in Iloilo ahead of NEODIVE 9 hectarage limits, targeting 500 ha per irrigation system (up to 2,000–2,500 ha across 4 systems) with a longer-term goal of 25,000–30,000 ha. Key decisions include focusing the Monday September 7th Iloilo meeting with provincial agriculturist Jaron on AWD community benefits rather than documentation, with farmer carbon rights agreements handled progressively and directly between individual farmers and Mitti Labs. Open questions include whether Pelle can attend on Monday, whether Miami can provide meaningful Q4 ground presence given their non-rice focus, and how Peace and Equity Foundation can be integrated as a capacity-building partner. Jamie and team agreed the fastest scaling path — if Straw won't have full-time staff this year — is for Mitti Labs to fund Straw's dedicated resource, which Jamie will raise with Pelle.",
+      "processed": false,
+      "added_at": 1788501867594
     }
   ]
 }
