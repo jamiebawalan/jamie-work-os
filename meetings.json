@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:14.952Z",
+  "last_updated": "2026-09-04T06:04:17.187Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -768,6 +768,14 @@
       "summary": "Jamie gave a media interview to Andrea of Business Mirror on BCG Manila's 'Filipino Abroad' report, the 4th in the Filipino Dream series. Key talking points covered include the four OFW archetypes (family lifelines, long-haul guardians, anchored earners, self-builders), the complexity of the migration decision, and what would bring OFWs back (job confidence and safety-net infrastructure beyond salary). Jamie clarified the survey predates the Middle East conflict and that BCG does not forecast migration flows. No next report topic has been confirmed yet, though BCG Manila is open to a fifth installment or a cross-series trend review; this remains an open question for the team.",
       "processed": false,
       "added_at": 1788501853448
+    },
+    {
+      "id": "gr1788501856289",
+      "title": "Investment strategies for regions",
+      "date": "2026-09-03T02:15:54.539Z",
+      "summary": "The first AIP Steering Committee meeting presented progress on the Adaptation Investment Platform, covering two pilot projects in Iloilo (rice sector, ~8B pesos total investment over nine years) and Negros Occidental (sugarcane transition, ~90B over 12 years), with immediate funding targets of 1B and 1.2B respectively. Key governance decisions remain open: the committee must choose between anchoring the AIP under a Green Force instrument or a separate CCC instrument, with BCG/ECG to bring a recommendation to the senior committee. Secretariat funding (~400M) is still a critical gap, and ECG will shadow and hand over capacity over the next six to nine months while staffing is secured. Jamie's team is responsible for circulating the narrative write-up post-meeting, finalizing the project pipeline with assigned owners, and scheduling nine capability-building sessions including provincial site visits.",
+      "processed": false,
+      "added_at": 1788501856289
     }
   ]
 }
