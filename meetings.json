@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:24.372Z",
+  "last_updated": "2026-09-04T06:04:26.552Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -784,6 +784,14 @@
       "summary": "The NAP SteerCo meeting was deemed a strong success — all agencies aligned on the importance of the work, asked for more touchpoints, and PBSP's board chairman was briefed in real time. **Key immediate actions** center on a full working team debrief (Sept 10) covering the policy paper ownership, project co-lead assignments (PPP Center for Bukidnon and Isabela; PBSP pending Alvin dinner Sept 9), and named governance roles. A CCC bilateral (Sept 10, 11 AM) is needed to get Commissioner Herrera to designate focal points: Sandra for policy, Trina for finance/VAD, and a project lead. **Open questions** include whether PBSP can fund participation internally (to be resolved with Alvin), whether DOF's part-time person is confirmed as Jen, and which CCC teams to include in the working group. The SteerCo cadence shifts to bimonthly (Oct/Nov, Jan, Mar) with themed sessions and the site visit pushed to January/February to allow more capability building progress first.",
       "processed": false,
       "added_at": 1788501863517
+    },
+    {
+      "id": "gr1788501865435",
+      "title": "CTM discussion",
+      "date": "2026-09-02T09:29:27.679Z",
+      "summary": "The team reviewed the UK CTM report and found it strongly validates the AIP narrative, particularly on physical risk solutions; insurance was noted as too large-scale for current micro-level projects but a potential future platform-level entry point. A matching pathways framework (project archetypes → ecosystem mapping → matching logic → data-driven tool) was presented as the answer to James's sustainability question, with the framing to be forward-looking rather than retrospective. Dave raised the need for a formal sustainability embedding framework covering capacity building, budget, tools, and processes to proactively address recurring questions about AIP sustainability post-BCG. The biggest open risk is AIP institutionalization — agencies need legal documentation (e.g. a department order) to mandate participation and release budget, and CCC internal politics (climate finance team and Sec Borja's office not yet fully looped in) is a live threat; tomorrow's steering committee with Dave attending is critical to secure a verbal presidential mandate from Sec Borja. Jamie's hypothesis is that the hardest long-term challenge will be the matching piece itself — getting projects to secure the right financing, operators, and suppliers — which is harder than recruiting new projects and goes beyond the UK layer.",
+      "processed": false,
+      "added_at": 1788501865435
     }
   ]
 }
