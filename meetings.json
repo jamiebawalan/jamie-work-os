@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:58.943Z",
+  "last_updated": "2026-09-04T06:05:00.622Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -848,6 +848,14 @@
       "summary": "The team is developing a market-sizing and offer-mapping deck for the AIP/DBT workstream, filtering 600 UK companies for EMDE presence and mapping capability gaps (notably POST Philippines not providing regulatory/legal/trade support as DBT says it should). Key decisions: socialise findings with UK-based experts (Ed Rhys Jones first, Greg optionally) before sharing with client to ensure UK grounding; slides must be reviewed by Wendy (new DBT contact replacing David Rosario) and framed as POST/DBT's own work, not BCG's. Open questions include whether UKRI or UK impact investors (e.g. Lightsmith, Pegasus-equivalents) can be linked into the AIP project pipeline, and whether the 600-company list should include funders/financiers. Max and Kay own the case study slide addition and sharpening of page 28 from a laundry list to a punchy framing.",
       "processed": false,
       "added_at": 1788501898404
+    },
+    {
+      "id": "gr1788501900048",
+      "title": "Teaming discussion - Sep 1, 2026",
+      "date": "2026-09-01T05:06:10.344Z",
+      "summary": "The teaming check-in showed a generally positive trend with more team members in the 'flipping fantastic' or 'avocado' range, though recurring concerns around heads-down time and meeting load were flagged across the board. Jamie expressed strong pride in team output and noted the case is confidently on track for 2 of 3 projects, with milestone submission approaching in ~2 weeks. Key focus areas going forward include maximizing CaseOS and Claude to protect team sustainability, front-loading workstreams before case break, and preserving momentum post-AIP with co-leads and operators committed to the Sep–Nov timeline. Open questions include how to manage Jan's 3rd project concern (Dean to address), resolving workstream numbers with Kaye/Charmian, and ensuring the CCC briefing goes smoothly. Jamie owns the Cherry follow-up, CaseOS office training on Friday, and will handle net-new networking conversations during case break.",
+      "processed": false,
+      "added_at": 1788501900048
     }
   ]
 }
