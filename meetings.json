@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:29.399Z",
+  "last_updated": "2026-09-04T06:05:31.209Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -904,6 +904,14 @@
       "summary": "Jamie met with Charmian to discuss career positioning, billability, and offshore wind. A potential pathway was identified where DFAT work (non-Climate A&R, e.g. energy) could pick up after FCDO work winds down in March, but dual engagement on Climate A&R would be impossible and strict communication discipline is required before any DFAT discussions become known to FCDO contacts. The ODA offshore wind work in the Philippines has been confirmed to proceed (with Ella and Mikey involved), and Charmian will confirm whether Jamie can serve as the senior Filipino face on that program. Jamie's key open action is to map out A&R opportunities that align with DFAT positioning as a contingency for the billability gap.",
       "processed": false,
       "added_at": 1788501928821
+    },
+    {
+      "id": "gr1788501930474",
+      "title": "Post check-in",
+      "date": "2026-08-26T03:45:40.534Z",
+      "summary": "The team aligned on the AIP presentation structure: open with climate science context, include one analytics anchor slide, then AIP overview, a deep dive on Negros Occidental, and light-touch coverage of remaining projects (full details in pre-read). The session arc runs from why AIP is needed → project examples → five-year ambition → operating model → next steps, with PBS/PSP presenting on structure and operationalization, and Q&A held until after the full presentation. For the Cape Forum, the marketplace slot (2.3) is confirmed and Jamie will write to Sugar (CC Des) to ask about the panel/presentation slot (2.2); the on-stage 2.2 pitch will frame AIP as an institutional mechanism with one project example, while the 2.3 poster will cover the full pipeline plus a project example with an AIP onboarding call to action. Manila in-person attendees will be Dean, Jamie, Max, and possibly Anthony; Mikey's availability for the 2.2 panel must be confirmed before any email commitment is sent. Open questions include whether Mikey can attend (Fridays only) and whether a project partner can present at the marketplace.",
+      "processed": false,
+      "added_at": 1788501930474
     }
   ]
 }
