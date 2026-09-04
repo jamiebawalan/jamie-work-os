@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:51.477Z",
+  "last_updated": "2026-09-04T06:05:57.192Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -936,6 +936,14 @@
       "summary": "The team reviewed the VPP value sizing across 5 levers, with energy reserve services as the largest at $4B–$13B PHP, and total annualized value estimated at $100M–$280M USD. Marco stress-tested the model and flagged that solar capacity factors (~20%) are not yet built in, meaning the revised estimate will likely drop significantly to the ~2–5B PHP range. A three-phase approach was aligned upon (Phase 0 diagnostic + Phase 1 strategy quoted together; Phase 2 optional), priced at ~$3M USD for 1 partner + 2 ACs over 20 weeks at 1.1 PVF. Jamie owns sending the updated slides to Meralco early next week and setting up a client meeting, while Kiki will refine the energy reserve assumptions with capacity factors applied. Open question: how to precisely benchmark capacity allocation ratios across ancillary vs. wholesale revenue stacking remains unresolved and flagged as a gap.",
       "processed": false,
       "added_at": 1788501950713
+    },
+    {
+      "id": "gr1788501956592",
+      "title": "Project deck refinement — slides, charts, and stakeholder framing with Charmian",
+      "date": "2026-08-28T01:28:43.987Z",
+      "summary": "The session focused on refining the NAP milestone deck — pulling quality slides from the FPH deck, reframing the ODA/non-ODA structure as a 'setting up stage,' anchoring the storyline to the UK 25,000 ambition and its GDP opportunity, and fixing chart formatting Claude cannot handle. Key decisions include pushing the weekly CTM slot from 11 AM to 3–4 PM so Charmian can attend, and conducting a swim lane refresh to reflect that effective decision-making has fallen to Jamie and the team given weak MVP engagement. Jamie and one colleague will have a frank conversation with Charmian next week about Dave's declining engagement quality, the admin burden he creates, and a proposal to reallocate his budget (30% of total expenses) to a BA/analyst on an X code that GG bears — Rich has confirmed the X code is available. Charmian is 60/40 on AIP funding continuing next year, so Jamie needs to begin planning for alternative funders if signals are weak by year-end. A team dinner before case break was agreed to check in on morale and charge to the case where reasonable.",
+      "processed": false,
+      "added_at": 1788501956592
     }
   ]
 }
