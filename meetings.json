@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:52.137Z",
+  "last_updated": "2026-09-04T06:04:58.943Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -840,6 +840,14 @@
       "summary": "The Emerald cohort had 176 applicants; 52 of 110 shortlisted candidates passed the online assessment (~47% pass rate), including three perfect scorers — two from Ateneo. The team will trim the list to ~26 (targeting 13M/13F balance) using AI-assisted CV shortlisting with a rubric covering achievements, school, GPA, and test scores, with borderline cases (scores 46–49) and strong profiles like JMA/JFA presidents eligible for reserve consideration or fit interviews. Jamie is to define the AI prompt categories, make personal calls to 5–6 high-potential admits to secure attendance at the September 18th kickoff at Monarch, and eyeball a boutique firm sourcing list (FTI, Arthur D. Little, Oliver Wyman — ATK excluded due to culture/attrition issues). Open questions include whether to replicate the Claude Enterprise case competition format for October (pending SEA feedback) and whether to pursue a Singapore coffee meetup in October to tap laid-off Filipino talent from tech and IB firms.",
       "processed": false,
       "added_at": 1788501891296
+    },
+    {
+      "id": "gr1788501898404",
+      "title": "CTM for non-ODA",
+      "date": "2026-09-01T07:47:07.934Z",
+      "summary": "The team is developing a market-sizing and offer-mapping deck for the AIP/DBT workstream, filtering 600 UK companies for EMDE presence and mapping capability gaps (notably POST Philippines not providing regulatory/legal/trade support as DBT says it should). Key decisions: socialise findings with UK-based experts (Ed Rhys Jones first, Greg optionally) before sharing with client to ensure UK grounding; slides must be reviewed by Wendy (new DBT contact replacing David Rosario) and framed as POST/DBT's own work, not BCG's. Open questions include whether UKRI or UK impact investors (e.g. Lightsmith, Pegasus-equivalents) can be linked into the AIP project pipeline, and whether the 600-company list should include funders/financiers. Max and Kay own the case study slide addition and sharpening of page 28 from a laundry list to a punchy framing.",
+      "processed": false,
+      "added_at": 1788501898404
     }
   ]
 }
