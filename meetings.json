@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:44.606Z",
+  "last_updated": "2026-09-04T06:05:46.774Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -920,6 +920,14 @@
       "summary": "The meeting focused on two critical issues with Use Case 5 (PAA tool): (1) Misha from the climate finance team has never received review notifications due to not being added to the CCDRMSQA system role — Mark is granting access now, and BCG will help troubleshoot if the fix is insufficient. (2) There is unresolved misalignment on whether Specific Criteria questions should be answered at the component level or project level; current user feedback strongly favors project-level, but this will likely be treated as an enhancement rather than a warranty deliverable given its complexity. Martin will prepare a UC5 feedback deck for BCG to review and classify items as warranty vs. enhancement before the September 18 warranty close date. KT sessions (benefit realization and Phase 2 data) are to be scheduled for next week when Anas and Moad return, with Arnab coordinating availability; the download data feature is expected to be ready by end of next week, with a demo to follow.",
       "processed": false,
       "added_at": 1788501943811
+    },
+    {
+      "id": "gr1788501945699",
+      "title": "Adaptation Investment Platform — NAP alignment, private sector financing, and PPP Center role",
+      "date": "2026-08-25T07:00:34.120Z",
+      "summary": "BCG Manila briefed the PPP Center (ED Riza, ED Ellie, Director RB) on the Adaptation Investment Platform (AIP), which aims to mobilize private sector financing against the $1.4T/year cost of climate inaction, with a starting portfolio of 9-10 projects across Negros Occidental, Iloilo, Isabela, and Bukidnon targeting ~410,000 livelihoods. PPP Center is proposed as co-lead of the AIP Secretariat alongside PBSP, with roles spanning project origination, deal orchestration, capital facilitation, and governance — building on PPP Center's existing mandate and capabilities. Key open questions from PPP Center include: what support they will receive for project origination, how public-sector ownership of project ideas will be confirmed before PPP development begins, whether PDMF or other funding envelopes will cover feasibility studies for new pipeline projects, and how AIP fits alongside existing LGU support models. The immediate priority is the Steering Committee meeting on 3 September to align on pipeline scope and confirm speaking roles, plus a separate offline briefing for ED Ellie on the operating model that could not be covered in today's session.",
+      "processed": false,
+      "added_at": 1788501945699
     }
   ]
 }
