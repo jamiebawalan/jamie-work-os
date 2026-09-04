@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:04:17.187Z",
+  "last_updated": "2026-09-04T06:04:24.372Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -776,6 +776,14 @@
       "summary": "The first AIP Steering Committee meeting presented progress on the Adaptation Investment Platform, covering two pilot projects in Iloilo (rice sector, ~8B pesos total investment over nine years) and Negros Occidental (sugarcane transition, ~90B over 12 years), with immediate funding targets of 1B and 1.2B respectively. Key governance decisions remain open: the committee must choose between anchoring the AIP under a Green Force instrument or a separate CCC instrument, with BCG/ECG to bring a recommendation to the senior committee. Secretariat funding (~400M) is still a critical gap, and ECG will shadow and hand over capacity over the next six to nine months while staffing is secured. Jamie's team is responsible for circulating the narrative write-up post-meeting, finalizing the project pipeline with assigned owners, and scheduling nine capability-building sessions including provincial site visits.",
       "processed": false,
       "added_at": 1788501856289
+    },
+    {
+      "id": "gr1788501863517",
+      "title": "Debrief with James and Des from the SteerCo",
+      "date": "2026-09-04T04:56:56.306Z",
+      "summary": "The NAP SteerCo meeting was deemed a strong success — all agencies aligned on the importance of the work, asked for more touchpoints, and PBSP's board chairman was briefed in real time. **Key immediate actions** center on a full working team debrief (Sept 10) covering the policy paper ownership, project co-lead assignments (PPP Center for Bukidnon and Isabela; PBSP pending Alvin dinner Sept 9), and named governance roles. A CCC bilateral (Sept 10, 11 AM) is needed to get Commissioner Herrera to designate focal points: Sandra for policy, Trina for finance/VAD, and a project lead. **Open questions** include whether PBSP can fund participation internally (to be resolved with Alvin), whether DOF's part-time person is confirmed as Jen, and which CCC teams to include in the working group. The SteerCo cadence shifts to bimonthly (Oct/Nov, Jan, Mar) with themed sessions and the site visit pushed to January/February to allow more capability building progress first.",
+      "processed": false,
+      "added_at": 1788501863517
     }
   ]
 }
