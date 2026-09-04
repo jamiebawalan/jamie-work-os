@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:09.013Z",
+  "last_updated": "2026-09-04T06:05:10.626Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -864,6 +864,14 @@
       "summary": "The team completed the first sales training session led by an external trainer, covering Kahneman's System 1/2 framework, three key cognitive biases (status quo, loss aversion, decision overload), and discovery techniques focused on understanding how clients decide rather than what they want. Key tensions surfaced around applying these frameworks in the Philippine cultural context — particularly navigating commercial conversations with friends — and the group agreed this needs further development. Post-session feedback identified gaps: no stated objective or structure upfront, insufficient peer-to-peer discussion, and a desire for a defined multi-session framework. For the next session, the group requested exercises on switching between personal and professional identity, and techniques for reading implied psychological cues in conversation; the trainer must receive these requests at least two weeks before the next session.",
       "processed": false,
       "added_at": 1788501908493
+    },
+    {
+      "id": "gr1788501910060",
+      "title": "AIP steering committee prep — institutionalization, ambition, and operating model with SEC",
+      "date": "2026-09-01T05:59:09.570Z",
+      "summary": "This pre-steering committee alignment session confirmed that Thursday's AIP Steering Committee (10am–12pm) will be chaired by Commissioner Rachel Herrera, as Sec Borja will only attend briefly before departing for a House of Representatives stakeholder session. Sec Borja strongly endorsed the 5-year strategic ambition (up to 170B pesos pipeline, 25% of projected losses mitigated, 2–5x private leverage) and emphasized the need to deploy resources quickly given only 2 years remaining in the administration. Key open questions include finalizing the institutionalization instrument (resolution, TOR, or other — referred to legal for a clear recommendation) and whether to expand the province list beyond the 18 NAP high-exposure provinces to include economically critical ones like Bohol and understated ones like Romblon, requiring IATF and OP coordination. Sec Borja's explicit steer was to resolve structure, TOR, membership, and operating model on the back end before Thursday so the meeting confirms agreements rather than opens them — USEC Hoven remains the one outstanding pre-briefing to be completed. Jamie owns finalizing Thursday preparations, the USEC Hoven briefing, and coordinating the instrument recommendation to Sec Borja.",
+      "processed": false,
+      "added_at": 1788501910060
     }
   ]
 }
