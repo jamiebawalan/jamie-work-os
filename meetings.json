@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:12.825Z",
+  "last_updated": "2026-09-04T06:05:21.366Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -880,6 +880,14 @@
       "summary": "Jamie onboarded Vanessa Julio as her Career Development Advisor (CDA), explaining that she will represent Vanessa in the bi-annual Career Development Committee (CDC) — the first relevant cycle is October, though Vanessa is unlikely to be formally discussed given she will have fewer than 3 months in the firm. Key dimensions assessed for Associates are problem solving, communications, and practicality; client interaction and team contribution are secondary at this stage. Jamie offered to be a sounding board for staffing decisions, case extensions, secondments, and any interpersonal or cultural navigation challenges. **Open items:** Vanessa needs to share the names of direct case team members so Jamie can conduct pre-CDC conversations; both parties agreed to a September catch-up and optional monthly check-ins.",
       "processed": false,
       "added_at": 1788501911719
+    },
+    {
+      "id": "gr1788501920514",
+      "title": "DOF-CCC Working Session",
+      "date": "2026-08-28T05:59:18.516Z",
+      "summary": "A working session was held between BCG/BEM, CCC, and DOF to align on institutional arrangements and prepare for the September 3 AIP Steering Committee chaired by Sec Borja. CCC is confirmed as secretariat lead (with DOF and PBSP as partners), PPP Center is elevated to steering committee co-chair level, and the basis for CCC's role rests on USEC Balbosa's recommendation, the NAP implementation framework, and a draft CCAP resolution where the AIP can be integrated. Sir Jerome confirmed CCC is ready to be named secretariat lead on page 39 of the deck, and indicated that a zero draft department order can be prepared and shared with DOF before September 3 for consensus. A key action is for BCG to revise the steering committee deck to address the DA endorsement at Secretary level (covering DA-CRAU and all relevant offices, not just PhilMech), as flagged by both Sir Jerome and Director John. Open questions include finalizing the CCAP resolution timeline, managing CCC's severe resource constraints (approximately 2 staff), and scheduling ~7 capacity-building sessions from October without conflicting with budget season.",
+      "processed": false,
+      "added_at": 1788501920514
     }
   ]
 }
