@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:00.622Z",
+  "last_updated": "2026-09-04T06:05:09.013Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -856,6 +856,14 @@
       "summary": "The teaming check-in showed a generally positive trend with more team members in the 'flipping fantastic' or 'avocado' range, though recurring concerns around heads-down time and meeting load were flagged across the board. Jamie expressed strong pride in team output and noted the case is confidently on track for 2 of 3 projects, with milestone submission approaching in ~2 weeks. Key focus areas going forward include maximizing CaseOS and Claude to protect team sustainability, front-loading workstreams before case break, and preserving momentum post-AIP with co-leads and operators committed to the Sep–Nov timeline. Open questions include how to manage Jan's 3rd project concern (Dean to address), resolving workstream numbers with Kaye/Charmian, and ensuring the CCC briefing goes smoothly. Jamie owns the Cherry follow-up, CaseOS office training on Friday, and will handle net-new networking conversations during case break.",
       "processed": false,
       "added_at": 1788501900048
+    },
+    {
+      "id": "gr1788501908493",
+      "title": "Sales training",
+      "date": "2026-08-28T08:21:55.836Z",
+      "summary": "The team completed the first sales training session led by an external trainer, covering Kahneman's System 1/2 framework, three key cognitive biases (status quo, loss aversion, decision overload), and discovery techniques focused on understanding how clients decide rather than what they want. Key tensions surfaced around applying these frameworks in the Philippine cultural context — particularly navigating commercial conversations with friends — and the group agreed this needs further development. Post-session feedback identified gaps: no stated objective or structure upfront, insufficient peer-to-peer discussion, and a desire for a defined multi-session framework. For the next session, the group requested exercises on switching between personal and professional identity, and techniques for reading implied psychological cues in conversation; the trainer must receive these requests at least two weeks before the next session.",
+      "processed": false,
+      "added_at": 1788501908493
     }
   ]
 }
