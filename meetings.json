@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:23.324Z",
+  "last_updated": "2026-09-04T06:05:29.399Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -896,6 +896,14 @@
       "summary": "Jamie and Cherrie reviewed the AGREA blended finance model ahead of two near-term milestones: a UNESCO Sustainable Blended Finance session on September 4 and a first steer call with the national government (NEDA, DBM, Climate Change Commission, PPP Center) on the Adaptation Investment Platform the following week. The financial model covers a ₱800M+ three-year pilot (farm school, tissue culture facility, processing) targeting 1,000 farmers annually, scaling to 180,000 farmers province-wide and delivering an estimated 4x farm income uplift. Key open questions include NEF Seeds' non-response on technology licensing (a potential business model risk), the optimal cost-sharing structure between smallholders and corporate offtakers such as La Filipina, and finalising the equity/debt/grant split (~15%/20%/65% indicatively, with ~$2.5M equity raise). Immediate actions are to update the deck for James, model the blended finance layers, and secure in-principle offtake agreements with strategic buyers before approaching funders.",
       "processed": false,
       "added_at": 1788501922285
+    },
+    {
+      "id": "gr1788501928821",
+      "title": "Discussion with Charmian",
+      "date": "2026-08-25T09:06:20.795Z",
+      "summary": "Jamie met with Charmian to discuss career positioning, billability, and offshore wind. A potential pathway was identified where DFAT work (non-Climate A&R, e.g. energy) could pick up after FCDO work winds down in March, but dual engagement on Climate A&R would be impossible and strict communication discipline is required before any DFAT discussions become known to FCDO contacts. The ODA offshore wind work in the Philippines has been confirmed to proceed (with Ella and Mikey involved), and Charmian will confirm whether Jamie can serve as the senior Filipino face on that program. Jamie's key open action is to map out A&R opportunities that align with DFAT positioning as a contingency for the billability gap.",
+      "processed": false,
+      "added_at": 1788501928821
     }
   ]
 }
