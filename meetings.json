@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T04:02:22.224Z",
+  "last_updated": "2026-09-08T04:02:24.467Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -952,6 +952,14 @@
       "summary": "Jamie met with Max Nelen (founder, Agros) to explore a potential technology partnership for solar-powered irrigation in the Philippines. Agros is currently focused on Indonesia for the next 1–2 years but is open to a Philippines partnership on a technology/expertise basis, with local partners handling on-the-ground operations. Key crops of interest are rice, corn, and sugarcane; coffee was flagged as a poor fit due to highland/cloud cover/deep water table challenges. Next steps are for Jamie to send BCG climate adaptation slides to Max, and to identify 1–2 suitable local partners (analogous to Indonesian well diggers or EPC/installer firms) within 6 months, with a few more online discussions planned before potentially hosting Max in Manila when things become more concrete.",
       "processed": false,
       "added_at": 1788840141282
+    },
+    {
+      "id": "gr1788840143339",
+      "title": "Crop technology applications and venture equity with Paul",
+      "date": "2026-09-04T09:00:09.106Z",
+      "summary": "Jamie met with Paul to discuss a crop technology venture where knowledge transfer would be valued as equity in the deal. Primary crops discussed include grasses and sugar (for viscose production), with bamboo also flagged from a prior NEF conversation. Transcript quality was very poor, so key deal structure details (e.g., '0 quarters and 3 splits') and the full crop list remain unclear. Jamie should review any available notes or recordings to capture the specifics before the next conversation with Paul.",
+      "processed": false,
+      "added_at": 1788840143339
     }
   ]
 }
