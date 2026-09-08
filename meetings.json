@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T04:02:27.698Z",
+  "last_updated": "2026-09-08T04:02:40.970Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -968,6 +968,14 @@
       "summary": "A Japan partnership concept was discussed focused on an agricultural input financing model (chemicals, fertilizer, seeds, insurance) with a 2% p.a. interest rate and 3–5 year repayment, using satellite/EWD monitoring to capture methane reduction data and a credit scoring system tied to RPC logistics. A second concept around idle/low-lying lands was introduced, combining water management, tilapia aquaculture, and floating solar panels across 15-hectare plots with 15–20 year agreements, with solar as the primary income source. Key open questions include whether the PPP Center will structure the floating solar concept and how quickly a model area can be secured. Legal notarization must be completed before operations begin, with a target of November for operational start and January as a financial milestone. Jamie's team is positioned to provide technical analysis and support without interfering with LGU decisions.",
       "processed": false,
       "added_at": 1788840146905
+    },
+    {
+      "id": "gr1788840159840",
+      "title": "Philippine market expansion plan",
+      "date": "2026-09-07T06:10:44.267Z",
+      "summary": "Mitilabs is expanding its AWD carbon sealer platform into the Philippines, targeting ~25,000 hectares across four irrigation systems using irrigated rice as the pilot project type. A key blocker is connecting with the irrigation authority before the carbon project protocol can be registered. TEF capacity building (governance, documentation, policies) is starting imminently, with an October/November target launch contingent on funding approval. Jeff (Miami) has a capacity-building proposal covering agronomic best practices, resilient seeds, and a potential Land Bank financial literacy partnership — his proposal and timeline need to be circulated and confirmed. Coordination with Sergio on irrigation system access remains an open item owned by the Mitilabs team.",
+      "processed": false,
+      "added_at": 1788840159840
     }
   ]
 }
