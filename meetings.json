@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T06:05:57.192Z",
+  "last_updated": "2026-09-08T04:02:22.224Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -944,6 +944,14 @@
       "summary": "The session focused on refining the NAP milestone deck — pulling quality slides from the FPH deck, reframing the ODA/non-ODA structure as a 'setting up stage,' anchoring the storyline to the UK 25,000 ambition and its GDP opportunity, and fixing chart formatting Claude cannot handle. Key decisions include pushing the weekly CTM slot from 11 AM to 3–4 PM so Charmian can attend, and conducting a swim lane refresh to reflect that effective decision-making has fallen to Jamie and the team given weak MVP engagement. Jamie and one colleague will have a frank conversation with Charmian next week about Dave's declining engagement quality, the admin burden he creates, and a proposal to reallocate his budget (30% of total expenses) to a BA/analyst on an X code that GG bears — Rich has confirmed the X code is available. Charmian is 60/40 on AIP funding continuing next year, so Jamie needs to begin planning for alternative funders if signals are weak by year-end. A team dinner before case break was agreed to check in on morale and charge to the case where reasonable.",
       "processed": false,
       "added_at": 1788501956592
+    },
+    {
+      "id": "gr1788840141282",
+      "title": "Discussion with Agros",
+      "date": "2026-09-08T03:01:51.162Z",
+      "summary": "Jamie met with Max Nelen (founder, Agros) to explore a potential technology partnership for solar-powered irrigation in the Philippines. Agros is currently focused on Indonesia for the next 1–2 years but is open to a Philippines partnership on a technology/expertise basis, with local partners handling on-the-ground operations. Key crops of interest are rice, corn, and sugarcane; coffee was flagged as a poor fit due to highland/cloud cover/deep water table challenges. Next steps are for Jamie to send BCG climate adaptation slides to Max, and to identify 1–2 suitable local partners (analogous to Indonesian well diggers or EPC/installer firms) within 6 months, with a few more online discussions planned before potentially hosting Max in Manila when things become more concrete.",
+      "processed": false,
+      "added_at": 1788840141282
     }
   ]
 }
