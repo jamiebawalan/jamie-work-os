@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:35:53.358Z",
+  "last_updated": "2026-09-11T09:36:05.856Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1000,6 +1000,14 @@
       "summary": "Jamie met with Gwen for her Week 3 secondment check-in. Gwen is settling in well, gaining more autonomy, and has identified AI incorporation into marketing as her main focus area, alongside CRM/AO database work and media outreach. Jamie asked Gwen to think about defining clear key achievements for the secondment — to be aligned with Maha as signatory — covering PE, BSI, and comms skills. The flex model appears to be working as intended, with Gwen reporting more control over her time and improved family support.",
       "processed": false,
       "added_at": 1789119352516
+    },
+    {
+      "id": "gr1789119364999",
+      "title": "Philippines offshore wind — steering committee setup and government engagement",
+      "date": "2026-09-10T06:33:06.285Z",
+      "summary": "The meeting reviewed a steering committee pitch pack aimed at convincing DOE, DOF, and DOTr to establish a cross-ministry decision-making body for Philippines offshore wind. Jamie recommended reframing the pack headline from passive 'understanding OSW delivery' to active 'fast-tracking offshore wind as done in Taiwan' — leading with the Taiwan 10-vs-30-year comparison and anchoring to three headline ambition metrics (timeline, GBP investment, jobs with per-dollar multiplier framing). On government access, Jamie advised pursuing a meeting with Under-Secretary Christina Guevara within weeks despite her imminent departure, and flagged Rui as a potential DOE local champion; Ambassador-level access should be planned carefully given the Ambassador's busy schedule over the next month. Jamie raised significant site risk flags: the east-facing Mindoro coast is a major biodiversity zone requiring early DENR engagement, and Negros Occidental already has a negative OSW perception due to developers bypassing environmental assessments. The team will send Jamie the updated pack link for offline review.",
+      "processed": false,
+      "added_at": 1789119364999
     }
   ]
 }
