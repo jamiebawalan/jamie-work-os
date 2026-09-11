@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:36:14.243Z",
+  "last_updated": "2026-09-11T09:36:18.485Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1032,6 +1032,14 @@
       "summary": "The NAP CTM covered COP positioning, AIP governance, and project pipeline progress. The Philippines is seen as a showcase for climate adaptation finance, with a BCG COP event planned and a UK Pavilion slot being pursued; blue zone passes will be confirmed with Commissioner Rachel tomorrow alongside questions about Philippines Pavilion plans and the CCC/DOF validation role. On AIP governance, the team agreed that November's steer co must be used to actively gear up toward a January mandate signing (via joint circular), with draft wording prepared as input — the steer cos are to be positioned as the AIP governing body in action, not a preparatory committee. The 10-project pipeline was clarified into three tracks: projects 1–4 under active GG support through March with handover beginning January 2027, projects 5–8 as capability-building test cases, and projects 9–10 ready for immediate handover to PPP Center. Pipeline expansion via ADB, UNDP, BSF, and the next AILC cohort is a priority, with an ADB sidebar planned for Tuesday and a matching tool (being fine-tuned on Claude) to be live-tested on projects 5–8.",
       "processed": false,
       "added_at": 1789119373685
+    },
+    {
+      "id": "gr1789119377486",
+      "title": "Debrief with CCC",
+      "date": "2026-09-10T03:04:33.418Z",
+      "summary": "The first post-SteerCo debrief with CCC (represented by Commissioner Rachel and Jerome, with Ramel in Baku) focused on clarifying how AIP fits within the existing ITSF/DPCG adaptation ecosystem and aligns with PSF Plus and DBP efforts. CCC requested a visual mapping of mandates and relationships across DPCG, ITSF, and AIP, as well as clear institutional accountability lines and resource flows to anchor the forthcoming legal/institutionalization document. BCG will draft these materials and co-develop outreach letters for four new SteerCo agency onboardings, with all correspondence routed via OVCED email. Commissioner Rachel confirmed CCC will establish an internal working group and issue an administrative issuance defining coordination roles; a bilateral with BCG is to be scheduled within the next few weeks. Key open items include pursuing the Convergence conditional grant (application open today), coordinating a Philippine Hub presence at COP, and targeting January for signing the institutionalization document and March for the secretariat to demonstrate independent AIP operation.",
+      "processed": false,
+      "added_at": 1789119377486
     }
   ]
 }
