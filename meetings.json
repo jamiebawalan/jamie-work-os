@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T07:45:02.193Z",
+  "last_updated": "2026-09-11T09:35:51.304Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -984,6 +984,14 @@
       "summary": "The team reviewed the top 25 candidate shortlist, with Jamie feeling excited about 60–70% of profiles overall. Key decisions include dropping Betina in favor of Antoinette Ferris (CFA, IRC team captain, one minor proctor flag), flagging Ryan Kevin for likely removal due to a proctor flag and low score of 42, and keeping Isa and Kristen with some reservations about personality. Five STEM/non-traditional candidates are slated for phone screens tomorrow morning to check communication skills and personality, after which the team will reconnect to finalize the list. An open question remains around exception requests for scores of 45–46 (e.g., Carlos), and Jamie plans to give constructive feedback to the BAA contact next week on quant and business performance.",
       "processed": false,
       "added_at": 1788939900390
+    },
+    {
+      "id": "gr1789119350006",
+      "title": "Onboarding check-in — all-hands balance and staffing transition",
+      "date": "2026-09-11T05:00:30.077Z",
+      "summary": "Jamie checked in with a new batch consultant (week 3) who is managing time across case work, pairing, and all-hands prep, finding it manageable but stretched. The all-hands was reframed as a relationship-building exercise for the new batch rather than a competition to win. A key staffing concern was raised: the consultant's current placement ends ~October 16 and the next project phase requires a Japanese speaker, leaving their placement unresolved — Jamie will escalate this to Anthony. Additionally, all-hands spoken lines need to be recorded as a dubbed backup, as live delivery was flagged as too risky by Max.",
+      "processed": false,
+      "added_at": 1789119350006
     }
   ]
 }
