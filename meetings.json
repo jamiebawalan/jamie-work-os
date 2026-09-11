@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:36:05.856Z",
+  "last_updated": "2026-09-11T09:36:07.893Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1008,6 +1008,14 @@
       "summary": "The meeting reviewed a steering committee pitch pack aimed at convincing DOE, DOF, and DOTr to establish a cross-ministry decision-making body for Philippines offshore wind. Jamie recommended reframing the pack headline from passive 'understanding OSW delivery' to active 'fast-tracking offshore wind as done in Taiwan' — leading with the Taiwan 10-vs-30-year comparison and anchoring to three headline ambition metrics (timeline, GBP investment, jobs with per-dollar multiplier framing). On government access, Jamie advised pursuing a meeting with Under-Secretary Christina Guevara within weeks despite her imminent departure, and flagged Rui as a potential DOE local champion; Ambassador-level access should be planned carefully given the Ambassador's busy schedule over the next month. Jamie raised significant site risk flags: the east-facing Mindoro coast is a major biodiversity zone requiring early DENR engagement, and Negros Occidental already has a negative OSW perception due to developers bypassing environmental assessments. The team will send Jamie the updated pack link for offline review.",
       "processed": false,
       "added_at": 1789119364999
+    },
+    {
+      "id": "gr1789119366950",
+      "title": "AIP debrief and capability building discussion",
+      "date": "2026-09-10T07:05:32.898Z",
+      "summary": "The AIP debrief covered steering committee cadence (moving to every-other-month: October, November, January, March), governance structure (keeping the committee small and engaging DBP, DILG, DSWD as needed), and the ambition to address ~25 adaptation boxes long-term with a near-term focus on pipeline, financing, and location. Key decisions include targeting COP 31 (November 7) for signing the AIP institutionalization instrument, with January as a fallback — CCC and DOF are asked to advise on realistic timelines. PBSP shared a promising new lead with Temasek Foundation (James Chan), who is interested in funding the rice/Iloilo component; a Singapore meeting is being arranged for next week with Jamie joining online. PPP Center identified the Iloilo irrigation project as the strongest PPP candidate and requested project briefs for the irrigation, Isabela corn drying, and Zamboanga copra drying projects to assess PPP structures. An innovative funding idea was floated to use the existing SME credit program vehicle as the host for a Convergence grant to fund AIP secretariat design — Lisa is to be briefed on this next week.",
+      "processed": false,
+      "added_at": 1789119366950
     }
   ]
 }
