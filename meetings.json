@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:35:51.304Z",
+  "last_updated": "2026-09-11T09:35:53.358Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -992,6 +992,14 @@
       "summary": "Jamie checked in with a new batch consultant (week 3) who is managing time across case work, pairing, and all-hands prep, finding it manageable but stretched. The all-hands was reframed as a relationship-building exercise for the new batch rather than a competition to win. A key staffing concern was raised: the consultant's current placement ends ~October 16 and the next project phase requires a Japanese speaker, leaving their placement unresolved — Jamie will escalate this to Anthony. Additionally, all-hands spoken lines need to be recorded as a dubbed backup, as live delivery was flagged as too risky by Max.",
       "processed": false,
       "added_at": 1789119350006
+    },
+    {
+      "id": "gr1789119352516",
+      "title": "Gwen catch-up",
+      "date": "2026-09-10T05:00:46.503Z",
+      "summary": "Jamie met with Gwen for her Week 3 secondment check-in. Gwen is settling in well, gaining more autonomy, and has identified AI incorporation into marketing as her main focus area, alongside CRM/AO database work and media outreach. Jamie asked Gwen to think about defining clear key achievements for the secondment — to be aligned with Maha as signatory — covering PE, BSI, and comms skills. The flex model appears to be working as intended, with Gwen reporting more control over her time and improved family support.",
+      "processed": false,
+      "added_at": 1789119352516
     }
   ]
 }
