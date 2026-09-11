@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:36:07.893Z",
+  "last_updated": "2026-09-11T09:36:12.516Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1016,6 +1016,14 @@
       "summary": "The AIP debrief covered steering committee cadence (moving to every-other-month: October, November, January, March), governance structure (keeping the committee small and engaging DBP, DILG, DSWD as needed), and the ambition to address ~25 adaptation boxes long-term with a near-term focus on pipeline, financing, and location. Key decisions include targeting COP 31 (November 7) for signing the AIP institutionalization instrument, with January as a fallback — CCC and DOF are asked to advise on realistic timelines. PBSP shared a promising new lead with Temasek Foundation (James Chan), who is interested in funding the rice/Iloilo component; a Singapore meeting is being arranged for next week with Jamie joining online. PPP Center identified the Iloilo irrigation project as the strongest PPP candidate and requested project briefs for the irrigation, Isabela corn drying, and Zamboanga copra drying projects to assess PPP structures. An innovative funding idea was floated to use the existing SME credit program vehicle as the host for a Convergence grant to fund AIP secretariat design — Lisa is to be briefed on this next week.",
       "processed": false,
       "added_at": 1789119366950
+    },
+    {
+      "id": "gr1789119371568",
+      "title": "Teaming discussion - 9 September 2026",
+      "date": "2026-09-09T07:44:44.478Z",
+      "summary": "The sprint retrospective covered the period leading up to the Friday Milestone 2 steerco, with the team noting strong outcomes — money flowing, Circle on board, non-ODA sign-off, and James (previously the biggest critic) expressing excitement about the UK work. Key challenges raised were context-switching while Claude processes, a heavy meeting volume creating review backlogs, and difficulty tracing past materials for new team members. The main knowledge management decision was to create per-milestone MD files from existing Claude chats and ingest them into the shared Claude project as a single source of truth, with Jamie owning the ingestion setup and stopping individual team ingestion to preserve consistent instructions. Jamie is to send the debrief agenda divider immediately and lead a stock-take of all materials by end of Friday before case break; handover structure (content session vs. counterpart/Dynamics session) remains an open question to be resolved before October return.",
+      "processed": false,
+      "added_at": 1789119371568
     }
   ]
 }
