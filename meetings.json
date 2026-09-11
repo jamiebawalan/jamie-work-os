@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T09:36:12.516Z",
+  "last_updated": "2026-09-11T09:36:14.243Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1024,6 +1024,14 @@
       "summary": "The sprint retrospective covered the period leading up to the Friday Milestone 2 steerco, with the team noting strong outcomes — money flowing, Circle on board, non-ODA sign-off, and James (previously the biggest critic) expressing excitement about the UK work. Key challenges raised were context-switching while Claude processes, a heavy meeting volume creating review backlogs, and difficulty tracing past materials for new team members. The main knowledge management decision was to create per-milestone MD files from existing Claude chats and ingest them into the shared Claude project as a single source of truth, with Jamie owning the ingestion setup and stopping individual team ingestion to preserve consistent instructions. Jamie is to send the debrief agenda divider immediately and lead a stock-take of all materials by end of Friday before case break; handover structure (content session vs. counterpart/Dynamics session) remains an open question to be resolved before October return.",
       "processed": false,
       "added_at": 1789119371568
+    },
+    {
+      "id": "gr1789119373685",
+      "title": "NAP CTM",
+      "date": "2026-09-09T09:10:48.540Z",
+      "summary": "The NAP CTM covered COP positioning, AIP governance, and project pipeline progress. The Philippines is seen as a showcase for climate adaptation finance, with a BCG COP event planned and a UK Pavilion slot being pursued; blue zone passes will be confirmed with Commissioner Rachel tomorrow alongside questions about Philippines Pavilion plans and the CCC/DOF validation role. On AIP governance, the team agreed that November's steer co must be used to actively gear up toward a January mandate signing (via joint circular), with draft wording prepared as input — the steer cos are to be positioned as the AIP governing body in action, not a preparatory committee. The 10-project pipeline was clarified into three tracks: projects 1–4 under active GG support through March with handover beginning January 2027, projects 5–8 as capability-building test cases, and projects 9–10 ready for immediate handover to PPP Center. Pipeline expansion via ADB, UNDP, BSF, and the next AILC cohort is a priority, with an ADB sidebar planned for Tuesday and a matching tool (being fine-tuned on Claude) to be live-tested on projects 5–8.",
+      "processed": false,
+      "added_at": 1789119373685
     }
   ]
 }
