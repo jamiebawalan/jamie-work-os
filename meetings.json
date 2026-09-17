@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T09:33:50.902Z",
+  "last_updated": "2026-09-17T02:29:28.880Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1080,6 +1080,14 @@
       "summary": "Sek and Jamie held an introductory session to align on backgrounds, interests, and potential collaboration areas. Sek's Manila mandate covers ADB, DFAT, and broader public sector/SI/energy/TCI, and he sees Jamie as a key partner — particularly for ADB Technical Assistance (climate/water and energy) and the DFAT Philippines 'Progress' program. Key immediate actions for Jamie are to join the ADB climate adaptation BD effort with Sek and Dean, launch proactive outreach campaigns to ADB water and ASEAN Power Grid specialists, and clarify the scope/conflict question on the FCDO offshore wind engagement. The session ran out of time before covering all topics, so a dedicated follow-up meeting is needed to finalize Jamie's role and priorities across the portfolio.",
       "processed": false,
       "added_at": 1789464828976
+    },
+    {
+      "id": "gr1789612167267",
+      "title": "UK firm activation framework — Philippines, Vietnam, and Morocco learnings",
+      "date": "2026-09-16T10:31:31.420Z",
+      "summary": "The team presented a three-bucket, six-element non-ODA firm activation framework (assess opportunity, activate the UK offer, sustain UK participation), illustrated through Philippines and Vietnam case studies. Key Philippines learnings include leading with revenue opportunity, clarifying UK differentiation early, localizing business models (e.g., machinery-as-a-service), brokering quick local connections, and providing trade/legal support for unregistered entities; Vietnam learnings emphasize using technical counterparts to reach actual buyers, raising buyer ambition, leveraging post-activation moments, and low-stakes BCG office sessions during delegation visits. An open question is how to better surface UK and bilateral events for gateway teams in-country — a lightweight AI web scraper was proposed and well-received. The group agreed to codify a standard non-ODA onboarding step connecting teams to the right UK business officer by sector, and to actively use existing top-tips repositories (Badra, Rosie, Emma) rather than reinvent the wheel on each new project. When presenting to FTGO and BISC counterparts, the methodology should be positioned as a well-developed, proven approach rather than something new.",
+      "processed": false,
+      "added_at": 1789612167267
     }
   ]
 }
