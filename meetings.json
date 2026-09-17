@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T02:29:28.880Z",
+  "last_updated": "2026-09-17T02:29:31.345Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1088,6 +1088,14 @@
       "summary": "The team presented a three-bucket, six-element non-ODA firm activation framework (assess opportunity, activate the UK offer, sustain UK participation), illustrated through Philippines and Vietnam case studies. Key Philippines learnings include leading with revenue opportunity, clarifying UK differentiation early, localizing business models (e.g., machinery-as-a-service), brokering quick local connections, and providing trade/legal support for unregistered entities; Vietnam learnings emphasize using technical counterparts to reach actual buyers, raising buyer ambition, leveraging post-activation moments, and low-stakes BCG office sessions during delegation visits. An open question is how to better surface UK and bilateral events for gateway teams in-country — a lightweight AI web scraper was proposed and well-received. The group agreed to codify a standard non-ODA onboarding step connecting teams to the right UK business officer by sector, and to actively use existing top-tips repositories (Badra, Rosie, Emma) rather than reinvent the wheel on each new project. When presenting to FTGO and BISC counterparts, the methodology should be positioned as a well-developed, proven approach rather than something new.",
       "processed": false,
       "added_at": 1789612167267
+    },
+    {
+      "id": "gr1789612170235",
+      "title": "NWRB policy reform insights",
+      "date": "2026-09-16T06:30:33.481Z",
+      "summary": "The NWRB will not lead water policy reform but will also not actively enforce against unlicensed extraction (penalty is a nominal 1,000 PHP/day), though UK government funding rules out pursuing an illegal-operations strategy. Current treatment plant capacity is 40 MLD combined but household distribution is only 15–20 MLD, leaving 10–15 MLD available for irrigation diversion immediately. A centralized-source with distributed tank offtake model is the preferred infrastructure approach, but total cost (pipeline ~150M PHP plus tanks ~100M PHP) significantly exceeds the 50M PHP cost of the entire existing Negros facility, making commercial replication unlikely without a dual potable-water use case. NIA holds all irrigation permits and has no incentive to release them; direct engagement has failed and the DOF/AAIP route is the current best path forward. Key open questions: validation of MLD figures and serviceable farmer volumes for Negros, feasibility of low-cost tractor-mounted or solar pump technology as an alternative, and whether Kong Habi municipal engagement can proceed next week.",
+      "processed": false,
+      "added_at": 1789612170235
     }
   ]
 }
