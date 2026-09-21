@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:35:59.129Z",
+  "last_updated": "2026-09-21T04:36:01.065Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1128,6 +1128,14 @@
       "summary": "The MEL discussion covered progress on two major mandates: getting high-priority projects funded/into implementation, and operationalizing the Adaptation Investment Platform (AIP). Milestone 1 was delivered end of July and Milestone 2 last Friday, with the final milestone due March 5; two of three projects are advancing well, while the irrigation project remains unresolved due to water rights complexities. The $100M GDP mobilization target is considered ambitious internally, with Jamie expecting to land slightly below. Key open questions include whether AILC/capability building modules can be counted as separate knowledge products (to be clarified with the central MEL team against the standardized results framework), and how to handle potential double-counting of attendees in Output 1.3 given more substantive engagement this phase. Jamie owns tracking first-time vs. repeat attendance for Output 1.3 and logging UK priority topic alignment for Output 5.1 engagements going forward.",
       "processed": false,
       "added_at": 1789965358268
+    },
+    {
+      "id": "gr1789965360189",
+      "title": "Discussion with Kat Chong",
+      "date": "2026-09-17T02:56:48.171Z",
+      "summary": "Jamie met with Kat Chong to get oriented on the ADB SCQS (single-stage) proposal process ahead of the September 23 deadline (4PM Manila time). The ADB portal link has lapsed and Kat is waiting for a new one; in the meantime, all content should be drafted in Word first. Scoring is heavily weighted toward expert CVs (700 out of 1,000 points), making early identification of the expert lineup — especially a statistician and other niche roles — the top priority. Most non-expert proposal content (project management, BCG credentials, technical competence) is templatized and can be adapted from previous successful submissions Kat has shared. Key open question: whether BCG Philippines formalization documents or other attachments are required at this stage, which Jamie needs to verify against the RFP.",
+      "processed": false,
+      "added_at": 1789965360189
     }
   ]
 }
