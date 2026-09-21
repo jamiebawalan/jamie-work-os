@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:35:48.371Z",
+  "last_updated": "2026-09-21T04:35:50.500Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1112,6 +1112,14 @@
       "summary": "Jamie and Zach aligned on the core problem framing for the ADB Philippines food logistics proposal: the existing Food Logistics Master Plan is purely qualitative, and BCG's value is in answering where to invest, which corridors to prioritize, and how to build a bankable pipeline — worth up to $20B in ADB lending. Key Why BCG differentiators identified are global food/logistics credentials (Shalini/Cisco, Aparna/India), AI and advanced analytics (Risk Explorer as a standalone ADB credential), investor perspective, and deep Philippines local knowledge across Luzon, Visayas, and Mindanao. The proposal will be a Word document under 20 pages with the Why BCG thread woven throughout every section. Open items include confirming the deadline extension with Maria, getting a response from PPP expert Shu Young in Singapore, and scheduling a call with Shalini before Wednesday.",
       "processed": false,
       "added_at": 1789965347358
+    },
+    {
+      "id": "gr1789965349521",
+      "title": "Philippine food logistics value chain and cost analysis",
+      "date": "2026-09-18T02:37:59.348Z",
+      "summary": "The team is scoping an ADB engagement to map food logistics costs across the Philippine agricultural value chain and produce an investment roadmap. The core hypothesis is that logistics costs consume a disproportionately large share of food value in the Philippines, exacerbated by the country's island geography. The team agreed to focus initial analysis on a few priority crops (staple crops like rice and corn vs. vegetable-producing corridors like Baguio) rather than the entire agri sector, and to use Navi and Perishable Cold Chain frameworks as starting templates adapted to the local context. Jamie needs to firm up the overall story structure and crop prioritization before statistical analysis can be scoped further, while Kaye will pull primary commodity pricing data across regions.",
+      "processed": false,
+      "added_at": 1789965349521
     }
   ]
 }
