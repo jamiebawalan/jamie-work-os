@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:36:03.238Z",
+  "last_updated": "2026-09-21T04:36:07.632Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1144,6 +1144,14 @@
       "summary": "The team agreed to prioritize water rights policy discussion before moving to storage, and acknowledged that storage appetite is already being tested operationally. NIA mediation was ruled out; instead, the path forward is to open channels within NWRB and secure stronger championing. The storage cost analysis slide needs to be revised — removing the cost-to-build line and reframing around a payback period perspective. The parent member structure must be addressed before positioning storage as a business opportunity.",
       "processed": false,
       "added_at": 1789965362263
+    },
+    {
+      "id": "gr1789965366751",
+      "title": "BCG event planning in Turkey",
+      "date": "2026-09-16T04:25:28.845Z",
+      "summary": "Two BCG-related events are planned at COP31 in Turkey: a 90-minute moderated panel on adaptation and resilience at the We Mean Business Coalition Pavilion (Day 2), and a 50-minute Philippine Pavilion session on Finance Day (Day 5) co-hosted by DoF and CCC, focused on attracting funders for the Secretariat and the project. Both sessions require a UK representative, but the UK delegation has not yet been confirmed. The agreed next step is to send full session details to the UK team so they can identify a representative once travel is settled. Blue Zone access for corporates remains a concern, with a potential workaround through WRA channels to get content in front of the right financier audience.",
+      "processed": false,
+      "added_at": 1789965366751
     }
   ]
 }
