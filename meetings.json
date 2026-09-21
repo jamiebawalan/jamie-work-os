@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:36:01.065Z",
+  "last_updated": "2026-09-21T04:36:03.238Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1136,6 +1136,14 @@
       "summary": "Jamie met with Kat Chong to get oriented on the ADB SCQS (single-stage) proposal process ahead of the September 23 deadline (4PM Manila time). The ADB portal link has lapsed and Kat is waiting for a new one; in the meantime, all content should be drafted in Word first. Scoring is heavily weighted toward expert CVs (700 out of 1,000 points), making early identification of the expert lineup — especially a statistician and other niche roles — the top priority. Most non-expert proposal content (project management, BCG credentials, technical competence) is templatized and can be adapted from previous successful submissions Kat has shared. Key open question: whether BCG Philippines formalization documents or other attachments are required at this stage, which Jamie needs to verify against the RFP.",
       "processed": false,
       "added_at": 1789965360189
+    },
+    {
+      "id": "gr1789965362263",
+      "title": "Water rights and storage policy — NIA mediation and Dean's water balancing",
+      "date": "2026-09-16T04:42:25.114Z",
+      "summary": "The team agreed to prioritize water rights policy discussion before moving to storage, and acknowledged that storage appetite is already being tested operationally. NIA mediation was ruled out; instead, the path forward is to open channels within NWRB and secure stronger championing. The storage cost analysis slide needs to be revised — removing the cost-to-build line and reframing around a payback period perspective. The parent member structure must be addressed before positioning storage as a business opportunity.",
+      "processed": false,
+      "added_at": 1789965362263
     }
   ]
 }
