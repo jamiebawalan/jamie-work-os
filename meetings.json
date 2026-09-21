@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:36:09.054Z",
+  "last_updated": "2026-09-21T14:06:17.892Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1160,6 +1160,14 @@
       "summary": "The team aligned on a submission timeline working backwards from a Wednesday hand-off to Kat Chong: CV sendouts and case team outreach today (Sep 17), story alignment call tomorrow at 2:30–3:30 PM, profiles finalized by Monday, and final review/templated items completed Tuesday. **Profile strategy** was the main discussion: Varad (primary) or Dean for team leader/food logistics specialist, Sharad (Singapore) for agri-food ports specialist, an X/analytics person (to be sourced via Ali) for the statistician role, and Jamie likely positioned as finance specialist or deputy team leader — with key gaps remaining for a dedicated food logistics specialist and a PPP specialist. The team agreed the scope is **tight but feasible with AI**, covering a diagnostic report (~1–2 weeks), a logistics cost model (~3 weeks of X effort), and an investment roadmap/PPP options paper running in parallel. **Open questions** include: confirming Varad vs. Dean based on food logistics depth, sourcing the PPP specialist profile (Varad and Sharad to be asked for referrals), and validating scope robustness by reviewing publicly available completed ADB TA reports. Jamie owns outreach to Ali for the statistician/X profile and post-harvest loss examples; Kaye owns drafting all email templates and beginning the proposal outline with Claude.",
       "processed": false,
       "added_at": 1789965368236
+    },
+    {
+      "id": "gr1789999576457",
+      "title": "Discussion on lessons learned with ADB",
+      "date": "2026-09-21T08:10:50.148Z",
+      "summary": "The ADB RiskExplore lessons learned session closed out both Phase 1 and Phase 2, which were delivered on time, on schedule, and on budget. Key lessons from the delivery side included the need for earlier and more flexible UAT scheduling, securing leadership-backed business user participation upfront, ensuring integration readiness commitments before development begins (notably NSO Data Mart remains an open risk pending Credit Lens RIP architecture), and improving in-tool guidance for new workflows. Product owner inputs from Martin and Belinda flagged the need for a dedicated learning/discovery phase for BCG at the start of ADB engagements, genuine openness to ADB ways of working rather than assuming prior knowledge, proactive continuity of key technical experts (the loss of Judith was cited as a gap), full client sign-off and documentation before moving forward on design decisions, and moving away from Figma toward interactive or AI-assisted prototypes. The Climetro data extraction is the sole remaining item for project closure, targeted by 26 September. Jamie is to coordinate with Ali on the follow-on design workshop plan and share a draft schedule with Ludovic and the ADB product owners by end of this week.",
+      "processed": false,
+      "added_at": 1789999576457
     }
   ]
 }
