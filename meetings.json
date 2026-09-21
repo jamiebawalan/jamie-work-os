@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T04:36:07.632Z",
+  "last_updated": "2026-09-21T04:36:09.054Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1152,6 +1152,14 @@
       "summary": "Two BCG-related events are planned at COP31 in Turkey: a 90-minute moderated panel on adaptation and resilience at the We Mean Business Coalition Pavilion (Day 2), and a 50-minute Philippine Pavilion session on Finance Day (Day 5) co-hosted by DoF and CCC, focused on attracting funders for the Secretariat and the project. Both sessions require a UK representative, but the UK delegation has not yet been confirmed. The agreed next step is to send full session details to the UK team so they can identify a representative once travel is settled. Blue Zone access for corporates remains a concern, with a potential workaround through WRA channels to get content in front of the right financier audience.",
       "processed": false,
       "added_at": 1789965366751
+    },
+    {
+      "id": "gr1789965368236",
+      "title": "CTM on Food Logistics",
+      "date": "2026-09-17T08:23:04.910Z",
+      "summary": "The team aligned on a submission timeline working backwards from a Wednesday hand-off to Kat Chong: CV sendouts and case team outreach today (Sep 17), story alignment call tomorrow at 2:30–3:30 PM, profiles finalized by Monday, and final review/templated items completed Tuesday. **Profile strategy** was the main discussion: Varad (primary) or Dean for team leader/food logistics specialist, Sharad (Singapore) for agri-food ports specialist, an X/analytics person (to be sourced via Ali) for the statistician role, and Jamie likely positioned as finance specialist or deputy team leader — with key gaps remaining for a dedicated food logistics specialist and a PPP specialist. The team agreed the scope is **tight but feasible with AI**, covering a diagnostic report (~1–2 weeks), a logistics cost model (~3 weeks of X effort), and an investment roadmap/PPP options paper running in parallel. **Open questions** include: confirming Varad vs. Dean based on food logistics depth, sourcing the PPP specialist profile (Varad and Sharad to be asked for referrals), and validating scope robustness by reviewing publicly available completed ADB TA reports. Jamie owns outreach to Ali for the statistician/X profile and post-harvest loss examples; Kaye owns drafting all email templates and beginning the proposal outline with Claude.",
+      "processed": false,
+      "added_at": 1789965368236
     }
   ]
 }
