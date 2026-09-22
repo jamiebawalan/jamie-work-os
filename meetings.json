@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T10:18:19.038Z",
+  "last_updated": "2026-09-22T15:23:23.276Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1184,6 +1184,14 @@
       "summary": "The RCRP team aligned on a three-module, three-deliverable work plan (Interim Report, Draft Final Report, Final Report) with the policy and institutional support concept note elevated as a standalone priority deliverable. Suchin needs a substantive draft of this concept note by early October to begin ADB's internal approval process for up to $1M in TA before the December 31 deadline, with potential matching funding from Singapore's Ministry of Finance. Key October milestones include the inaugural ASEAN Agri-Food Investment and Partnership Forum on October 30 (where Nanki presents on RCRP) and the Singapore Agri-Food Week (Oct 26–29); Jamie will be in Singapore that week for another engagement. The investment framework decision support tool will build on the ADB Risk Explorer methodology, but the team agreed to first get plugged into Singapore's data and pipeline working groups before scoping further. Open questions include the composition of the steering committee (Suchin to share a list), the exact scope and timing of CPI's engagement on governance arrangements, and the Philippines Adaptation Metrics national workshop date in October.",
       "processed": false,
       "added_at": 1790072297618
+    },
+    {
+      "id": "gr1790090601845",
+      "title": "Workshop planning and team staffing for October 22–23",
+      "date": "2026-09-22T12:48:28.834Z",
+      "summary": "The ADB workshop is being targeted for **October 22–23** (2 afternoons), with November ruled out as too late and October 28–30 unavailable due to Jamie's training. Jamie must update the proposal and send it to Lynette by **September 23** for sign-off before it goes to Martin and Belinda. A key open question is whether the workshop will be **in-person or remote**, which depends on participant locations — Jamie needs to confirm with Lodette urgently, as this determines the designer's travel. Team staffing will include the named designer (50% for 8 weeks, US first week of October), a data science rep, an engineering rep, and one additional designer for prep support; personas from the first engagement will be reused and built upon.",
+      "processed": false,
+      "added_at": 1790090601845
     }
   ]
 }
