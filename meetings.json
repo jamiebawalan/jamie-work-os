@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T14:06:17.892Z",
+  "last_updated": "2026-09-22T08:59:33.229Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1168,6 +1168,14 @@
       "summary": "The ADB RiskExplore lessons learned session closed out both Phase 1 and Phase 2, which were delivered on time, on schedule, and on budget. Key lessons from the delivery side included the need for earlier and more flexible UAT scheduling, securing leadership-backed business user participation upfront, ensuring integration readiness commitments before development begins (notably NSO Data Mart remains an open risk pending Credit Lens RIP architecture), and improving in-tool guidance for new workflows. Product owner inputs from Martin and Belinda flagged the need for a dedicated learning/discovery phase for BCG at the start of ADB engagements, genuine openness to ADB ways of working rather than assuming prior knowledge, proactive continuity of key technical experts (the loss of Judith was cited as a gap), full client sign-off and documentation before moving forward on design decisions, and moving away from Figma toward interactive or AI-assisted prototypes. The Climetro data extraction is the sole remaining item for project closure, targeted by 26 September. Jamie is to coordinate with Ali on the follow-on design workshop plan and share a draft schedule with Ludovic and the ADB product owners by end of this week.",
       "processed": false,
       "added_at": 1789999576457
+    },
+    {
+      "id": "gr1790067572051",
+      "title": "Philippines-Australia partnership event",
+      "date": "2026-09-22T01:30:14.579Z",
+      "summary": "The Progress Program, a $45M Philippines-Australia economic cooperation initiative over five years, was ceremonially launched at the Department of Finance on September 22, 2026, marking 80 years of bilateral relations. BCG is named as the Progress Team, with two core objectives: driving private sector growth and strengthening economic management, with particular focus on the Luzon Economic Corridor. Secretary Go emphasized urgency, noting less than two years remaining in office and demanding fast, tangible results from all partners. Priority sectors include clean energy, infrastructure, digital economy, agriculture, and resources. Senior officials from DoF, DTI, DOE, ARTA, and the Australian Government proceeded to a high-level meeting after the ceremony, and BCG should ensure alignment on next steps and delivery pace.",
+      "processed": false,
+      "added_at": 1790067572051
     }
   ]
 }
