@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T03:42:30.432Z",
+  "last_updated": "2026-09-24T03:42:40.638Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1216,6 +1216,14 @@
       "summary": "BCG met with HJ Lee (ADB, ASEAN Power Grid & Cross-Border Programs) to explore collaboration opportunities across ADB's APG agenda, including power simulation platforms, APG financing, governance architecture, subsea cable financing, and bilateral trade facilitation. BCG pitched a 'State of the ASEAN Power Grid' flagship report modeled on the Vietnam electricity sector assessment as a potential stakeholder orchestration vehicle, which HJ Lee received positively. An immediate near-term opportunity is the ADB-DOE Philippines energy resilience panel at AMEM/ABF on October 9, for which BCG needs to review the concept note and recommend speakers. Key open questions include whether BCG can formally engage on the subsea cable risk playbook (previously blocked by procurement model) and the depth of Marco's Laos IPP connections as a bridge to ADB's cross-border work. HJ Lee will send the panel concept note; BCG owns follow-up on Marco introductions and sharing his APG papers.",
       "processed": false,
       "added_at": 1790221349395
+    },
+    {
+      "id": "gr1790221359732",
+      "title": "Discussion with ",
+      "date": "2026-09-23T03:01:58.599Z",
+      "summary": "The call aligned on submitting a Convergence open call application by **Monday Sep 28** framed as a feasibility study on greening the SMEC (SME credit) program, leveraging DOF's existing Green SME credit facility and portfolio companies (Mayani, Straw Innovations, Agrea) as near-term case studies. The same concept will be fielded for the **CPI Lab 2027 window**, with this year's submission strengthened by a national government draft TOR and the facility-based structure. Key constraints flagged: the SMEC fund is governed by a 1994–95 USAID-PBSP bilateral agreement (USAID no longer exists), renegotiation pathways through the State Department are uncertain, and DOF engagement via Director John (Bilateral Assistance Division) has been difficult to convene. **Jamie owns**: drafting the Convergence application, setting up a Viber chat with Director John, and requesting a call with Naren for a heads-up and potential endorsement letter — all before Monday. Open question: whether DOF endorsement can be secured in time for the first submission round, or whether the second round window should be used as a fallback.",
+      "processed": false,
+      "added_at": 1790221359732
     }
   ]
 }
