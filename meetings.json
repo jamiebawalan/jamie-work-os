@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T03:42:22.411Z",
+  "last_updated": "2026-09-24T03:42:30.432Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1208,6 +1208,14 @@
       "summary": "The team aligned on restructuring the ease-of-doing-business deck to give each initiative its own Context + Opportunity slide, ensuring the dashboard is not buried and is positioned as an early priority. A high-level Gantt chart page (max 6 rows, 18–24 month horizon) will be added to show how all initiatives sequence together, with the AI-powered investor navigation proposed as a quick win and the SONA deadline (~July 27) marked as a key milestone. The dashboard is confirmed to be cross-sector with two layers: one tracking energy sector agency delivery against JMC commitments, and one sector-agnostic layer aligned to the 10 steps of reform (Be Ready). An open question remains whether a tangible public-facing output like the AI investor navigation tool could serve as an announcement around SONA. Jamie owns both deck updates.",
       "processed": false,
       "added_at": 1790221341879
+    },
+    {
+      "id": "gr1790221349395",
+      "title": "ADB ASEAN Power Grid",
+      "date": "2026-09-23T06:07:19.677Z",
+      "summary": "BCG met with HJ Lee (ADB, ASEAN Power Grid & Cross-Border Programs) to explore collaboration opportunities across ADB's APG agenda, including power simulation platforms, APG financing, governance architecture, subsea cable financing, and bilateral trade facilitation. BCG pitched a 'State of the ASEAN Power Grid' flagship report modeled on the Vietnam electricity sector assessment as a potential stakeholder orchestration vehicle, which HJ Lee received positively. An immediate near-term opportunity is the ADB-DOE Philippines energy resilience panel at AMEM/ABF on October 9, for which BCG needs to review the concept note and recommend speakers. Key open questions include whether BCG can formally engage on the subsea cable risk playbook (previously blocked by procurement model) and the depth of Marco's Laos IPP connections as a bridge to ADB's cross-border work. HJ Lee will send the panel concept note; BCG owns follow-up on Marco introductions and sharing his APG papers.",
+      "processed": false,
+      "added_at": 1790221349395
     }
   ]
 }
