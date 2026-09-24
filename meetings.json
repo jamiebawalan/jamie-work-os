@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T03:42:21.217Z",
+  "last_updated": "2026-09-24T03:42:22.411Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1200,6 +1200,14 @@
       "summary": "The team scoped a three-phase approach for the competitiveness/permitting reform program: **Phase 1** is a value-sizing exercise anchored on quantifying investor losses from permitting delays, **Phase 2** is target-state process re-engineering (covering EBOSS/EBOS integration and broader system changes), and **Phase 3** is a program management dashboard (Option 1B) tracking progress against the roadmap. An AI-powered investor navigation tool was identified as a no-regrets quick win to launch in parallel with Phase 1, using the existing regulations database. Key open question is which initiative Director Mar's team wants to start first — a revised one-pager will be circulated for review, followed by a meeting request to Director Mar's team for Monday. Jamie owns sending the revised slide and scheduling that meeting.",
       "processed": false,
       "added_at": 1790221339995
+    },
+    {
+      "id": "gr1790221341879",
+      "title": "Ease of doing business dashboard and AI investor navigation roadmap",
+      "date": "2026-09-24T02:50:55.910Z",
+      "summary": "The team aligned on restructuring the ease-of-doing-business deck to give each initiative its own Context + Opportunity slide, ensuring the dashboard is not buried and is positioned as an early priority. A high-level Gantt chart page (max 6 rows, 18–24 month horizon) will be added to show how all initiatives sequence together, with the AI-powered investor navigation proposed as a quick win and the SONA deadline (~July 27) marked as a key milestone. The dashboard is confirmed to be cross-sector with two layers: one tracking energy sector agency delivery against JMC commitments, and one sector-agnostic layer aligned to the 10 steps of reform (Be Ready). An open question remains whether a tangible public-facing output like the AI investor navigation tool could serve as an announcement around SONA. Jamie owns both deck updates.",
+      "processed": false,
+      "added_at": 1790221341879
     }
   ]
 }
