@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T15:23:23.276Z",
+  "last_updated": "2026-09-24T03:42:21.217Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1192,6 +1192,14 @@
       "summary": "The ADB workshop is being targeted for **October 22–23** (2 afternoons), with November ruled out as too late and October 28–30 unavailable due to Jamie's training. Jamie must update the proposal and send it to Lynette by **September 23** for sign-off before it goes to Martin and Belinda. A key open question is whether the workshop will be **in-person or remote**, which depends on participant locations — Jamie needs to confirm with Lodette urgently, as this determines the designer's travel. Team staffing will include the named designer (50% for 8 weeks, US first week of October), a data science rep, an engineering rep, and one additional designer for prep support; personas from the first engagement will be reused and built upon.",
       "processed": false,
       "added_at": 1790090601845
+    },
+    {
+      "id": "gr1790221339995",
+      "title": "Dashboard project scoping",
+      "date": "2026-09-23T10:28:50.219Z",
+      "summary": "The team scoped a three-phase approach for the competitiveness/permitting reform program: **Phase 1** is a value-sizing exercise anchored on quantifying investor losses from permitting delays, **Phase 2** is target-state process re-engineering (covering EBOSS/EBOS integration and broader system changes), and **Phase 3** is a program management dashboard (Option 1B) tracking progress against the roadmap. An AI-powered investor navigation tool was identified as a no-regrets quick win to launch in parallel with Phase 1, using the existing regulations database. Key open question is which initiative Director Mar's team wants to start first — a revised one-pager will be circulated for review, followed by a meeting request to Director Mar's team for Monday. Jamie owns sending the revised slide and scheduling that meeting.",
+      "processed": false,
+      "added_at": 1790221339995
     }
   ]
 }
