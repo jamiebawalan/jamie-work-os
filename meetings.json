@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T03:42:40.638Z",
+  "last_updated": "2026-09-24T03:42:43.637Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1224,6 +1224,14 @@
       "summary": "The call aligned on submitting a Convergence open call application by **Monday Sep 28** framed as a feasibility study on greening the SMEC (SME credit) program, leveraging DOF's existing Green SME credit facility and portfolio companies (Mayani, Straw Innovations, Agrea) as near-term case studies. The same concept will be fielded for the **CPI Lab 2027 window**, with this year's submission strengthened by a national government draft TOR and the facility-based structure. Key constraints flagged: the SMEC fund is governed by a 1994–95 USAID-PBSP bilateral agreement (USAID no longer exists), renegotiation pathways through the State Department are uncertain, and DOF engagement via Director John (Bilateral Assistance Division) has been difficult to convene. **Jamie owns**: drafting the Convergence application, setting up a Viber chat with Director John, and requesting a call with Naren for a heads-up and potential endorsement letter — all before Monday. Open question: whether DOF endorsement can be secured in time for the first submission round, or whether the second round window should be used as a fallback.",
       "processed": false,
       "added_at": 1790221359732
+    },
+    {
+      "id": "gr1790221362807",
+      "title": "Weekly POST check-in",
+      "date": "2026-09-23T07:10:03.247Z",
+      "summary": "The team agreed to hold a 30 September working session with the Secretariat to resolve the AIP institutionalization document path, COP31 prep, and the next steering committee agenda — with the steering committee circle planned for end-October, dovetailing with the Baroness minister's visit (tentatively 28–30 October) in Iloilo or Manila depending on the minister's itinerary. On machine deployment, 6 machines are confirmed in-country but Laguna-to-Iloilo logistics are unknown; Straw will be followed up tomorrow on expedited delivery, and the British Embassy offered customs support if needed. For the 5 October Ian Watt session, Jamie and Charmian will reach out to Ian in advance to align on agenda and format, and a deck covering Philippines market sizing (~$100B) and UK addressable share (~4%) will be prepared and reviewed at the 30 September POST check-in. On UK financing institutions, UKEF was confirmed as a poor fit for current project scale/models but should remain engaged as AIP matures; BII and Pidge should be approached directly via Cherry (in-country GIP lead), not through GIP London. Two funding applications are in flight — Convergence (due 28 September) and The Lab (due 18 October) — with a proposal to attach DBF's SME green credit facility to strengthen AIP's candidacy.",
+      "processed": false,
+      "added_at": 1790221362807
     }
   ]
 }
