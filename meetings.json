@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T03:42:43.637Z",
+  "last_updated": "2026-09-28T02:30:14.282Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1232,6 +1232,14 @@
       "summary": "The team agreed to hold a 30 September working session with the Secretariat to resolve the AIP institutionalization document path, COP31 prep, and the next steering committee agenda — with the steering committee circle planned for end-October, dovetailing with the Baroness minister's visit (tentatively 28–30 October) in Iloilo or Manila depending on the minister's itinerary. On machine deployment, 6 machines are confirmed in-country but Laguna-to-Iloilo logistics are unknown; Straw will be followed up tomorrow on expedited delivery, and the British Embassy offered customs support if needed. For the 5 October Ian Watt session, Jamie and Charmian will reach out to Ian in advance to align on agenda and format, and a deck covering Philippines market sizing (~$100B) and UK addressable share (~4%) will be prepared and reviewed at the 30 September POST check-in. On UK financing institutions, UKEF was confirmed as a poor fit for current project scale/models but should remain engaged as AIP matures; BII and Pidge should be approached directly via Cherry (in-country GIP lead), not through GIP London. Two funding applications are in flight — Convergence (due 28 September) and The Lab (due 18 October) — with a proposal to attach DBF's SME green credit facility to strengthen AIP's candidacy.",
       "processed": false,
       "added_at": 1790221362807
+    },
+    {
+      "id": "gr1790562613295",
+      "title": "COP31 planning, Convergence application review, and AIP Secretariat prep with Alex",
+      "date": "2026-09-28T02:00:14.058Z",
+      "summary": "The team discussed the Convergence application (now in PBSP's court), the AIP Secretariat Working Session on Sep 30, and COP31 preparations. Key decisions: BCG Central approved sending COP31 invites via the Central BCG channel with a deadline of today (Sep 28), prioritizing financiers from the 4,000+ pre-approved list; the AIP event is confirmed for COP31 Day 1 (corrected from Day 5). Jamie will pursue 2 Blue Zone passes (Dean is opting out) and needs to confirm whether a visa is required. Open questions include the invite routing strategy (centralized vs. per-org) to be discussed at the Sep 30 working session, and Alex still needs to draft that session's agenda.",
+      "processed": false,
+      "added_at": 1790562613295
     }
   ]
 }
