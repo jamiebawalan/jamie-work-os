@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:51:01.547Z",
+  "last_updated": "2026-10-01T09:51:05.107Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1248,6 +1248,14 @@
       "summary": "The AILC scale-up is targeting an executive briefing the week of October 19 with module implementation starting November, deliberately avoiding the UNDAS break. Key findings from the rapid assessment include participants needing formal administrative cover (memorandum/department order) to attend sessions, a request to shorten sessions to 1–2 hours, and no post-course survey responses from Iloilo, Negros Occidental, and Mountain Province (the first two likely explained by existing AIP engagement). Three format options are on the table — a 10-session online series, a condensed module revision workshop, or a 3-day on-site intensive — and LGA principals (Eileen and Eloise) need to confirm the approach within 2 weeks. Max (Jamie's team) will link LGA with returning resource persons and development partners, and CCC (Christelle/Sergio) will explore SUC involvement via the PASUC knowledge exchange forum partnership.",
       "processed": false,
       "added_at": 1790848259976
+    },
+    {
+      "id": "gr1790848263827",
+      "title": "Expert team mapping and SOW evaluation for ADB flood assessment",
+      "date": "2026-10-01T01:33:48.508Z",
+      "summary": "The session was a working session to map 33 SOW must-tags to 6 expert types and structure the core working team for the ADB flood assessment proposal. Key decisions: Judith and Bozarolo to be offered as alternates (not both locked in) for the disaster damage SME role; Saad and Muad to cover cloud/solution architecture and engineering (potentially merged); Ali oversees data science (rows 7–8), Saad oversees technicals and design (rows 6, 9, 10), and Jamie owns the business track. The CTM with Ali is scheduled for after 6 PM today and should cover evaluation criteria, technical gaps on rows 16/18/19, expert assignments, and candidate historic floods (60% of technical weighting). Aria will begin drafting the BCG-style PowerPoint proposal once Jamie shares folder edit access, the case code, and reference materials; a 60% week-by-week delivery plan will be drafted via Claude and then aligned with Ali.",
+      "processed": false,
+      "added_at": 1790848263827
     }
   ]
 }
