@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T05:11:57.931Z",
+  "last_updated": "2026-10-02T05:20:42.741Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1272,6 +1272,14 @@
       "summary": "Jamie conducted a calibration call with Philipp (transferring to BCG Mexico) regarding associate Djoey's performance on a 2-week TCI+IT proposal for Singapore's Land Transport Authority. Philipp gave broadly positive feedback, highlighting Djoey's exceptional self-organization and proactive mindset as a standout strength rarely seen at her tenure level. Two development areas were flagged—grasping the overall client problem/storyline before sharpening individual slides, and improving slide visualization—both considered natural growth items, not tenure-critical. No open questions remain; Jamie has what she needs to feed into Djoey's review committee.",
       "processed": false,
       "added_at": 1790917916261
+    },
+    {
+      "id": "gr1790918441441",
+      "title": "Vince-Veronica",
+      "date": "2026-10-02T05:00:16.605Z",
+      "summary": "Vince (Veronica's case manager) debriefed Jamie on Veronica's performance across Zuellig (Apr–May) and Maxicare (May–Sep). Overall rating is broadly B with some C elements — she was previously rated 'ahead of track' but has normalized at 14 months in. Key strengths are expert interview leadership, written content quality, business requirements detail, and improving client communication; key development areas are verbal proactivity upfront, visual slide formats, and flagging when she is struggling. Jamie should ensure Veronica's CDC evaluation is filed and that she continues to get client-facing exposure on upcoming cases.",
+      "processed": false,
+      "added_at": 1790918441441
     }
   ]
 }
