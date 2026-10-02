@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:51:05.107Z",
+  "last_updated": "2026-10-02T03:00:45.403Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1256,6 +1256,14 @@
       "summary": "The session was a working session to map 33 SOW must-tags to 6 expert types and structure the core working team for the ADB flood assessment proposal. Key decisions: Judith and Bozarolo to be offered as alternates (not both locked in) for the disaster damage SME role; Saad and Muad to cover cloud/solution architecture and engineering (potentially merged); Ali oversees data science (rows 7–8), Saad oversees technicals and design (rows 6, 9, 10), and Jamie owns the business track. The CTM with Ali is scheduled for after 6 PM today and should cover evaluation criteria, technical gaps on rows 16/18/19, expert assignments, and candidate historic floods (60% of technical weighting). Aria will begin drafting the BCG-style PowerPoint proposal once Jamie shares folder edit access, the case code, and reference materials; a 60% week-by-week delivery plan will be drafted via Claude and then aligned with Ali.",
       "processed": false,
       "added_at": 1790848263827
+    },
+    {
+      "id": "gr1790910043839",
+      "title": "RADAR CTM",
+      "date": "2026-10-01T10:30:48.845Z",
+      "summary": "The RADAR CTM proposal kickoff was held with Anas leading the proposal effort, targeting completion by Wednesday Oct 7 (Friday at the latest) given the Southeast Asia outing next week. Martin confirmed the work is outside the Risk Explorer roadmap but approved proceeding; the submission format will be Word (not PowerPoint). The scoring criteria are heavily weighted (~60%) toward technical approach sections — building damage/USD loss methodology, historic flood cases, validation plan, and guided MVP workflow — making Anas's technical input critical. Key open questions to be sent to the client by Oct 2 include: level of integration expected, documentation requirements (e.g. SDD), and the sophistication of the agentic AI requirement given the MVP appears to be a deterministic pipeline. Jamie owns sending the proposal folder to the team, looping Anthony in on IP/contract precedent, confirming the senior reference contact for ADBC CDMS, and discussing Luke's billing level with Anthony.",
+      "processed": false,
+      "added_at": 1790910043839
     }
   ]
 }
