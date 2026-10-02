@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T05:20:42.741Z",
+  "last_updated": "2026-10-02T07:31:13.331Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1280,6 +1280,14 @@
       "summary": "Vince (Veronica's case manager) debriefed Jamie on Veronica's performance across Zuellig (Apr–May) and Maxicare (May–Sep). Overall rating is broadly B with some C elements — she was previously rated 'ahead of track' but has normalized at 14 months in. Key strengths are expert interview leadership, written content quality, business requirements detail, and improving client communication; key development areas are verbal proactivity upfront, visual slide formats, and flagging when she is struggling. Jamie should ensure Veronica's CDC evaluation is filed and that she continues to get client-facing exposure on upcoming cases.",
       "processed": false,
       "added_at": 1790918441441
+    },
+    {
+      "id": "gr1790926272210",
+      "title": "Tim - Naomi",
+      "date": "2026-10-02T05:30:54.427Z",
+      "summary": "Jamie met with Tim (PL) to debrief on Naomi's performance during a chaotic KL Telco case. Tim's main concern was Naomi's PSI and P&E depth, noting she tended to stay surface-level on a very strategic PIPE-like engagement, though he does not consider it PIP-worthy given she was only ~9 months in and the case itself was unstable. Naomi returned from the case in a very distressed state, having internalized the feedback as being fundamentally incapable — a stark departure from her usual confident, proactive self. Key next steps: Jamie to Slack Tim the written review snippets, Jamie to connect with Parn (the primary feedback author) whom she hasn't spoken to yet, and Tim will reach out to Naomi after CDC clears the week of October 20.",
+      "processed": false,
+      "added_at": 1790926272210
     }
   ]
 }
