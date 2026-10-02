@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T03:00:45.403Z",
+  "last_updated": "2026-10-02T05:11:57.931Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1264,6 +1264,14 @@
       "summary": "The RADAR CTM proposal kickoff was held with Anas leading the proposal effort, targeting completion by Wednesday Oct 7 (Friday at the latest) given the Southeast Asia outing next week. Martin confirmed the work is outside the Risk Explorer roadmap but approved proceeding; the submission format will be Word (not PowerPoint). The scoring criteria are heavily weighted (~60%) toward technical approach sections — building damage/USD loss methodology, historic flood cases, validation plan, and guided MVP workflow — making Anas's technical input critical. Key open questions to be sent to the client by Oct 2 include: level of integration expected, documentation requirements (e.g. SDD), and the sophistication of the agentic AI requirement given the MVP appears to be a deterministic pipeline. Jamie owns sending the proposal folder to the team, looping Anthony in on IP/contract precedent, confirming the senior reference contact for ADBC CDMS, and discussing Luke's billing level with Anthony.",
       "processed": false,
       "added_at": 1790910043839
+    },
+    {
+      "id": "gr1790917916261",
+      "title": "Philipp - Djoey",
+      "date": "2026-10-02T02:33:01.946Z",
+      "summary": "Jamie conducted a calibration call with Philipp (transferring to BCG Mexico) regarding associate Djoey's performance on a 2-week TCI+IT proposal for Singapore's Land Transport Authority. Philipp gave broadly positive feedback, highlighting Djoey's exceptional self-organization and proactive mindset as a standout strength rarely seen at her tenure level. Two development areas were flagged—grasping the overall client problem/storyline before sharpening individual slides, and improving slide visualization—both considered natural growth items, not tenure-critical. No open questions remain; Jamie has what she needs to feed into Djoey's review committee.",
+      "processed": false,
+      "added_at": 1790917916261
     }
   ]
 }
