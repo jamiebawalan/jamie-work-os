@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:02.232Z",
+  "last_updated": "2026-10-14T02:26:04.492Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1320,6 +1320,14 @@
       "summary": "This was an informal late-night social conversation at a company all-hands event, likely post-party. Key topics included reflections on the after-party (seen as weaker than Bali), the competition results (Singapore won due to polished execution and likely broader judge consensus), a flagged incident of unauthorized case code use resulting in a termination, and personal conversations about friendships, family living plans, and relationships. No action items for Jamie were identified from this discussion.",
       "processed": false,
       "added_at": 1791944761575
+    },
+    {
+      "id": "gr1791944763282",
+      "title": "Script preparation thoughts",
+      "date": "2026-10-09T20:37:00.080Z",
+      "summary": "Jamie vented about friction with Naomi over the All Hands script timeline, pushing back on the demand to align with multiple stakeholders (Wayne, Mer, Vince) before circulating. Jamie has not requested anyone for the next staffing cycle and is not expecting a new joiner, while Speaker B is receiving one. Jamie reflected that if staffed with a JD (natural/farming/climate risk) case, the preparation approach would be to use Claude for rapid industry ramp-up. The open question is whether the All Hands script issue has been fully resolved or still requires stakeholder alignment.",
+      "processed": false,
+      "added_at": 1791944763282
     }
   ]
 }
