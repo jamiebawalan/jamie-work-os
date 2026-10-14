@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:26.537Z",
+  "last_updated": "2026-10-14T02:26:28.655Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1352,6 +1352,14 @@
       "summary": "The team agreed to reframe the AIP 'handover' as 'embedding' and adopt a two-track approach: co-lead shadowing starting November and informal one-on-one coaching for 4–5 identified high-potential individuals starting January, with relationship transfer targeted for February. Capability building sessions will be reduced from 9 to ~6 by combining theory with live AIP deal work and replacing some workshops with lighter-touch sessions. On Negros Irrigation, TPGI is being deprioritized (graduating into the AIP pipeline due to unresolved land/water rights) while Agrea's community-based solar irrigation model becomes the primary focus, bringing in FuturePumps as a UK firm — a key HMG priority. The client-facing project slide will be updated by Monday to show current status and scaled ambition (~190M GBP), with a UK firm column added and TPGI noted in brackets as 'via ADB, will take longer' and excluded from the headline total; the 68/39 breakdown columns will not be shown to Des and James. Open questions include getting post comfort on the scaled ambition, finalizing CCC co-lead names, and securing operator realignment to higher financing targets by December.",
       "processed": false,
       "added_at": 1791944785595
+    },
+    {
+      "id": "gr1791944787895",
+      "title": "Leave of absence request and mental health support planning",
+      "date": "2026-10-06T08:55:27.557Z",
+      "summary": "An employee confirmed their decision to take a leave of absence (LOA) due to a recent PTSD diagnosis, sleep issues, and worsening mental health. Jamie agreed to submit an emergency LOA request to Southeast Asia CDE, targeting a November 1st start at the latest, with a bonus if something can be actioned next week. In the interim (~15 days), the team will internally align to avoid assigning the employee any work. The employee raised concern about a potential PIP; Jamie clarified the established precedent — LOA is processed first, and any PIP discussion happens upon return — positioning the employee as best as possible given the circumstances.",
+      "processed": false,
+      "added_at": 1791944787895
     }
   ]
 }
