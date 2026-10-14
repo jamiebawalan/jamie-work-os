@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:09.600Z",
+  "last_updated": "2026-10-14T02:27:17.278Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1432,6 +1432,14 @@
       "summary": "Jamie held a CDC prep discussion with Maha and Lance on two associates. Maha gave Gwen a strong endorsement — praising her engagement, AI/Power BI skills, and contribution to the marketing dashboard — and requested a 2-month extension so Gwen can see current projects (including Lance's event) through to completion. Key development areas flagged were hastiness, missing instructions, and big-picture judgment. Lance provided informal feedback on Naomi (a separate associate), noting strengths in verbal communication and core skills, but flagging P&I rabbit-holing, inconsistent upward management hygiene, and an unexplained absence. Jamie and Lance also discussed a broader L&D gap around coaching consultants on effective AI-assisted work and qual visualization — flagged as something BCG should address more formally.",
       "processed": false,
       "added_at": 1791944828359
+    },
+    {
+      "id": "gr1791944836350",
+      "title": "Paolo Borromeo",
+      "date": "2026-10-05T04:53:55.018Z",
+      "summary": "Jamie met with Sekharth to prep for an exploratory 45-minute BD meeting with Paolo Borromeo (Ayala Social Infrastructure / formerly AC Health). The agreed approach is to lead with listening rather than a BCG credentials pitch — the one-pager Tiff drafted needs to be trimmed and reoriented, with the hospital bed count corrected. Key back-pocket angles for the meeting are (1) growth opportunities for AC Health (including a possible case for rebuilding primary care capacity) and (2) cost efficiency and margin improvement levers. Jamie will do pre-reading on SEA healthcare benchmarks (EV per bed multiples) and compare notes with Sekharth at 4:00 PM before the meeting.",
+      "processed": false,
+      "added_at": 1791944836350
     }
   ]
 }
