@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:26.002Z",
+  "last_updated": "2026-10-14T02:27:28.622Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1456,6 +1456,14 @@
       "summary": "The team is targeting closure of Module 1 within two weeks, covering transboundary climate risks across agri-food value chains and existing regional policy instruments. Key decisions include: treating biophysical and trade channels as primary risk vectors (with financial flows and human mobility as secondary), carving out water dependency explicitly in the value chain framework, and confirming that crop diversification/agricultural transitions belong in the investment framework rather than the concept paper. The immediate priority is drafting an annotated table of contents for the concept paper and testing it early with ADB to avoid rework, alongside securing a direct connection with the NUS team (Prof. Sri) to ensure their study covers full value chain flows, water dependency, and enabling infrastructure. Jamie will not attend Agri-Food Week in Singapore; Dean may cover both Manila and Singapore legs, with small-group stakeholder engagements frontloaded to the early part of the week when ADB counterparts are less busy.",
       "processed": false,
       "added_at": 1791944845142
+    },
+    {
+      "id": "gr1791944847712",
+      "title": "Catch-up with Varad",
+      "date": "2026-09-30T08:03:28.290Z",
+      "summary": "Jamie and Varad caught up on the Philippines NAP/ANR program, which has matured into a nationally owned Adaptation Investment Platform (AIP) co-led by DOF, PPP Center, and Climate Change Commission, with two active pilots (sugar in Negros Occidental, rice in Iloilo) and a sub-$10M impact investor fundraise underway. Varad is leading the ANR topic for AP and outlined four offer areas: ANR investment mobilization, data platforms, private sector portfolio risk assessment, and ANR impact measurement — with items 1 and 2 requiring offer codification from existing materials and item 3 (El Niño sprint) already funded at ~$250K. Key decisions include Jamie being co-opted into the ANR AP movement, with Prateek serving as the global materials repository. Open questions include the scope of the next phase of NAP work (government capability handover vs. sector/province expansion) and whether Standard Chartered will develop a budget or actionable ask. Jamie owns documenting the AIP methodology with Charmian, joining the El Niño sprint, and establishing a regular cadence with Varad and Prateek.",
+      "processed": false,
+      "added_at": 1791944847712
     }
   ]
 }
