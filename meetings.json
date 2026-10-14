@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:28:20.190Z",
+  "last_updated": "2026-10-14T02:28:22.393Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1528,6 +1528,14 @@
       "summary": "Jamie checked in with Gwen on her flex arrangement and secondment goals. Gwen presented 5 legacy items for her marketing secondment: Marketing Dashboard, Event Automation, Interview and Op-eds Pipeline, Other Automations, and Media Relationships — color-coded green/yellow/red by feasibility. Key next step is for Gwen to add concrete metrics and map goals to L&D/PSI criteria before the next check-in. Jamie confirmed that his own op-ed is no longer being pursued due to lack of bandwidth and momentum. Gwen's December leave swap was approved informally, with Jamie directing her to notify Jella in staffing directly, and it was confirmed she will sit under CT CDC (not BST CDC) for GDQ purposes given her 10-year credit still applies.",
       "processed": false,
       "added_at": 1791944899171
+    },
+    {
+      "id": "gr1791944901423",
+      "title": "Discussion with DutchFlow/Remko",
+      "date": "2026-09-24T05:03:03.974Z",
+      "summary": "Jamie met with Remko of DutchFlow (Thailand-based, recently set up in PH) to explore integrating their solar-powered surface pump (~65 m³/hr, hybrid AC/DC, ~₱88,000/unit) into BCG's NAP agri program across provinces including Negros Occidental (sugar/ube) and Iloilo (rice, 30,000 ha target). Key decisions include pursuing a pilot structure linking DutchFlow as supplier to registered farmers via provincial government, and using a 10+1 gifting model (Agria Foundation receives every 11th pump for GIDA communities). Open questions remain around financing/credit packages to bridge farmer upfront costs, standardizing pump configurations per crop type, and confirming import licensing timelines (~4 weeks to first unit). Jamie's team will work to set up a demo installation on the Negros ube farm, with Remko flagging strong LGU interest from Negros governors who have budget for El Niño mitigation tools.",
+      "processed": false,
+      "added_at": 1791944901423
     }
   ]
 }
