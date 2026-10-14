@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:28.622Z",
+  "last_updated": "2026-10-14T02:27:42.546Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1464,6 +1464,14 @@
       "summary": "Jamie and Varad caught up on the Philippines NAP/ANR program, which has matured into a nationally owned Adaptation Investment Platform (AIP) co-led by DOF, PPP Center, and Climate Change Commission, with two active pilots (sugar in Negros Occidental, rice in Iloilo) and a sub-$10M impact investor fundraise underway. Varad is leading the ANR topic for AP and outlined four offer areas: ANR investment mobilization, data platforms, private sector portfolio risk assessment, and ANR impact measurement — with items 1 and 2 requiring offer codification from existing materials and item 3 (El Niño sprint) already funded at ~$250K. Key decisions include Jamie being co-opted into the ANR AP movement, with Prateek serving as the global materials repository. Open questions include the scope of the next phase of NAP work (government capability handover vs. sector/province expansion) and whether Standard Chartered will develop a budget or actionable ask. Jamie owns documenting the AIP methodology with Charmian, joining the El Niño sprint, and establishing a regular cadence with Varad and Prateek.",
       "processed": false,
       "added_at": 1791944847712
+    },
+    {
+      "id": "gr1791944861741",
+      "title": "GATES platform: organizing internal data and DRRM use cases with DoST",
+      "date": "2026-09-30T04:58:14.485Z",
+      "summary": "The meeting covered the GATES platform being built for DoST, which integrates internal agency data (climate, laboratory performance) with geospatial data to support DRRM and non-DRRM use cases. Current DRRM use case focus is on pre-disaster risk assessment at the national level, with ambition to extend to LGU level; response and recovery stages are not yet funded or scoped. For the ADB proposal, there is potential synergy through publicly available data and DRRM practitioner insights, with GeoRisk (technically owned by DoST) offering building and POI data relevant to damage assessment. The main risk flagged is if DoST overextends to full end-to-end DRRM ambition beyond current scope. Jamie needs to email Calvin early next week to request Southeast Asian government credentials to support the ADB bid.",
+      "processed": false,
+      "added_at": 1791944861741
     }
   ]
 }
