@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:28:22.393Z",
+  "last_updated": "2026-10-14T02:28:24.486Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1536,6 +1536,14 @@
       "summary": "Jamie met with Remko of DutchFlow (Thailand-based, recently set up in PH) to explore integrating their solar-powered surface pump (~65 m³/hr, hybrid AC/DC, ~₱88,000/unit) into BCG's NAP agri program across provinces including Negros Occidental (sugar/ube) and Iloilo (rice, 30,000 ha target). Key decisions include pursuing a pilot structure linking DutchFlow as supplier to registered farmers via provincial government, and using a 10+1 gifting model (Agria Foundation receives every 11th pump for GIDA communities). Open questions remain around financing/credit packages to bridge farmer upfront costs, standardizing pump configurations per crop type, and confirming import licensing timelines (~4 weeks to first unit). Jamie's team will work to set up a demo installation on the Negros ube farm, with Remko flagging strong LGU interest from Negros governors who have budget for El Niño mitigation tools.",
       "processed": false,
       "added_at": 1791944901423
+    },
+    {
+      "id": "gr1791944903341",
+      "title": "Discussion with Anthony",
+      "date": "2026-09-28T04:01:00.538Z",
+      "summary": "The ADB proposal is confirmed at $98,500 (split $30K signing / $68.5K package), with Jamie updating the statement of work and sending it to Ali the same evening. The October 22 workshop date is no longer viable due to Rita and client-side unavailability; Jamie should propose October 26–29 and frame the shift as preparation time needed rather than an apology. On Risk Explorer Phase 3, Kadra is the right reconnect point (Luddet's father is on leave), but the budget situation must be clarified before shaping conversations go further, and the Kadra vs. Marc ownership on ITD digital publishing also needs resolution. A direct conversation with Sec is needed to narrow his asks to 2 priority areas with clear billability, ensuring Jamie's unbilled time is not absorbed without upside. Regarding promotion, the November 2027 decision point is roughly one year away; the advice is to defend the SI + emerging energy narrative, avoid inconsistent work like Manila Water, and accept that the average case is closer to the Jan 2029 mark while working toward the earlier July 2028 window.",
+      "processed": false,
+      "added_at": 1791944903341
     }
   ]
 }
