@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:17.278Z",
+  "last_updated": "2026-10-14T02:27:19.862Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1440,6 +1440,14 @@
       "summary": "Jamie met with Sekharth to prep for an exploratory 45-minute BD meeting with Paolo Borromeo (Ayala Social Infrastructure / formerly AC Health). The agreed approach is to lead with listening rather than a BCG credentials pitch — the one-pager Tiff drafted needs to be trimmed and reoriented, with the hospital bed count corrected. Key back-pocket angles for the meeting are (1) growth opportunities for AC Health (including a possible case for rebuilding primary care capacity) and (2) cost efficiency and margin improvement levers. Jamie will do pre-reading on SEA healthcare benchmarks (EV per bed multiples) and compare notes with Sekharth at 4:00 PM before the meeting.",
       "processed": false,
       "added_at": 1791944836350
+    },
+    {
+      "id": "gr1791944839000",
+      "title": "Sales Training for MAN Pr+",
+      "date": "2026-10-02T08:10:59.952Z",
+      "summary": "This was an external sales training session (coach-led) focused on consultative selling techniques for the BCG Manila team including Jamie. Key frameworks covered: (1) **curiosity before expertise** — ask questions to understand client motivations rather than confirm pre-existing hypotheses; (2) **pitch with a hole** — surface the size of the client's problem so they ask for a solution rather than being convinced into one; (3) **group settings** — direct questions to named individuals and raise collective awareness of how each stakeholder's role impacts others; (4) **labelling** to surface a project leader when no decision maker volunteers. An open question remains around when to recognize a prospect is genuinely uninterested vs. deflecting, and how to handle that transparently. Jamie and the team were assigned to try the labelling technique before the next session and report back on results.",
+      "processed": false,
+      "added_at": 1791944839000
     }
   ]
 }
