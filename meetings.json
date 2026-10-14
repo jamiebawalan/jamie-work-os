@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:43.651Z",
+  "last_updated": "2026-10-14T02:26:45.930Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1368,6 +1368,14 @@
       "summary": "Jamie spoke with Calvin (overall PM) and Eric (leading Clarence and Vanessa) to get an early read on Vanessa's performance on the Najika project. Positive signals include fast ramp-up despite joining mid-stream, consistent delivery against deadlines, and strong coachability. Development areas center on ownership (taking a back seat when others step in) and presence/communication (going quiet when things don't go as planned, not asserting share of voice). Calvin and Eric are retaining Vanessa for the follow-on case and emphasized that the presence issue is a common new-joiner pattern, not a red flag, and expect it to improve within ~6 months given her attitude and receptiveness to feedback.",
       "processed": false,
       "added_at": 1791944802643
+    },
+    {
+      "id": "gr1791944805129",
+      "title": "Prime Infra perspective and Meralco follow-up with Marco and Anthony",
+      "date": "2026-10-06T06:00:49.511Z",
+      "summary": "Jamie will send a short Prime Infra perspective draft to Marco, Anthony, and Guillaume this week to frame discussion areas ahead of the November 12th email catch-up, with a longer-term eye on a potential integration strategy project. On Meralco, no response came back on the tender price as expected, and the team agreed it is time to re-engage Andrew; cracking an approach to Ronnie remains unresolved as he is seen as financially oriented and unlikely to engage without a business-case framing and a sponsor. A highly confidential ACEN leadership transition is underway — incoming CEO David Nichols (ex-CFO of MPIC, British) is already ramping up ahead of an expected Mitsubishi deal close around January, creating a timely opportunity for BCG to develop a perspective on execution and commercialization as a potential LCPM engagement. Anthony will follow up to set a meeting with Nichols, and a Q4 Aboitiz check-in on international growth and AI team build was flagged as a background item.",
+      "processed": false,
+      "added_at": 1791944805129
     }
   ]
 }
