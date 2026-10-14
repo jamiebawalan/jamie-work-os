@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:19.862Z",
+  "last_updated": "2026-10-14T02:27:26.002Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1448,6 +1448,14 @@
       "summary": "This was an external sales training session (coach-led) focused on consultative selling techniques for the BCG Manila team including Jamie. Key frameworks covered: (1) **curiosity before expertise** — ask questions to understand client motivations rather than confirm pre-existing hypotheses; (2) **pitch with a hole** — surface the size of the client's problem so they ask for a solution rather than being convinced into one; (3) **group settings** — direct questions to named individuals and raise collective awareness of how each stakeholder's role impacts others; (4) **labelling** to surface a project leader when no decision maker volunteers. An open question remains around when to recognize a prospect is genuinely uninterested vs. deflecting, and how to handle that transparently. Jamie and the team were assigned to try the labelling technique before the next session and report back on results.",
       "processed": false,
       "added_at": 1791944839000
+    },
+    {
+      "id": "gr1791944845142",
+      "title": "New note",
+      "date": "2026-09-30T08:34:49.892Z",
+      "summary": "The team is targeting closure of Module 1 within two weeks, covering transboundary climate risks across agri-food value chains and existing regional policy instruments. Key decisions include: treating biophysical and trade channels as primary risk vectors (with financial flows and human mobility as secondary), carving out water dependency explicitly in the value chain framework, and confirming that crop diversification/agricultural transitions belong in the investment framework rather than the concept paper. The immediate priority is drafting an annotated table of contents for the concept paper and testing it early with ADB to avoid rework, alongside securing a direct connection with the NUS team (Prof. Sri) to ensure their study covers full value chain flows, water dependency, and enabling infrastructure. Jamie will not attend Agri-Food Week in Singapore; Dean may cover both Manila and Singapore legs, with small-group stakeholder engagements frontloaded to the early part of the week when ADB counterparts are less busy.",
+      "processed": false,
+      "added_at": 1791944845142
     }
   ]
 }
