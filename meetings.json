@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:48.397Z",
+  "last_updated": "2026-10-14T02:26:50.721Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1384,6 +1384,14 @@
       "summary": "The discussion centered on constellation navigation across several MDPs and workstreams. Sek is proving to be a strong partner with daily feedback loops and commercial discipline — Jamie is guiding him on yield management, ADB org mapping with Luke, and using Manila resources rather than cheap KL BAs. Colin raised serious red flags (dangling OSW billability with no budget, scoping the same Luzon Economic Corridor topic with both British Embassy and US simultaneously, misrepresenting Jamie's endorsements to Charmian), and Jamie is reluctant to work with him — though Charmian has now directly indicated Jamie should lead the next FCTO/LEC piece, likely early 2027. On people: Jamie needs to urgently send Nishala an emergency LOA email for Joey framing it around personal/family/health reasons to avoid unnecessary tenure accrual, and should check with Gwen before agreeing to extend her marketing secondment two more months. The preferred platform going forward is FCTO + ADB/DeFi + energy, keeping the story clean ahead of the promotion cycle.",
       "processed": false,
       "added_at": 1791944807248
+    },
+    {
+      "id": "gr1791944810147",
+      "title": "GO Science discussion with Ian Watt and team",
+      "date": "2026-10-05T08:30:35.843Z",
+      "summary": "BCG Manila and GO Science aligned on the Philippines NAP as the most tangible active UK export promotion example across GO Science's research, with the £675m project pipeline and Adaptation Investment Platform (AIP) serving as the flagship case. Key decisions include using the Philippines work as a featured case study in future GO Science government presentations, and pursuing a co-presentation format combining the GO Science report with the NAP/AIP narrative for HMG and DBT audiences. An open question is how best to engage the HMTC and Deputy Trade Commissioner in Manila with quantified, sector-specific export market data to mobilize DBIST resource — Windy confirmed both are in Manila in October and offered to facilitate a meeting. The AIP is designed to persist beyond Growth Gateway's March 2027 close with Philippine government ownership, though BCG's deal orchestration role is likely to continue given the complexity of matching projects and financiers.",
+      "processed": false,
+      "added_at": 1791944810147
     }
   ]
 }
