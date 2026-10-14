@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:42.546Z",
+  "last_updated": "2026-10-14T02:27:44.761Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1472,6 +1472,14 @@
       "summary": "The meeting covered the GATES platform being built for DoST, which integrates internal agency data (climate, laboratory performance) with geospatial data to support DRRM and non-DRRM use cases. Current DRRM use case focus is on pre-disaster risk assessment at the national level, with ambition to extend to LGU level; response and recovery stages are not yet funded or scoped. For the ADB proposal, there is potential synergy through publicly available data and DRRM practitioner insights, with GeoRisk (technically owned by DoST) offering building and POI data relevant to damage assessment. The main risk flagged is if DoST overextends to full end-to-end DRRM ambition beyond current scope. Jamie needs to email Calvin early next week to request Southeast Asian government credentials to support the ADB bid.",
       "processed": false,
       "added_at": 1791944861741
+    },
+    {
+      "id": "gr1791944864220",
+      "title": "Weekly Post check-in",
+      "date": "2026-09-30T06:59:10.612Z",
+      "summary": "The team debriefed on several workstreams ahead of COP and the October 5 Go Science call. For COP, BCG's Day 1 Philippine Pavilion side event is approved (pending official comms), Mikey is pushing HQ for a DEFRA Deputy Secretary of State speaker, and a second BCG Day 2 event on adaptation investment mobilization is being planned with FCDO panellist outreach ongoing. A separate BCG ANR report publishing post-COP will feature the Philippines prominently, with Des, James, and Director John of DOF proposed as interviewees. On AIP UK firm prioritization, the team agreed to reframe \"cost competitiveness\" as \"value for money\" or \"cost-benefit,\" use a tiered (green/yellow) outreach approach, maintain a standalone spreadsheet database accessible to DBT/DBIS, and confirm the UK firm definition via Emily Lambert's guidance. Key open questions include who within Post will own the SteerCo representation, ESS outreach, and partnerships team engagement for larger deals, to be addressed in an HMG institutionalization workshop planned after the October 5 Go Science call.",
+      "processed": false,
+      "added_at": 1791944864220
     }
   ]
 }
