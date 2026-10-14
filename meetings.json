@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:28:24.486Z",
+  "last_updated": "2026-10-14T02:28:28.464Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1544,6 +1544,14 @@
       "summary": "The ADB proposal is confirmed at $98,500 (split $30K signing / $68.5K package), with Jamie updating the statement of work and sending it to Ali the same evening. The October 22 workshop date is no longer viable due to Rita and client-side unavailability; Jamie should propose October 26–29 and frame the shift as preparation time needed rather than an apology. On Risk Explorer Phase 3, Kadra is the right reconnect point (Luddet's father is on leave), but the budget situation must be clarified before shaping conversations go further, and the Kadra vs. Marc ownership on ITD digital publishing also needs resolution. A direct conversation with Sec is needed to narrow his asks to 2 priority areas with clear billability, ensuring Jamie's unbilled time is not absorbed without upside. Regarding promotion, the November 2027 decision point is roughly one year away; the advice is to defend the SI + emerging energy narrative, avoid inconsistent work like Manila Water, and accept that the average case is closer to the Jan 2029 mark while working toward the earlier July 2028 window.",
       "processed": false,
       "added_at": 1791944903341
+    },
+    {
+      "id": "gr1791944907851",
+      "title": "Discussion with Sek ",
+      "date": "2026-09-24T03:54:20.692Z",
+      "summary": "Jamie and Sek aligned on Jamie's platform priorities: ADB climate/adaptation, water utilities, and resilience/DRR are the core focus areas, with ADB visibility (RCRP meetings, key stakeholders like Arghya, Nanki, Su Chin) and independent client leadership as near-term development goals. On ADB, the immediate priority is clarifying Risk Explorer phase 3 budget and setting up a four-way session (Jamie, Ali, Saad, Luke) to align on the future vision and its connection to the RCRP digital support tool, with Kadra as a willing thought partner. The Prime Infra/Manila Water CEO meeting is being lined up by Sek — Jamie should be ready to support prep when it lands, with the angle of AI/operational efficiency and the ICTSI-style developing-market playbook. On DFAT, Jamie needs to navigate Sharmin's boundaries carefully: the agreed line is no climate adaptation or offshore wind work, and Jamie can acknowledge involvement only in early ease-of-doing-business discussions. An early response to Director Marr is flagged as urgent for next week.",
+      "processed": false,
+      "added_at": 1791944907851
     }
   ]
 }
