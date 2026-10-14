@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:18.958Z",
+  "last_updated": "2026-10-14T02:26:26.537Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1344,6 +1344,14 @@
       "summary": "The NAP intervention is ending March 5 due to budget constraints, but the team needs a ~2-week extension to March 19 given over-delivery on Dear Go sessions (4 vs. 1 planned), capability building sessions (~9 vs. 3 planned), and a very junior team requiring heavy senior support. The agreed approach is to self-manage the extension within existing budget — potentially stopping Dave end of November or December to free up funds — and inform Charmian as an update rather than a request. The Forum should be held mid-to-late February as originally planned, with AIP Steer Co moved to March 22nd as the high-level event for Ross Eales if she visits, avoiding dependence on her historically unreliable visit schedule. For FY27 continuation, Mikey Waters (not Mike Welch) is the key holdout and will only support funding if there is a credible path to commercial deals; the next 8-week check-in with James should position any continuation as a real 6-month piece of work on deal orchestration and handover — explicitly not a single-AC support arrangement.",
       "processed": false,
       "added_at": 1791944777680
+    },
+    {
+      "id": "gr1791944785595",
+      "title": "Irrigation project handover, capability building, and UK firm engagement strategy",
+      "date": "2026-10-07T09:23:29.979Z",
+      "summary": "The team agreed to reframe the AIP 'handover' as 'embedding' and adopt a two-track approach: co-lead shadowing starting November and informal one-on-one coaching for 4–5 identified high-potential individuals starting January, with relationship transfer targeted for February. Capability building sessions will be reduced from 9 to ~6 by combining theory with live AIP deal work and replacing some workshops with lighter-touch sessions. On Negros Irrigation, TPGI is being deprioritized (graduating into the AIP pipeline due to unresolved land/water rights) while Agrea's community-based solar irrigation model becomes the primary focus, bringing in FuturePumps as a UK firm — a key HMG priority. The client-facing project slide will be updated by Monday to show current status and scaled ambition (~190M GBP), with a UK firm column added and TPGI noted in brackets as 'via ADB, will take longer' and excluded from the headline total; the 68/39 breakdown columns will not be shown to Des and James. Open questions include getting post comfort on the scaled ambition, finalizing CCC co-lead names, and securing operator realignment to higher financing targets by December.",
+      "processed": false,
+      "added_at": 1791944785595
     }
   ]
 }
