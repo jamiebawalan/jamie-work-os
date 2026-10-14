@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:47.282Z",
+  "last_updated": "2026-10-14T02:27:49.674Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1488,6 +1488,14 @@
       "summary": "Jamie and Alex aligned on COP31 event planning timelines: confirm date/time this week, begin priority outreach next week, send official invites the week after. The institutionalization slide has been reworked into multiple pages and shared with Des; key talking points cover CRH's steering committee role, IPSF's feedback function, and DPCG's coordinating role. Jamie will co-own the SteerCo agenda covering institutionalization and Lighthouse progress, while she and Alvin will jointly float the convergence vehicle concept — framed as short-term secretariat cover and a long-term facility vision, with language adjusted to \"potentially attached\" pending DOF approval. Jamie is also urgently sprinting on the ADB RADAR rapid disaster assessment MVP bid (due Oct 7) and needs to prepare for a Palau-LGA call the following day using materials Alex will share.",
       "processed": false,
       "added_at": 1791944866230
+    },
+    {
+      "id": "gr1791944868884",
+      "title": "CTM with Charmian",
+      "date": "2026-09-29T10:00:42.090Z",
+      "summary": "Jamie and the team (with Max and Charmian) reviewed the non-ODA market size and UK offer slides ahead of a critical post-check-in with James on 2026-09-30. The key open question is whether James's goal is to filter the outreach list (the team's intent) or to expand the 500-company base to 2,000+, as the comparative advantage methodology is not the right tool for expansion. The sector prioritization slide needs a revised title and split criteria columns, with post-harvest surfaced higher; 2 of the 3 current UK companies (Straw, Coolmilk, New Energy Farms) fall in yellow or black sectors, which Charmian flagged as a tension with the sector-level filtering approach. On the UK offer, the team agreed to frame certain Post/Cherry capabilities (GIP advisory, in-country support) as needing deepening rather than scope extension, and to flag active facilitation and financing hand-holding as genuine gaps AIP has no incentive to fill. The Squad CTM on Thursday has been cancelled; Charmian offered to rejoin for 30 minutes after her next call to continue the CTM review.",
+      "processed": false,
+      "added_at": 1791944868884
     }
   ]
 }
