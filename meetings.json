@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:16.323Z",
+  "last_updated": "2026-10-14T02:26:18.958Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1336,6 +1336,14 @@
       "summary": "The team aligned on Wednesday check-in priorities: the $150M heads of terms target is on track (weighted toward Iloilo and Negros), estimated deployed capital is $1–2M GBP by year-end, and external pipeline framing ($600M internal + $400M ADB line of sight + Land Bank agri piece) should be added to the deck. For the COP31 Philippine Hub event, the facilitated networking block will be dropped in favor of extending plenary time, with networking spilling into lunch; venue access beyond the 50-minute cap needs to be confirmed via Commissioner Rachel. An invite email covering both the flagship event and Philippine Hub must be reviewed by Charmian tonight and sent to contacts tomorrow. The February forum is being reframed as a smaller (~50–70 person) curated AIP ecosystem showcase, with Dave/Dean flagging that it must drive pipeline intake or heads-of-terms outcomes to justify capacity spend. COP31 planning is separately funded via the innovation fund (CPC-approved), but the February forum still needs a clear link to measurable outcomes to warrant the resource investment.",
       "processed": false,
       "added_at": 1791944775134
+    },
+    {
+      "id": "gr1791944777680",
+      "title": "Philippines intervention closeout and budget extension with Charmian",
+      "date": "2026-10-07T08:00:44.718Z",
+      "summary": "The NAP intervention is ending March 5 due to budget constraints, but the team needs a ~2-week extension to March 19 given over-delivery on Dear Go sessions (4 vs. 1 planned), capability building sessions (~9 vs. 3 planned), and a very junior team requiring heavy senior support. The agreed approach is to self-manage the extension within existing budget — potentially stopping Dave end of November or December to free up funds — and inform Charmian as an update rather than a request. The Forum should be held mid-to-late February as originally planned, with AIP Steer Co moved to March 22nd as the high-level event for Ross Eales if she visits, avoiding dependence on her historically unreliable visit schedule. For FY27 continuation, Mikey Waters (not Mike Welch) is the key holdout and will only support funding if there is a credible path to commercial deals; the next 8-week check-in with James should position any continuation as a real 6-month piece of work on deal orchestration and handover — explicitly not a single-AC support arrangement.",
+      "processed": false,
+      "added_at": 1791944777680
     }
   ]
 }
