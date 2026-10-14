@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:25:52.243Z",
+  "last_updated": "2026-10-14T02:25:54.565Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1296,6 +1296,14 @@
       "summary": "Jamie held a pre-CDC check-in with Joey, who is currently in Da Nang on LOA until December 9th. Stakeholder coverage for Joey's dossier includes Sue (Jamie was present) and Philip (very positive feedback, rated Joey clearly above tenure on P&E and ownership); Jamie still needs to reach out to David Staley for additional input. Joey's main preference going into CDC is longer case assignments of 3+ months to avoid constant case-switching, and he is open to a PIP if it leads to a better experience. An open question is whether CDC can meaningfully influence case assignment length given availability constraints. Jamie needs to review and forward Joey's doctor's note to HR, and will follow up on CDC results after the standard 2-week approval window.",
       "processed": false,
       "added_at": 1791944750480
+    },
+    {
+      "id": "gr1791944753622",
+      "title": "Climate finance program update",
+      "date": "2026-10-13T06:16:07.836Z",
+      "summary": "The meeting was a working-level consultation between the program team and DOF's climate finance group (led by Director Narak) to identify priority areas for the program's support. DOF flagged three urgent near-term needs: institutional readiness and inter-agency coordination (pending an executive order), private sector readiness and engagement, and community-level capacity — with carbon markets and clean energy finance as the two main substantive workstreams. The program team proposed mapping Australian mechanisms (safeguard mechanism, ARENA, CEFC) against Philippines' current architecture as a concrete next step, with Land Bank and BPI noted as possible local parallels. DOF will share existing draft frameworks already circulated with partners, and direct follow-up questions can go to Director Narak's team. The program's Steering Committee is targeted for end of year to approve the forward work plan and budgets, so scoping must be completed quickly.",
+      "processed": false,
+      "added_at": 1791944753622
     }
   ]
 }
