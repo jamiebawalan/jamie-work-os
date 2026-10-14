@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T07:31:13.331Z",
+  "last_updated": "2026-10-14T02:25:52.243Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1288,6 +1288,14 @@
       "summary": "Jamie met with Tim (PL) to debrief on Naomi's performance during a chaotic KL Telco case. Tim's main concern was Naomi's PSI and P&E depth, noting she tended to stay surface-level on a very strategic PIPE-like engagement, though he does not consider it PIP-worthy given she was only ~9 months in and the case itself was unstable. Naomi returned from the case in a very distressed state, having internalized the feedback as being fundamentally incapable — a stark departure from her usual confident, proactive self. Key next steps: Jamie to Slack Tim the written review snippets, Jamie to connect with Parn (the primary feedback author) whom she hasn't spoken to yet, and Tim will reach out to Naomi after CDC clears the week of October 20.",
       "processed": false,
       "added_at": 1790926272210
+    },
+    {
+      "id": "gr1791944750480",
+      "title": "Pre-CDC check-in with Joey on case preferences and feedback",
+      "date": "2026-10-13T09:01:41.822Z",
+      "summary": "Jamie held a pre-CDC check-in with Joey, who is currently in Da Nang on LOA until December 9th. Stakeholder coverage for Joey's dossier includes Sue (Jamie was present) and Philip (very positive feedback, rated Joey clearly above tenure on P&E and ownership); Jamie still needs to reach out to David Staley for additional input. Joey's main preference going into CDC is longer case assignments of 3+ months to avoid constant case-switching, and he is open to a PIP if it leads to a better experience. An open question is whether CDC can meaningfully influence case assignment length given availability constraints. Jamie needs to review and forward Joey's doctor's note to HR, and will follow up on CDC results after the standard 2-week approval window.",
+      "processed": false,
+      "added_at": 1791944750480
     }
   ]
 }
