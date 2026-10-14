@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:06.661Z",
+  "last_updated": "2026-10-14T02:27:09.600Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1424,6 +1424,14 @@
       "summary": "Charmian and Jamie caught up on staffing, pipeline, and the AIP outlook. The main forward-looking opportunity flagged is the **Luzon corridor / Resilient Growth Fund (RGF)** bid: a non-ODA FCDO pot with a verbally indicated £100k/£300k/£100k 3-year budget; Jamie is expected to drive this on the ground, with a pricing call being scheduled by Tiff imminently. On **Dave**, Charmian will lead a ramp-down conversation covering AI tool misuse in client meetings and the budget miscommunication (Dean billed 20% vs. agreed 10%); no action required from Jamie beyond the feedback already shared. For **NAP/AIP**, the consensus is that a full handover by March is unlikely; Max should be transparent with Des and James while demonstrating continued engagement, and the staffing team should not pressure Max on billability — Charmian will escalate to Anthony if needed. OSW currently has no available billing hours; Charmian will revisit the bid.",
       "processed": false,
       "added_at": 1791944825648
+    },
+    {
+      "id": "gr1791944828359",
+      "title": "Maha/Lance discussion",
+      "date": "2026-10-05T05:35:17.247Z",
+      "summary": "Jamie held a CDC prep discussion with Maha and Lance on two associates. Maha gave Gwen a strong endorsement — praising her engagement, AI/Power BI skills, and contribution to the marketing dashboard — and requested a 2-month extension so Gwen can see current projects (including Lance's event) through to completion. Key development areas flagged were hastiness, missing instructions, and big-picture judgment. Lance provided informal feedback on Naomi (a separate associate), noting strengths in verbal communication and core skills, but flagging P&I rabbit-holing, inconsistent upward management hygiene, and an unexplained absence. Jamie and Lance also discussed a broader L&D gap around coaching consultants on effective AI-assisted work and qual visualization — flagged as something BCG should address more formally.",
+      "processed": false,
+      "added_at": 1791944828359
     }
   ]
 }
