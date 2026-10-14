@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:59.136Z",
+  "last_updated": "2026-10-14T02:27:01.602Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1400,6 +1400,14 @@
       "summary": "The RCRP weekly check-in covered progress on the policy and institutional support pillar concept paper, DMC consultation outreach, and governance/investment framework deliverables. Nanki provided substantive inputs: the concept paper rationale must foreground both transboundary risk and strengthening the adaptation investment ecosystem, 'priority services' should be renamed to 'prioritization of policy and institutional reforms,' target beneficiaries should expand to include financial sector regulators and capacity delivery agents, and each transmission channel in the rationale should include a concrete 'so what' policy reform example. CPI's revised TOR was aligned (Activity 1 removed; October and December delivery milestones confirmed), with CPI's analysis feeding into BCG's governance framework deliverable rather than being a standalone workstream. Key open questions include: how to structure a potential policy sandbox for financial flows and human mobility, whether soybean should be replaced by coconut in the 5-crops analysis, and the scope/viability of the proposed ASEAN Sustainable Finance Working Group as an institutional home for the RCRP policy pillar. Nanki will send the NCCS workshop report and the initial mail to Derek's team; BCG (Jamie) to follow up on both, and to connect with Naida at ADB and the SERD Regional Cooperation Unit.",
       "processed": false,
       "added_at": 1791944818176
+    },
+    {
+      "id": "gr1791944820712",
+      "title": "Catch-up with Sek",
+      "date": "2026-10-05T08:03:16.972Z",
+      "summary": "Jamie met with Sek to prepare for an upcoming informal introductory meeting with Paolo (AC Health CEO), facilitated by Anthony. AC Health has grown from ~1B to ~11B pesos in revenue across hospitals, clinics, and ~900 pharmacies, with EBITDA margins around 11%, comparable to regional peers like Siloam and KPJ. The agreed approach for the Paolo meeting is a brief one-pager with 3-4 ideas focused on AI transformation: hospital performance improvement, diagnostics as a growth opportunity (Sek to lead), and pharmacy growth/retail optimization including procurement. Network integration and shared services were deprioritized as too cost-cutting-focused. Jamie is to draft the one-pager and share the link with Sek before the meeting.",
+      "processed": false,
+      "added_at": 1791944820712
     }
   ]
 }
