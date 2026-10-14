@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:01.602Z",
+  "last_updated": "2026-10-14T02:27:04.180Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1408,6 +1408,14 @@
       "summary": "Jamie met with Sek to prepare for an upcoming informal introductory meeting with Paolo (AC Health CEO), facilitated by Anthony. AC Health has grown from ~1B to ~11B pesos in revenue across hospitals, clinics, and ~900 pharmacies, with EBITDA margins around 11%, comparable to regional peers like Siloam and KPJ. The agreed approach for the Paolo meeting is a brief one-pager with 3-4 ideas focused on AI transformation: hospital performance improvement, diagnostics as a growth opportunity (Sek to lead), and pharmacy growth/retail optimization including procurement. Network integration and shared services were deprioritized as too cost-cutting-focused. Jamie is to draft the one-pager and share the link with Sek before the meeting.",
       "processed": false,
       "added_at": 1791944820712
+    },
+    {
+      "id": "gr1791944823075",
+      "title": "ARTA next steps discussion ",
+      "date": "2026-10-05T10:01:01.754Z",
+      "summary": "A meeting slot with ARTA Director Marr was confirmed for **Thursday October 15th at 1:30PM** at the ARTA QC office. The team agreed to use the meeting to actively scope the project rather than just validate a concept note — ~80% of the session should focus on what the project would actually look like. The agreed framing inverts the Option A/B binary: pitch a **combined package** of a cross-sector reform delivery dashboard plus a renewable energy deep dive, positioning Option B as the starting point that evolves into a full program management tool with end-to-end driver-tree visibility. Key open questions for Director Marr include how to cut the dashboard (by sector, reform area, department, or initiative), what forward-looking indicators to prioritize, and how ambitious to be on capacity building — which should be built in as a core feature, not an add-on. Jamie owns building the 5-slide deck drawing from BCG delivery unit materials and Luke's DHS Victoria content, with a team alignment sync needed before the 15th.",
+      "processed": false,
+      "added_at": 1791944823075
     }
   ]
 }
