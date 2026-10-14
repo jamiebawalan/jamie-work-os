@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:28:00.483Z",
+  "last_updated": "2026-10-14T02:28:03.129Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1504,6 +1504,14 @@
       "summary": "The AIP working session covered four main areas: institutionalization, CIRCO 2 planning, the convergence fund submission, and COP31 preparation. Jerome confirmed that the proposed institutionalization timeline (October instrument confirmation → November circulation → January signing) remains plausible but flagged that CCC legal and technical units are deep in COP prep; he recommended a parallel team report back by Friday 2 October. CIRCO 2 is proposed for 29–30 October in Iloilo, featuring a Straw Innovations harvester demo, Mayani MOU signing, and a potential first fund announcement, but formal invites must be routed through Sarah at CCC first given the existing Commissioner Herrera–Secretary Robert channel. The convergence fund application was submitted Monday led by PBSP, and the future AIP blended finance vehicle design (TA facility, de-risking/first-loss tranche, microcredit) was presented and well-received, with Jerome calling for a separate study on risk transfer mechanisms. GCF entry points were deferred to the next session pending a DOF pre-read, and CCC will issue COP31 side event guidance early next week.",
       "processed": false,
       "added_at": 1791944879295
+    },
+    {
+      "id": "gr1791944882031",
+      "title": "Adaptation Asia catch-up",
+      "date": "2026-09-29T07:00:22.553Z",
+      "summary": "Jamie participated in a catch-up between the AIP team and Adaptation Asia (Ben and Nate), who are launching the Panra Fund — a blended finance vehicle focused on growth-stage agribusinesses in Southeast Asia with $4M in pilot commitments and ticket sizes of $1–5M. Strong alignment was identified between AIP's pipeline (currently ~$1B, targeting $2B in 5 years) and Adaptation Asia's mandate, particularly around the Negros Occidental sugarcane/ube project requiring ~$17M in blended finance. Immediate next steps are for both sides to exchange decks and NDAs, and for the AIP team to identify 4–5 near-term pipeline opportunities with one potential pilot deployable at ~$1M within weeks. Open questions include whether a platform-level formal partnership agreement can be established with DOF sign-off, and whether Adaptation Asia's resilience asset methodology fits the current fundraising stage of the ube tissue culture project. Straw Innovations remains in early scoping phase with an NDA signed and a call already scheduled.",
+      "processed": false,
+      "added_at": 1791944882031
     }
   ]
 }
