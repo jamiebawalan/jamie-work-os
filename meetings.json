@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:04.180Z",
+  "last_updated": "2026-10-14T02:27:06.661Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1416,6 +1416,14 @@
       "summary": "A meeting slot with ARTA Director Marr was confirmed for **Thursday October 15th at 1:30PM** at the ARTA QC office. The team agreed to use the meeting to actively scope the project rather than just validate a concept note — ~80% of the session should focus on what the project would actually look like. The agreed framing inverts the Option A/B binary: pitch a **combined package** of a cross-sector reform delivery dashboard plus a renewable energy deep dive, positioning Option B as the starting point that evolves into a full program management tool with end-to-end driver-tree visibility. Key open questions for Director Marr include how to cut the dashboard (by sector, reform area, department, or initiative), what forward-looking indicators to prioritize, and how ambitious to be on capacity building — which should be built in as a core feature, not an add-on. Jamie owns building the 5-slide deck drawing from BCG delivery unit materials and Luke's DHS Victoria content, with a team alignment sync needed before the 15th.",
       "processed": false,
       "added_at": 1791944823075
+    },
+    {
+      "id": "gr1791944825648",
+      "title": "Catch-up with Charmian:",
+      "date": "2026-10-05T07:19:05.674Z",
+      "summary": "Charmian and Jamie caught up on staffing, pipeline, and the AIP outlook. The main forward-looking opportunity flagged is the **Luzon corridor / Resilient Growth Fund (RGF)** bid: a non-ODA FCDO pot with a verbally indicated £100k/£300k/£100k 3-year budget; Jamie is expected to drive this on the ground, with a pricing call being scheduled by Tiff imminently. On **Dave**, Charmian will lead a ramp-down conversation covering AI tool misuse in client meetings and the budget miscommunication (Dean billed 20% vs. agreed 10%); no action required from Jamie beyond the feedback already shared. For **NAP/AIP**, the consensus is that a full handover by March is unlikely; Max should be transparent with Des and James while demonstrating continued engagement, and the staffing team should not pressure Max on billability — Charmian will escalate to Anthony if needed. OSW currently has no available billing hours; Charmian will revisit the bid.",
+      "processed": false,
+      "added_at": 1791944825648
     }
   ]
 }
