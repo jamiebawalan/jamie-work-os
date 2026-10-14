@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:27:49.674Z",
+  "last_updated": "2026-10-14T02:28:00.483Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1496,6 +1496,14 @@
       "summary": "Jamie and the team (with Max and Charmian) reviewed the non-ODA market size and UK offer slides ahead of a critical post-check-in with James on 2026-09-30. The key open question is whether James's goal is to filter the outreach list (the team's intent) or to expand the 500-company base to 2,000+, as the comparative advantage methodology is not the right tool for expansion. The sector prioritization slide needs a revised title and split criteria columns, with post-harvest surfaced higher; 2 of the 3 current UK companies (Straw, Coolmilk, New Energy Farms) fall in yellow or black sectors, which Charmian flagged as a tension with the sector-level filtering approach. On the UK offer, the team agreed to frame certain Post/Cherry capabilities (GIP advisory, in-country support) as needing deepening rather than scope extension, and to flag active facilitation and financing hand-holding as genuine gaps AIP has no incentive to fill. The Squad CTM on Thursday has been cancelled; Charmian offered to rejoin for 30 minutes after her next call to continue the CTM review.",
       "processed": false,
       "added_at": 1791944868884
+    },
+    {
+      "id": "gr1791944879295",
+      "title": "AIP Working Session",
+      "date": "2026-09-30T03:10:25.906Z",
+      "summary": "The AIP working session covered four main areas: institutionalization, CIRCO 2 planning, the convergence fund submission, and COP31 preparation. Jerome confirmed that the proposed institutionalization timeline (October instrument confirmation → November circulation → January signing) remains plausible but flagged that CCC legal and technical units are deep in COP prep; he recommended a parallel team report back by Friday 2 October. CIRCO 2 is proposed for 29–30 October in Iloilo, featuring a Straw Innovations harvester demo, Mayani MOU signing, and a potential first fund announcement, but formal invites must be routed through Sarah at CCC first given the existing Commissioner Herrera–Secretary Robert channel. The convergence fund application was submitted Monday led by PBSP, and the future AIP blended finance vehicle design (TA facility, de-risking/first-loss tranche, microcredit) was presented and well-received, with Jerome calling for a separate study on risk transfer mechanisms. GCF entry points were deferred to the next session pending a DOF pre-read, and CCC will issue COP31 side event guidance early next week.",
+      "processed": false,
+      "added_at": 1791944879295
     }
   ]
 }
