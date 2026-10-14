@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:26:28.655Z",
+  "last_updated": "2026-10-14T02:26:43.651Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1360,6 +1360,14 @@
       "summary": "An employee confirmed their decision to take a leave of absence (LOA) due to a recent PTSD diagnosis, sleep issues, and worsening mental health. Jamie agreed to submit an emergency LOA request to Southeast Asia CDE, targeting a November 1st start at the latest, with a bonus if something can be actioned next week. In the interim (~15 days), the team will internally align to avoid assigning the employee any work. The employee raised concern about a potential PIP; Jamie clarified the established precedent — LOA is processed first, and any PIP discussion happens upon return — positioning the employee as best as possible given the circumstances.",
       "processed": false,
       "added_at": 1791944787895
+    },
+    {
+      "id": "gr1791944802643",
+      "title": "Discussion with Calvin on Vanessa",
+      "date": "2026-10-06T05:00:13.404Z",
+      "summary": "Jamie spoke with Calvin (overall PM) and Eric (leading Clarence and Vanessa) to get an early read on Vanessa's performance on the Najika project. Positive signals include fast ramp-up despite joining mid-stream, consistent delivery against deadlines, and strong coachability. Development areas center on ownership (taking a back seat when others step in) and presence/communication (going quiet when things don't go as planned, not asserting share of voice). Calvin and Eric are retaining Vanessa for the follow-on case and emphasized that the presence issue is a common new-joiner pattern, not a red flag, and expect it to improve within ~6 months given her attitude and receptiveness to feedback.",
+      "processed": false,
+      "added_at": 1791944802643
     }
   ]
 }
