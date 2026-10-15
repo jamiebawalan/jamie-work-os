@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T02:28:28.464Z",
+  "last_updated": "2026-10-15T06:26:59.953Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1552,6 +1552,14 @@
       "summary": "Jamie and Sek aligned on Jamie's platform priorities: ADB climate/adaptation, water utilities, and resilience/DRR are the core focus areas, with ADB visibility (RCRP meetings, key stakeholders like Arghya, Nanki, Su Chin) and independent client leadership as near-term development goals. On ADB, the immediate priority is clarifying Risk Explorer phase 3 budget and setting up a four-way session (Jamie, Ali, Saad, Luke) to align on the future vision and its connection to the RCRP digital support tool, with Kadra as a willing thought partner. The Prime Infra/Manila Water CEO meeting is being lined up by Sek — Jamie should be ready to support prep when it lands, with the angle of AI/operational efficiency and the ICTSI-style developing-market playbook. On DFAT, Jamie needs to navigate Sharmin's boundaries carefully: the agreed line is no climate adaptation or offshore wind work, and Jamie can acknowledge involvement only in early ease-of-doing-business discussions. An early response to Director Marr is flagged as urgent for next week.",
       "processed": false,
       "added_at": 1791944907851
+    },
+    {
+      "id": "gr1792045617815",
+      "title": "Richmond Ku - Interview",
+      "date": "2026-10-15T02:03:54.635Z",
+      "summary": "Jamie conducted a full interview with candidate Richmond Ku on 2026-10-15, covering behavioral and case components. Richmond performed well overall on the Big Oil Co. renewable energy profitability case — correctly recommending solar and offshore wind based on 37.5% and ~34% margins respectively against a 30% hurdle — though he struggled briefly with units and ratios before recovering. Jamie noted distracting physical mannerisms (scratching, posture, coughing) as a non-professional observation. Richmond expressed strong motivation aligned with BCG's collaborative culture, global exposure, and social impact work. Next step is for Jamie to submit a formal evaluation and align with the recruiting team on Richmond's outcome.",
+      "processed": false,
+      "added_at": 1792045617815
     }
   ]
 }
