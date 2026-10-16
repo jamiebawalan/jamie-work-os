@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T04:08:17.433Z",
+  "last_updated": "2026-10-16T04:08:20.268Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1592,6 +1592,14 @@
       "summary": "The call covered RGF budget strategy across Philippines (Luzon), Malaysia, and Indonesia. On Luzon/LEC, the group agreed **not** to prepare a full rescoping now — instead, Jamie/Vincent will message James before Wednesday to probe OSW synergies and whether there is merit in revisiting the $450K scope, while being careful not to appear mercenary. For **Malaysia**, the team will send an integrated scope to Marie Claire, Sylvia, and Carol without a price point, securing scope buy-in before raising the $450K top-up request with Chris via James. For **Indonesia**, the plan is to regroup with Sam on Tuesday, leading with investment screening (his priority), framing the broader package (pharma, grid as standalone, excluding growth capital bridge) and signalling that a ~$150K–$200K top-up may be needed — while being clear Sam has no budget influence and James is the honest broker with Chris. Key open question: whether Mike Welch's $200K approach on Luzon will fail on its own, opening the door for BCG to re-engage on the residual $300K or a bolt-on to OSW for 2027 non-ODA positioning.",
       "processed": false,
       "added_at": 1792123696571
+    },
+    {
+      "id": "gr1792123699438",
+      "title": "Alex's first-month check-in and career goals at BCG",
+      "date": "2026-10-16T03:00:00.138Z",
+      "summary": "Jamie held a first-month check-in with Alex (new BA hire), who is generally settling in well and feeling positive about the role after an initially tough onboarding sprint on NAP. The Eric situation was discussed — Jamie confirmed being the original reporter and reiterated willingness to act as 'bad cop' if further issues arise; Alex noted Eric's behavior has visibly improved. Key L&D feedback covered the Agria slides exercise: lessons included aligning upfront on output expectations, connecting independently sourced data back to the core question, and leaning on managers to understand 'what done looks like' during year one. Jamie and Alex also discussed AI tool limitations (the 'AI grenade' problem and the Del Monte expert example), abroad case aspirations (recommended timing: A2 to explore, C tenure for longer stints), and the importance of raising a hand when workload becomes unsustainable. Open item: buddy budget lunch to be used next week when Jamie is in Manila.",
+      "processed": false,
+      "added_at": 1792123699438
     }
   ]
 }
