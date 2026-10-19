@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T01:04:02.212Z",
+  "last_updated": "2026-10-19T01:04:03.954Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1608,6 +1608,14 @@
       "summary": "The team aligned on the scope and structure of Module 2 (Regional Investment Framework), targeting all funder types (private, public, philanthropic) with two core objectives: helping funders identify investable ANR projects and surfacing regional barriers/enablers for adaptation investment. Soo Jin's preference to focus on second-tier ASEAN countries (Laos, Cambodia, etc.) rather than Indonesia/Philippines/Vietnam is a key strategic constraint that the framework must solve for, particularly around origination risk and institutional capacity gaps. The outline was agreed as: context/rationale merged with barriers, objectives, regional ANR investment opportunities (mapped to 5 priority value chains and physical-change archetypes), and the framework/decision support tool — stopping short of deal structuring. An open question remains on which of the 3 value chain scope options Soo Jin/Nanty will choose, with Lucy and Dean pressing for a decision ASAP to avoid a 2–3 week delay.",
       "processed": false,
       "added_at": 1792371840639
+    },
+    {
+      "id": "gr1792371842893",
+      "title": "Discussion with Livie",
+      "date": "2026-10-15T09:37:25.824Z",
+      "summary": "The session with Livy covered agronomic assessments of Plots 11B, 24, and Satu (Plot 1). **Plot 11B** was cleared for Ethrel forcing despite visible zinc and nitrogen deficiencies; nitrogen correction (100 kg urea/ha) is to be applied only ~30 days post-forcing once blooming is confirmed. **Plot 24** shows compounded deficiencies likely driven by lime-induced chlorosis in a limestone depression area (~5–10% of plot), with shallow roots limiting recovery; Livy recommends deprioritizing heavy investment there and focusing on healthier plots instead. Soil sampling of Plot 24 (and the new plot under preparation) should go to UPLB for reliable pH analysis. Open questions include the full extent of red-leaf symptoms across Plot 24 and whether the Epsom salt trial is worth attempting. Anthony owns field tasks (photos, soil sampling), while Jamie is responsible for scheduling the next plot-by-plot Livy session and coordinating follow-ups.",
+      "processed": false,
+      "added_at": 1792371842893
     }
   ]
 }
