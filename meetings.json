@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T01:04:03.954Z",
+  "last_updated": "2026-10-19T08:51:36.144Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1616,6 +1616,14 @@
       "summary": "The session with Livy covered agronomic assessments of Plots 11B, 24, and Satu (Plot 1). **Plot 11B** was cleared for Ethrel forcing despite visible zinc and nitrogen deficiencies; nitrogen correction (100 kg urea/ha) is to be applied only ~30 days post-forcing once blooming is confirmed. **Plot 24** shows compounded deficiencies likely driven by lime-induced chlorosis in a limestone depression area (~5–10% of plot), with shallow roots limiting recovery; Livy recommends deprioritizing heavy investment there and focusing on healthier plots instead. Soil sampling of Plot 24 (and the new plot under preparation) should go to UPLB for reliable pH analysis. Open questions include the full extent of red-leaf symptoms across Plot 24 and whether the Epsom salt trial is worth attempting. Anthony owns field tasks (photos, soil sampling), while Jamie is responsible for scheduling the next plot-by-plot Livy session and coordinating follow-ups.",
       "processed": false,
       "added_at": 1792371842893
+    },
+    {
+      "id": "gr1792399894647",
+      "title": "WB water reuse ",
+      "date": "2026-10-19T07:58:04.656Z",
+      "summary": "BCG is bidding on a World Bank WaterForward TA for Malaysia (~$100K), focused on water reuse and data center infrastructure across two provinces, with a proposal due Tuesday evening (2026-10-22). Key differentiators are BCG's bankable pipeline capability (NAP experience), Malaysian government relationships, and hyperscaler/data center economics knowledge, though IP on water-data center usage is thin and must be built. The budget constrains scope significantly — deliverables will be high-level strategic roadmaps with 2–3 detailed concept notes, and items 5 and 7 of the Country Reuse Roadmap template are flagged as undeliverable at this budget. Jamie needs to urgently engage Aleph on content, source hyperscaler credentials, and confirm World Bank partnership rates; Dean owns asking WB Malaysia contacts about the broader TA envelope and P-code.",
+      "processed": false,
+      "added_at": 1792399894647
     }
   ]
 }
