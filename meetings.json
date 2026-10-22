@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:16.450Z",
+  "last_updated": "2026-10-22T06:07:18.456Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1648,6 +1648,14 @@
       "summary": "BCG is preparing a proposal for Khazanah Nasional Berhad (KNB), Malaysia's sovereign wealth fund, on portfolio-wide climate adaptation & resilience (A&R) and climate value-at-risk (VaR), following a conversation at a marine decarbonization conference ~2 weeks ago. Key content to assemble includes the 2023 A&R proposal (Susanna Amos), GEO/Giovanni Covazzi's updated institutional investor physical risk methodology, Temasek A&R solutions materials (Andrei Berdichevsky), and Bangkok FI case studies from Alia. Shobhit is the primary client-facing driver and owns confirming the meeting date; Nurlin Saleh (KL) is the MVP; Annika Zawadzki is the recommended global A&R expert to invite, though CNS will be at COP in early November so early outreach is critical. Open questions include the exact client meeting date and whether Geo/Temasek materials are cleared to share. Jamie's team (with Alia and Perlin) will compile a first-cut deck and raise the engagement at Monday's ENR CTM with Charmian for senior MDP guidance.",
       "processed": false,
       "added_at": 1792649235593
+    },
+    {
+      "id": "gr1792649237692",
+      "title": "COP31 side event planning and GCF outreach with Jen",
+      "date": "2026-10-22T03:01:40.322Z",
+      "summary": "The COP31 side event is confirmed for **November 9** (Food & Ag Day), not November 13 as DOF had previously communicated; since Director John is only available Nov 11–14, a video message from USEC Coven will substitute for DOF opening remarks, with Jen coordinating the script and shoot by October 30. The moderated Q&A section will be reframed as **audience interventions**, with GCF, IFAD, and Feeney planted as commenters rather than questioners, and Cong Alba flagged as a backup panelist if Cong Anna is unavailable. On GCF outreach, BCG will send Jen the draft invitation letters and external pipeline materials so DOF can modify and send to GCF (APAC team), AF, and CIF; Jen will first align with the NDA before any formal outreach to the 5 identified GCF funds. The **October 30 meeting** with Commissioner Rachel and Director John is the critical alignment moment for COP key messages, announcements, and AIP institutionalization, including the 'Friends of ITSF' partner onboarding model. A separate carbon markets technical alignment between Jamie and Jen is to be scheduled for next week.",
+      "processed": false,
+      "added_at": 1792649237692
     }
   ]
 }
