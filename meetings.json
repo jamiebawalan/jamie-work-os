@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:08:00.554Z",
+  "last_updated": "2026-10-22T06:08:02.724Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1728,6 +1728,14 @@
       "summary": "The meeting covered AIP sustainability and UK government role, replicable business model archetypes, handover planning, and the COP31 Philippine AR event. It was agreed the UK government's role should be embedded in steering and visibility rather than day-to-day delivery, with AIP owning deal orchestration going forward and Des's attaché role still being scoped. Four project archetypes were walked through (climate adaptive inputs, nature-based ecosystems, asset-based services/PPP, and asset-based value chain), with a clear decision that carbon market revenue should be treated as a future add-on only — not assumed viable for 1–3 years. Three completed business plans and replicable templates are being handed over to CO leads on Wednesday, with open discussion needed on what handover means in practice. For COP31, the venue looks undersized, the FCO rep should be moved to the 11:05 opening slot, and Jamie asked the team to explore ~200 additional invitees beyond the current 500-person subset list.",
       "processed": false,
       "added_at": 1792649279274
+    },
+    {
+      "id": "gr1792649281653",
+      "title": "Internship debrief: ownership, qualitative skills, and internal comms",
+      "date": "2026-10-19T05:54:49.179Z",
+      "summary": "Jamie debriefed an intern who completed two rotations (Consumer/Wayne and RCBC FI) and is now onboarding onto the ADB platform project. The intern's key strengths are ownership and on-the-ground PSI; internal comms confidence is the primary development area to coach. For the ADB project, Jamie and the intern are accountable for the PMO/quality layer, with Rita leading design and Moad/Anas on other workstreams — a key risk is excessive rework if quality is not actively managed. Immediate prep tasks for the intern this week are to explore the ADB Data Portal and benchmark competitor development bank climate/disaster risk platforms, synthesizing findings into usability and gap analyses to support the branding and positioning component. A meeting with Rita is set for the following day to align on the proof-of-concept scope.",
+      "processed": false,
+      "added_at": 1792649281653
     }
   ]
 }
