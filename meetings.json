@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:04.826Z",
+  "last_updated": "2026-10-22T06:07:07.566Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1632,6 +1632,14 @@
       "summary": "Proposal is due end of day 2026-10-22. The approach section was AI-generated and serves as a first cut; CVs are largely collected but signatures are still needed from all cited team members and must be circulated by afternoon. **Aleef** owns the YBCG section and CV outreach in the morning, then approach review in the afternoon. **Jamie** will prepare her own CV, review the technical and financial proposal sections, and join a call with June and Millicent on admin alignment. Open question: whether CVs from a previous proposal can be reused to save time on reformatting.",
       "processed": false,
       "added_at": 1792649223309
+    },
+    {
+      "id": "gr1792649226277",
+      "title": "Nurlin/Jamie chat",
+      "date": "2026-10-22T01:05:32.354Z",
+      "summary": "Nurlin confirmed Jamie's matrix placement is strong for a new partner: 'to be further demonstrated' on Y-axis and 'very good' on X-axis, which is expected at 3 months in. The primary platform remains FCDO, with three active second-leg fronts to push: energy (pending discussion with Anthony, Marco, Aman, and Ashish on MDP capacity), DFAT/ADB (working with Sek), and ANR (gaining momentum via MAS and internal Kasana interest, with Barad). Capacity is the key risk given the surge in activity velocity since Da Nang, and the shift to partner means Jamie needs to leverage PLs across projects to stay sustainable. Nurlin framed the situation positively — being in demand is a welcome shift from earlier commerciality concerns.",
+      "processed": false,
+      "added_at": 1792649226277
     }
   ]
 }
