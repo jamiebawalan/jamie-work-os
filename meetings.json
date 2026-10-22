@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:44.849Z",
+  "last_updated": "2026-10-22T06:07:47.104Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1696,6 +1696,14 @@
       "summary": "BCG met with MAS Sustainability Group (Shi Min Teo and team) to explore collaboration on Adaptation & Resilience (A&R) financing gaps in ASEAN. Key discussion themes included the difficulty of converting resilience value into cash flows, the need to move beyond 'avoided losses' framing toward financial-statement-linked metrics, demand-side stimulation (e.g., advanced purchase agreements), and orchestrating public-to-private capital transitions. BCG shared the Philippines NAP/Adaptation Investment Platform model and ADB's internal climate risk assessment tool as concrete examples, with MAS expressing strong interest in co-developing ASEAN-level unlocks for banks and insurers. Both parties will attend the 30 October RCRP convening and should align beforehand; BCG to share the WEF PPP archetypes paper and WBCSD resilience financing framework with MAS. Open question remains on scope and modalities for a potential MAS-BCG workstream on A&R financing unlocks.",
       "processed": false,
       "added_at": 1792649263933
+    },
+    {
+      "id": "gr1792649265950",
+      "title": "World Bank water reuse proposal with Aleef",
+      "date": "2026-10-20T02:31:16.045Z",
+      "summary": "BCG has passed the EOI stage for a World Bank water reuse proposal in Malaysia and must submit by end of day Monday 27 October, competing against Roland Berger, PwC, and Castalia. Key differentiators are the Pampanga River Basin bankable pipeline work, Brazil Water Resilience Plan, and BCG's hyperscaler/data center economics expertise. Jamie and Aleef agreed the priority sequence is: YBCG summary first, then approach and work plan, then team structure (to be finalized at tomorrow's CTM with Nerlyn and Dean). Open questions include whether CVs require signatures (must be checked urgently), who from the TMT/Vantage team can speak to hyperscaler depth (Aleef to identify), and which admin items Millicent's team can own (Aleef to email her). Jamie will handle the financial annexes and run a Claude comparison once Aleef shares the previous World Bank proposal.",
+      "processed": false,
+      "added_at": 1792649265950
     }
   ]
 }
