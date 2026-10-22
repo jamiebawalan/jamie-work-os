@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:42.757Z",
+  "last_updated": "2026-10-22T06:07:44.849Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1688,6 +1688,14 @@
       "summary": "The session covered two topics: finalising the 10-minute Investment Forum presentation for Oct 30 and reviewing the concept paper for the RCRP Policy & Institutional Pillar. For the forum deck, Eric and Nanki agreed on a storyline moving from risk context → country adaptation priorities → investment landscape → barriers → solutions, targeting ≤10 slides, with slides 15, 16, 18, and 19 confirmed and slides 14 and 17 held as backup; RCRP can be mentioned verbally if the Singapore Minister has approved it by then. On the concept paper, a 4-step prioritization framework (select value chain → diagnose policy gaps → identify instruments → sequence reforms) was presented with rice as an illustrative case, drawing positive reactions, but open questions remain on crop vs. commodity framing and whether the focus is regional value chains or all agricultural commodities. Sub-objectives 2 and 3 of the pillar may overlap and need further crystallisation. Jamie's team will send both the revised slide deck and the concept paper pack offline today for Eric and Nanki to review and circulate within ADB and PSOD.",
       "processed": false,
       "added_at": 1792649262003
+    },
+    {
+      "id": "gr1792649263933",
+      "title": "Discussion with MAS",
+      "date": "2026-10-21T01:59:55.064Z",
+      "summary": "BCG met with MAS Sustainability Group (Shi Min Teo and team) to explore collaboration on Adaptation & Resilience (A&R) financing gaps in ASEAN. Key discussion themes included the difficulty of converting resilience value into cash flows, the need to move beyond 'avoided losses' framing toward financial-statement-linked metrics, demand-side stimulation (e.g., advanced purchase agreements), and orchestrating public-to-private capital transitions. BCG shared the Philippines NAP/Adaptation Investment Platform model and ADB's internal climate risk assessment tool as concrete examples, with MAS expressing strong interest in co-developing ASEAN-level unlocks for banks and insurers. Both parties will attend the 30 October RCRP convening and should align beforehand; BCG to share the WEF PPP archetypes paper and WBCSD resilience financing framework with MAS. Open question remains on scope and modalities for a potential MAS-BCG workstream on A&R financing unlocks.",
+      "processed": false,
+      "added_at": 1792649263933
     }
   ]
 }
