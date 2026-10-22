@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:18.456Z",
+  "last_updated": "2026-10-22T06:07:28.108Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1656,6 +1656,14 @@
       "summary": "The COP31 side event is confirmed for **November 9** (Food & Ag Day), not November 13 as DOF had previously communicated; since Director John is only available Nov 11–14, a video message from USEC Coven will substitute for DOF opening remarks, with Jen coordinating the script and shoot by October 30. The moderated Q&A section will be reframed as **audience interventions**, with GCF, IFAD, and Feeney planted as commenters rather than questioners, and Cong Alba flagged as a backup panelist if Cong Anna is unavailable. On GCF outreach, BCG will send Jen the draft invitation letters and external pipeline materials so DOF can modify and send to GCF (APAC team), AF, and CIF; Jen will first align with the NDA before any formal outreach to the 5 identified GCF funds. The **October 30 meeting** with Commissioner Rachel and Director John is the critical alignment moment for COP key messages, announcements, and AIP institutionalization, including the 'Friends of ITSF' partner onboarding model. A separate carbon markets technical alignment between Jamie and Jen is to be scheduled for next week.",
       "processed": false,
       "added_at": 1792649237692
+    },
+    {
+      "id": "gr1792649247215",
+      "title": "WB Water reuse CTM",
+      "date": "2026-10-21T08:04:03.912Z",
+      "summary": "The team aligned on strengthening the YBCG differentiation for the World Bank water reuse RFQ submission (deadline: Oct 26 US midnight), with key improvements needed: add specific bankable pipeline references, name Selangor/Johor and JSSEZ explicitly, and replace generic data center language with concrete claims about working with top hyperscalers (Day One publication, AirTrunk). The proposed delivery model is 12 weeks elapsed with front-loaded light capacity (Jamie and Dean at ~10% weeks 1–6, compressed full team weeks 7–10, light wrap-up weeks 11–12) to stay within the $100K budget, explicitly scoping to existing World Bank/Malaysian government pipeline rather than identifying new projects. Team composition confirmed as Dean and Jamie (leadership, with Jamie as day-to-day lead not Anis), Muaz and Chu as AC candidates, Juan Carlos Heras for water reuse expertise, Olivier Raval or Daniel Oling for DC/hyperscaler, and Virat for financing; Hugh Polner to be removed. Jamie owns pricing in ClientView, assembling CVs and vignettes (including confirming IFC Brazil vignette with Alif), and aligning on the Becker rate card at the next CTM. Open questions include identifying further named DC clients from Malaysia's approved investment list and structuring the program as 500K AUD with 30% Australian resources per Sek's guidance.",
+      "processed": false,
+      "added_at": 1792649247215
     }
   ]
 }
