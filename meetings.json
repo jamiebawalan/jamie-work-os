@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T08:51:36.144Z",
+  "last_updated": "2026-10-22T06:07:04.826Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1624,6 +1624,14 @@
       "summary": "BCG is bidding on a World Bank WaterForward TA for Malaysia (~$100K), focused on water reuse and data center infrastructure across two provinces, with a proposal due Tuesday evening (2026-10-22). Key differentiators are BCG's bankable pipeline capability (NAP experience), Malaysian government relationships, and hyperscaler/data center economics knowledge, though IP on water-data center usage is thin and must be built. The budget constrains scope significantly — deliverables will be high-level strategic roadmaps with 2–3 detailed concept notes, and items 5 and 7 of the Country Reuse Roadmap template are flagged as undeliverable at this budget. Jamie needs to urgently engage Aleph on content, source hyperscaler credentials, and confirm World Bank partnership rates; Dean owns asking WB Malaysia contacts about the broader TA envelope and P-code.",
       "processed": false,
       "added_at": 1792399894647
+    },
+    {
+      "id": "gr1792649223309",
+      "title": "Proposal team CVs, approach, and work schedule with Aleef",
+      "date": "2026-10-22T02:01:09.688Z",
+      "summary": "Proposal is due end of day 2026-10-22. The approach section was AI-generated and serves as a first cut; CVs are largely collected but signatures are still needed from all cited team members and must be circulated by afternoon. **Aleef** owns the YBCG section and CV outreach in the morning, then approach review in the afternoon. **Jamie** will prepare her own CV, review the technical and financial proposal sections, and join a call with June and Millicent on admin alignment. Open question: whether CVs from a previous proposal can be reused to save time on reformatting.",
+      "processed": false,
+      "added_at": 1792649223309
     }
   ]
 }
