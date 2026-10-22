@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:57.055Z",
+  "last_updated": "2026-10-22T06:08:00.554Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1720,6 +1720,14 @@
       "summary": "Jamie spoke with Parn to gather verbal feedback on Naomi (CDC) ahead of the upcoming committee review. Parn confirmed Maxis was a genuinely difficult case — fast-paced, framing-led, outside Naomi's public-sector comfort zone — and flagged three key AODs: calibrating depth vs. high-level framing, structuring and distilling expert calls efficiently, and written comms/page-level storytelling. Parn sees no red flags and believes Maxis alone is not cause for concern if Naomi is performing well on other cases. The overall picture is mixed but ratings appear appropriate; CDC outcome remains uncertain and Naomi's consulting toolkit is still being developed.",
       "processed": false,
       "added_at": 1792649276068
+    },
+    {
+      "id": "gr1792649279274",
+      "title": "AIP project sustainability plan",
+      "date": "2026-10-19T08:58:50.566Z",
+      "summary": "The meeting covered AIP sustainability and UK government role, replicable business model archetypes, handover planning, and the COP31 Philippine AR event. It was agreed the UK government's role should be embedded in steering and visibility rather than day-to-day delivery, with AIP owning deal orchestration going forward and Des's attaché role still being scoped. Four project archetypes were walked through (climate adaptive inputs, nature-based ecosystems, asset-based services/PPP, and asset-based value chain), with a clear decision that carbon market revenue should be treated as a future add-on only — not assumed viable for 1–3 years. Three completed business plans and replicable templates are being handed over to CO leads on Wednesday, with open discussion needed on what handover means in practice. For COP31, the venue looks undersized, the FCO rep should be moved to the 11:05 opening slot, and Jamie asked the team to explore ~200 additional invitees beyond the current 500-person subset list.",
+      "processed": false,
+      "added_at": 1792649279274
     }
   ]
 }
