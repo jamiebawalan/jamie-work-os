@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:28.108Z",
+  "last_updated": "2026-10-22T06:07:29.943Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1664,6 +1664,14 @@
       "summary": "The team aligned on strengthening the YBCG differentiation for the World Bank water reuse RFQ submission (deadline: Oct 26 US midnight), with key improvements needed: add specific bankable pipeline references, name Selangor/Johor and JSSEZ explicitly, and replace generic data center language with concrete claims about working with top hyperscalers (Day One publication, AirTrunk). The proposed delivery model is 12 weeks elapsed with front-loaded light capacity (Jamie and Dean at ~10% weeks 1–6, compressed full team weeks 7–10, light wrap-up weeks 11–12) to stay within the $100K budget, explicitly scoping to existing World Bank/Malaysian government pipeline rather than identifying new projects. Team composition confirmed as Dean and Jamie (leadership, with Jamie as day-to-day lead not Anis), Muaz and Chu as AC candidates, Juan Carlos Heras for water reuse expertise, Olivier Raval or Daniel Oling for DC/hyperscaler, and Virat for financing; Hugh Polner to be removed. Jamie owns pricing in ClientView, assembling CVs and vignettes (including confirming IFC Brazil vignette with Alif), and aligning on the Becker rate card at the next CTM. Open questions include identifying further named DC clients from Malaysia's approved investment list and structuring the program as 500K AUD with 30% Australian resources per Sek's guidance.",
       "processed": false,
       "added_at": 1792649247215
+    },
+    {
+      "id": "gr1792649249362",
+      "title": "RCRP concept paper framing and public fund pillar options",
+      "date": "2026-10-21T06:02:35.058Z",
+      "summary": "The team aligned on finalizing the RCRP concept paper internally before sharing with ADB to avoid two rounds of comments from sector teams. For the public fund pillar, the agreed approach is to map existing ADB/MDB funds and identify what completes the puzzle (pipeline gaps, de-risking needs), with a public financing playbook as the second option and the fund concept paper ruled out as CPI's scope. On governance, BCG will lead the NCCS discussion by presenting best-practice governance options before asking where NCCS stands, anchored by Lucy's five case studies. The regional investment framework will highlight BCG's specific value-add — system-level A&R metrics interfacing with risk-return expectations — with a one-pager scoping the investor decision tool as a TA opportunity for next year, and the team will check whether the AILC Module 5 tool (Ethan) can be repurposed. Key open questions: whether Nanki's Tuesday check-in survives ADB travel, and whether Sashi will confirm the NCCS meeting for next week.",
+      "processed": false,
+      "added_at": 1792649249362
     }
   ]
 }
