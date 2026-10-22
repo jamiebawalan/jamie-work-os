@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:07.566Z",
+  "last_updated": "2026-10-22T06:07:16.450Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1640,6 +1640,14 @@
       "summary": "Nurlin confirmed Jamie's matrix placement is strong for a new partner: 'to be further demonstrated' on Y-axis and 'very good' on X-axis, which is expected at 3 months in. The primary platform remains FCDO, with three active second-leg fronts to push: energy (pending discussion with Anthony, Marco, Aman, and Ashish on MDP capacity), DFAT/ADB (working with Sek), and ANR (gaining momentum via MAS and internal Kasana interest, with Barad). Capacity is the key risk given the surge in activity velocity since Da Nang, and the shift to partner means Jamie needs to leverage PLs across projects to stay sustainable. Nurlin framed the situation positively — being in demand is a welcome shift from earlier commerciality concerns.",
       "processed": false,
       "added_at": 1792649226277
+    },
+    {
+      "id": "gr1792649235593",
+      "title": "KNB discussion",
+      "date": "2026-10-22T01:29:58.417Z",
+      "summary": "BCG is preparing a proposal for Khazanah Nasional Berhad (KNB), Malaysia's sovereign wealth fund, on portfolio-wide climate adaptation & resilience (A&R) and climate value-at-risk (VaR), following a conversation at a marine decarbonization conference ~2 weeks ago. Key content to assemble includes the 2023 A&R proposal (Susanna Amos), GEO/Giovanni Covazzi's updated institutional investor physical risk methodology, Temasek A&R solutions materials (Andrei Berdichevsky), and Bangkok FI case studies from Alia. Shobhit is the primary client-facing driver and owns confirming the meeting date; Nurlin Saleh (KL) is the MVP; Annika Zawadzki is the recommended global A&R expert to invite, though CNS will be at COP in early November so early outreach is critical. Open questions include the exact client meeting date and whether Geo/Temasek materials are cleared to share. Jamie's team (with Alia and Perlin) will compile a first-cut deck and raise the engagement at Monday's ENR CTM with Charmian for senior MDP guidance.",
+      "processed": false,
+      "added_at": 1792649235593
     }
   ]
 }
