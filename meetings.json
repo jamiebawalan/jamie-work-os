@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:08:02.724Z",
+  "last_updated": "2026-10-22T09:28:47.952Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1736,6 +1736,14 @@
       "summary": "Jamie debriefed an intern who completed two rotations (Consumer/Wayne and RCBC FI) and is now onboarding onto the ADB platform project. The intern's key strengths are ownership and on-the-ground PSI; internal comms confidence is the primary development area to coach. For the ADB project, Jamie and the intern are accountable for the PMO/quality layer, with Rita leading design and Moad/Anas on other workstreams — a key risk is excessive rework if quality is not actively managed. Immediate prep tasks for the intern this week are to explore the ADB Data Portal and benchmark competitor development bank climate/disaster risk platforms, synthesizing findings into usability and gap analyses to support the branding and positioning component. A meeting with Rita is set for the following day to align on the proof-of-concept scope.",
       "processed": false,
       "added_at": 1792649281653
+    },
+    {
+      "id": "gr1792661326461",
+      "title": "World Bank water reuse proposal: pricing, CVs, and submission checklist with Jun and Millicent",
+      "date": "2026-10-22T09:02:13.932Z",
+      "summary": "Alignment call with World Bank proposal team (Jun and Millicent) ahead of the October 26 submission deadline (11:59 PM US time). Key clarifications: no slides need to be pre-submitted for the November 6 oral presentation; CVs and project references must use World Bank templates; TOR comments are optional and unscored; and the firm qualification questionnaire will be provided by the WB team with only minor edits needed. Pricing will show senior/MDP rates as 'BCG Invested' with client-facing costs limited to the working team (PL + 2), with a pricing example to be shared by Jun/Millicent within minutes of the call. Jamie needs to confirm the signatory based on the EOI (Sika vs. Kahir) and deliver the full package to the World Bank team by Monday 5 PM Singapore time.",
+      "processed": false,
+      "added_at": 1792661326461
     }
   ]
 }
