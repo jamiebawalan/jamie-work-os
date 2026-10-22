@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:07:47.104Z",
+  "last_updated": "2026-10-22T06:07:54.818Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1704,6 +1704,14 @@
       "summary": "BCG has passed the EOI stage for a World Bank water reuse proposal in Malaysia and must submit by end of day Monday 27 October, competing against Roland Berger, PwC, and Castalia. Key differentiators are the Pampanga River Basin bankable pipeline work, Brazil Water Resilience Plan, and BCG's hyperscaler/data center economics expertise. Jamie and Aleef agreed the priority sequence is: YBCG summary first, then approach and work plan, then team structure (to be finalized at tomorrow's CTM with Nerlyn and Dean). Open questions include whether CVs require signatures (must be checked urgently), who from the TMT/Vantage team can speak to hyperscaler depth (Aleef to identify), and which admin items Millicent's team can own (Aleef to email her). Jamie will handle the financial annexes and run a Claude comparison once Aleef shares the previous World Bank proposal.",
       "processed": false,
       "added_at": 1792649265950
+    },
+    {
+      "id": "gr1792649274072",
+      "title": "MAS prep call",
+      "date": "2026-10-19T14:00:35.898Z",
+      "summary": "A prep call was held for an upcoming MAS (Monetary Authority of Singapore) conversation focused on adaptation and resilience (ANR) investment. MAS has requested a deeper discussion on adaptation investment partnership archetypes (referencing prior WEF work), and existing slides are ready to lead with; Dave (senior adviser) will join for continuity. The key exam question is what an innovation-focused central bank like MAS can actually do to spur more ANR investment through Singapore, with two possible framings: building the ecosystem/opportunity versus averting loss in regional value chains. A critical open question is MAS's actual motivation, which Jamie should ask directly on the call; separately, MAS's confidential statement that they would take the lead on the RCRP fund should not be volunteered. Greg will send further hypotheses on why ANR capital has not flowed to Asia, and the team will loop him into the next conversation.",
+      "processed": false,
+      "added_at": 1792649274072
     }
   ]
 }
