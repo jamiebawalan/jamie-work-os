@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T06:10:34.575Z",
+  "last_updated": "2026-10-27T08:31:45.764Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1752,6 +1752,14 @@
       "summary": "The ADB proposal is on track with three main workstreams for the day: completing CVs/vignettes/EDB format, refining the YBCG section (teaming construct and approach), and building out the approach section with supporting figures and examples. Key personnel decisions were confirmed: Dean Maravan as team leader, Jamie as co-project manager, Chris Holmes excluded, Varad and Daniel retained, Olivier Yiribal added (replacing Michael Meyer), Nerlyn as overall signatory, and Kahir to be added pending CV retrieval from Jun. Jamie needs to message Nerlyn for Day 1 report author credits, send Alif relevant page links throughout the day, secure Kahir's CV from Jun, and add his own CV and signature to the proposal. No weekend work is anticipated if today's tasks are completed.",
       "processed": false,
       "added_at": 1792735833618
+    },
+    {
+      "id": "gr1793089904279",
+      "title": "RCRP discussion with SMU",
+      "date": "2026-10-27T02:59:12.769Z",
+      "summary": "The meeting was a follow-up between BCG (Jamie, Lucy, Brad) and SMU's Nikki Kemp to discuss the Policy and Institutional pillar of the RCRP/ADB program. BCG presented a four-step policy gap analysis framework applied as a case study on the rice (RISE) value chain, covering rationale, objectives, gap diagnostics, target instruments, and phased reform sequencing for key ASEAN countries. Nikki raised the need to more explicitly overlay climate risk sizing onto the economic analysis, flagging the shifting goalposts as NDC targets are missed and referencing a recent UN overshoot report and NUS findings that rice productivity has already peaked globally. A key idea that emerged was building a regional policy data platform—a database of all regional policy instruments paired with an AI tool for policy impact analysis—analogous to BCG's taxonomy tracker but focused on policy coherence; BCG noted it has early experimentation on a broader climate policy landscape tool that could serve as a starting point. Next steps are owned primarily by Nanki (share notes with Nikki, raise platform concept within the university network) and Nikki (explore Winston Chow's IPCC data, assess resourcing for the platform), with Jamie tasked to review Policy Radar and share BCG's existing climate policy database learnings.",
+      "processed": false,
+      "added_at": 1793089904279
     }
   ]
 }
