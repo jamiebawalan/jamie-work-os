@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T04:36:50.222Z",
+  "last_updated": "2026-10-28T04:37:09.545Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1768,6 +1768,14 @@
       "summary": "The team aligned on a three-session whiteboarding arc for the ADB climate risk portal: (1) scoping access/persona mapping, (2) benchmark and co-design with Rania's screenshots, and (3) live link review with Martin, Belinda, and Rudette. A key open question is whether DMCs get direct access to UC1/UC2 or only see outputs, and whether MDBs are relevant beyond UC3. Jamie must send the drafts package to ADB tomorrow morning and chase Ludeta for participant nominations, as the tracker remains empty. The CTM scheduled for tomorrow will cover the whiteboarding plan; if only Antonio attends, Jamie may push it to end of week when initial benchmarks and feature ideas will be ready to share with the MDP group.",
       "processed": false,
       "added_at": 1793162208651
+    },
+    {
+      "id": "gr1793162228303",
+      "title": "RCRP discussion",
+      "date": "2026-10-22T07:31:08.174Z",
+      "summary": "The team aligned on scope positioning for the three unclear RCRP modules ahead of next week's stakeholder meetings (MASEC, SMU, MSE, NCCS). **Public fund pillar**: preferred option is maximizing deployment of existing ADB funds (Option A), framed around optimizing dry powder rather than creating a new fund — a press sweep of publicly announced ADB ASEAN funds will support this narrative. **Governance framework**: key ambiguity remains on who owns overarching RCRP governance vs. Wing 2 only; the NCCS meeting is the critical gate, with a Plan B of defaulting to Wing 2 governance if NCCS remains cagey. **Regional investment framework**: acknowledged as an unsolved industry problem; a qualitative framework is more realistic than a calculator in a 2-week sprint, with Dean to WhatsApp Winston Chow for a quick conversation on the most useful lens. A formal post-NCCS scope decision session with Nanti is essential given the 100-day contract clock and no possibility of extensions.",
+      "processed": false,
+      "added_at": 1793162228303
     }
   ]
 }
