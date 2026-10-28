@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T08:31:45.764Z",
+  "last_updated": "2026-10-28T04:36:50.222Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1760,6 +1760,14 @@
       "summary": "The meeting was a follow-up between BCG (Jamie, Lucy, Brad) and SMU's Nikki Kemp to discuss the Policy and Institutional pillar of the RCRP/ADB program. BCG presented a four-step policy gap analysis framework applied as a case study on the rice (RISE) value chain, covering rationale, objectives, gap diagnostics, target instruments, and phased reform sequencing for key ASEAN countries. Nikki raised the need to more explicitly overlay climate risk sizing onto the economic analysis, flagging the shifting goalposts as NDC targets are missed and referencing a recent UN overshoot report and NUS findings that rice productivity has already peaked globally. A key idea that emerged was building a regional policy data platform—a database of all regional policy instruments paired with an AI tool for policy impact analysis—analogous to BCG's taxonomy tracker but focused on policy coherence; BCG noted it has early experimentation on a broader climate policy landscape tool that could serve as a starting point. Next steps are owned primarily by Nanki (share notes with Nikki, raise platform concept within the university network) and Nikki (explore Winston Chow's IPCC data, assess resourcing for the platform), with Jamie tasked to review Policy Radar and share BCG's existing climate policy database learnings.",
       "processed": false,
       "added_at": 1793089904279
+    },
+    {
+      "id": "gr1793162208651",
+      "title": "ABB climate risk tool: whiteboarding plan and user interviews",
+      "date": "2026-10-27T09:43:00.100Z",
+      "summary": "The team aligned on a three-session whiteboarding arc for the ADB climate risk portal: (1) scoping access/persona mapping, (2) benchmark and co-design with Rania's screenshots, and (3) live link review with Martin, Belinda, and Rudette. A key open question is whether DMCs get direct access to UC1/UC2 or only see outputs, and whether MDBs are relevant beyond UC3. Jamie must send the drafts package to ADB tomorrow morning and chase Ludeta for participant nominations, as the tracker remains empty. The CTM scheduled for tomorrow will cover the whiteboarding plan; if only Antonio attends, Jamie may push it to end of week when initial benchmarks and feature ideas will be ready to share with the MDP group.",
+      "processed": false,
+      "added_at": 1793162208651
     }
   ]
 }
