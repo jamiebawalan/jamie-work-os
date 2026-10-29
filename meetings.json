@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T03:12:30.192Z",
+  "last_updated": "2026-10-29T03:12:35.226Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1784,6 +1784,14 @@
       "summary": "A colleague's BCG team is advising ADB on which of ~15 digital products (including ECTRMS/CCDRMS) to scale or adopt internally, covering tool selection, hosting, licensing, procurement, and operating model — but the DPI platform owners appear unaware this parallel exercise is underway. Jamie flagged that BCG is currently in the design phase for the ADB external portal (Risk Explorer), which could conflict or overlap with the colleague's scoping work. Three tools were demonstrated from the ADB dev environment: the Climate & Geohazard Data Portal, the Disaster Risk Screening Tool, and the Light Touch CCA/Paris Alignment tool. Key open question is whether the DPI team and the external portal workstream need to be formally looped into the colleague's assessment before recommendations are made to ADB.",
       "processed": false,
       "added_at": 1793243548531
+    },
+    {
+      "id": "gr1793243554121",
+      "title": "Policy and institutional facility for NCCS: why, what, how",
+      "date": "2026-10-29T01:15:35.350Z",
+      "summary": "The team finalized revisions to the NCCS policy and institutional facility deck ahead of the 1PM meeting, agreeing to sharpen the narrative with a clear why/what/how structure and three value propositions (policy repository, ADB-led TA/PBL, and capacity development via SMU). Dave and Varad will present in person; updated slides must be sent by 11:30AM for internal review. The full interim concept paper (editable PPT) covering target stakeholders, delivery model, and results framework is due to Nanki's team by Friday, with DMC consultations for Timor-Leste and Laos confirmed for next week and Malaysia/Philippines still being followed up. On the internal CDC workstream, persona labels and user journey terminology are to be updated per Belinda's feedback, and follow-ups are pending with Rita on phase one features and with the DOCK contact who has not yet responded.",
+      "processed": false,
+      "added_at": 1793243554121
     }
   ]
 }
