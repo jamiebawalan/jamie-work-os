@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T04:37:09.545Z",
+  "last_updated": "2026-10-29T03:12:30.192Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1776,6 +1776,14 @@
       "summary": "The team aligned on scope positioning for the three unclear RCRP modules ahead of next week's stakeholder meetings (MASEC, SMU, MSE, NCCS). **Public fund pillar**: preferred option is maximizing deployment of existing ADB funds (Option A), framed around optimizing dry powder rather than creating a new fund — a press sweep of publicly announced ADB ASEAN funds will support this narrative. **Governance framework**: key ambiguity remains on who owns overarching RCRP governance vs. Wing 2 only; the NCCS meeting is the critical gate, with a Plan B of defaulting to Wing 2 governance if NCCS remains cagey. **Regional investment framework**: acknowledged as an unsolved industry problem; a qualitative framework is more realistic than a calculator in a 2-week sprint, with Dean to WhatsApp Winston Chow for a quick conversation on the most useful lens. A formal post-NCCS scope decision session with Nanti is essential given the 100-day contract clock and no possibility of extensions.",
       "processed": false,
       "added_at": 1793162228303
+    },
+    {
+      "id": "gr1793243548531",
+      "title": "ADB climate and disaster risk tools demo with platform team",
+      "date": "2026-10-29T02:01:08.482Z",
+      "summary": "A colleague's BCG team is advising ADB on which of ~15 digital products (including ECTRMS/CCDRMS) to scale or adopt internally, covering tool selection, hosting, licensing, procurement, and operating model — but the DPI platform owners appear unaware this parallel exercise is underway. Jamie flagged that BCG is currently in the design phase for the ADB external portal (Risk Explorer), which could conflict or overlap with the colleague's scoping work. Three tools were demonstrated from the ADB dev environment: the Climate & Geohazard Data Portal, the Disaster Risk Screening Tool, and the Light Touch CCA/Paris Alignment tool. Key open question is whether the DPI team and the external portal workstream need to be formally looped into the colleague's assessment before recommendations are made to ADB.",
+      "processed": false,
+      "added_at": 1793243548531
     }
   ]
 }
