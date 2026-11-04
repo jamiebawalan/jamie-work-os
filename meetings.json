@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T03:12:35.226Z",
+  "last_updated": "2026-11-04T02:28:51.857Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1792,6 +1792,14 @@
       "summary": "The team finalized revisions to the NCCS policy and institutional facility deck ahead of the 1PM meeting, agreeing to sharpen the narrative with a clear why/what/how structure and three value propositions (policy repository, ADB-led TA/PBL, and capacity development via SMU). Dave and Varad will present in person; updated slides must be sent by 11:30AM for internal review. The full interim concept paper (editable PPT) covering target stakeholders, delivery model, and results framework is due to Nanki's team by Friday, with DMC consultations for Timor-Leste and Laos confirmed for next week and Malaysia/Philippines still being followed up. On the internal CDC workstream, persona labels and user journey terminology are to be updated per Belinda's feedback, and follow-ups are pending with Rita on phase one features and with the DOCK contact who has not yet responded.",
       "processed": false,
       "added_at": 1793243554121
+    },
+    {
+      "id": "gr1793759330240",
+      "title": "UC6 external access design and SSO integration with Moad",
+      "date": "2026-11-03T11:00:21.300Z",
+      "summary": "The UC6 design sprint scoping call with Moad clarified that external user onboarding will route through ADB's SSO system (ISOM), with two options—admin-initiated invite or self-registration with admin approval—before credentials are issued. Key documents (SDD and HLSD) will need updating to reflect the external-user path, and two new screens (registration and password change) are required. Open alignment questions remain with the ADB/Rania team: whether self-registration will be permitted, what edit/view rights DMC officials have on UC1–UC3, and whether restricted sections or platform tools should be hidden from external users. Moad will send the registration flowchart and latest SDD; Jamie's team owns document drafting and will invite Moad into the Risk Insights meeting. An ITC meeting should be convened within two weeks once the full scope of changes is clearer.",
+      "processed": false,
+      "added_at": 1793759330240
     }
   ]
 }
