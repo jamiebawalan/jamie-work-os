@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T08:59:12.885Z",
+  "last_updated": "2026-11-17T08:59:14.617Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1816,6 +1816,14 @@
       "summary": "Loudette flagged that today's whiteboarding session over-indexed on tool access rather than the external public-facing portal (landing/home page), which should cover the knowledge base, news, multimedia, and tool descriptions — not just the registration link. OCK recently issued an internal memo requesting consolidation of all external ADB portals, and tomorrow's call with OCK/DOCK will address what information needs to be included in the public portal; Jamie must be ready to describe the planned design direction using the Figma prototype. An open design question remains: should all tool links and sign-ups originate from this public portal page (noting World Bank does not link to its climate screening tools). Loudette requested that the Friday session agenda be shared as early as possible, and that user interview findings (11 summaries expected by Friday) be circulated as a pre-read. Jamie owns alignment of the team on session scope and must prepare for the OCK call tomorrow.",
       "processed": false,
       "added_at": 1794905952253
+    },
+    {
+      "id": "gr1794905953760",
+      "title": "New note",
+      "date": "2026-11-17T06:30:18.802Z",
+      "summary": "Jamie and Franz conducted a user research interview with Asif, an ADB representative at Pakistan Resident Mission with a background in geospatial engineering and national disaster risk tools (NATCAT, Climate Tracker). Asif flagged key limitations of Risk Explorer: reliance on global/open-source datasets rather than subnational data, inability to distinguish large from small interventions (e.g., flagging a $20K telemetry install for full CRA), and a UI that requires significant capacity building for non-specialist users. He recommended framing the tool specifically around ADB-financed projects, formalizing data-sharing with DMC governments via MOU or TA agreements, and piloting a country-tailored version that integrates Risk Explorer's climate screening with NATCAT's hazard/hydraulic modeling. Asif offered to share access to PRM's internal Risk Analytics tool as a UI benchmark, and indicated he wants to attend the December 7–8 workshop but is constrained by funding, which he will check against the BPMST learning budget.",
+      "processed": false,
+      "added_at": 1794905953760
     }
   ]
 }
