@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T08:59:14.617Z",
+  "last_updated": "2026-11-17T08:59:20.714Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1824,6 +1824,14 @@
       "summary": "Jamie and Franz conducted a user research interview with Asif, an ADB representative at Pakistan Resident Mission with a background in geospatial engineering and national disaster risk tools (NATCAT, Climate Tracker). Asif flagged key limitations of Risk Explorer: reliance on global/open-source datasets rather than subnational data, inability to distinguish large from small interventions (e.g., flagging a $20K telemetry install for full CRA), and a UI that requires significant capacity building for non-specialist users. He recommended framing the tool specifically around ADB-financed projects, formalizing data-sharing with DMC governments via MOU or TA agreements, and piloting a country-tailored version that integrates Risk Explorer's climate screening with NATCAT's hazard/hydraulic modeling. Asif offered to share access to PRM's internal Risk Analytics tool as a UI benchmark, and indicated he wants to attend the December 7–8 workshop but is constrained by funding, which he will check against the BPMST learning budget.",
       "processed": false,
       "added_at": 1794905953760
+    },
+    {
+      "id": "gr1794905959764",
+      "title": "Spire Asia policy pillar: DMC consultations and concept paper feedback",
+      "date": "2026-11-17T07:29:14.569Z",
+      "summary": "The meeting covered process, DMC consultation deck feedback, and concept paper comments for the Spire Asia policy pillar. Key decisions: concept paper inputs close today; DMC consultation calls are targeted for next week with invites going out by 18 Nov; the deck will be split to better show how the policy pillar fits Inspire Asia before showing how it works; worked examples will move to an appendix and an executive summary version will be created. Open questions include clarifying the January Singapore government announcement (possibly Lawrence Wong announcing the broader ASEAN programme) and resolving the logic-level tension on the systemic barriers slide — both to be confirmed with Nanti. Jamie owns sending the Excel tracker to Angeline, nudging Jin on DMC invites, chasing Nanti for the latest slide template and the January announcement clarification, and incorporating the substantive concept paper edits before the next check-in.",
+      "processed": false,
+      "added_at": 1794905959764
     }
   ]
 }
