@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T08:59:10.490Z",
+  "last_updated": "2026-11-17T08:59:12.885Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1808,6 +1808,14 @@
       "summary": "Jamie met with Divjot, Dhivya, and Gerrit from ADB's OMVP team to discuss potential use of Risk Explorer for their PPP advisory work. OMVP is a fully advisory, non-lending team, so tools like the RRP Annex and Paris Alignment compliance checks are not relevant to them; the most applicable tools are the light-touch CRA and data portal for early-stage site screening. The team flagged that climate/disaster risk tools are only used sporadically and that consultant access (via ADB-affiliated emails today, and broader access in future) is the most practical entry point. Key open question is how to extend tool access to consultants without ADB emails. Jamie committed to sharing the production URL with the OMVP team once obtained from ITD and CCSD.",
       "processed": false,
       "added_at": 1794905948920
+    },
+    {
+      "id": "gr1794905952253",
+      "title": "Loudette catch-up",
+      "date": "2026-11-17T08:19:50.406Z",
+      "summary": "Loudette flagged that today's whiteboarding session over-indexed on tool access rather than the external public-facing portal (landing/home page), which should cover the knowledge base, news, multimedia, and tool descriptions — not just the registration link. OCK recently issued an internal memo requesting consolidation of all external ADB portals, and tomorrow's call with OCK/DOCK will address what information needs to be included in the public portal; Jamie must be ready to describe the planned design direction using the Figma prototype. An open design question remains: should all tool links and sign-ups originate from this public portal page (noting World Bank does not link to its climate screening tools). Loudette requested that the Friday session agenda be shared as early as possible, and that user interview findings (11 summaries expected by Friday) be circulated as a pre-read. Jamie owns alignment of the team on session scope and must prepare for the OCK call tomorrow.",
+      "processed": false,
+      "added_at": 1794905952253
     }
   ]
 }
