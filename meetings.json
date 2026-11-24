@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T00:57:12.072Z",
+  "last_updated": "2026-11-24T10:31:37.928Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1848,6 +1848,14 @@
       "summary": "The team reviewed and refined the Policy and Institutional Support pillar deck for Aspire Asia/ADB. Key decisions include: softening language from 'mobilizing' to 'facilitating' adaptation investment, restructuring the results framework to distinguish pillar-specific outputs from Spire Asia-wide outputs and outcomes, and elevating subnational agencies and adding civil society/indigenous communities as named stakeholder groups. The Brazil case study requires validation from the ADB Brazil office contact (follow-up Monday), and an ADB delivery partner credential page needs to be built from scratch. The final PPT will be presented to the internal team and submitted to Nankey and Su Chen on Tuesday 25 November, with one week allowed for their feedback before any wider circulation.",
       "processed": false,
       "added_at": 1795395430502
+    },
+    {
+      "id": "gr1795516295776",
+      "title": "Discussion with Franz",
+      "date": "2026-11-24T09:04:40.665Z",
+      "summary": "Jamie held a sustainability and feedback check-in with Franz at the close of the NAP/ADB engagement. The main teaming lesson was that Franz should flag unsustainable nights (3AM) early so lower-priority preread pages can be deferred — this was missed partly because no teaming survey was triggered for the 1+2 Southeast Asia split. Feedback for Franz was broadly positive (quality bar, intellectual curiosity, client engagement, coachability) with development areas around closing analytical loops, written comms formality, and P&E prioritization judgment. For the workshop, the vision section will be left as-is and sent to the client team for input, with a full handover email going out tonight.",
+      "processed": false,
+      "added_at": 1795516295776
     }
   ]
 }
