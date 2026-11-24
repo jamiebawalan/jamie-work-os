@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T10:31:40.297Z",
+  "last_updated": "2026-11-24T10:31:54.815Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1864,6 +1864,14 @@
       "summary": "The AIP team and DGG discussed a funding deployment structure where DGG/GGC would guarantee Land Bank, which would then deploy capital to AIP projects at sub-$15M tranches — bypassing the $50M minimum threshold and leveraging Land Bank's mandate and Agri-Agra Law penalty grants. Key decisions include engaging Land Bank before the next visit to socialize the structure, targeting one closed transaction as a template, and assigning a dedicated DGG internal champion with a KPI for this workstream. A third AIP event (smaller, pipeline-focused) is planned for the week before March, with monthly touchpoints through then. Open questions include whether DGG management will approve a sub-$15M deal size and whether PBSP can secure enough funding to build lasting institutional capacity beyond the current engagement. Jamie's team owns the Land Bank outreach and event logistics; DGG's Speaker B owns internal champion assignment and management alignment.",
       "processed": false,
       "added_at": 1795516299211
+    },
+    {
+      "id": "gr1795516313536",
+      "title": "Spire Asia policy pillar concept paper and DMC consultation planning",
+      "date": "2026-11-24T07:34:22.202Z",
+      "summary": "The BCG team walked Nanti and Soo Jin through four major updates to the Spire Asia Policy Pillar concept paper: sharper articulation of the pillar's value proposition, stronger policy-to-investment linkage with regional case studies, an expanded theory of change with assumptions, and an enhanced prioritization framework covering weak/no-adaptation-link policies. The four areas of support were confirmed as: (1) Policy Explorer Tool (with diagnostics folded in), (2) Policy Dialogues, (3) Reform Design and Support, and (4) Capacity Building. Kenya and Brazil case studies are to be replaced with regional examples (Indonesia/Nepal and Mongolia/Indonesia respectively), and the ADB role slide requires refinement to lead with Kayak/KIAT and moderate 'ASEAN's main bank' language. The concept paper must be internally approved before sharing with the Singapore government, with Nanti targeting a Thursday review and a Singapore stakeholder presentation aimed at 10–11 December; DMC consultations are ongoing with only the Philippines confirmed so far, and Thailand needs to be added via outreach to ADB focal Michael Raffinger.",
+      "processed": false,
+      "added_at": 1795516313536
     }
   ]
 }
