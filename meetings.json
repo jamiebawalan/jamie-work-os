@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T10:31:37.928Z",
+  "last_updated": "2026-11-24T10:31:40.297Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1856,6 +1856,14 @@
       "summary": "Jamie held a sustainability and feedback check-in with Franz at the close of the NAP/ADB engagement. The main teaming lesson was that Franz should flag unsustainable nights (3AM) early so lower-priority preread pages can be deferred — this was missed partly because no teaming survey was triggered for the 1+2 Southeast Asia split. Feedback for Franz was broadly positive (quality bar, intellectual curiosity, client engagement, coachability) with development areas around closing analytical loops, written comms formality, and P&E prioritization judgment. For the workshop, the vision section will be left as-is and sent to the client team for input, with a full handover email going out tonight.",
       "processed": false,
       "added_at": 1795516295776
+    },
+    {
+      "id": "gr1795516299211",
+      "title": "AIP funding strategy session",
+      "date": "2026-11-24T05:18:01.346Z",
+      "summary": "The AIP team and DGG discussed a funding deployment structure where DGG/GGC would guarantee Land Bank, which would then deploy capital to AIP projects at sub-$15M tranches — bypassing the $50M minimum threshold and leveraging Land Bank's mandate and Agri-Agra Law penalty grants. Key decisions include engaging Land Bank before the next visit to socialize the structure, targeting one closed transaction as a template, and assigning a dedicated DGG internal champion with a KPI for this workstream. A third AIP event (smaller, pipeline-focused) is planned for the week before March, with monthly touchpoints through then. Open questions include whether DGG management will approve a sub-$15M deal size and whether PBSP can secure enough funding to build lasting institutional capacity beyond the current engagement. Jamie's team owns the Land Bank outreach and event logistics; DGG's Speaker B owns internal champion assignment and management alignment.",
+      "processed": false,
+      "added_at": 1795516299211
     }
   ]
 }
