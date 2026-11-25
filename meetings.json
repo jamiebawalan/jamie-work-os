@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:52.575Z",
+  "last_updated": "2026-11-25T05:24:55.101Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2032,6 +2032,14 @@
       "summary": "Jamie and Sek caught up briefly in Bangkok during a conference, both staying at different hotels near the venue. The main discussion centered on the response email to Jean's feedback on the concept note — Jean flagged the need to strengthen rationale, diagnostic logic, and fiscal/procedural constraints. Jamie and Sek aligned that the call had already addressed the 'how vs. what' distinction, and that Jean's comments would be responded to inline in the document rather than fully re-argued in the email. The one open action is to add a line to the email explicitly stating that Jean's inline document comments will each be addressed directly in the next draft round.",
       "processed": false,
       "added_at": 1795584291309
+    },
+    {
+      "id": "gr1795584294122",
+      "title": "Philippine adaptation investment platform and Gaia fund partnership with Sage",
+      "date": "2026-11-17T08:59:22.767Z",
+      "summary": "Jamie and Max presented the **Adaptation Investment Platform (AIP)** — a 10-project, ~$800M pipeline targeting food and water resilience in the Philippines — to Sage (MUFG VP, Blended and Climate Finance), who leads the **Gaia Fund**, a $600M private debt adaptation fund where the Philippines is a target market. Key constraint identified: Gaia is restricted to public sector borrowers, so private sector-led AIP projects must be routed through a PPP or on-lending structure to access Gaia capital; private sector players can only access the Green Guarantee Company product (minimum ~$40–50M). Sage committed to sharing both the Gaia mandate and Green Guarantee Company product docs immediately post-call; the BCG team agreed to share the AIP deck and introduce Sage to MUFG's Manila-based and APAC sustainability contacts. **Open questions** include finding a viable public sector angle for private sector-led AIP projects, the breakdown of CapEx vs. working capital requirements per project, and the timeline to investment-readiness for most pipeline projects (currently pre-feasibility or feasibility stage). A follow-up call is to be scheduled after document review to discuss fit and the longer-term AIP partner ecosystem.",
+      "processed": false,
+      "added_at": 1795584294122
     }
   ]
 }
