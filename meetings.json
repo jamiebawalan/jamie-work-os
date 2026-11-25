@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:02.023Z",
+  "last_updated": "2026-11-25T05:24:04.022Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1944,6 +1944,14 @@
       "summary": "The team aligned on the two-day Risk Explorer workshop structure: Day 1 covers context, user profiles/journeys (opened by Glenda or Martin from ADB), and initial prototype breakout feedback; Day 2 covers iterated prototyping, a final plenary, and an internal ADB core team debrief/handover in the last ~2 hours. The workshop will open with a temperature check and a three-column actions recap table (next step, owner, progress) covering outstanding ADB items. For the FigJam whiteboarding session, features will be coded with two sticky colors (existing vs. user-requested), sourced from the interview feature slides, and long-term aspirational features (e.g., higher-resolution data, GHG calculation) will be flagged with a North Star symbol as insight-sharing rather than build commitments. Open questions include confirming the in-scope pages (landing page and resources page) and whether the same attendees will attend both days.",
       "processed": false,
       "added_at": 1795584241049
+    },
+    {
+      "id": "gr1795584243080",
+      "title": "Whiteboarding session 2",
+      "date": "2026-11-20T02:09:15.531Z",
+      "summary": "The session covered landing page design direction, use case feature scoping, knowledge sharing, and December workshop planning for the ADB external risk explorer portal. The team aligned on a hybrid A+B approach for both pre-login (branding/vision/tool overview/dynamic knowledge) and post-login (personalized tools, project history, activity insights, tailored news via 2-3 onboarding questions) pages, dismissing the project-first Option C. For UC1 and UC2, existing flows are largely retained with key adaptations: ADB-internal fields removed, persona-tailored recommendations/next steps, a separate external report template, and a placeholder for DMC comment/feedback on shared ADB projects pending OSFG approval. Martin and Belinda gave strong feedback that the workshop agenda must lead with user needs rather than ADB presentations, reflect the big open questions from whiteboarding, and push for 20+ in-person participants. Jamie owns following up with Martin for safeguards names, setting up the OSFG/Takako/Jerry discussion, revising the agenda, and sending a participant bolstering email.",
+      "processed": false,
+      "added_at": 1795584243080
     }
   ]
 }
