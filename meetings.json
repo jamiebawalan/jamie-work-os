@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:15.948Z",
+  "last_updated": "2026-11-25T05:24:18.502Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1968,6 +1968,14 @@
       "summary": "The meeting covered a recap of the JGS office launch event (100+ attendees, positive feedback from Lance and Julian) and marketing automation priorities Gwen and Maha are resuming. Jamie reviewed Gwen's first substantive dossier with her: matrix placement is Solid TBD (expected at current tenure with limited client-facing work), current B ratings are appropriate, and the target for the next CDC is to move toward C ratings as client work resumes. Jamie and Gwen aligned on framing for her two-month marketing extension request to the CDC team — the rationale will center on caregiving unpredictability making consistent client presence difficult, keeping the message simple. **Jamie owns two immediate actions:** sending the CDC extension response and sharing the dossier with Gwen.",
       "processed": false,
       "added_at": 1795584255051
+    },
+    {
+      "id": "gr1795584257433",
+      "title": "UK adaptation investment platform and Philippines climate projects",
+      "date": "2026-11-19T09:30:20.223Z",
+      "summary": "BCG Manila co-hosted an online briefing with FCDO/British Embassy Manila for ~15 UK organizations on climate adaptation and resilience investment opportunities in the Philippines, centered on the Adaptation Investment Platform (AIP). The AIP currently holds a $500–600M pipeline across five agricultural provinces, targeting $1.2B over five years, with ~50% of capital from the private sector; UK firms are being invited to co-shape project design early rather than respond to open bids. Key next steps are owned by Jamie and Maxine: send the post-call interest-confirmation email immediately, circulate the AIP information form, and match firms to pipeline projects. Open questions include the regulatory pathway for satellite connectivity firms like Lakuna Space (to be routed via AIP co-leads and UK Dept. for Trade) and the timeline for expanding the pipeline beyond food/water into infrastructure, health, and ecosystems sectors.",
+      "processed": false,
+      "added_at": 1795584257433
     }
   ]
 }
