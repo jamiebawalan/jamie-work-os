@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:55.814Z",
+  "last_updated": "2026-11-25T05:26:06.228Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2120,6 +2120,14 @@
       "summary": "The team workshopped a tourism strategy framework for TPB ahead of a meeting with Margot the following day. Key decisions include structuring the approach around: (1) target market and sub-segmentation, (2) product bundles and packages with airlines/hotels, (3) digital marketing in the middle, (4) a B2B sales engine targeting offline travel agencies, and (5) partnership models with both private sector and other public agencies. A core insight is that pure marketing framing is insufficient — a distinct B2B sales angle and potential subsidy/package model (referencing Hong Kong's COVID-era packages and Thailand's VIP arrival treatment) would differentiate the BCG offering. Jamie owns the immediate deliverables: mock up the framework slide and add research examples to the deck before the next-day client meeting.",
       "processed": false,
       "added_at": 1795584354936
+    },
+    {
+      "id": "gr1795584365676",
+      "title": "Policy pillar concept paper feedback and DMC consultation approach",
+      "date": "2026-11-12T07:31:03.673Z",
+      "summary": "The team reviewed feedback from Stefania (formatting only, easy to address) and Jin (scope misunderstanding — Jin conflated the deliverable, which is a prioritization *approach*, with the actual policy instruments). The agreed response is a Pampanga-style line-by-line table: in-scope items addressed, out-of-scope flagged with a budget discussion note, and remaining items folded into a future considerations section for Nanki and Su Chin to review before it goes back to Jin. For tomorrow's 9AM DMC consultation call, slides need to be updated to remove the third objective bullet, reframe objective 2 to avoid the appearance of 'farming DMCs for answers,' add a regional additionality opening question, and label country-specific policy views as desktop-based/outside-in. A key sensitivity surfaced from a Julius interview this week: Jin's team monitors ADB's government relationships on climate work and will react negatively if ADB appears to be asking countries things ADB should already know — Jamie and the team need to align with Nanki on this framing before the call. Open question: whether Cambodia and Indonesia DMC consultations are genuinely additive given their existing pilots, with a possible shift in focus to Philippines, Lao, Timor-Leste, Malaysia, and Vietnam.",
+      "processed": false,
+      "added_at": 1795584365676
     }
   ]
 }
