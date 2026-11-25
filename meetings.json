@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:10.205Z",
+  "last_updated": "2026-11-25T05:25:19.801Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2056,6 +2056,14 @@
       "summary": "The team aligned with Jin's simplified scope for the SPIRE Asia pillar update: a clean two-pager covering what SPIRE is, what countries will receive (TA on policy and implementation, with the policy repository and dialogues as enablers), and the engagement timeline. Key framing decisions include linking the policy pillar to eligibility/access for the $500M blended fund and other SPIRE pillars (to be called out explicitly on pages 2–3), and simplifying the timeline to show only the SingGov announcement milestone and SPIRE operations from May 2027 to 2032. Jamie owns drafting the email response to Jin and sending the deck to Nankey once the slide updates are incorporated. Open question: whether to show a firm 2032 end date or use a squiggly line to signal uncertainty on the timeline slide.",
       "processed": false,
       "added_at": 1795584309670
+    },
+    {
+      "id": "gr1795584318638",
+      "title": "Tourism ",
+      "date": "2026-11-13T05:57:34.766Z",
+      "summary": "A four-week tourism engagement (ending mid-December) was scoped with one AC at roughly 1.5–2 days/week, culminating in a ~5-page position paper with BCG branding. **Phase 1** focuses on spare seat capacity utilization and digital marketing (possibly food), framed internally as simply needing one AC for four weeks to avoid a complex investment ask. A nominal fee (~20k) may be charged to test the client's ability to procure, with **Phase 2** repriced at ~500k. France (currently on ADB) is the preferred AC once his workshop finishes mid-next week; Jamie needs to realign with Anthony on scope/pricing and send a follow-up thank-you to Jen. Open question: whether AirAsia runs Cebu–Siargao routes, relevant to the connectivity and gateway positioning thesis.",
+      "processed": false,
+      "added_at": 1795584318638
     }
   ]
 }
