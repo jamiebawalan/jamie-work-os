@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:23:57.010Z",
+  "last_updated": "2026-11-25T05:23:59.756Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1928,6 +1928,14 @@
       "summary": "The team is preparing for a Thursday check-in with Ellen (UK Embassy) to align on Straw deployment: Ellen will reinforce the good faith argument (Straw inserted a security deposit clause at the last minute without informing farmers or BCG), Straw's one-week deployment commitment, and the extension request beyond March. Jan's province visit confirmed two associations willing to pay the deposit, making December deployment viable if Straw honors its commitment. On blended finance, DGG (Moohawk) is highly engaged and willing to explore lowering minimum transaction size for AIP and to meet Land Bank in Manila in January; next step is sending briefers to the new Land Bank contact and convening a partnership scoping meeting. The FY extension one-pager must be submitted tomorrow with post leading; the CIF application debrief surfaced key gaps around gender narrative intentionality, government institutionalization, and financial sustainability that should sharpen future submissions.",
       "processed": false,
       "added_at": 1795584235901
+    },
+    {
+      "id": "gr1795584238254",
+      "title": "Interview w/ Drei",
+      "date": "2026-11-20T09:16:07.275Z",
+      "summary": "Jamie conducted a consulting interview with candidate Drei, who shared a formative IB internship experience in Singapore involving an airline LCC RFP, and then worked through a renewable energy investment case for a traditional power producer. Drei's financial analysis correctly ruled out onshore wind (17% margin, below the 30% floor) and recommended offshore wind (53% margin, best scale alignment with the client's 3 GW target), with solar as a secondary quick-win option. Jamie's assessment: strong quantitative ability and communication, good anchoring to the client constraint, but needed prompting on timeline implications and depreciation — overall a positive signal with areas to train. Drei also asked Jamie about SI work, touching on the farmer climate resilience program and the structural coaching differences between IB and MBB environments; no follow-up actions were assigned to either party beyond the debrief.",
+      "processed": false,
+      "added_at": 1795584238254
     }
   ]
 }
