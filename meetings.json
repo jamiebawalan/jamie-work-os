@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:23:39.359Z",
+  "last_updated": "2026-11-25T05:23:41.118Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1904,6 +1904,14 @@
       "summary": "A community meeting was held with visitors from barangay Kalipan, including several local leaders (Gawad Dudoy Ariman, Gawad Brayan, Gawad Yulay Ariman, Gawad Brayan ng Diara). Discussions covered a small community contribution scheme to sustain a local program, pricing for data bundles, and various payment options (bispeke, underwatch, roundwatch). The need for solar panels was raised as a long-term solution to ensure continuous power for operations. No clear action items for Jamie were identified from this transcript, as it appears to be a community-level meeting with limited direct BCG relevance.",
       "processed": false,
       "added_at": 1795584218093
+    },
+    {
+      "id": "gr1795584220135",
+      "title": "Philippines offshore wind market acceleration and steering committee setup",
+      "date": "2026-11-25T03:30:48.560Z",
+      "summary": "The Director Cerezo meeting was productive but confirmed escalation to USEC Rio and USEC Joby is needed for real policy direction on the offshore wind steering committee, with a target of December USEC meetings and a January kick-off. GA5 is on its third delay, with the supplemental TOR sitting in Secretary Sharon's inbox as the critical blocker; ACEN alone is burning ~$1M/month and developers are eyeing alternatives like solar+storage and onshore wind. The Growth Gateway priority recommendation has shifted to accelerating the GA5 auction and maintaining market confidence, as port and project support are secondary without that foundation. The USEC pack has been updated to reflect developer feedback, a 'burning platform' framing tied to EO 21, and a more Philippines-government-friendly rotating-chair steering committee design. Open questions include the precise composition of the steering committee (secretary vs. undersecretary level, with matching UK ambassador-level representation if secretary-level is required) and whether a Q1 supplemental TOR release can be set as a firm milestone.",
+      "processed": false,
+      "added_at": 1795584220135
     }
   ]
 }
