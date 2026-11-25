@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:00.090Z",
+  "last_updated": "2026-11-25T05:25:10.205Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2048,6 +2048,14 @@
       "summary": "Jamie and Sek aligned on distributing an El Nino report to ADB and government contacts via localized half-page emails — Jamie owns sends to Nanki, Suchin, Heejin, Julius, Belinda, Martin, and Argo (with Sek covering ADB leadership, PSOD, DGs, VPs, and DFAT posts). Jamie will also send the note to Sect. Tony and copy Sek on key government sends, targeting tonight or tomorrow. For climate finance scoping, Jamie will schedule meetings with USEC Anna and Director John next week, aiming to have a Philippine-government-backed output ready by mid next week. For USEC Wimpy (DOE Planning), Sek stressed leading with broad BCG support rather than Progress specifically — Jamie to draft a brief teaser for WhatsApp to open a conversation. On timesheets, Jamie should submit actual hours aligned to the pre-COP billing approach; Sek will apply a 1.5x multiplier on his end.",
       "processed": false,
       "added_at": 1795584298920
+    },
+    {
+      "id": "gr1795584309670",
+      "title": "Spire Asia pillar updates and country engagement timeline",
+      "date": "2026-11-13T08:44:02.733Z",
+      "summary": "The team aligned with Jin's simplified scope for the SPIRE Asia pillar update: a clean two-pager covering what SPIRE is, what countries will receive (TA on policy and implementation, with the policy repository and dialogues as enablers), and the engagement timeline. Key framing decisions include linking the policy pillar to eligibility/access for the $500M blended fund and other SPIRE pillars (to be called out explicitly on pages 2–3), and simplifying the timeline to show only the SingGov announcement milestone and SPIRE operations from May 2027 to 2032. Jamie owns drafting the email response to Jin and sending the deck to Nankey once the slide updates are incorporated. Open question: whether to show a firm 2032 end date or use a squiggly line to signal uncertainty on the timeline slide.",
+      "processed": false,
+      "added_at": 1795584309670
     }
   ]
 }
