@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:55.101Z",
+  "last_updated": "2026-11-25T05:25:00.090Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2040,6 +2040,14 @@
       "summary": "Jamie and Max presented the **Adaptation Investment Platform (AIP)** — a 10-project, ~$800M pipeline targeting food and water resilience in the Philippines — to Sage (MUFG VP, Blended and Climate Finance), who leads the **Gaia Fund**, a $600M private debt adaptation fund where the Philippines is a target market. Key constraint identified: Gaia is restricted to public sector borrowers, so private sector-led AIP projects must be routed through a PPP or on-lending structure to access Gaia capital; private sector players can only access the Green Guarantee Company product (minimum ~$40–50M). Sage committed to sharing both the Gaia mandate and Green Guarantee Company product docs immediately post-call; the BCG team agreed to share the AIP deck and introduce Sage to MUFG's Manila-based and APAC sustainability contacts. **Open questions** include finding a viable public sector angle for private sector-led AIP projects, the breakdown of CapEx vs. working capital requirements per project, and the timeline to investment-readiness for most pipeline projects (currently pre-feasibility or feasibility stage). A follow-up call is to be scheduled after document review to discuss fit and the longer-term AIP partner ecosystem.",
       "processed": false,
       "added_at": 1795584294122
+    },
+    {
+      "id": "gr1795584298920",
+      "title": "Catch-up with Sek",
+      "date": "2026-11-16T07:00:47.105Z",
+      "summary": "Jamie and Sek aligned on distributing an El Nino report to ADB and government contacts via localized half-page emails — Jamie owns sends to Nanki, Suchin, Heejin, Julius, Belinda, Martin, and Argo (with Sek covering ADB leadership, PSOD, DGs, VPs, and DFAT posts). Jamie will also send the note to Sect. Tony and copy Sek on key government sends, targeting tonight or tomorrow. For climate finance scoping, Jamie will schedule meetings with USEC Anna and Director John next week, aiming to have a Philippine-government-backed output ready by mid next week. For USEC Wimpy (DOE Planning), Sek stressed leading with broad BCG support rather than Progress specifically — Jamie to draft a brief teaser for WhatsApp to open a conversation. On timesheets, Jamie should submit actual hours aligned to the pre-COP billing approach; Sek will apply a 1.5x multiplier on his end.",
+      "processed": false,
+      "added_at": 1795584298920
     }
   ]
 }
