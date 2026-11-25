@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:25.981Z",
+  "last_updated": "2026-11-25T05:24:33.556Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1992,6 +1992,14 @@
       "summary": "BCG and UK partners presented the Growth Gateway steering committee proposal to DOE Director Serrano, who expressed cautious openness but raised substantive governance concerns: the Philippines' consultative constitutional framework means agencies are on equal footing, there is no existing legal basis for a cross-agency committee (unlike the Biofuels Board created by law), and cabinet-level officials will not attend sessions outside their mandate. The agreed path forward is to anchor the steering committee concept to EO 21 as the legal basis, frame it as consensus- and cooperation-building rather than decision-making, and ensure inter-agency alignment happens bilaterally before any steerco convenes. Director Serrano will discuss internally with USEC Rio and USEC Joby; BCG will share slides with both USECs and follow up. Two additional meetings are needed: a 30-minute GFI de-risking session with the Director, and a separate grid meeting with the relevant DOE bureau per the Director's guidance.",
       "processed": false,
       "added_at": 1795584264961
+    },
+    {
+      "id": "gr1795584272501",
+      "title": "Risk explorer tool design for private sector clients with Brett",
+      "date": "2026-11-19T01:00:40.972Z",
+      "summary": "Jamie interviewed Brett, a private sector agri-focused colleague at ADB, on how the Risk Explorer tool could be extended to external/private sector clients. Brett highlighted that the tool's lower resolution on adaptation value (vs. prior expert-led studies) is a key gap, particularly for crop-level biological impacts. Key feature requests include downloadable climate data for client overlay, near real-time WMO data with mapping functionality, better surfacing of compound risks (heat, drought, moisture timing), and a mechanism linking identified risks to available concessional finance structures. Brett confirmed he will attend the December 7–8 workshop online to review the prototype and provide further feedback.",
+      "processed": false,
+      "added_at": 1795584272501
     }
   ]
 }
