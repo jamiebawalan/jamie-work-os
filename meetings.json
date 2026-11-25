@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:26:09.753Z",
+  "last_updated": "2026-11-25T07:57:42.298Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2136,6 +2136,14 @@
       "summary": "The meeting covered concept paper feedback, DMC consultation logistics, CPI engagement, and next-phase planning for the SPIRE policy and institutional facility. Jin's feedback requires only minor edits; Stefania's comments focus on digestibility and a clear value proposition, which must be ready by December with an ADB decision by January 4 on whether to include it as a fourth pillar. For tomorrow's 9AM DMC focal points call, BCG will lead with a value proposition slide followed by a concept paper overview. On CPI, Nanki will check with NCCS and PSOD on potential conflict-of-interest before confirming engagement; if confirmed, the first step is a joint meeting with the BCG team. Jamie is to write up Nanki's framing of the post-May operational phase: developing the policy radar tool (name TBD), convening policy dialogues within the SPIRE ecosystem, and supporting development of at least five policy instruments over five years.",
       "processed": false,
       "added_at": 1795584368683
+    },
+    {
+      "id": "gr1795593460637",
+      "title": "Growth Gateway funding bid and UK firm pipeline strategy with James",
+      "date": "2026-11-25T07:01:16.972Z",
+      "summary": "The Growth Gateway top-up bid must be radically rescoped: James was clear that the previous £250k ask will not fly, and the new bid should be small, tightly framed around incremental UK firm onboarding into the next 7 AIP pipeline projects, with explicit multiplier logic showing UK commercial return. The team will turn around a draft tonight and share with James by Friday 27 November for Mikey's sign-off. On straw deployment, two associations have agreed to provide the security deposit, enabling a potential December deployment; Jamie must brief Ellen before tomorrow's 10AM Craig call, specifically on addressing the post-March support question and pressing Craig directly on the security deposit communication failure. Des's departure to ADB is a significant resourcing gap — Ellen will discuss next-year Growth Gateway staffing with Mikey, with the 'Drafts' dev team flagged as a strong talent pipeline. The 4 December management-level AIP meeting will proceed online with all leads present, but James is on leave so Ellen or Mikey must be confirmed as British Embassy POC.",
+      "processed": false,
+      "added_at": 1795593460637
     }
   ]
 }
