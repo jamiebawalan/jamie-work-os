@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:54.391Z",
+  "last_updated": "2026-11-25T05:25:55.814Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2112,6 +2112,14 @@
       "summary": "Jamie and Rania conducted a performance feedback session covering P&E, communications, teaming, and content writing standards. Overall performance is strong — Rania noted enough trust to delegate user interviews earlier than usual — with the main development focus for the coming week being content quality: logical flow, specificity, ADB-specific terminology, slide ordering, and capturing client language precisely. A one-pager of distinctive user interview insights and daily 30-minute content review sessions are planned for next week, which will be intensive given the volume of interviews and whiteboarding sessions. On CDC ratings, Jamie is in the first 8-month window where an 'A' rating is the expected benchmark; outstanding requires scoring a level ahead of tenure stage, and formal ratings will only be accessible after two case feedback cycles are completed. Lance is Jamie's CDA and will provide further guidance on what outstanding looks like.",
       "processed": false,
       "added_at": 1795584353488
+    },
+    {
+      "id": "gr1795584354936",
+      "title": "Philippines tourism strategy: target market, product bundles, and B2B partnerships",
+      "date": "2026-11-12T08:17:35.550Z",
+      "summary": "The team workshopped a tourism strategy framework for TPB ahead of a meeting with Margot the following day. Key decisions include structuring the approach around: (1) target market and sub-segmentation, (2) product bundles and packages with airlines/hotels, (3) digital marketing in the middle, (4) a B2B sales engine targeting offline travel agencies, and (5) partnership models with both private sector and other public agencies. A core insight is that pure marketing framing is insufficient — a distinct B2B sales angle and potential subsidy/package model (referencing Hong Kong's COVID-era packages and Thailand's VIP arrival treatment) would differentiate the BCG offering. Jamie owns the immediate deliverables: mock up the framework slide and add research examples to the deck before the next-day client meeting.",
+      "processed": false,
+      "added_at": 1795584354936
     }
   ]
 }
