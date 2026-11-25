@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:23:59.756Z",
+  "last_updated": "2026-11-25T05:24:02.023Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1936,6 +1936,14 @@
       "summary": "Jamie conducted a consulting interview with candidate Drei, who shared a formative IB internship experience in Singapore involving an airline LCC RFP, and then worked through a renewable energy investment case for a traditional power producer. Drei's financial analysis correctly ruled out onshore wind (17% margin, below the 30% floor) and recommended offshore wind (53% margin, best scale alignment with the client's 3 GW target), with solar as a secondary quick-win option. Jamie's assessment: strong quantitative ability and communication, good anchoring to the client constraint, but needed prompting on timeline implications and depreciation — overall a positive signal with areas to train. Drei also asked Jamie about SI work, touching on the farmer climate resilience program and the structural coaching differences between IB and MBB environments; no follow-up actions were assigned to either party beyond the debrief.",
       "processed": false,
       "added_at": 1795584238254
+    },
+    {
+      "id": "gr1795584241049",
+      "title": "Risk Explorer workshop prep and agenda planning with Rana and Rita",
+      "date": "2026-11-19T10:32:18.018Z",
+      "summary": "The team aligned on the two-day Risk Explorer workshop structure: Day 1 covers context, user profiles/journeys (opened by Glenda or Martin from ADB), and initial prototype breakout feedback; Day 2 covers iterated prototyping, a final plenary, and an internal ADB core team debrief/handover in the last ~2 hours. The workshop will open with a temperature check and a three-column actions recap table (next step, owner, progress) covering outstanding ADB items. For the FigJam whiteboarding session, features will be coded with two sticky colors (existing vs. user-requested), sourced from the interview feature slides, and long-term aspirational features (e.g., higher-resolution data, GHG calculation) will be flagged with a North Star symbol as insight-sharing rather than build commitments. Open questions include confirming the in-scope pages (landing page and resources page) and whether the same attendees will attend both days.",
+      "processed": false,
+      "added_at": 1795584241049
     }
   ]
 }
