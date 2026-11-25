@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T03:15:07.092Z",
+  "last_updated": "2026-11-25T03:15:09.824Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1880,6 +1880,14 @@
       "summary": "This was a pre-workshop alignment call ahead of the ADB external portal workshop on December 7–8, reviewing outputs from two whiteboarding sessions held the prior week with Belinda, Martin, Ludette, and Atul. Key design decisions confirmed include a controlled-access model (public home page, all other components gated), two project types (free-form user-created and ADB-shared), UC1 remaining under full ADB control with view-only access for external users, and UC2 targeting full DMC ownership pending safeguard team confirmation. The layout will not be organized by project, and the external portfolio view will require its own design distinct from the internal tool. Next steps are to circulate the updated workshop deck and output package within the next couple of days, share the updated agenda with the ATB team for pre-workshop feedback, and run one final internal prep session next week before December 7.",
       "processed": false,
       "added_at": 1795576505337
+    },
+    {
+      "id": "gr1795576508721",
+      "title": "Tissue culture production plan",
+      "date": "2026-11-23T08:00:01.439Z",
+      "summary": "The team toured the HSHS tissue culture facility in Negros to understand operations and explore replicating/scaling the model for the Silay site. Key decisions included adopting a warehouse-style low-ceiling structure with internal divisions to minimize aircon load, and sizing the facility by working backwards from a 3,000-hectare annual ube planting material supply target (inoculation room × 3 = culture room × 3 = nursery). A Wednesday meeting with BMC/Triumph is planned, and a surveyor is coming to begin site development planning for the 8-hectare Silay property. Jamie (and Dom) are responsible for preparing and cross-checking the facility sizing computation before Wednesday, and Jamie is tasked with helping design the overall facility layout in coordination with Doc Annabelle's team.",
+      "processed": false,
+      "added_at": 1795576508721
     }
   ]
 }
