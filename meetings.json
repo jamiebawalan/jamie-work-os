@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:18.502Z",
+  "last_updated": "2026-11-25T05:24:23.693Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1976,6 +1976,14 @@
       "summary": "BCG Manila co-hosted an online briefing with FCDO/British Embassy Manila for ~15 UK organizations on climate adaptation and resilience investment opportunities in the Philippines, centered on the Adaptation Investment Platform (AIP). The AIP currently holds a $500–600M pipeline across five agricultural provinces, targeting $1.2B over five years, with ~50% of capital from the private sector; UK firms are being invited to co-shape project design early rather than respond to open bids. Key next steps are owned by Jamie and Maxine: send the post-call interest-confirmation email immediately, circulate the AIP information form, and match firms to pipeline projects. Open questions include the regulatory pathway for satellite connectivity firms like Lakuna Space (to be routed via AIP co-leads and UK Dept. for Trade) and the timeline for expanding the pipeline beyond food/water into infrastructure, health, and ecosystems sectors.",
       "processed": false,
       "added_at": 1795584257433
+    },
+    {
+      "id": "gr1795584262654",
+      "title": "Teaming survey - November 19",
+      "date": "2026-11-19T07:38:15.781Z",
+      "summary": "The team held its weekly teaming survey check-in with generally positive sentiment — most members reported being \"eyes on the prize\" heading into the final weeks of the year. Key project updates include: Agreia shaping up well with an engineer coming to scope, Straw deployment unlikely this year (but being pushed transparently), and ABB pausing after a heavy week of whiteboarding and user interviews until December 7. Jamie flagged that funder emails have not yet been sent and the plan is to send an end-of-year update with a self-booking link for January meetings. Open items include finalizing the AIA Forum CTA version 2 by January 5 (recruiting from non-target schools/courses), setting clearer post-engagement expectations with marketing, and aligning the team on heads-down week structure for Q1 2027.",
+      "processed": false,
+      "added_at": 1795584262654
     }
   ]
 }
