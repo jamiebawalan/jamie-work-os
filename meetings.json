@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:31.282Z",
+  "last_updated": "2026-11-25T05:25:44.316Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2088,6 +2088,14 @@
       "summary": "The team held a first bilateral with new Yusec Rio (replacing Yusec Guevara) and Yusec Joby at the British Embassy, covering the three UK Ports programs (UK Pact, Haskanin, GFI) at a high level — GFI drew particular interest due to the financing angle. Key open questions include identifying DOE working-level focal points for each program and determining whether DOE will introduce the team to DOF contacts for the GFI work. A director-level Growth Gateway meeting is set for 19 November, with a joint three-program meeting with the Undersecretaries targeted for early December, preceded by a two-pager from the British Embassy. The team agreed to be flexible on meeting cadence (led by DOE needs), frame the steering group as a benefit to DOE's own agenda, and hold a joint call with Haskanin before December to ensure GFI and Haskanin offerings are clearly differentiated.",
       "processed": false,
       "added_at": 1795584330419
+    },
+    {
+      "id": "gr1795584343352",
+      "title": "Discussion with ADB ",
+      "date": "2026-11-13T01:00:32.915Z",
+      "summary": "BCG and ADB aligned on the objectives and structure of upcoming DMC consultations for the Spire Asia policy and institutional support pillar, which BCG is designing. ADB feedback recommended dropping the RICE case study for now, restructuring the consultation as a Spire recap + pillar overview + methodology/timeline presentation followed by an open Q&A and discussion, and preparing a simple 1–2 page plain-language briefer for officials. Key logistics guidance included sending materials in advance, bringing printed copies to in-person meetings, speaking slowly, and leveraging country colleagues to translate technical content. A separate discussion began on opening Risk Explorer to external users (DMC officials, private sector clients, development partners), with William from ADB's private sector team consulted on how clients should engage with ADB through the tool. Open question remains whether additional agencies beyond the September cluster should be included in the DMC consultation stakeholder list.",
+      "processed": false,
+      "added_at": 1795584343352
     }
   ]
 }
