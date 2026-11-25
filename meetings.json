@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:22.202Z",
+  "last_updated": "2026-11-25T05:25:29.322Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2072,6 +2072,14 @@
       "summary": "The session scoped a new BCG publication on adaptation metrics and business case, structured around three dimensions (economic, social, environmental/biophysical) and anchoring on BCG's existing 'cost of inaction' work. The proposed output is an updated 'BCR++' view combining avoided losses with added economic value, scoped to APAC, built on a heat map of climate impact hotspots by sector and CID (targeting 2035–2040) that will identify priority adaptation archetypes. Target audience is narrowed to SWFs, PEs, and banks (loan book/underwriting/resilience-linked financing), with institutional investors and pure insurance deprioritized. Key open questions include: go broad across sectors or deep on one (e.g., agri-food), and exactly how to combine avoidance and economic value-add quantitatively. Jamie owns aligning the problem statement next week, kicking off the sector x CID heat map with Anne, and tasking Bharat with initial background research.",
       "processed": false,
       "added_at": 1795584321253
+    },
+    {
+      "id": "gr1795584328377",
+      "title": "RISE application and budget finalization with Jeff",
+      "date": "2026-11-13T03:00:09.196Z",
+      "summary": "The meeting focused on finalizing the RISE grant application with Jeff, covering narrative framing, budget justification, and submission logistics. Key decisions include framing intercropping as an EBA/soil health benefit, positioning hybrid varieties as climate-resilient, describing the soil amendment line item with co-funding from DTBC (10k/15k project, 5k/15k DTBC) without naming DTBC explicitly, and incorporating the food-waste-to-compost methane avoidance story. Jamie will check whether Pillar 3 (Innovation for Adaptation) can be added alongside Pillar 1, and will complete edits today with Section 5 work Sunday and final submission Monday. On the Iloilo roundtable, consensus is to hold off on a December event unless a clear objective tied to Jeff's off-take and network needs is established; Jamie will align with Des before reverting. BCG's role post-March 2026 remains uncertain, with the plan to transition higher-touch support to AIP counterparts (PBSP, PPP Center) over 3–4 months if funding does not continue.",
+      "processed": false,
+      "added_at": 1795584328377
     }
   ]
 }
