@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:04.022Z",
+  "last_updated": "2026-11-25T05:24:06.101Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1952,6 +1952,14 @@
       "summary": "The session covered landing page design direction, use case feature scoping, knowledge sharing, and December workshop planning for the ADB external risk explorer portal. The team aligned on a hybrid A+B approach for both pre-login (branding/vision/tool overview/dynamic knowledge) and post-login (personalized tools, project history, activity insights, tailored news via 2-3 onboarding questions) pages, dismissing the project-first Option C. For UC1 and UC2, existing flows are largely retained with key adaptations: ADB-internal fields removed, persona-tailored recommendations/next steps, a separate external report template, and a placeholder for DMC comment/feedback on shared ADB projects pending OSFG approval. Martin and Belinda gave strong feedback that the workshop agenda must lead with user needs rather than ADB presentations, reflect the big open questions from whiteboarding, and push for 20+ in-person participants. Jamie owns following up with Martin for safeguards names, setting up the OSFG/Takako/Jerry discussion, revising the agenda, and sending a participant bolstering email.",
       "processed": false,
       "added_at": 1795584243080
+    },
+    {
+      "id": "gr1795584245454",
+      "title": "Policy and institutional support pillar for Aspire Asia with Nanky",
+      "date": "2026-11-20T07:07:49.618Z",
+      "summary": "The team reviewed the full Policy and Institutional Support pillar deck for Aspire Asia ahead of Tuesday 24 November submission to ADB. Key decisions include: softening the logic chain language from 'mobilizing' to 'facilitating' adaptation investment; restructuring the results framework so near-term items are pillar outputs, midterm items are labelled 'Spire Asia outputs', and long-term items are 'Spire Asia outcomes'; and keeping the delivery timeline illustrative with broad phases rather than year-by-year sequencing. Jamie approved adding civil society and indigenous communities as a named stakeholder group and expanding the capital providers section to reflect active lending toward adaptation. Open items include validating the Brazil case study with the ADB Brazil contact, building the ADB delivery partner credential page from scratch, circulating the updated deck to Dave, and presenting to the team before submitting to Nankey and Su Chen on Tuesday 24 November.",
+      "processed": false,
+      "added_at": 1795584245454
     }
   ]
 }
