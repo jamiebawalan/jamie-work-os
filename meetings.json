@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:26:06.228Z",
+  "last_updated": "2026-11-25T05:26:09.753Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2128,6 +2128,14 @@
       "summary": "The team reviewed feedback from Stefania (formatting only, easy to address) and Jin (scope misunderstanding — Jin conflated the deliverable, which is a prioritization *approach*, with the actual policy instruments). The agreed response is a Pampanga-style line-by-line table: in-scope items addressed, out-of-scope flagged with a budget discussion note, and remaining items folded into a future considerations section for Nanki and Su Chin to review before it goes back to Jin. For tomorrow's 9AM DMC consultation call, slides need to be updated to remove the third objective bullet, reframe objective 2 to avoid the appearance of 'farming DMCs for answers,' add a regional additionality opening question, and label country-specific policy views as desktop-based/outside-in. A key sensitivity surfaced from a Julius interview this week: Jin's team monitors ADB's government relationships on climate work and will react negatively if ADB appears to be asking countries things ADB should already know — Jamie and the team need to align with Nanki on this framing before the call. Open question: whether Cambodia and Indonesia DMC consultations are genuinely additive given their existing pilots, with a possible shift in focus to Philippines, Lao, Timor-Leste, Malaysia, and Vietnam.",
       "processed": false,
       "added_at": 1795584365676
+    },
+    {
+      "id": "gr1795584368683",
+      "title": "Catch-up with Nanki on the RCRP",
+      "date": "2026-11-12T03:30:44.089Z",
+      "summary": "The meeting covered concept paper feedback, DMC consultation logistics, CPI engagement, and next-phase planning for the SPIRE policy and institutional facility. Jin's feedback requires only minor edits; Stefania's comments focus on digestibility and a clear value proposition, which must be ready by December with an ADB decision by January 4 on whether to include it as a fourth pillar. For tomorrow's 9AM DMC focal points call, BCG will lead with a value proposition slide followed by a concept paper overview. On CPI, Nanki will check with NCCS and PSOD on potential conflict-of-interest before confirming engagement; if confirmed, the first step is a joint meeting with the BCG team. Jamie is to write up Nanki's framing of the post-May operational phase: developing the policy radar tool (name TBD), convening policy dialogues within the SPIRE ecosystem, and supporting development of at least five policy instruments over five years.",
+      "processed": false,
+      "added_at": 1795584368683
     }
   ]
 }
