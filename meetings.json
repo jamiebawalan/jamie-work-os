@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:46.521Z",
+  "last_updated": "2026-11-25T05:25:54.391Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2104,6 +2104,14 @@
       "summary": "The session with Ghita (Rita) covered three topics: tactical feedback from user interviews, the portal strategy and positioning deck, and the whiteboarding session one agenda. Key decisions include trimming the benchmarks page to five tools (to be aligned with Rania), restructuring the positioning deck into four sections (purpose and role, benchmarks, value proposition per user group, and long-term vision), and reserving the full portal strategy and positioning presentation for whiteboarding session two. The agreed whiteboarding session one sequence is: strategy and positioning → user mapping → benchmarks → sitemap and preliminary wireframes. An open question remains whether the World Bank Rapid Risk Assessment tool requires World Bank affiliation to access, which France is tasked to test. Jamie owns revising the deck and sharing it with the team by tomorrow, and walking CTM through the workshop one content in a 30-minute session also tomorrow.",
       "processed": false,
       "added_at": 1795584345996
+    },
+    {
+      "id": "gr1795584353488",
+      "title": "Performance feedback and content writing standards with Rania",
+      "date": "2026-11-12T10:05:00.217Z",
+      "summary": "Jamie and Rania conducted a performance feedback session covering P&E, communications, teaming, and content writing standards. Overall performance is strong — Rania noted enough trust to delegate user interviews earlier than usual — with the main development focus for the coming week being content quality: logical flow, specificity, ADB-specific terminology, slide ordering, and capturing client language precisely. A one-pager of distinctive user interview insights and daily 30-minute content review sessions are planned for next week, which will be intensive given the volume of interviews and whiteboarding sessions. On CDC ratings, Jamie is in the first 8-month window where an 'A' rating is the expected benchmark; outstanding requires scoring a level ahead of tenure stage, and formal ratings will only be accessible after two case feedback cycles are completed. Lance is Jamie's CDA and will provide further guidance on what outstanding looks like.",
+      "processed": false,
+      "added_at": 1795584353488
     }
   ]
 }
