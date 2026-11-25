@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:25:44.316Z",
+  "last_updated": "2026-11-25T05:25:46.521Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2096,6 +2096,14 @@
       "summary": "BCG and ADB aligned on the objectives and structure of upcoming DMC consultations for the Spire Asia policy and institutional support pillar, which BCG is designing. ADB feedback recommended dropping the RICE case study for now, restructuring the consultation as a Spire recap + pillar overview + methodology/timeline presentation followed by an open Q&A and discussion, and preparing a simple 1–2 page plain-language briefer for officials. Key logistics guidance included sending materials in advance, bringing printed copies to in-person meetings, speaking slowly, and leveraging country colleagues to translate technical content. A separate discussion began on opening Risk Explorer to external users (DMC officials, private sector clients, development partners), with William from ADB's private sector team consulted on how clients should engage with ADB through the tool. Open question remains whether additional agencies beyond the September cluster should be included in the DMC consultation stakeholder list.",
       "processed": false,
       "added_at": 1795584343352
+    },
+    {
+      "id": "gr1795584345996",
+      "title": "Content session with Ghita",
+      "date": "2026-11-12T10:31:42.026Z",
+      "summary": "The session with Ghita (Rita) covered three topics: tactical feedback from user interviews, the portal strategy and positioning deck, and the whiteboarding session one agenda. Key decisions include trimming the benchmarks page to five tools (to be aligned with Rania), restructuring the positioning deck into four sections (purpose and role, benchmarks, value proposition per user group, and long-term vision), and reserving the full portal strategy and positioning presentation for whiteboarding session two. The agreed whiteboarding session one sequence is: strategy and positioning → user mapping → benchmarks → sitemap and preliminary wireframes. An open question remains whether the World Bank Rapid Risk Assessment tool requires World Bank affiliation to access, which France is tasked to test. Jamie owns revising the deck and sharing it with the team by tomorrow, and walking CTM through the workshop one content in a 30-minute session also tomorrow.",
+      "processed": false,
+      "added_at": 1795584345996
     }
   ]
 }
