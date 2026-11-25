@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:42.462Z",
+  "last_updated": "2026-11-25T05:24:52.575Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2024,6 +2024,14 @@
       "summary": "Jamie conducted a user research interview with Bramka, an ADB adaptation specialist and former World Bank staff, to inform the design of an external portal for ADB's Risk Explorer tool. Key usability pain points identified include: unclear handling of multi-location projects, non-intuitive component definition for ADB project structures, opaque vulnerability rating logic, and unwieldy PDF output. Bramka highlighted that Risk Explorer is more interactive than the World Bank's CCKP but noted CCKP's advantage in climate data comprehensiveness (multiple SSPs/RCPs, ENSO subpage). The biggest identified gap is upstream site selection and prioritization—currently done fully manually at both ADB and World Bank—which Risk Explorer could potentially address for sector lending projects. Bramka's primary recommendation for onboarding new users is a short slide deck (~20 slides) or brief video rather than long documentation.",
       "processed": false,
       "added_at": 1795584281619
+    },
+    {
+      "id": "gr1795584291309",
+      "title": "Sek catch-up",
+      "date": "2026-11-16T06:39:11.269Z",
+      "summary": "Jamie and Sek caught up briefly in Bangkok during a conference, both staying at different hotels near the venue. The main discussion centered on the response email to Jean's feedback on the concept note — Jean flagged the need to strengthen rationale, diagnostic logic, and fiscal/procedural constraints. Jamie and Sek aligned that the call had already addressed the 'how vs. what' distinction, and that Jean's comments would be responded to inline in the document rather than fully re-argued in the email. The one open action is to add a line to the email explicitly stating that Jean's inline document comments will each be addressed directly in the next draft round.",
+      "processed": false,
+      "added_at": 1795584291309
     }
   ]
 }
