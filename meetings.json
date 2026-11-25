@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:23.693Z",
+  "last_updated": "2026-11-25T05:24:25.981Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1984,6 +1984,14 @@
       "summary": "The team held its weekly teaming survey check-in with generally positive sentiment — most members reported being \"eyes on the prize\" heading into the final weeks of the year. Key project updates include: Agreia shaping up well with an engineer coming to scope, Straw deployment unlikely this year (but being pushed transparently), and ABB pausing after a heavy week of whiteboarding and user interviews until December 7. Jamie flagged that funder emails have not yet been sent and the plan is to send an end-of-year update with a self-booking link for January meetings. Open items include finalizing the AIA Forum CTA version 2 by January 5 (recruiting from non-target schools/courses), setting clearer post-engagement expectations with marketing, and aligning the team on heads-down week structure for Q1 2027.",
       "processed": false,
       "added_at": 1795584262654
+    },
+    {
+      "id": "gr1795584264961",
+      "title": "Offshore wind coordination plan",
+      "date": "2026-11-19T06:23:58.884Z",
+      "summary": "BCG and UK partners presented the Growth Gateway steering committee proposal to DOE Director Serrano, who expressed cautious openness but raised substantive governance concerns: the Philippines' consultative constitutional framework means agencies are on equal footing, there is no existing legal basis for a cross-agency committee (unlike the Biofuels Board created by law), and cabinet-level officials will not attend sessions outside their mandate. The agreed path forward is to anchor the steering committee concept to EO 21 as the legal basis, frame it as consensus- and cooperation-building rather than decision-making, and ensure inter-agency alignment happens bilaterally before any steerco convenes. Director Serrano will discuss internally with USEC Rio and USEC Joby; BCG will share slides with both USECs and follow up. Two additional meetings are needed: a 30-minute GFI de-risking session with the Director, and a separate grid meeting with the relevant DOE bureau per the Director's guidance.",
+      "processed": false,
+      "added_at": 1795584264961
     }
   ]
 }
