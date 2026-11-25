@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T03:15:09.824Z",
+  "last_updated": "2026-11-25T03:15:13.980Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1888,6 +1888,14 @@
       "summary": "The team toured the HSHS tissue culture facility in Negros to understand operations and explore replicating/scaling the model for the Silay site. Key decisions included adopting a warehouse-style low-ceiling structure with internal divisions to minimize aircon load, and sizing the facility by working backwards from a 3,000-hectare annual ube planting material supply target (inoculation room × 3 = culture room × 3 = nursery). A Wednesday meeting with BMC/Triumph is planned, and a surveyor is coming to begin site development planning for the 8-hectare Silay property. Jamie (and Dom) are responsible for preparing and cross-checking the facility sizing computation before Wednesday, and Jamie is tasked with helping design the overall facility layout in coordination with Doc Annabelle's team.",
       "processed": false,
       "added_at": 1795576508721
+    },
+    {
+      "id": "gr1795576513036",
+      "title": "Fertilizer distribution update",
+      "date": "2026-11-23T07:17:06.438Z",
+      "summary": "The team visited an organic farm on La Purísima Drive and reviewed ubi (purple yam) cultivation practices, including variety selection, agronomy, soil prep, and fertilization protocols. Key varieties discussed were Philippine Rooftop (most adaptable, can be stored in-ground 1–2 years), kinampay (aromatic, light purple, not yet registered), and bagotri (rare). An attendee demoed a Claude-built farm management app tracking cost per plot, photo protocols, and monthly spray/amendment suggestions across 15 hectares and 10 farmers, which the team wants to replicate for the ubi operation. Open questions include confirming farmer buying relationships before committing to purchases and sourcing tissue culture planting material for scale. Jamie owns next steps on securing planting stock and setting up the farm app.",
+      "processed": false,
+      "added_at": 1795576513036
     }
   ]
 }
