@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:33.556Z",
+  "last_updated": "2026-11-25T05:24:36.019Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2000,6 +2000,14 @@
       "summary": "Jamie interviewed Brett, a private sector agri-focused colleague at ADB, on how the Risk Explorer tool could be extended to external/private sector clients. Brett highlighted that the tool's lower resolution on adaptation value (vs. prior expert-led studies) is a key gap, particularly for crop-level biological impacts. Key feature requests include downloadable climate data for client overlay, near real-time WMO data with mapping functionality, better surfacing of compound risks (heat, drought, moisture timing), and a mechanism linking identified risks to available concessional finance structures. Brett confirmed he will attend the December 7–8 workshop online to review the prototype and provide further feedback.",
       "processed": false,
       "added_at": 1795584272501
+    },
+    {
+      "id": "gr1795584275056",
+      "title": "Deliverables, handover package, and implementation planning",
+      "date": "2026-11-19T01:39:10.344Z",
+      "summary": "The team reviewed scope for the ADB handover package (D1–D7). System walkthroughs, detailed analysis, and the interview tracker are excluded; video recordings will be uploaded to SharePoint. D6 (IA/features page) is paused pending Whiteboarding Session 2, and D7 (implementation recommendations) is being drafted with at-launch and long-term vision sections — a session with Moad (~1 hour) is needed to get his input on what key user-requested features (e.g. granularity) would take to develop. A decision log (Claude-generated audit trail from all recordings) was agreed as the approach to satisfy ADB's requirement for a documented record of every point of contention and final decision. Jamie is to message Moad today to schedule the session, with Monday 23 November as overflow.",
+      "processed": false,
+      "added_at": 1795584275056
     }
   ]
 }
