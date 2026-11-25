@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T05:24:40.191Z",
+  "last_updated": "2026-11-25T05:24:42.462Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2016,6 +2016,14 @@
       "summary": "An early alignment meeting was held between the Risk Explorer (CCSD/ITD) team, BCG (Jamie & France), and the DOC web governance team to discuss the planned external portal, targeting a 2028 development start pending CapEx approval. DOC is developing a broader ADB web ecosystem governance framework aimed at consolidating standalone sites under one umbrella for security, oversight, and content integrity — standardisation will cover platforms and technical/security standards, not visual templates. The Risk Explorer external portal has no external site built yet; target users are specialised groups (DMC government officials, sector clients, development partners) for whom tool use is mandatory under ADB's safeguards framework. Open questions include how much knowledge content (publications, hub feeds) the portal should surface, and whether a standalone site is justified given ADB.org's vastly higher baseline traffic. Both teams agreed to continue alignment as the portal design and DOC's governance framework co-evolve, with DOC invited to the December 7–8 workshops pending a brief offline agenda review.",
       "processed": false,
       "added_at": 1795584279075
+    },
+    {
+      "id": "gr1795584281619",
+      "title": "New note",
+      "date": "2026-11-18T08:01:01.771Z",
+      "summary": "Jamie conducted a user research interview with Bramka, an ADB adaptation specialist and former World Bank staff, to inform the design of an external portal for ADB's Risk Explorer tool. Key usability pain points identified include: unclear handling of multi-location projects, non-intuitive component definition for ADB project structures, opaque vulnerability rating logic, and unwieldy PDF output. Bramka highlighted that Risk Explorer is more interactive than the World Bank's CCKP but noted CCKP's advantage in climate data comprehensiveness (multiple SSPs/RCPs, ENSO subpage). The biggest identified gap is upstream site selection and prioritization—currently done fully manually at both ADB and World Bank—which Risk Explorer could potentially address for sector lending projects. Bramka's primary recommendation for onboarding new users is a short slide deck (~20 slides) or brief video rather than long documentation.",
+      "processed": false,
+      "added_at": 1795584281619
     }
   ]
 }
