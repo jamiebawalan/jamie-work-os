@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T03:15:13.980Z",
+  "last_updated": "2026-11-25T05:23:39.359Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -1896,6 +1896,14 @@
       "summary": "The team visited an organic farm on La Purísima Drive and reviewed ubi (purple yam) cultivation practices, including variety selection, agronomy, soil prep, and fertilization protocols. Key varieties discussed were Philippine Rooftop (most adaptable, can be stored in-ground 1–2 years), kinampay (aromatic, light purple, not yet registered), and bagotri (rare). An attendee demoed a Claude-built farm management app tracking cost per plot, photo protocols, and monthly spray/amendment suggestions across 15 hectares and 10 farmers, which the team wants to replicate for the ubi operation. Open questions include confirming farmer buying relationships before committing to purchases and sourcing tissue culture planting material for scale. Jamie owns next steps on securing planting stock and setting up the farm app.",
       "processed": false,
       "added_at": 1795576513036
+    },
+    {
+      "id": "gr1795584218093",
+      "title": "Community project updates",
+      "date": "2026-11-23T06:12:33.788Z",
+      "summary": "A community meeting was held with visitors from barangay Kalipan, including several local leaders (Gawad Dudoy Ariman, Gawad Brayan, Gawad Yulay Ariman, Gawad Brayan ng Diara). Discussions covered a small community contribution scheme to sustain a local program, pricing for data bundles, and various payment options (bispeke, underwatch, roundwatch). The need for solar panels was raised as a long-term solution to ensure continuous power for operations. No clear action items for Jamie were identified from this transcript, as it appears to be a community-level meeting with limited direct BCG relevance.",
+      "processed": false,
+      "added_at": 1795584218093
     }
   ]
 }
