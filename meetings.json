@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T07:57:42.298Z",
+  "last_updated": "2026-11-26T09:01:06.230Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2144,6 +2144,14 @@
       "summary": "The Growth Gateway top-up bid must be radically rescoped: James was clear that the previous £250k ask will not fly, and the new bid should be small, tightly framed around incremental UK firm onboarding into the next 7 AIP pipeline projects, with explicit multiplier logic showing UK commercial return. The team will turn around a draft tonight and share with James by Friday 27 November for Mikey's sign-off. On straw deployment, two associations have agreed to provide the security deposit, enabling a potential December deployment; Jamie must brief Ellen before tomorrow's 10AM Craig call, specifically on addressing the post-March support question and pressing Craig directly on the security deposit communication failure. Des's departure to ADB is a significant resourcing gap — Ellen will discuss next-year Growth Gateway staffing with Mikey, with the 'Drafts' dev team flagged as a strong talent pipeline. The 4 December management-level AIP meeting will proceed online with all leads present, but James is on leave so Ellen or Mikey must be confirmed as British Embassy POC.",
       "processed": false,
       "added_at": 1795593460637
+    },
+    {
+      "id": "gr1795683664823",
+      "title": "Straw Innovations deployment in Iloilo with Dumangas farmers",
+      "date": "2026-11-26T07:32:32.291Z",
+      "summary": "The group aligned that the **Dominguez (Dumangas) Association** — not Potatan — is the strongest near-term deployment target for Straw Innovations in Iloilo, given their financial stability, verbal commitment to a security deposit, and harvest window running through January 2027 (~300 ha available this season). **The security deposit will not be waived for Dominguez**; however, once a demo machine is on the ground, early waiver may be considered for subsequent farmer groups, with the LGU blacklisting mechanism serving as a backstop that did not exist in Laguna. A **site visit to Dumangas is planned for ~December 3** (Nanas/BCG team), where MOA terms, security deposit mechanics, and harvest timelines will be finalized. Open questions include: whether the security deposit communications can be reframed effectively enough to unlock non-Dominguez associations; what product mix (harvester + land prep) Straw should deploy for the March 2027 season to match competitors; and how a potential Mayani partnership can automate scheduling and repayment at scale.",
+      "processed": false,
+      "added_at": 1795683664823
     }
   ]
 }
