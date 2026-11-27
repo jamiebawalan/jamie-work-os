@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T06:19:34.128Z",
+  "last_updated": "2026-11-27T06:19:37.864Z",
   "meetings": [
     {
       "id": "gr1781160435231",
@@ -2160,6 +2160,14 @@
       "summary": "Jamie is PLing a ~5-week pro bono engagement for the Tourism Promotions Board (TPB), charged to the DFAT code, with a new anchor consultant joining Tuesday and France as the third team member. Phase 1 focuses on digital quick wins and an investment plan (influencer campaigns, digital marketing agency, seat-filling initiatives) to be submitted to DBM and the TPB board in late January, with a potential budget increase from 1.1B to 2.5B pesos in scope. A client workshop is planned for the morning of Wednesday, December 16 to align on direction heading into the new year. Key open questions include identifying a suitable internal source for airline capacity data, confirming whether TPB can fund customer surveys to tee up Phase 2, and looping in a digital marketing expert to build the ROI/metrics framework for DBM. Jamie owns sending background materials and the data request email by Monday.",
       "processed": false,
       "added_at": 1795760373214
+    },
+    {
+      "id": "gr1795760377118",
+      "title": "Discussion with Tom van Oertzen ",
+      "date": "2026-11-27T00:50:53.188Z",
+      "summary": "Jamie and Tom van Oertzen aligned on the Phase 1 scope for the TPB engagement: focus on digital/influencer quick wins to drive tourist arrivals and a high-level vision for the TPB of the future, setting up a Phase 2 on full go-to-market strategy and operating model transformation. Key analytical workstreams identified include source country analysis, benchmarking Vietnam/Thailand/Indonesia digital strategies, visa benchmarking, seat vacancy assessment, and customer research on traveller planning behaviour and destination choice. Tom will join CTMs on a regular cadence and plans to visit Manila in the first week of March, with a potential meeting with the CEO of Palawan. Open questions include how to best fill empty airline seats (demand-side digital activation vs. seat subsidisation vs. lottery mechanics), which influencer platforms and profiles best reach target segments, and what structural/policy barriers are suppressing foreign investment in Philippine tourism infrastructure.",
+      "processed": false,
+      "added_at": 1795760377118
     }
   ]
 }
